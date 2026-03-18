@@ -17,6 +17,9 @@ Significant technical decisions with context, alternatives, and consequences.
 ### [Roadmap](roadmap/)
 Launch roadmap, milestone tracking, and work queue.
 
+### [Plans](plans/)
+Milestone execution plans with phased task breakdowns.
+
 ### [Audits](audits/)
 Project management audits and retrospectives.
 

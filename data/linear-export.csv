@@ -1,14 +1,14 @@
 identifier,title,status,priority,labels,assignee,createdAt,completedAt
-MER-1,Welcome to Linear 👋,Canceled,"{'value': 2, 'name': 'High'}",,,2023-04-01T14:22:25.144Z,
-MER-2,"Try 3 ways to navigate Linear: Command line, keyboard or mouse",Canceled,"{'value': 3, 'name': 'Medium'}",,,2023-04-01T14:22:25.144Z,
-MER-3,Connect to Slack,Canceled,"{'value': 3, 'name': 'Medium'}",,,2023-04-01T14:22:25.144Z,
-MER-4,Connect GitHub or GitLab,Canceled,"{'value': 3, 'name': 'Medium'}",,,2023-04-01T14:22:25.144Z,
-MER-5,Customize settings,Canceled,"{'value': 3, 'name': 'Medium'}",,,2023-04-01T14:22:25.144Z,
-MER-6,Use Cycles to focus work over n–weeks,Canceled,"{'value': 4, 'name': 'Low'}",,,2023-04-01T14:22:25.144Z,
-MER-7,Use Projects to organize work for features or releases,Canceled,"{'value': 4, 'name': 'Low'}",,,2023-04-01T14:22:25.144Z,
-MER-8,✨ProTip: Mouse over this issue & press [Space],Canceled,"{'value': 4, 'name': 'Low'}",,,2023-04-01T14:22:25.144Z,
-MER-9,Customize views with View Options and Filters,Canceled,"{'value': 4, 'name': 'Low'}",,,2023-04-01T14:22:25.144Z,
-MER-10,Next Steps,Canceled,"{'value': 4, 'name': 'Low'}",,,2023-04-01T14:22:25.144Z,
+MER-1,Welcome to Linear 👋,Canceled,High,,,2023-04-01T14:22:25.144Z,
+MER-2,"Try 3 ways to navigate Linear: Command line, keyboard or mouse",Canceled,Medium,,,2023-04-01T14:22:25.144Z,
+MER-3,Connect to Slack,Canceled,Medium,,,2023-04-01T14:22:25.144Z,
+MER-4,Connect GitHub or GitLab,Canceled,Medium,,,2023-04-01T14:22:25.144Z,
+MER-5,Customize settings,Canceled,Medium,,,2023-04-01T14:22:25.144Z,
+MER-6,Use Cycles to focus work over n–weeks,Canceled,Low,,,2023-04-01T14:22:25.144Z,
+MER-7,Use Projects to organize work for features or releases,Canceled,Low,,,2023-04-01T14:22:25.144Z,
+MER-8,✨ProTip: Mouse over this issue & press [Space],Canceled,Low,,,2023-04-01T14:22:25.144Z,
+MER-9,Customize views with View Options and Filters,Canceled,Low,,,2023-04-01T14:22:25.144Z,
+MER-10,Next Steps,Canceled,Low,,,2023-04-01T14:22:25.144Z,
 MER-11,Project Initialization (The Walking Skeleton),Done,,Technical Debt,Mert Ertuğrul,2026-02-16T18:56:30.825Z,2026-02-20T20:01:20.238Z
 MER-12,Spring Boot 3 project initialized with Java 21.,Done,,Task,Mert Ertuğrul,2026-02-16T18:59:17.777Z,2026-02-17T20:51:08.812Z
 MER-13,"Dependencies added: Spring Web (MVC), Spring Data JPA for PostgreSQL, Lombok.",Done,,Task,Mert Ertuğrul,2026-02-16T18:59:26.079Z,2026-02-17T20:51:18.290Z
@@ -19,72 +19,72 @@ MER-17,"User Story—Define the ""Slice"" Data Model",Done,,Feature; User Story,
 MER-18,PostgreSQL Table `slices` created.,Done,,Task,Mert Ertuğrul,2026-02-16T19:08:57.012Z,2026-02-22T12:21:27.891Z
 MER-19,Java Entity created using Record types (if suitable) or Data classes.,Done,,Task,Mert Ertuğrul,2026-02-16T19:12:32.533Z,2026-02-22T12:54:50.493Z
 MER-20,Unit test verifying a Slice can be saved and retrieved via a Repository .,Done,,Task,Mert Ertuğrul,2026-02-16T19:12:54.645Z,2026-02-22T12:54:53.309Z
-MER-21,User Story - Create 24h Visual Canvas,Done,"{'value': 1, 'name': 'Urgent'}",Feature (Frontent); User Story,Mert Ertuğrul,2026-02-16T19:20:22.589Z,2026-02-24T15:03:24.457Z
+MER-21,User Story - Create 24h Visual Canvas,Done,Urgent,Feature (Frontent); User Story,Mert Ertuğrul,2026-02-16T19:20:22.589Z,2026-02-24T15:03:24.457Z
 MER-22,UI renders a circle representing 24 hours (00:00 to 23:59).,Done,,Task,Mert Ertuğrul,2026-02-16T19:21:39.090Z,2026-02-24T15:03:24.883Z
 MER-23,Select Flutter radial rendering approach (CustomPainter vs package),Done,,Task,Mert Ertuğrul,2026-02-16T19:21:53.828Z,2026-02-24T15:03:24.819Z
 MER-24,The chart is responsive (resizes correctly on Mobile vs. Desktop).,Done,,Task,Mert Ertuğrul,2026-02-16T19:22:03.459Z,2026-02-24T15:03:24.847Z
 MER-25,"Visual markers placed at key intervals (e.g., 00:00, 06:00, 12:00, 18:00).",Done,,Task,Mert Ertuğrul,2026-02-16T19:22:14.324Z,2026-02-24T15:03:24.912Z
-MER-26,User Story - Drag-to-Create (Touch/Mouse Interaction),Done,"{'value': 2, 'name': 'High'}",User Story; Feature (Frontent),Mert Ertuğrul,2026-02-16T19:31:56.213Z,2026-02-24T18:49:24.826Z
-MER-27,Constraint: Must work on touch devices (Mobile view).,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-16T19:32:18.149Z,2026-02-24T18:49:25.144Z
-MER-28,"Releasing the click/touch opens the ""Edit Slice"" modal with times pre-filled.",Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-16T19:32:28.002Z,2026-02-24T18:49:25.238Z
-MER-29,Dragging defines the duration ( `end_time` ).,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-16T19:32:44.520Z,2026-02-24T18:49:25.264Z
-MER-30,User can click a point on the chart to define `start_time` .,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-16T19:32:52.941Z,2026-02-24T18:49:25.200Z
+MER-26,User Story - Drag-to-Create (Touch/Mouse Interaction),Done,High,User Story; Feature (Frontent),Mert Ertuğrul,2026-02-16T19:31:56.213Z,2026-02-24T18:49:24.826Z
+MER-27,Constraint: Must work on touch devices (Mobile view).,Done,High,Task,Mert Ertuğrul,2026-02-16T19:32:18.149Z,2026-02-24T18:49:25.144Z
+MER-28,"Releasing the click/touch opens the ""Edit Slice"" modal with times pre-filled.",Done,High,Task,Mert Ertuğrul,2026-02-16T19:32:28.002Z,2026-02-24T18:49:25.238Z
+MER-29,Dragging defines the duration ( `end_time` ).,Done,High,Task,Mert Ertuğrul,2026-02-16T19:32:44.520Z,2026-02-24T18:49:25.264Z
+MER-30,User can click a point on the chart to define `start_time` .,Done,High,Task,Mert Ertuğrul,2026-02-16T19:32:52.941Z,2026-02-24T18:49:25.200Z
 MER-31,User Story—Open Api For The BE project,Done,,User Story; Feature,Mert Ertuğrul,2026-02-20T20:10:39.032Z,2026-02-21T10:36:11.189Z
 MER-32,User Story - Implement API-First Authentication Flow,Canceled,,Feature; User Story,Mert Ertuğrul,2026-02-21T14:03:15.706Z,
-MER-33,User Story—Implement Mock User ID for MVP Data Persistence,Done,"{'value': 2, 'name': 'High'}",User Story; Feature,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-26T13:17:42.360Z
-MER-34,Define mock user identity contract,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-25T12:23:01.516Z
-MER-35,Add backend mock-auth gate in security config,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-26T07:12:53.179Z
-MER-36,Inject mock userId in backend slice flow,Done,"{'value': 2, 'name': 'High'}",Task,,2026-02-21T14:33:03.948Z,2026-02-26T07:25:08.925Z
-MER-37,Configure frontend API client for mock identity header,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-26T12:46:48.519Z
+MER-33,User Story—Implement Mock User ID for MVP Data Persistence,Done,High,User Story; Feature,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-26T13:17:42.360Z
+MER-34,Define mock user identity contract,Done,High,Task,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-25T12:23:01.516Z
+MER-35,Add backend mock-auth gate in security config,Done,High,Task,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-26T07:12:53.179Z
+MER-36,Inject mock userId in backend slice flow,Done,High,Task,,2026-02-21T14:33:03.948Z,2026-02-26T07:25:08.925Z
+MER-37,Configure frontend API client for mock identity header,Done,High,Task,Mert Ertuğrul,2026-02-21T14:33:03.948Z,2026-02-26T12:46:48.519Z
 MER-38,Implement FlyWay to the project,Done,,Task,Mert Ertuğrul,2026-02-22T11:41:11.123Z,2026-02-22T12:21:23.329Z
 MER-39,User Story - FE Flutter Front-End Initialization & IntelliJ Environment Setup,Done,,Feature (Frontent); User Story,Mert Ertuğrul,2026-02-22T13:17:59.394Z,2026-02-24T07:29:23.694Z
 MER-40,Scaffold Flutter Client,Done,,,Mert Ertuğrul,2026-02-22T13:17:59.394Z,2026-02-24T07:29:23.895Z
 MER-41,Configure IntelliJ IDEA Ultimate for Flutter,Done,,,Mert Ertuğrul,2026-02-22T13:17:59.394Z,2026-02-24T07:29:23.921Z
 MER-42,Networking & Environment Configuration,Done,,,Mert Ertuğrul,2026-02-22T13:17:59.394Z,2026-02-24T07:29:23.943Z
 MER-43,Establish Core Folder Structure,Done,,,Mert Ertuğrul,2026-02-22T13:17:59.394Z,2026-02-24T07:29:23.970Z
-MER-44,User Story - MVP Cloud Deployment on Google Cloud,Done,"{'value': 3, 'name': 'Medium'}",User Story; Feature,Mert Ertuğrul,2026-02-24T08:30:11.022Z,2026-02-28T14:00:39.753Z
-MER-45,Decide MVP hosting architecture on GCP,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-24T08:30:39.161Z,2026-02-27T17:34:24.589Z
-MER-46,"Set up GCP project, billing, and budget alerts",Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-24T08:30:42.313Z,2026-02-27T17:56:41.585Z
-MER-47,Deploy backend service to Cloud Run,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-24T08:30:43.938Z,2026-02-27T14:11:08.123Z
-MER-48,Provision managed PostgreSQL and automated backups,Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-02-24T08:30:45.659Z,2026-02-26T17:02:57.141Z
-MER-49,Configure custom domain and HTTPS,Done,"{'value': 3, 'name': 'Medium'}",Task,Mert Ertuğrul,2026-02-24T08:30:47.454Z,2026-02-28T14:00:10.226Z
-MER-50,Set up CI/CD for main branch deployment,Done,"{'value': 3, 'name': 'Medium'}",Task,Mert Ertuğrul,2026-02-24T08:30:49.308Z,2026-02-27T18:58:10.191Z
-MER-51,"Configure monitoring, logging, and error alerts",Done,"{'value': 3, 'name': 'Medium'}",Task,Mert Ertuğrul,2026-02-24T08:30:51.022Z,2026-02-27T19:33:09.745Z
-MER-52,(Optional) Create staging environment and deployment path,Done,"{'value': 4, 'name': 'Low'}",Task,Mert Ertuğrul,2026-02-24T08:30:53.519Z,2026-02-27T19:01:14.570Z
-MER-53,M2-01 Align FE/BE identity contract for protected APIs,Done,"{'value': 2, 'name': 'High'}",User Story; Feature,Mert Ertuğrul,2026-03-02T08:28:23.034Z,2026-03-02T11:25:36.605Z
-MER-54,M2-02 Implement Slice CRUD API in BE (OpenAPI + controller/service),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T08:28:30.569Z,2026-03-02T15:28:11.978Z
-MER-55,M2-03 Implement FE day plan repository backed by BE slices API,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T08:28:38.793Z,2026-03-03T07:28:55.082Z
-MER-56,M2-04 Add BE focus_sessions schema and persistence model,Done,"{'value': 1, 'name': 'Urgent'}",Feature,Mert Ertuğrul,2026-03-02T08:28:55.788Z,2026-03-03T11:55:43.915Z
-MER-57,M2-05 Implement BE Pomodoro state machine module,Done,"{'value': 1, 'name': 'Urgent'}",Feature,Mert Ertuğrul,2026-03-02T08:28:57.782Z,2026-03-03T18:24:32.625Z
-MER-58,M2-06 Implement BE Focus Session API linked to sliceId,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T08:29:00.242Z,2026-03-04T08:32:33.091Z
-MER-59,M2-07 Enforce BE slice-linked session guardrails,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T08:29:02.057Z,2026-03-02T15:04:40.792Z
-MER-60,M2-08 Build FE timer panel UI for focus session control,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-02T08:29:21.275Z,2026-03-04T19:47:06.493Z
-MER-61,M2-09 Implement FE session sync model using server time,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-02T08:29:24.580Z,2026-03-05T07:51:31.627Z
-MER-62,M2-10 Add FE action to start focus from selected slice,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-02T08:29:26.414Z,2026-03-05T12:53:52.728Z
-MER-63,M2-11 Implement slice-end behavior and in-app transition notice,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-02T08:29:28.747Z,2026-03-05T18:07:16.044Z
-MER-64,"M2-12 Milestone quality gate: tests, reliability checks, and docs update",Done,"{'value': 4, 'name': 'Low'}",User Story,Mert Ertuğrul,2026-03-02T08:29:37.314Z,2026-03-05T19:19:51.981Z
+MER-44,User Story - MVP Cloud Deployment on Google Cloud,Done,Medium,User Story; Feature,Mert Ertuğrul,2026-02-24T08:30:11.022Z,2026-02-28T14:00:39.753Z
+MER-45,Decide MVP hosting architecture on GCP,Done,High,Task,Mert Ertuğrul,2026-02-24T08:30:39.161Z,2026-02-27T17:34:24.589Z
+MER-46,"Set up GCP project, billing, and budget alerts",Done,High,Task,Mert Ertuğrul,2026-02-24T08:30:42.313Z,2026-02-27T17:56:41.585Z
+MER-47,Deploy backend service to Cloud Run,Done,High,Task,Mert Ertuğrul,2026-02-24T08:30:43.938Z,2026-02-27T14:11:08.123Z
+MER-48,Provision managed PostgreSQL and automated backups,Done,High,Task,Mert Ertuğrul,2026-02-24T08:30:45.659Z,2026-02-26T17:02:57.141Z
+MER-49,Configure custom domain and HTTPS,Done,Medium,Task,Mert Ertuğrul,2026-02-24T08:30:47.454Z,2026-02-28T14:00:10.226Z
+MER-50,Set up CI/CD for main branch deployment,Done,Medium,Task,Mert Ertuğrul,2026-02-24T08:30:49.308Z,2026-02-27T18:58:10.191Z
+MER-51,"Configure monitoring, logging, and error alerts",Done,Medium,Task,Mert Ertuğrul,2026-02-24T08:30:51.022Z,2026-02-27T19:33:09.745Z
+MER-52,(Optional) Create staging environment and deployment path,Done,Low,Task,Mert Ertuğrul,2026-02-24T08:30:53.519Z,2026-02-27T19:01:14.570Z
+MER-53,M2-01 Align FE/BE identity contract for protected APIs,Done,High,User Story; Feature,Mert Ertuğrul,2026-03-02T08:28:23.034Z,2026-03-02T11:25:36.605Z
+MER-54,M2-02 Implement Slice CRUD API in BE (OpenAPI + controller/service),Done,High,Feature,Mert Ertuğrul,2026-03-02T08:28:30.569Z,2026-03-02T15:28:11.978Z
+MER-55,M2-03 Implement FE day plan repository backed by BE slices API,Done,High,featureFE,Mert Ertuğrul,2026-03-02T08:28:38.793Z,2026-03-03T07:28:55.082Z
+MER-56,M2-04 Add BE focus_sessions schema and persistence model,Done,Urgent,Feature,Mert Ertuğrul,2026-03-02T08:28:55.788Z,2026-03-03T11:55:43.915Z
+MER-57,M2-05 Implement BE Pomodoro state machine module,Done,Urgent,Feature,Mert Ertuğrul,2026-03-02T08:28:57.782Z,2026-03-03T18:24:32.625Z
+MER-58,M2-06 Implement BE Focus Session API linked to sliceId,Done,High,Feature,Mert Ertuğrul,2026-03-02T08:29:00.242Z,2026-03-04T08:32:33.091Z
+MER-59,M2-07 Enforce BE slice-linked session guardrails,Done,High,Feature,Mert Ertuğrul,2026-03-02T08:29:02.057Z,2026-03-02T15:04:40.792Z
+MER-60,M2-08 Build FE timer panel UI for focus session control,Done,Medium,featureFE,Mert Ertuğrul,2026-03-02T08:29:21.275Z,2026-03-04T19:47:06.493Z
+MER-61,M2-09 Implement FE session sync model using server time,Done,Medium,featureFE,Mert Ertuğrul,2026-03-02T08:29:24.580Z,2026-03-05T07:51:31.627Z
+MER-62,M2-10 Add FE action to start focus from selected slice,Done,Medium,featureFE,Mert Ertuğrul,2026-03-02T08:29:26.414Z,2026-03-05T12:53:52.728Z
+MER-63,M2-11 Implement slice-end behavior and in-app transition notice,Done,Medium,featureFE,Mert Ertuğrul,2026-03-02T08:29:28.747Z,2026-03-05T18:07:16.044Z
+MER-64,"M2-12 Milestone quality gate: tests, reliability checks, and docs update",Done,Low,User Story,Mert Ertuğrul,2026-03-02T08:29:37.314Z,2026-03-05T19:19:51.981Z
 MER-65,MER-53.1 Contract-First API Update (OpenAPI Security Scheme),Done,,,Mert Ertuğrul,2026-03-02T09:08:16.375Z,2026-03-02T09:38:03.885Z
 MER-66,MER-53.2 Harden Security Configuration (Secure by Default),Done,,,Mert Ertuğrul,2026-03-02T09:08:17.934Z,2026-03-02T10:08:19.337Z
 MER-67,MER-53.3 Refactor Authentication Filter to New Identity Source,Done,,,Mert Ertuğrul,2026-03-02T09:08:19.609Z,2026-03-02T11:12:45.145Z
 MER-68,MER-53.4 Align User Identity Resolution in Service Layer,Done,,,Mert Ertuğrul,2026-03-02T09:08:21.209Z,2026-03-02T11:25:37.105Z
 MER-69,MER-53.5 Update Verification Suite for New Identity Contract,Done,,,Mert Ertuğrul,2026-03-02T09:08:22.715Z,2026-03-02T11:25:37.083Z
-MER-70,"M2-02a Define slice OpenAPI contract (models, validation, errors, security)",Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T11:59:09.660Z,2026-03-02T15:28:13.724Z
-MER-71,M2-02b Define `/api/slices` endpoints and explicit update semantics,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T11:59:11.477Z,2026-03-02T15:28:13.863Z
-MER-72,M2-02c Generate API interfaces/models from updated OpenAPI spec,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T11:59:13.105Z,2026-03-02T15:28:13.835Z
-MER-73,M2-02d Implement SliceService with strict user-scoped repository access,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T11:59:15.080Z,2026-03-02T15:28:13.774Z
-MER-74,M2-02e Implement SliceController and global exception mapping,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T11:59:16.873Z,2026-03-02T15:28:13.891Z
-MER-75,M2-02f Verify slice API with unit + component tests (including negative/auth cases),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-02T11:59:18.551Z,2026-03-02T15:28:13.804Z
-MER-76,M2-03a Define domain SliceRepository contract,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T15:35:00.797Z,2026-03-02T18:18:30.038Z
-MER-77,M2-03b Add DaySlice API mapping (DTO/serialization),Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T15:35:08.476Z,2026-03-02T18:18:30.090Z
-MER-78,M2-03c Implement HTTP SliceRepository using ApiClient,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T15:35:15.978Z,2026-03-02T18:18:30.060Z
-MER-79,M2-03d Wire SliceRepository via dependency injection,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T15:35:24.827Z,2026-03-02T18:18:29.940Z
-MER-80,M2-03e Integrate repository-backed state into Home page,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T15:35:31.941Z,2026-03-02T18:18:30.016Z
-MER-81,M2-03f Add verification tests for HTTP SliceRepository,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-02T15:35:40.948Z,2026-03-02T18:18:29.977Z
-MER-82,M2-13 Add slice add/remove UX via right-click (desktop) and long-press (mobile),Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-03T06:59:16.235Z,2026-03-04T13:05:40.111Z
-MER-83,M2-14 Replace canvas title with selected date and add day-to-day navigation,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-03T07:12:20.637Z,2026-03-04T18:03:53.181Z
-MER-84,M2-14a Add BE/API support for date-scoped slice retrieval,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-03T07:15:23.704Z,2026-03-04T17:18:59.772Z
-MER-85,M2-14b FE selected-date header and previous/next day navigation,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-03T07:15:34.380Z,2026-03-04T17:01:25.403Z
-MER-86,Fix slice-create persistence: avoid unintended saving of unplanned remainder,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-03T07:19:54.017Z,2026-03-04T12:15:25.267Z
+MER-70,"M2-02a Define slice OpenAPI contract (models, validation, errors, security)",Done,High,Feature,Mert Ertuğrul,2026-03-02T11:59:09.660Z,2026-03-02T15:28:13.724Z
+MER-71,M2-02b Define `/api/slices` endpoints and explicit update semantics,Done,High,Feature,Mert Ertuğrul,2026-03-02T11:59:11.477Z,2026-03-02T15:28:13.863Z
+MER-72,M2-02c Generate API interfaces/models from updated OpenAPI spec,Done,High,Feature,Mert Ertuğrul,2026-03-02T11:59:13.105Z,2026-03-02T15:28:13.835Z
+MER-73,M2-02d Implement SliceService with strict user-scoped repository access,Done,High,Feature,Mert Ertuğrul,2026-03-02T11:59:15.080Z,2026-03-02T15:28:13.774Z
+MER-74,M2-02e Implement SliceController and global exception mapping,Done,High,Feature,Mert Ertuğrul,2026-03-02T11:59:16.873Z,2026-03-02T15:28:13.891Z
+MER-75,M2-02f Verify slice API with unit + component tests (including negative/auth cases),Done,High,Feature,Mert Ertuğrul,2026-03-02T11:59:18.551Z,2026-03-02T15:28:13.804Z
+MER-76,M2-03a Define domain SliceRepository contract,Done,High,featureFE,Mert Ertuğrul,2026-03-02T15:35:00.797Z,2026-03-02T18:18:30.038Z
+MER-77,M2-03b Add DaySlice API mapping (DTO/serialization),Done,High,featureFE,Mert Ertuğrul,2026-03-02T15:35:08.476Z,2026-03-02T18:18:30.090Z
+MER-78,M2-03c Implement HTTP SliceRepository using ApiClient,Done,High,featureFE,Mert Ertuğrul,2026-03-02T15:35:15.978Z,2026-03-02T18:18:30.060Z
+MER-79,M2-03d Wire SliceRepository via dependency injection,Done,High,featureFE,Mert Ertuğrul,2026-03-02T15:35:24.827Z,2026-03-02T18:18:29.940Z
+MER-80,M2-03e Integrate repository-backed state into Home page,Done,High,featureFE,Mert Ertuğrul,2026-03-02T15:35:31.941Z,2026-03-02T18:18:30.016Z
+MER-81,M2-03f Add verification tests for HTTP SliceRepository,Done,High,featureFE,Mert Ertuğrul,2026-03-02T15:35:40.948Z,2026-03-02T18:18:29.977Z
+MER-82,M2-13 Add slice add/remove UX via right-click (desktop) and long-press (mobile),Done,High,featureFE,Mert Ertuğrul,2026-03-03T06:59:16.235Z,2026-03-04T13:05:40.111Z
+MER-83,M2-14 Replace canvas title with selected date and add day-to-day navigation,Done,Medium,featureFE,Mert Ertuğrul,2026-03-03T07:12:20.637Z,2026-03-04T18:03:53.181Z
+MER-84,M2-14a Add BE/API support for date-scoped slice retrieval,Done,High,Feature,Mert Ertuğrul,2026-03-03T07:15:23.704Z,2026-03-04T17:18:59.772Z
+MER-85,M2-14b FE selected-date header and previous/next day navigation,Done,Medium,featureFE,Mert Ertuğrul,2026-03-03T07:15:34.380Z,2026-03-04T17:01:25.403Z
+MER-86,Fix slice-create persistence: avoid unintended saving of unplanned remainder,Done,High,featureFE,Mert Ertuğrul,2026-03-03T07:19:54.017Z,2026-03-04T12:15:25.267Z
 MER-87,M2-04a Add DB-level guardrail for single RUNNING focus session per user,Done,,,Mert Ertuğrul,2026-03-03T07:59:46.244Z,2026-03-03T10:53:05.981Z
 MER-88,M2-04b Standardize persistence auditing for created_at consistency,Done,,,Mert Ertuğrul,2026-03-03T07:59:47.763Z,2026-03-03T10:53:06.023Z
 MER-89,M2-04c Extend focus_sessions schema for Pomodoro lifecycle state persistence,Done,,,Mert Ertuğrul,2026-03-03T07:59:49.190Z,2026-03-03T10:53:05.918Z
@@ -105,185 +105,185 @@ MER-103,MER-82.2 Frontend add/remove action flows (Flutter),Done,,,Mert Ertuğru
 MER-104,MER-86 alignment — prevent persisting unplanned remainder,Done,,,Mert Ertuğrul,2026-03-04T08:45:27.865Z,2026-03-04T13:05:40.920Z
 MER-105,MER-82.5 Remove-flow integrity test (cascade + component test),Done,,,Mert Ertuğrul,2026-03-04T08:45:35.197Z,2026-03-04T13:05:40.532Z
 MER-106,MER-82.4 Backend hardening — optimistic locking (`@Version`),Done,,,Mert Ertuğrul,2026-03-04T08:45:44.925Z,2026-03-04T13:05:40.840Z
-MER-107,MER-85.1 FE UI/header/nav for selected date,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T13:25:38.568Z,2026-03-04T17:01:26.168Z
-MER-108,MER-85.2 FE selectedDate state and date-scoped fetch wiring,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T13:25:57.974Z,2026-03-04T17:01:26.116Z
-MER-109,MER-85.3 FE keep create/edit/remove interactions date-scoped,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T13:26:00.054Z,2026-03-04T17:01:26.199Z
-MER-110,MER-85.4 FE empty-day normalization to single Unplanned fallback,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T13:26:01.929Z,2026-03-04T17:01:26.243Z
-MER-111,"MER-85.5 FE tests for date rendering, navigation, and empty-day behavior",Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T13:26:03.873Z,2026-03-04T17:01:26.280Z
-MER-112,MER-60.1 Timer Panel UI (Countdown + Phase + Status),Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T18:10:20.055Z,2026-03-04T19:46:43.706Z
-MER-113,MER-60.2 Session Controls (Start/Pause/Resume/Stop),Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T18:10:22.135Z,2026-03-04T19:43:08.811Z
-MER-114,MER-60.3 Backend Integration & Server-Time Sync,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T18:10:24.177Z,2026-03-04T19:46:56.220Z
-MER-115,MER-60.4 Test Coverage & Acceptance Validation,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-04T18:10:26.498Z,2026-03-04T19:46:59.834Z
-MER-116,M2-09 Add BE pause/resume endpoints for focus session lifecycle,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-04T18:24:24.819Z,2026-03-04T19:22:35.579Z
-MER-117,Compute remaining time from server timestamps,Done,"{'value': 3, 'name': 'Medium'}",featureFE,,2026-03-04T19:50:14.853Z,2026-03-05T07:51:32.561Z
-MER-118,Restore active session on app reload/reopen,Done,"{'value': 3, 'name': 'Medium'}",featureFE,,2026-03-04T19:50:17.886Z,2026-03-05T07:51:32.586Z
-MER-119,Define and implement drift correction strategy,Done,"{'value': 3, 'name': 'Medium'}",featureFE,,2026-03-04T19:50:21.864Z,2026-03-05T07:51:32.663Z
-MER-120,Handle offline/error fallback without corrupting session state,Done,"{'value': 3, 'name': 'Medium'}",featureFE,,2026-03-04T19:50:25.593Z,2026-03-05T07:51:32.616Z
-MER-121,"Write tests for session sync, drift correction, and error handling",Done,"{'value': 3, 'name': 'Medium'}",featureFE,,2026-03-04T19:50:29.572Z,2026-03-05T07:51:32.643Z
-MER-122,Add phaseStartedAt timestamp to focus session API response,Done,"{'value': 2, 'name': 'High'}",,Mert Ertuğrul,2026-03-04T20:02:40.220Z,2026-03-04T20:25:41.714Z
-MER-123,Offline resilience: queue focus session actions when network is unavailable,Done,"{'value': 3, 'name': 'Medium'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-05T07:52:06.514Z,2026-03-09T10:19:12.065Z
-MER-124,Highlight active focus slice on radial canvas,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T08:07:53.714Z,2026-03-05T12:50:34.332Z
-MER-125,Add active slice indicator to legend,Done,"{'value': 4, 'name': 'Low'}",featureFE,Mert Ertuğrul,2026-03-05T08:07:56.674Z,2026-03-05T12:53:54.162Z
-MER-126,Add widget tests for Start Focus flow and active slice indicator,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T08:07:59.691Z,2026-03-05T12:53:54.187Z
-MER-127,"Refactor focus timer to run locally, persist only completed sessions",Done,"{'value': 2, 'name': 'High'}",,Mert Ertuğrul,2026-03-05T12:49:21.761Z,2026-03-05T14:40:51.139Z
-MER-128,MER-127.1 Add POST /complete endpoint for finished focus sessions,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-05T13:03:36.791Z,2026-03-05T13:49:11.904Z
-MER-129,MER-127.2 Build local FocusTimerController with pomodoro state machine,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-05T13:03:43.267Z,2026-03-05T13:52:01.693Z
-MER-130,MER-127.3 Wire TimerPanel to local controller and POST /complete on finish,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-05T13:03:48.926Z,2026-03-05T14:36:15.606Z
-MER-131,MER-127.4 Remove deprecated BE real-time session endpoints,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-05T13:03:54.780Z,2026-03-05T14:23:32.570Z
-MER-132,Extract `containsMinute` to DaySlice model,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T14:47:36.008Z,2026-03-05T15:11:26.680Z
-MER-133,Add slice-end wall-clock watcher in HomePage,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T14:47:40.724Z,2026-03-05T17:23:52.969Z
-MER-134,Add deduplication guard for slice-end transition,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T14:47:43.722Z,2026-03-05T17:46:11.722Z
-MER-135,Auto-stop focus session on slice-end,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T14:47:47.295Z,2026-03-05T17:58:48.568Z
-MER-136,Show in-app transition notice on slice-end auto-stop,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T14:47:50.688Z,2026-03-05T17:59:01.313Z
-MER-137,Add tests for slice-end behavior,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-05T14:47:54.378Z,2026-03-05T18:04:15.454Z
-MER-138,Add cancel/force-stop endpoint for active focus sessions,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-05T16:41:04.384Z,2026-03-05T17:11:26.479Z
+MER-107,MER-85.1 FE UI/header/nav for selected date,Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T13:25:38.568Z,2026-03-04T17:01:26.168Z
+MER-108,MER-85.2 FE selectedDate state and date-scoped fetch wiring,Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T13:25:57.974Z,2026-03-04T17:01:26.116Z
+MER-109,MER-85.3 FE keep create/edit/remove interactions date-scoped,Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T13:26:00.054Z,2026-03-04T17:01:26.199Z
+MER-110,MER-85.4 FE empty-day normalization to single Unplanned fallback,Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T13:26:01.929Z,2026-03-04T17:01:26.243Z
+MER-111,"MER-85.5 FE tests for date rendering, navigation, and empty-day behavior",Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T13:26:03.873Z,2026-03-04T17:01:26.280Z
+MER-112,MER-60.1 Timer Panel UI (Countdown + Phase + Status),Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T18:10:20.055Z,2026-03-04T19:46:43.706Z
+MER-113,MER-60.2 Session Controls (Start/Pause/Resume/Stop),Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T18:10:22.135Z,2026-03-04T19:43:08.811Z
+MER-114,MER-60.3 Backend Integration & Server-Time Sync,Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T18:10:24.177Z,2026-03-04T19:46:56.220Z
+MER-115,MER-60.4 Test Coverage & Acceptance Validation,Done,Medium,featureFE,Mert Ertuğrul,2026-03-04T18:10:26.498Z,2026-03-04T19:46:59.834Z
+MER-116,M2-09 Add BE pause/resume endpoints for focus session lifecycle,Done,Medium,Feature,Mert Ertuğrul,2026-03-04T18:24:24.819Z,2026-03-04T19:22:35.579Z
+MER-117,Compute remaining time from server timestamps,Done,Medium,featureFE,,2026-03-04T19:50:14.853Z,2026-03-05T07:51:32.561Z
+MER-118,Restore active session on app reload/reopen,Done,Medium,featureFE,,2026-03-04T19:50:17.886Z,2026-03-05T07:51:32.586Z
+MER-119,Define and implement drift correction strategy,Done,Medium,featureFE,,2026-03-04T19:50:21.864Z,2026-03-05T07:51:32.663Z
+MER-120,Handle offline/error fallback without corrupting session state,Done,Medium,featureFE,,2026-03-04T19:50:25.593Z,2026-03-05T07:51:32.616Z
+MER-121,"Write tests for session sync, drift correction, and error handling",Done,Medium,featureFE,,2026-03-04T19:50:29.572Z,2026-03-05T07:51:32.643Z
+MER-122,Add phaseStartedAt timestamp to focus session API response,Done,High,,Mert Ertuğrul,2026-03-04T20:02:40.220Z,2026-03-04T20:25:41.714Z
+MER-123,Offline resilience: queue focus session actions when network is unavailable,Done,Medium,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-05T07:52:06.514Z,2026-03-09T10:19:12.065Z
+MER-124,Highlight active focus slice on radial canvas,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T08:07:53.714Z,2026-03-05T12:50:34.332Z
+MER-125,Add active slice indicator to legend,Done,Low,featureFE,Mert Ertuğrul,2026-03-05T08:07:56.674Z,2026-03-05T12:53:54.162Z
+MER-126,Add widget tests for Start Focus flow and active slice indicator,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T08:07:59.691Z,2026-03-05T12:53:54.187Z
+MER-127,"Refactor focus timer to run locally, persist only completed sessions",Done,High,,Mert Ertuğrul,2026-03-05T12:49:21.761Z,2026-03-05T14:40:51.139Z
+MER-128,MER-127.1 Add POST /complete endpoint for finished focus sessions,Done,High,Feature,Mert Ertuğrul,2026-03-05T13:03:36.791Z,2026-03-05T13:49:11.904Z
+MER-129,MER-127.2 Build local FocusTimerController with pomodoro state machine,Done,High,featureFE,Mert Ertuğrul,2026-03-05T13:03:43.267Z,2026-03-05T13:52:01.693Z
+MER-130,MER-127.3 Wire TimerPanel to local controller and POST /complete on finish,Done,High,featureFE,Mert Ertuğrul,2026-03-05T13:03:48.926Z,2026-03-05T14:36:15.606Z
+MER-131,MER-127.4 Remove deprecated BE real-time session endpoints,Done,Medium,Feature,Mert Ertuğrul,2026-03-05T13:03:54.780Z,2026-03-05T14:23:32.570Z
+MER-132,Extract `containsMinute` to DaySlice model,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T14:47:36.008Z,2026-03-05T15:11:26.680Z
+MER-133,Add slice-end wall-clock watcher in HomePage,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T14:47:40.724Z,2026-03-05T17:23:52.969Z
+MER-134,Add deduplication guard for slice-end transition,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T14:47:43.722Z,2026-03-05T17:46:11.722Z
+MER-135,Auto-stop focus session on slice-end,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T14:47:47.295Z,2026-03-05T17:58:48.568Z
+MER-136,Show in-app transition notice on slice-end auto-stop,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T14:47:50.688Z,2026-03-05T17:59:01.313Z
+MER-137,Add tests for slice-end behavior,Done,Medium,featureFE,Mert Ertuğrul,2026-03-05T14:47:54.378Z,2026-03-05T18:04:15.454Z
+MER-138,Add cancel/force-stop endpoint for active focus sessions,Done,High,Feature,Mert Ertuğrul,2026-03-05T16:41:04.384Z,2026-03-05T17:11:26.479Z
 MER-139,M2-12a FE widget test: 409 conflict recovery flow,Done,,featureFE,Mert Ertuğrul,2026-03-05T18:18:33.119Z,2026-03-05T18:23:06.530Z
 MER-140,M2-12b FE widget test: full Start Focus integration & session completion,Done,,featureFE,Mert Ertuğrul,2026-03-05T18:18:36.501Z,2026-03-05T18:26:34.578Z
 MER-141,M2-12c FE widget test: pause/resume server sync guard,Done,,featureFE,Mert Ertuğrul,2026-03-05T18:18:39.782Z,2026-03-05T18:58:04.133Z
 MER-142,M2-12d Update docs with M2 session API contract & exit checklist,Done,,Task,Mert Ertuğrul,2026-03-05T18:18:42.563Z,2026-03-05T19:03:42.429Z
-MER-143,M2-12e BE test coverage: slice/session/state-machine behavior,Done,"{'value': 3, 'name': 'Medium'}",Task,Mert Ertuğrul,2026-03-05T19:06:15.056Z,2026-03-05T19:18:40.896Z
-MER-144,M3-01 Add Spring WebSocket support with STOMP broker,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:32:29.224Z,2026-03-07T18:56:30.913Z
-MER-145,M3-02 Define WebSocket topic schema and session event messages,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:32:36.072Z,2026-03-07T19:23:56.014Z
-MER-146,M3-03 Broadcast session lifecycle events over WebSocket,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:32:40.160Z,2026-03-07T19:44:35.699Z
-MER-147,M3-04 Authenticate WebSocket connections,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:32:46.050Z,2026-03-07T20:08:05.078Z
-MER-148,M3-05 Add device token registration endpoint + schema,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-06T09:32:58.102Z,2026-03-08T08:29:59.131Z
-MER-149,M3-06 Integrate Firebase Admin SDK for push notifications,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-06T09:33:04.139Z,2026-03-08T08:56:12.937Z
-MER-150,M3-07 Trigger push notifications on session phase transitions,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-06T09:33:13.302Z,2026-03-08T09:31:17.803Z
-MER-151,M3-08 Add session history endpoint (GET /api/focus-sessions),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:33:17.333Z,2026-03-08T10:16:40.384Z
-MER-152,M3-09 Add session stats/analytics endpoint,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-06T09:33:30.896Z,2026-03-08T10:44:53.493Z
-MER-153,M3-10 Authentication hardening — Google + Apple OIDC validation,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:33:40.727Z,2026-03-07T17:33:25.221Z
-MER-154,M3-11 Schema audit + analytics indexes,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-06T09:33:47.941Z,2026-03-08T11:06:22.541Z
-MER-155,"M3-12 Milestone quality gate: tests, docs update",Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:33:55.552Z,2026-03-13T20:27:52.244Z
-MER-156,M4-01 Add user preferences schema + entity,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:42:07.485Z,2026-03-14T11:52:24.297Z
-MER-157,M4-02 Add user preferences API (GET/PUT),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:42:15.988Z,2026-03-14T12:16:53.035Z
-MER-158,"M4-03 Add ""actual vs planned"" report endpoint",Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T09:42:26.989Z,2026-03-14T12:19:41.755Z
-MER-159,M4-04 Add productivity trends endpoint,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-06T09:42:35.383Z,2026-03-14T12:41:14.428Z
-MER-160,M4-05 Add OAuth2 account linking flow,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-06T09:42:43.997Z,2026-03-14T13:24:24.074Z
-MER-161,M4-06 Add soundscape catalog endpoint,Done,"{'value': 4, 'name': 'Low'}",Feature,Mert Ertuğrul,2026-03-06T09:42:50.887Z,2026-03-14T13:12:36.714Z
-MER-162,M4-07 Add analytics indexes,Done,"{'value': 3, 'name': 'Medium'}",Task,Mert Ertuğrul,2026-03-06T09:42:56.318Z,2026-03-14T12:17:07.494Z
-MER-163,M4-08 Add CI pipeline quality gates,Done,"{'value': 4, 'name': 'Low'}",Task,Mert Ertuğrul,2026-03-06T09:43:03.238Z,2026-03-14T17:36:20.699Z
-MER-164,"M4-09 Milestone quality gate: tests, docs update",Done,"{'value': 2, 'name': 'High'}",Task,Mert Ertuğrul,2026-03-06T09:43:09.492Z,2026-03-14T17:53:38.617Z
-MER-165,Add `provider_subject` column to User entity + Flyway migration,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T15:12:19.087Z,2026-03-06T15:27:03.088Z
-MER-166,Add OAuth2 Resource Server dependency and configure multi-issuer JWT decoder,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T15:12:28.511Z,2026-03-06T16:15:55.871Z
-MER-167,Replace BearerTokenAuthenticationFilter with Spring Security JWT resource server,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T15:12:38.474Z,2026-03-06T18:41:10.999Z
-MER-168,Implement JWT-based user resolution and auto-provisioning,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T15:12:49.632Z,2026-03-07T16:20:38.736Z
-MER-169,Handle Apple first-login profile data capture,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T15:13:00.792Z,2026-03-07T17:03:59.732Z
-MER-170,Migrate all tests to JWT-based authentication,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-06T15:13:14.957Z,2026-03-07T17:32:15.415Z
-MER-171,Update security model documentation for OIDC auth,Done,"{'value': 2, 'name': 'High'}",Task; Feature,Mert Ertuğrul,2026-03-07T17:35:31.291Z,2026-03-07T18:25:28.335Z
-MER-172,Update system-design.md with WebSocket & push notification sections,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-07T17:35:35.892Z,2026-03-13T13:22:25.686Z
-MER-173,Update system-design.md with session history/analytics & data design,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-07T17:35:41.449Z,2026-03-13T13:41:14.383Z
-MER-174,Update architecture.md for Firebase infrastructure,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-07T17:35:46.456Z,2026-03-13T13:48:42.739Z
-MER-175,Verify OpenAPI contract completeness for M3,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-07T17:35:52.177Z,2026-03-13T14:00:06.762Z
-MER-176,Ensure BDD/Cucumber coverage for all M3 endpoints,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-07T17:35:57.559Z,2026-03-13T14:20:28.596Z
-MER-177,Final M3 regression run and coverage verification,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-07T17:36:01.436Z,2026-03-13T19:54:49.338Z
-MER-178,M3-FE-01 Connect to WebSocket for real-time session updates,Done,"{'value': 2, 'name': 'High'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:42:48.509Z,2026-03-08T11:19:34.970Z
-MER-179,M3-FE-02 Register FCM device token with backend,Done,"{'value': 2, 'name': 'High'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:42:55.388Z,2026-03-09T07:29:33.864Z
-MER-180,M3-FE-03 Handle incoming push notifications for session phase transitions,Done,"{'value': 2, 'name': 'High'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:02.508Z,2026-03-09T08:59:39.036Z
-MER-181,M3-FE-04 Session history screen — list past focus sessions,Done,"{'value': 3, 'name': 'Medium'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:09.030Z,2026-03-09T08:07:23.147Z
-MER-182,M3-FE-05 Analytics dashboard — display focus session statistics,Done,"{'value': 3, 'name': 'Medium'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:15.339Z,2026-03-09T09:50:56.257Z
-MER-183,M3-FE-06 Replace mock auth with Google & Apple sign-in,Done,"{'value': 2, 'name': 'High'}",featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:23.621Z,2026-03-09T09:27:49.380Z
-MER-184,Set up Firebase project and configure FCM for Flutter app,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-09T07:12:27.739Z,2026-03-09T08:32:15.087Z
-MER-185,"Bug: WebSocketAuthInterceptor does not strip ""Bearer "" prefix before parsing JWT",Done,"{'value': 2, 'name': 'High'}",Bug; Feature,Mert Ertuğrul,2026-03-09T10:31:10.964Z,2026-03-09T10:53:29.358Z
-MER-186,Fix macOS Google Sign-In auth state not propagating to UI,Done,"{'value': 2, 'name': 'High'}",Bug,Mert Ertuğrul,2026-03-09T18:31:34.471Z,2026-03-10T08:26:12.893Z
-MER-187,Configure Apple Sign-In for macOS/iOS,Blocked,"{'value': 3, 'name': 'Medium'}",Bug,Mert Ertuğrul,2026-03-10T08:28:22.145Z,
-MER-188,Manual & E2E test sweep for unchecked PR test plans,Done,"{'value': 3, 'name': 'Medium'}",Test,Mert Ertuğrul,2026-03-10T09:09:23.548Z,2026-03-10T15:48:50.766Z
-MER-189,Analytics & Session History navigation broken during active focus session,Done,"{'value': 2, 'name': 'High'}",Bug,Mert Ertuğrul,2026-03-10T10:19:49.425Z,2026-03-10T10:19:49.482Z
-MER-190,Add user info display in AppBar (name/email),Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T10:47:26.793Z,2026-03-11T09:04:24.579Z
-MER-191,Add account settings page,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-10T10:47:28.596Z,2026-03-11T11:59:14.394Z
-MER-192,Show slice title on hover (desktop) / tap (mobile) when too narrow,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T10:47:31.441Z,2026-03-11T10:58:08.857Z
-MER-193,Distinct default colors per slice + user color customization,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-10T10:47:35.233Z,2026-03-11T10:14:57.574Z
-MER-194,Theme selection (light/dark + accent variants),Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-10T10:47:39.841Z,2026-03-11T12:23:29.537Z
-MER-195,Custom theme builder (user-defined colors),Canceled,"{'value': 4, 'name': 'Low'}",Feature,Mert Ertuğrul,2026-03-10T10:47:50.454Z,
-MER-196,Slice detail screen with pomodoro division animation,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-10T10:48:00.315Z,2026-03-13T20:01:16.156Z
-MER-197,Improve create-slice modal layout & duration styling,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T10:48:06.041Z,2026-03-11T08:51:57.298Z
-MER-198,Play sound/notification when focus session phase ends,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-10T10:48:12.445Z,2026-03-12T10:10:15.154Z
-MER-199,Auto-advance option for pomodoro phases,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-10T10:48:18.096Z,2026-03-12T10:57:22.917Z
-MER-200,Cap max size of analytics & session history widgets,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T10:48:30.547Z,2026-03-11T08:41:03.925Z
-MER-201,Restructure session history with grouped table view,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T10:48:37.248Z,2026-03-12T14:02:29.063Z
-MER-202,Reduce main pie canvas size so timer panel is visible,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T10:48:43.495Z,2026-03-11T07:59:28.960Z
-MER-203,Analytics stats API returns null fields causing type cast crash,Done,"{'value': 2, 'name': 'High'}",Bug,Mert Ertuğrul,2026-03-10T10:54:14.597Z,2026-03-10T11:05:54.843Z
-MER-204,Notify user when focus session is stopped by the app + increase notification duration,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-10T14:49:12.898Z,2026-03-12T19:30:59.523Z
-MER-205,Show focus session timer on lock screen (mobile),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-10T16:49:02.609Z,2026-03-13T12:40:44.994Z
-MER-206,Support dev/test/prod environment configurations for FE,Done,"{'value': 2, 'name': 'High'}",Improvement,Mert Ertuğrul,2026-03-11T07:09:01.114Z,2026-03-11T09:33:43.264Z
-MER-207,Add user profile/preferences table on backend,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-11T08:47:21.136Z,2026-03-13T20:27:15.014Z
-MER-208,Configure Cloud Run min-instances=1 to eliminate cold starts,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-11T09:30:02.707Z,2026-03-14T18:08:07.986Z
-MER-209,Slice overlap 409 error closes create dialog instead of showing inline feedback,Done,"{'value': 2, 'name': 'High'}",Bug,Mert Ertuğrul,2026-03-11T10:27:09.285Z,2026-03-11T17:17:28.149Z
-MER-210,Redesign slice list as Cal Newport-style time blocking timeline,Done,"{'value': 2, 'name': 'High'}",Improvement,Mert Ertuğrul,2026-03-11T11:08:58.343Z,2026-03-11T11:33:49.819Z
-MER-211,Add pinch-to-zoom and scroll-wheel zoom on pie canvas,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-11T11:09:08.821Z,2026-03-11T19:17:41.548Z
-MER-212,Start focus session by tapping time block entry in timeline,Done,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-11T11:24:25.021Z,2026-03-11T11:49:35.895Z
-MER-213,Show current time indicator on pie canvas and time block timeline,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-11T11:24:32.824Z,2026-03-11T11:41:19.047Z
-MER-214,Use light theme as default,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-12T10:02:27.036Z,2026-03-12T11:09:46.287Z
-MER-215,Style unplanned slice as empty grid notebook page,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-12T10:02:31.032Z,2026-03-12T11:35:48.837Z
-MER-216,Auto-scroll to timer panel when focus session starts,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-13T07:10:38.918Z,2026-03-13T13:01:13.392Z
-MER-217,Domain interface + orchestrator + tests for lock screen timer,Done,"{'value': 2, 'name': 'High'}",,Mert Ertuğrul,2026-03-13T07:23:06.010Z,2026-03-13T07:23:06.043Z
-MER-218,Android lock screen timer notification,Done,"{'value': 2, 'name': 'High'}",,Mert Ertuğrul,2026-03-13T07:23:11.577Z,2026-03-13T07:23:11.629Z
-MER-219,iOS Live Activities lock screen timer,Done,"{'value': 2, 'name': 'High'}",,Mert Ertuğrul,2026-03-13T07:23:14.050Z,2026-03-13T10:42:33.895Z
-MER-220,Set up macOS NSStatusItem with Platform Channel (Swift side),Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-13T13:22:07.527Z,2026-03-13T13:50:31.940Z
-MER-221,Create MenuBarTimerService (Dart side),Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-13T13:22:11.321Z,2026-03-13T14:03:41.836Z
-MER-222,Integrate menu bar timer with focus session lifecycle,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-13T13:22:15.696Z,2026-03-13T14:21:46.324Z
-MER-223,End-to-end WebSocket testing (FE ↔ BE),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-13T13:26:49.258Z,2026-03-13T19:31:14.590Z
-MER-224,Add quick-start focus button on timeline time blocks,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-14T11:28:16.272Z,2026-03-14T12:08:16.787Z
-MER-225,M4-FE-01 Actual vs planned report UI,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-14T12:18:46.945Z,2026-03-14T17:07:03.122Z
-MER-226,M4-FE-02 Productivity trends visualization,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-14T12:18:52.720Z,2026-03-14T18:10:12.696Z
-MER-227,M4-FE-03 Sync user preferences with backend,Done,"{'value': 2, 'name': 'High'}",featureFE,Mert Ertuğrul,2026-03-14T12:19:00.137Z,2026-03-14T17:17:36.950Z
-MER-228,M4-FE-04 OAuth2 account linking UI in settings,Done,"{'value': 3, 'name': 'Medium'}",featureFE,Mert Ertuğrul,2026-03-14T12:19:07.677Z,2026-03-14T18:18:26.014Z
-MER-229,M4-FE-05 Soundscape picker UI,Done,"{'value': 4, 'name': 'Low'}",featureFE,Mert Ertuğrul,2026-03-14T12:19:14.399Z,2026-03-14T18:39:25.419Z
-MER-230,Add customizable Pomodoro timer durations (BE),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-14T18:42:00.999Z,2026-03-14T19:00:14.649Z
-MER-231,Add customizable Pomodoro timer durations UI (FE),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-14T18:42:19.873Z,2026-03-14T20:08:09.038Z
-MER-232,Slice detail calculates cycles using default 25 min instead of user's timer preferences,Done,"{'value': 3, 'name': 'Medium'}",Bug,Mert Ertuğrul,2026-03-14T20:07:53.614Z,2026-03-14T20:34:09.868Z
-MER-233,"Add ""+"" button for creating new slices (AppBar + timeline)",Done,"{'value': 3, 'name': 'Medium'}",Feature (Frontent); Improvement,Mert Ertuğrul,2026-03-15T09:37:22.600Z,2026-03-15T09:53:16.406Z
+MER-143,M2-12e BE test coverage: slice/session/state-machine behavior,Done,Medium,Task,Mert Ertuğrul,2026-03-05T19:06:15.056Z,2026-03-05T19:18:40.896Z
+MER-144,M3-01 Add Spring WebSocket support with STOMP broker,Done,High,Feature,Mert Ertuğrul,2026-03-06T09:32:29.224Z,2026-03-07T18:56:30.913Z
+MER-145,M3-02 Define WebSocket topic schema and session event messages,Done,High,Feature,Mert Ertuğrul,2026-03-06T09:32:36.072Z,2026-03-07T19:23:56.014Z
+MER-146,M3-03 Broadcast session lifecycle events over WebSocket,Done,High,Feature,Mert Ertuğrul,2026-03-06T09:32:40.160Z,2026-03-07T19:44:35.699Z
+MER-147,M3-04 Authenticate WebSocket connections,Done,High,Feature,Mert Ertuğrul,2026-03-06T09:32:46.050Z,2026-03-07T20:08:05.078Z
+MER-148,M3-05 Add device token registration endpoint + schema,Done,Medium,Feature,Mert Ertuğrul,2026-03-06T09:32:58.102Z,2026-03-08T08:29:59.131Z
+MER-149,M3-06 Integrate Firebase Admin SDK for push notifications,Done,Medium,Feature,Mert Ertuğrul,2026-03-06T09:33:04.139Z,2026-03-08T08:56:12.937Z
+MER-150,M3-07 Trigger push notifications on session phase transitions,Done,Medium,Feature,Mert Ertuğrul,2026-03-06T09:33:13.302Z,2026-03-08T09:31:17.803Z
+MER-151,M3-08 Add session history endpoint (GET /api/focus-sessions),Done,High,Feature,Mert Ertuğrul,2026-03-06T09:33:17.333Z,2026-03-08T10:16:40.384Z
+MER-152,M3-09 Add session stats/analytics endpoint,Done,Medium,Feature,Mert Ertuğrul,2026-03-06T09:33:30.896Z,2026-03-08T10:44:53.493Z
+MER-153,M3-10 Authentication hardening — Google + Apple OIDC validation,Done,High,Feature,Mert Ertuğrul,2026-03-06T09:33:40.727Z,2026-03-07T17:33:25.221Z
+MER-154,M3-11 Schema audit + analytics indexes,Done,Medium,Improvement,Mert Ertuğrul,2026-03-06T09:33:47.941Z,2026-03-08T11:06:22.541Z
+MER-155,"M3-12 Milestone quality gate: tests, docs update",Done,High,Feature,Mert Ertuğrul,2026-03-06T09:33:55.552Z,2026-03-13T20:27:52.244Z
+MER-156,M4-01 Add user preferences schema + entity,Done,High,Feature,Mert Ertuğrul,2026-03-06T09:42:07.485Z,2026-03-14T11:52:24.297Z
+MER-157,M4-02 Add user preferences API (GET/PUT),Done,High,Feature,Mert Ertuğrul,2026-03-06T09:42:15.988Z,2026-03-14T12:16:53.035Z
+MER-158,"M4-03 Add ""actual vs planned"" report endpoint",Done,High,Feature,Mert Ertuğrul,2026-03-06T09:42:26.989Z,2026-03-14T12:19:41.755Z
+MER-159,M4-04 Add productivity trends endpoint,Done,Medium,Feature,Mert Ertuğrul,2026-03-06T09:42:35.383Z,2026-03-14T12:41:14.428Z
+MER-160,M4-05 Add OAuth2 account linking flow,Done,Medium,Feature,Mert Ertuğrul,2026-03-06T09:42:43.997Z,2026-03-14T13:24:24.074Z
+MER-161,M4-06 Add soundscape catalog endpoint,Done,Low,Feature,Mert Ertuğrul,2026-03-06T09:42:50.887Z,2026-03-14T13:12:36.714Z
+MER-162,M4-07 Add analytics indexes,Done,Medium,Task,Mert Ertuğrul,2026-03-06T09:42:56.318Z,2026-03-14T12:17:07.494Z
+MER-163,M4-08 Add CI pipeline quality gates,Done,Low,Task,Mert Ertuğrul,2026-03-06T09:43:03.238Z,2026-03-14T17:36:20.699Z
+MER-164,"M4-09 Milestone quality gate: tests, docs update",Done,High,Task,Mert Ertuğrul,2026-03-06T09:43:09.492Z,2026-03-14T17:53:38.617Z
+MER-165,Add `provider_subject` column to User entity + Flyway migration,Done,High,Feature,Mert Ertuğrul,2026-03-06T15:12:19.087Z,2026-03-06T15:27:03.088Z
+MER-166,Add OAuth2 Resource Server dependency and configure multi-issuer JWT decoder,Done,High,Feature,Mert Ertuğrul,2026-03-06T15:12:28.511Z,2026-03-06T16:15:55.871Z
+MER-167,Replace BearerTokenAuthenticationFilter with Spring Security JWT resource server,Done,High,Feature,Mert Ertuğrul,2026-03-06T15:12:38.474Z,2026-03-06T18:41:10.999Z
+MER-168,Implement JWT-based user resolution and auto-provisioning,Done,High,Feature,Mert Ertuğrul,2026-03-06T15:12:49.632Z,2026-03-07T16:20:38.736Z
+MER-169,Handle Apple first-login profile data capture,Done,High,Feature,Mert Ertuğrul,2026-03-06T15:13:00.792Z,2026-03-07T17:03:59.732Z
+MER-170,Migrate all tests to JWT-based authentication,Done,High,Feature,Mert Ertuğrul,2026-03-06T15:13:14.957Z,2026-03-07T17:32:15.415Z
+MER-171,Update security model documentation for OIDC auth,Done,High,Task; Feature,Mert Ertuğrul,2026-03-07T17:35:31.291Z,2026-03-07T18:25:28.335Z
+MER-172,Update system-design.md with WebSocket & push notification sections,Done,Medium,Feature,Mert Ertuğrul,2026-03-07T17:35:35.892Z,2026-03-13T13:22:25.686Z
+MER-173,Update system-design.md with session history/analytics & data design,Done,Medium,Feature,Mert Ertuğrul,2026-03-07T17:35:41.449Z,2026-03-13T13:41:14.383Z
+MER-174,Update architecture.md for Firebase infrastructure,Done,Medium,Feature,Mert Ertuğrul,2026-03-07T17:35:46.456Z,2026-03-13T13:48:42.739Z
+MER-175,Verify OpenAPI contract completeness for M3,Done,High,Feature,Mert Ertuğrul,2026-03-07T17:35:52.177Z,2026-03-13T14:00:06.762Z
+MER-176,Ensure BDD/Cucumber coverage for all M3 endpoints,Done,High,Feature,Mert Ertuğrul,2026-03-07T17:35:57.559Z,2026-03-13T14:20:28.596Z
+MER-177,Final M3 regression run and coverage verification,Done,High,Feature,Mert Ertuğrul,2026-03-07T17:36:01.436Z,2026-03-13T19:54:49.338Z
+MER-178,M3-FE-01 Connect to WebSocket for real-time session updates,Done,High,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:42:48.509Z,2026-03-08T11:19:34.970Z
+MER-179,M3-FE-02 Register FCM device token with backend,Done,High,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:42:55.388Z,2026-03-09T07:29:33.864Z
+MER-180,M3-FE-03 Handle incoming push notifications for session phase transitions,Done,High,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:02.508Z,2026-03-09T08:59:39.036Z
+MER-181,M3-FE-04 Session history screen — list past focus sessions,Done,Medium,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:09.030Z,2026-03-09T08:07:23.147Z
+MER-182,M3-FE-05 Analytics dashboard — display focus session statistics,Done,Medium,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:15.339Z,2026-03-09T09:50:56.257Z
+MER-183,M3-FE-06 Replace mock auth with Google & Apple sign-in,Done,High,featureFE; Feature (Frontent),Mert Ertuğrul,2026-03-08T10:43:23.621Z,2026-03-09T09:27:49.380Z
+MER-184,Set up Firebase project and configure FCM for Flutter app,Done,High,featureFE,Mert Ertuğrul,2026-03-09T07:12:27.739Z,2026-03-09T08:32:15.087Z
+MER-185,"Bug: WebSocketAuthInterceptor does not strip ""Bearer "" prefix before parsing JWT",Done,High,Bug; Feature,Mert Ertuğrul,2026-03-09T10:31:10.964Z,2026-03-09T10:53:29.358Z
+MER-186,Fix macOS Google Sign-In auth state not propagating to UI,Done,High,Bug,Mert Ertuğrul,2026-03-09T18:31:34.471Z,2026-03-10T08:26:12.893Z
+MER-187,Configure Apple Sign-In for macOS/iOS,Blocked,Medium,Bug,Mert Ertuğrul,2026-03-10T08:28:22.145Z,
+MER-188,Manual & E2E test sweep for unchecked PR test plans,Done,Medium,Test,Mert Ertuğrul,2026-03-10T09:09:23.548Z,2026-03-10T15:48:50.766Z
+MER-189,Analytics & Session History navigation broken during active focus session,Done,High,Bug,Mert Ertuğrul,2026-03-10T10:19:49.425Z,2026-03-10T10:19:49.482Z
+MER-190,Add user info display in AppBar (name/email),Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T10:47:26.793Z,2026-03-11T09:04:24.579Z
+MER-191,Add account settings page,Done,Medium,Feature,Mert Ertuğrul,2026-03-10T10:47:28.596Z,2026-03-11T11:59:14.394Z
+MER-192,Show slice title on hover (desktop) / tap (mobile) when too narrow,Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T10:47:31.441Z,2026-03-11T10:58:08.857Z
+MER-193,Distinct default colors per slice + user color customization,Done,Medium,Feature,Mert Ertuğrul,2026-03-10T10:47:35.233Z,2026-03-11T10:14:57.574Z
+MER-194,Theme selection (light/dark + accent variants),Done,Medium,Feature,Mert Ertuğrul,2026-03-10T10:47:39.841Z,2026-03-11T12:23:29.537Z
+MER-195,Custom theme builder (user-defined colors),Canceled,Low,Feature,Mert Ertuğrul,2026-03-10T10:47:50.454Z,
+MER-196,Slice detail screen with pomodoro division animation,Done,Medium,Feature,Mert Ertuğrul,2026-03-10T10:48:00.315Z,2026-03-13T20:01:16.156Z
+MER-197,Improve create-slice modal layout & duration styling,Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T10:48:06.041Z,2026-03-11T08:51:57.298Z
+MER-198,Play sound/notification when focus session phase ends,Done,Medium,Feature,Mert Ertuğrul,2026-03-10T10:48:12.445Z,2026-03-12T10:10:15.154Z
+MER-199,Auto-advance option for pomodoro phases,Done,Medium,Feature,Mert Ertuğrul,2026-03-10T10:48:18.096Z,2026-03-12T10:57:22.917Z
+MER-200,Cap max size of analytics & session history widgets,Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T10:48:30.547Z,2026-03-11T08:41:03.925Z
+MER-201,Restructure session history with grouped table view,Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T10:48:37.248Z,2026-03-12T14:02:29.063Z
+MER-202,Reduce main pie canvas size so timer panel is visible,Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T10:48:43.495Z,2026-03-11T07:59:28.960Z
+MER-203,Analytics stats API returns null fields causing type cast crash,Done,High,Bug,Mert Ertuğrul,2026-03-10T10:54:14.597Z,2026-03-10T11:05:54.843Z
+MER-204,Notify user when focus session is stopped by the app + increase notification duration,Done,Medium,Improvement,Mert Ertuğrul,2026-03-10T14:49:12.898Z,2026-03-12T19:30:59.523Z
+MER-205,Show focus session timer on lock screen (mobile),Done,High,Feature,Mert Ertuğrul,2026-03-10T16:49:02.609Z,2026-03-13T12:40:44.994Z
+MER-206,Support dev/test/prod environment configurations for FE,Done,High,Improvement,Mert Ertuğrul,2026-03-11T07:09:01.114Z,2026-03-11T09:33:43.264Z
+MER-207,Add user profile/preferences table on backend,Done,Medium,Feature,Mert Ertuğrul,2026-03-11T08:47:21.136Z,2026-03-13T20:27:15.014Z
+MER-208,Configure Cloud Run min-instances=1 to eliminate cold starts,Done,Medium,Improvement,Mert Ertuğrul,2026-03-11T09:30:02.707Z,2026-03-14T18:08:07.986Z
+MER-209,Slice overlap 409 error closes create dialog instead of showing inline feedback,Done,High,Bug,Mert Ertuğrul,2026-03-11T10:27:09.285Z,2026-03-11T17:17:28.149Z
+MER-210,Redesign slice list as Cal Newport-style time blocking timeline,Done,High,Improvement,Mert Ertuğrul,2026-03-11T11:08:58.343Z,2026-03-11T11:33:49.819Z
+MER-211,Add pinch-to-zoom and scroll-wheel zoom on pie canvas,Done,Medium,Feature,Mert Ertuğrul,2026-03-11T11:09:08.821Z,2026-03-11T19:17:41.548Z
+MER-212,Start focus session by tapping time block entry in timeline,Done,Medium,Improvement,Mert Ertuğrul,2026-03-11T11:24:25.021Z,2026-03-11T11:49:35.895Z
+MER-213,Show current time indicator on pie canvas and time block timeline,Done,High,Feature,Mert Ertuğrul,2026-03-11T11:24:32.824Z,2026-03-11T11:41:19.047Z
+MER-214,Use light theme as default,Done,Medium,Feature,Mert Ertuğrul,2026-03-12T10:02:27.036Z,2026-03-12T11:09:46.287Z
+MER-215,Style unplanned slice as empty grid notebook page,Done,Medium,Feature,Mert Ertuğrul,2026-03-12T10:02:31.032Z,2026-03-12T11:35:48.837Z
+MER-216,Auto-scroll to timer panel when focus session starts,Done,Medium,Feature,Mert Ertuğrul,2026-03-13T07:10:38.918Z,2026-03-13T13:01:13.392Z
+MER-217,Domain interface + orchestrator + tests for lock screen timer,Done,High,,Mert Ertuğrul,2026-03-13T07:23:06.010Z,2026-03-13T07:23:06.043Z
+MER-218,Android lock screen timer notification,Done,High,,Mert Ertuğrul,2026-03-13T07:23:11.577Z,2026-03-13T07:23:11.629Z
+MER-219,iOS Live Activities lock screen timer,Done,High,,Mert Ertuğrul,2026-03-13T07:23:14.050Z,2026-03-13T10:42:33.895Z
+MER-220,Set up macOS NSStatusItem with Platform Channel (Swift side),Done,Medium,Feature,Mert Ertuğrul,2026-03-13T13:22:07.527Z,2026-03-13T13:50:31.940Z
+MER-221,Create MenuBarTimerService (Dart side),Done,Medium,Feature,Mert Ertuğrul,2026-03-13T13:22:11.321Z,2026-03-13T14:03:41.836Z
+MER-222,Integrate menu bar timer with focus session lifecycle,Done,Medium,Feature,Mert Ertuğrul,2026-03-13T13:22:15.696Z,2026-03-13T14:21:46.324Z
+MER-223,End-to-end WebSocket testing (FE ↔ BE),Done,High,Feature,Mert Ertuğrul,2026-03-13T13:26:49.258Z,2026-03-13T19:31:14.590Z
+MER-224,Add quick-start focus button on timeline time blocks,Done,Medium,featureFE,Mert Ertuğrul,2026-03-14T11:28:16.272Z,2026-03-14T12:08:16.787Z
+MER-225,M4-FE-01 Actual vs planned report UI,Done,High,featureFE,Mert Ertuğrul,2026-03-14T12:18:46.945Z,2026-03-14T17:07:03.122Z
+MER-226,M4-FE-02 Productivity trends visualization,Done,Medium,featureFE,Mert Ertuğrul,2026-03-14T12:18:52.720Z,2026-03-14T18:10:12.696Z
+MER-227,M4-FE-03 Sync user preferences with backend,Done,High,featureFE,Mert Ertuğrul,2026-03-14T12:19:00.137Z,2026-03-14T17:17:36.950Z
+MER-228,M4-FE-04 OAuth2 account linking UI in settings,Done,Medium,featureFE,Mert Ertuğrul,2026-03-14T12:19:07.677Z,2026-03-14T18:18:26.014Z
+MER-229,M4-FE-05 Soundscape picker UI,Done,Low,featureFE,Mert Ertuğrul,2026-03-14T12:19:14.399Z,2026-03-14T18:39:25.419Z
+MER-230,Add customizable Pomodoro timer durations (BE),Done,High,Feature,Mert Ertuğrul,2026-03-14T18:42:00.999Z,2026-03-14T19:00:14.649Z
+MER-231,Add customizable Pomodoro timer durations UI (FE),Done,High,Feature,Mert Ertuğrul,2026-03-14T18:42:19.873Z,2026-03-14T20:08:09.038Z
+MER-232,Slice detail calculates cycles using default 25 min instead of user's timer preferences,Done,Medium,Bug,Mert Ertuğrul,2026-03-14T20:07:53.614Z,2026-03-14T20:34:09.868Z
+MER-233,"Add ""+"" button for creating new slices (AppBar + timeline)",Done,Medium,Feature (Frontent); Improvement,Mert Ertuğrul,2026-03-15T09:37:22.600Z,2026-03-15T09:53:16.406Z
 MER-234,Timer shows 0 instead of correct remaining time when app is reopened after being closed mid-session,Done,,Bug,Mert Ertuğrul,2026-03-15T09:53:43.012Z,2026-03-15T10:30:16.389Z
 MER-235,Investigate open-license audio sources for background soundscapes,In Progress,,Feature,Mert Ertuğrul,2026-03-15T10:03:43.436Z,
 MER-236,Prepare audio files and upload to GCS bucket,Done,,Feature,Mert Ertuğrul,2026-03-15T10:32:57.994Z,2026-03-15T17:55:50.193Z
 MER-237,Implement programmatic white/brown/pink noise generation,Done,,Feature,Mert Ertuğrul,2026-03-15T10:33:03.703Z,2026-03-17T08:01:25.243Z
 MER-238,"FE: Add CDN audio download, caching, and playback service",Todo,,Feature,Mert Ertuğrul,2026-03-15T10:33:10.621Z,
 MER-239,Wire soundscape selection to playback and focus session lifecycle,Todo,,Feature,Mert Ertuğrul,2026-03-15T10:33:18.819Z,
-MER-240,Slice disappears from pie chart when focus session completes,Done,"{'value': 2, 'name': 'High'}",Bug,Mert Ertuğrul,2026-03-15T10:37:58.130Z,2026-03-15T11:14:38.624Z
-MER-241,Add integration tests for critical user flows,Done,"{'value': 2, 'name': 'High'}",Test,Mert Ertuğrul,2026-03-15T10:44:20.485Z,2026-03-15T12:05:44.148Z
-MER-242,Expand widget test coverage for user journey edge cases,Done,"{'value': 2, 'name': 'High'}",Test,Mert Ertuğrul,2026-03-15T10:44:29.975Z,2026-03-15T12:12:56.362Z
-MER-243,Fix 13 flaky/failing tests in CI,Done,"{'value': 2, 'name': 'High'}",Technical Debt,Mert Ertuğrul,2026-03-15T17:33:50.316Z,2026-03-15T18:46:39.137Z
-MER-244,Add crash reporting (Sentry or Firebase Crashlytics),Done,"{'value': 2, 'name': 'High'}",Improvement,Mert Ertuğrul,2026-03-15T17:33:54.967Z,2026-03-16T07:06:03.560Z
-MER-245,Migrate state management to Riverpod,Todo,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-15T17:34:01.887Z,
-MER-246,Add freezed + json_serializable for domain models,Canceled,"{'value': 3, 'name': 'Medium'}",Technical Debt,Mert Ertuğrul,2026-03-15T17:34:09.656Z,
-MER-247,Add go_router for declarative routing and deep links,Todo,"{'value': 4, 'name': 'Low'}",Improvement,Mert Ertuğrul,2026-03-15T17:34:14.524Z,
-MER-248,Add accessibility (a11y) support,Todo,"{'value': 3, 'name': 'Medium'}",Improvement,Mert Ertuğrul,2026-03-15T17:34:20.836Z,
-MER-249,Add localization (l10n) infrastructure,Todo,"{'value': 4, 'name': 'Low'}",Improvement,Mert Ertuğrul,2026-03-15T17:34:26.080Z,
+MER-240,Slice disappears from pie chart when focus session completes,Done,High,Bug,Mert Ertuğrul,2026-03-15T10:37:58.130Z,2026-03-15T11:14:38.624Z
+MER-241,Add integration tests for critical user flows,Done,High,Test,Mert Ertuğrul,2026-03-15T10:44:20.485Z,2026-03-15T12:05:44.148Z
+MER-242,Expand widget test coverage for user journey edge cases,Done,High,Test,Mert Ertuğrul,2026-03-15T10:44:29.975Z,2026-03-15T12:12:56.362Z
+MER-243,Fix 13 flaky/failing tests in CI,Done,High,Technical Debt,Mert Ertuğrul,2026-03-15T17:33:50.316Z,2026-03-15T18:46:39.137Z
+MER-244,Add crash reporting (Sentry or Firebase Crashlytics),Done,High,Improvement,Mert Ertuğrul,2026-03-15T17:33:54.967Z,2026-03-16T07:06:03.560Z
+MER-245,Migrate state management to Riverpod,Todo,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-15T17:34:01.887Z,
+MER-246,Add freezed + json_serializable for domain models,Canceled,Medium,Technical Debt,Mert Ertuğrul,2026-03-15T17:34:09.656Z,
+MER-247,Add go_router for declarative routing and deep links,Todo,Low,Improvement,Mert Ertuğrul,2026-03-15T17:34:14.524Z,
+MER-248,Add accessibility (a11y) support,Todo,Medium,Improvement,Mert Ertuğrul,2026-03-15T17:34:20.836Z,
+MER-249,Add localization (l10n) infrastructure,Todo,Low,Improvement,Mert Ertuğrul,2026-03-15T17:34:26.080Z,
 MER-250,BE: Add audioUrl field to soundscape catalog API,Done,,Feature,Mert Ertuğrul,2026-03-15T17:37:46.425Z,2026-03-15T17:55:48.133Z
-MER-251,Add rate limiting to API endpoints,Done,"{'value': 2, 'name': 'High'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:40:45.800Z,2026-03-16T07:05:00.608Z
-MER-252,Add request logging and correlation IDs,Done,"{'value': 2, 'name': 'High'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:40:49.640Z,2026-03-16T07:37:57.843Z
-MER-253,Add observability: Micrometer metrics and Prometheus endpoint,Done,"{'value': 2, 'name': 'High'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:40:54.932Z,2026-03-16T07:51:42.045Z
-MER-254,Add audit logging for sensitive operations,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:00.840Z,2026-03-16T08:13:30.150Z
-MER-255,Add explicit CORS configuration,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:04.719Z,2026-03-16T08:39:25.548Z
-MER-256,Add API versioning strategy,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:15.592Z,2026-03-17T07:53:22.321Z
-MER-257,Add security scanning to CI pipeline,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:20.697Z,2026-03-16T10:05:48.484Z
-MER-258,Add caching for frequently accessed data,Done,"{'value': 4, 'name': 'Low'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:26.251Z,2026-03-16T10:30:12.336Z
-MER-259,Add missing database indexes for query performance,Done,"{'value': 4, 'name': 'Low'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:33.270Z,2026-03-16T10:51:35.594Z
-MER-260,Add graceful shutdown with cleanup hooks,Done,"{'value': 4, 'name': 'Low'}",Technical Debt,Mert Ertuğrul,2026-03-16T06:41:37.269Z,2026-03-16T10:55:42.605Z
-MER-261,Riverpod migration 1/5: Add Riverpod + migrate TimerPreferences,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:34.446Z,2026-03-16T07:39:37.487Z
-MER-262,Riverpod migration 2/5: Migrate theme + soundscape to Riverpod,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:36.775Z,2026-03-16T08:06:11.873Z
-MER-263,Riverpod migration 3/5: Migrate slice fetching to Riverpod,Todo,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:39.689Z,
-MER-264,Riverpod migration 4/5: Migrate focus session state to Riverpod,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:42.430Z,2026-03-16T17:57:52.328Z
-MER-265,Riverpod migration 5/5: Migrate connectivity + sync services to Riverpod,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:46.158Z,2026-03-16T18:48:36.035Z
-MER-266,Riverpod 3a: Migrate SliceRepository to auth-gated provider,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T08:25:17.452Z,2026-03-16T08:56:01.516Z
-MER-267,Riverpod 3b: Create slicesProvider + selectedDateProvider,Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T08:25:22.718Z,2026-03-16T09:40:41.178Z
-MER-268,Riverpod 3c: Replace FutureBuilder with ref.watch(slicesProvider),Done,"{'value': 3, 'name': 'Medium'}",Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T08:25:30.284Z,2026-03-16T11:12:08.302Z
-MER-269,FE: Update API base path from /api/ to /api/v1/,Done,"{'value': 2, 'name': 'High'}",Technical Debt,Mert Ertuğrul,2026-03-16T09:42:04.543Z,2026-03-16T14:33:09.073Z
-MER-270,FE: Handle 429 rate limit responses gracefully,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-16T09:43:48.583Z,2026-03-16T15:05:16.422Z
-MER-271,FE: Send X-Request-Id header for end-to-end request tracing,Done,"{'value': 3, 'name': 'Medium'}",Feature,Mert Ertuğrul,2026-03-16T09:43:54.591Z,2026-03-16T15:05:16.423Z
-MER-272,Set up Flutter project with Flame and Phase 1 dependencies,Done,"{'value': 1, 'name': 'Urgent'}",Feature,Mert Ertuğrul,2026-03-16T14:52:10.244Z,2026-03-16T15:07:10.667Z
-MER-273,"Implement models: RoadNode, RoadSegment, Vehicle, Ambulance, IntendedDirection",Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:12.628Z,2026-03-16T20:44:58.989Z
-MER-274,Implement RoadGraph with node/segment queries,Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:14.584Z,2026-03-16T20:44:59.932Z
-MER-275,Implement MoveValidator (segment movement + node crossing),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:16.313Z,2026-03-16T21:08:09.008Z
-MER-276,Implement AmbulanceAI (BFS pathfinding + segment checks),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:18.065Z,2026-03-17T07:52:40.846Z
-MER-277,Implement HealthBar (constant countdown + star calculation),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:24.006Z,2026-03-17T08:31:10.580Z
-MER-278,Implement LevelLoader (JSON parsing into full game state),Done,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:38.353Z,2026-03-17T08:18:37.552Z
-MER-279,Write unit tests for all logic classes,Done,"{'value': 2, 'name': 'High'}",Improvement,Mert Ertuğrul,2026-03-16T14:52:46.674Z,2026-03-17T08:35:34.623Z
-MER-280,Create ClearAheadGame rendering roads and vehicles as rectangles,Todo,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:52:55.595Z,
-MER-281,Implement drag-to-move for non-ambulance vehicles,Todo,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:53:04.771Z,
-MER-282,Implement phase transitions: planning → active,Todo,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:53:12.882Z,
-MER-283,Implement autonomous ambulance movement with acceleration,Todo,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:53:20.703Z,
-MER-284,Implement auto-clear for passed vehicles,Todo,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:53:33.229Z,
-MER-285,Load hardcoded level and get end-to-end playable,Todo,"{'value': 2, 'name': 'High'}",Feature,Mert Ertuğrul,2026-03-16T14:53:38.169Z,
+MER-251,Add rate limiting to API endpoints,Done,High,Technical Debt,Mert Ertuğrul,2026-03-16T06:40:45.800Z,2026-03-16T07:05:00.608Z
+MER-252,Add request logging and correlation IDs,Done,High,Technical Debt,Mert Ertuğrul,2026-03-16T06:40:49.640Z,2026-03-16T07:37:57.843Z
+MER-253,Add observability: Micrometer metrics and Prometheus endpoint,Done,High,Technical Debt,Mert Ertuğrul,2026-03-16T06:40:54.932Z,2026-03-16T07:51:42.045Z
+MER-254,Add audit logging for sensitive operations,Done,Medium,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:00.840Z,2026-03-16T08:13:30.150Z
+MER-255,Add explicit CORS configuration,Done,Medium,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:04.719Z,2026-03-16T08:39:25.548Z
+MER-256,Add API versioning strategy,Done,Medium,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:15.592Z,2026-03-17T07:53:22.321Z
+MER-257,Add security scanning to CI pipeline,Done,Medium,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:20.697Z,2026-03-16T10:05:48.484Z
+MER-258,Add caching for frequently accessed data,Done,Low,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:26.251Z,2026-03-16T10:30:12.336Z
+MER-259,Add missing database indexes for query performance,Done,Low,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:33.270Z,2026-03-16T10:51:35.594Z
+MER-260,Add graceful shutdown with cleanup hooks,Done,Low,Technical Debt,Mert Ertuğrul,2026-03-16T06:41:37.269Z,2026-03-16T10:55:42.605Z
+MER-261,Riverpod migration 1/5: Add Riverpod + migrate TimerPreferences,Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:34.446Z,2026-03-16T07:39:37.487Z
+MER-262,Riverpod migration 2/5: Migrate theme + soundscape to Riverpod,Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:36.775Z,2026-03-16T08:06:11.873Z
+MER-263,Riverpod migration 3/5: Migrate slice fetching to Riverpod,Todo,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:39.689Z,
+MER-264,Riverpod migration 4/5: Migrate focus session state to Riverpod,Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:42.430Z,2026-03-16T17:57:52.328Z
+MER-265,Riverpod migration 5/5: Migrate connectivity + sync services to Riverpod,Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T07:05:46.158Z,2026-03-16T18:48:36.035Z
+MER-266,Riverpod 3a: Migrate SliceRepository to auth-gated provider,Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T08:25:17.452Z,2026-03-16T08:56:01.516Z
+MER-267,Riverpod 3b: Create slicesProvider + selectedDateProvider,Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T08:25:22.718Z,2026-03-16T09:40:41.178Z
+MER-268,Riverpod 3c: Replace FutureBuilder with ref.watch(slicesProvider),Done,Medium,Technical Debt; Improvement,Mert Ertuğrul,2026-03-16T08:25:30.284Z,2026-03-16T11:12:08.302Z
+MER-269,FE: Update API base path from /api/ to /api/v1/,Done,High,Technical Debt,Mert Ertuğrul,2026-03-16T09:42:04.543Z,2026-03-16T14:33:09.073Z
+MER-270,FE: Handle 429 rate limit responses gracefully,Done,Medium,Feature,Mert Ertuğrul,2026-03-16T09:43:48.583Z,2026-03-16T15:05:16.422Z
+MER-271,FE: Send X-Request-Id header for end-to-end request tracing,Done,Medium,Feature,Mert Ertuğrul,2026-03-16T09:43:54.591Z,2026-03-16T15:05:16.423Z
+MER-272,Set up Flutter project with Flame and Phase 1 dependencies,Done,Urgent,Feature,Mert Ertuğrul,2026-03-16T14:52:10.244Z,2026-03-16T15:07:10.667Z
+MER-273,"Implement models: RoadNode, RoadSegment, Vehicle, Ambulance, IntendedDirection",Done,High,Feature,Mert Ertuğrul,2026-03-16T14:52:12.628Z,2026-03-16T20:44:58.989Z
+MER-274,Implement RoadGraph with node/segment queries,Done,High,Feature,Mert Ertuğrul,2026-03-16T14:52:14.584Z,2026-03-16T20:44:59.932Z
+MER-275,Implement MoveValidator (segment movement + node crossing),Done,High,Feature,Mert Ertuğrul,2026-03-16T14:52:16.313Z,2026-03-16T21:08:09.008Z
+MER-276,Implement AmbulanceAI (BFS pathfinding + segment checks),Done,High,Feature,Mert Ertuğrul,2026-03-16T14:52:18.065Z,2026-03-17T07:52:40.846Z
+MER-277,Implement HealthBar (constant countdown + star calculation),Done,High,Feature,Mert Ertuğrul,2026-03-16T14:52:24.006Z,2026-03-17T08:31:10.580Z
+MER-278,Implement LevelLoader (JSON parsing into full game state),Done,High,Feature,Mert Ertuğrul,2026-03-16T14:52:38.353Z,2026-03-17T08:18:37.552Z
+MER-279,Write unit tests for all logic classes,Done,High,Improvement,Mert Ertuğrul,2026-03-16T14:52:46.674Z,2026-03-17T08:35:34.623Z
+MER-280,Create ClearAheadGame rendering roads and vehicles as rectangles,Todo,High,Feature,Mert Ertuğrul,2026-03-16T14:52:55.595Z,
+MER-281,Implement drag-to-move for non-ambulance vehicles,Todo,High,Feature,Mert Ertuğrul,2026-03-16T14:53:04.771Z,
+MER-282,Implement phase transitions: planning → active,Todo,High,Feature,Mert Ertuğrul,2026-03-16T14:53:12.882Z,
+MER-283,Implement autonomous ambulance movement with acceleration,Todo,High,Feature,Mert Ertuğrul,2026-03-16T14:53:20.703Z,
+MER-284,Implement auto-clear for passed vehicles,Todo,High,Feature,Mert Ertuğrul,2026-03-16T14:53:33.229Z,
+MER-285,Load hardcoded level and get end-to-end playable,Todo,High,Feature,Mert Ertuğrul,2026-03-16T14:53:38.169Z,
 MER-286,Configure Apple Sign-In for macOS/iOS,Backlog,,Bug; blocked,,2026-03-17T10:48:07.000Z,
 MER-287,Investigate open-license audio sources for background soundscapes,Backlog,,Feature,,2026-03-17T10:48:19.000Z,
 MER-288,"FE: Add CDN audio download, caching, and playback service",Backlog,,Feature,,2026-03-17T10:48:24.000Z,

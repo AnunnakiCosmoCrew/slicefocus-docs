@@ -9,10 +9,7 @@
       "title": "Welcome to Linear 👋",
       "description": "Hi there. Complete these issues to learn how to use Linear and discover ✨**ProTips.** When you're done, delete them or move them to another team for others to view.\n\n### **To start, type** `C` to **create your first issue.**\n\nCreate issues from any view using `C` or by clicking the `New issue` button.\n\n \n\n[1189b618-97f2-4e2c-ae25-4f25467679e7](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/532d146d-bcd6-4602-bf1f-83f674b70fff/11… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -26,10 +23,7 @@
       "title": "Try 3 ways to navigate Linear: Command line, keyboard or mouse",
       "description": "`Cmd/Ctrl` `K` **is our most powerful feature.** \n\nUse it to search for or take any action in the app.\n\n[LIN-2-cmdk.mov](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/7df9f710-3dd9-48a3-bf5b-5fbf4648f554/LIN-2-cmdk.mov)\n\nIf you prefer **keyboard shortcuts**, type `?` to view our full list.\n\n![LIN-2-c.png](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/541cf66f-7896-44e4-ae6e-f4040d39ff99/LIN-2-c.png)\n\nIf you pr… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -43,10 +37,7 @@
       "title": "Connect to Slack",
       "description": "If your team uses Slack, enable this integration to keep your workflow and communication in sync. \n\n* See issue updates in a dedicated channel.\n* Use the `/linear` command to create new issues from Slack messages.\n* Set up personal Slack notifications.\n* Import custom emoji 🥳 to your Linear workspace.\n\n[Connect Slack →](https://linear.app/settings/integrations/slack)",
       "status": "Canceled",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -60,10 +51,7 @@
       "title": "Connect GitHub or GitLab",
       "description": "Connect your account to link issues to pull/merge requests and automate your workflow:\n\n* Link Linear issues to pull requests.\n* Automatically update an issue's status when PRs are created or merged.\n* Connect one or multiple repos.\n\n[Connect GitHub or GitLab →](https://linear.app/settings/integrations/github)\n\n## Setup tips\n\n#### How to link a Linear issue to a PR\n\n* **Branch name** (e.g. \"LIN-123\" or \"username/LIN-123\"). To quickly copy branch… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -77,10 +65,7 @@
       "title": "Customize settings",
       "description": "Go to [settings](https://linear.app/settings) to enable features such as Roadmap, explore features and add integrations. Use `G` then `S` to get there.\n\n![image.png](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/558fcd30-245d-4ddf-b15b-d9f18b1f4626/image.png)\n\nVisit individual [team settings](https://linear.app/settings/teams/) to customize features on a team level.\n\n* Configure automated issue workflows for issues linked to PR… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -94,10 +79,7 @@
       "title": "Use Cycles to focus work over n–weeks",
       "description": "Cycles are a practice to keep up your team's momentum. They're similar to agile flavored sprints but help focus your work without tying it to a release date or feature.\n\n* Customize cycles to last between 1-8 weeks.\n* Add issues manually or automatically move issues marked *Todo* to your current cycle.\n* Follow progress overtime with cycle graphs.\n* Any uncompleted issues roll to the next cycle automatically.\n\n![LIN-6.png](https://uploads.linear… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -111,10 +93,7 @@
       "title": "Use Projects to organize work for features or releases",
       "description": "Projects are meant for larger initiatives you have on your roadmap.\n\n* Share projects with multiple teams.\n* Set a target date.\n* View progress and estimate completion timeframe with graphs.\n\n![LIN-7.png](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/7170436d-1372-4f6e-ad7e-363314293f48/LIN-7.png)\n\nLearn more about Projects in the [Linear Guide →](https://linear.app/docs/projects)",
       "status": "Canceled",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -128,10 +107,7 @@
       "title": "✨ProTip: Mouse over this issue & press [Space]",
       "description": "Issue Peek is one the semi-secrets of the Linear UI and a favorite feature\n\n* Turn on/off with the space bar.\n* To scroll through issues, type `J`/`K` or move the mouse.\n* It's especially helpful when viewing your Inbox.\n\n[Issue Peek Video.mov](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/29a1b599-905f-4e5f-84ec-74fe6d064fdd/Issue%20Peek%20Video.mov)",
       "status": "Canceled",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -145,10 +121,7 @@
       "title": "Customize views with View Options and Filters",
       "description": "Customize the sort order of your list and choose what properties show up on issues with [View Options](https://linear.app/docs/view-options). \n\n* Changes persist as personal preferences and are indicated by the purple badge. \n* Press Save to set the configuration as your team's default view.\n\n![LIN-9.png](https://uploads.linear.app/fe63b3e2-bf87-46c0-8784-cd7d639287c8/88879556-ea95-48e6-adbd-2ed9bc1d7488/LIN-9.png)\n\nUse [Filters ](https://linear… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -162,10 +135,7 @@
       "title": "Next Steps",
       "description": "You're all set to use Linear. \n\nYou can now delete these onboarding issues. If you want new members of your workspace to view them, create a new team called Onboarding and move them there. Alternatively, share our [onboarding tutorials](https://linearapp.notion.site/Onboarding-tutorials-and-videos-4e342ee290e64ca9bd38e0876e7a4f4a) with them.\n\n**Want to learn more?**\n\n* Check out our [docs](https://linear.app/docs) to dive into specific features\n… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": null,
       "labels": [],
       "assignee": null,
@@ -370,10 +340,7 @@
       "title": "User Story - Create 24h Visual Canvas",
       "description": "**Description**\nBuild the static 24-hour radial canvas (the base plate) used by SliceFocus. This issue delivers the visual foundation only; interaction and editing are handled in follow-up stories.\n\n**As a** user, **I want** to see a circular 24-hour chart, **so that** I can visualize my day as a complete cycle.\n\n## Scope (In)\n\n* Render a 24-hour circular base timeline.\n* Define visual orientation and time mapping rules.\n* Ensure responsive beha… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 1,
-        "name": "Urgent"
-      },
+      "priority": "Urgent",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -469,10 +436,7 @@
       "title": "User Story - Drag-to-Create (Touch/Mouse Interaction)",
       "description": "**Description**\nImplement drag-to-create behavior on the 24h radial canvas so users can create a time slice directly via mouse or touch gestures.\n\n**As a** user, **I want** to drag on the chart to define a time block, **so that** I can plan quickly without manual time entry.\n\n## Scope (In)\n\n* Pointer/touch down selects start position (`start_time`).\n* Drag gesture updates provisional end position (`end_time`).\n* Gesture release opens Edit Slice … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -492,10 +456,7 @@
       "title": "Constraint: Must work on touch devices (Mobile view).",
       "description": "Define and validate touch-device behavior for drag-to-create interaction.\n\n## Acceptance Criteria\n\n* Interaction is verified on at least one mobile viewport (`360x800` or equivalent).\n* Touch start, drag, and release are all recognized on first attempt under normal use.\n* No accidental scroll/gesture conflicts inside chart interaction area.\n* Touch target area around the ring is sufficient for reliable selection.\n* Drag preview remains responsiv… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -514,10 +475,7 @@
       "title": "Releasing the click/touch opens the \"Edit Slice\" modal with times pre-filled.",
       "description": "On gesture release, open Edit Slice modal with pre-filled times from the drag interaction.\n\n## Acceptance Criteria\n\n* Releasing pointer/touch after valid drag opens Edit Slice modal.\n* Modal receives pre-filled `start_time` and `end_time` from drag state.\n* If drag is invalid (below threshold/outside zone), modal does not open and state resets cleanly.\n* Closing modal without save leaves no phantom slice on chart.\n* Opening modal does not freeze… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -536,10 +494,7 @@
       "title": "Dragging defines the duration ( `end_time` ).",
       "description": "Implement drag behavior that derives `end_time` and provisional duration from pointer movement.\n\n## Acceptance Criteria\n\n* During drag, provisional `end_time` updates continuously from current pointer angle.\n* Duration preview updates in real time and stays visually aligned with ring.\n* Crossing midnight produces correct end-time interpretation.\n* Minimum duration / drag threshold rule is enforced consistently.\n* Reversing drag direction updates… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -558,10 +513,7 @@
       "title": "User can click a point on the chart to define `start_time` .",
       "description": "Implement mapping from initial pointer/touch position to `start_time` on the radial chart.\n\n## Acceptance Criteria\n\n* Pointer-down on the ring calculates a deterministic `start_time`.\n* Mapping follows global orientation rule (`00:00` at top, clockwise).\n* `start_time` is normalized to project precision rule (e.g., nearest minute or configured step).\n* Invalid taps outside effective ring hit zone are ignored safely.\n* Result is exposed to drag f… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -620,10 +572,7 @@
       "title": "User Story—Implement Mock User ID for MVP Data Persistence",
       "description": "**Description**\nImplement a temporary mock user identity flow for MVP development so frontend and backend can persist per-user slice data before real authentication is delivered.\n\n**As a** developer, **I want** a mock user identity mode, **so that** I can build and validate end-to-end CRUD without OAuth blocking progress.\n\n## Scope (In)\n\n* Define one mock user identity contract shared by FE/BE.\n* Add backend toggle for mock-auth behavior.\n* Inje… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -643,10 +592,7 @@
       "title": "Define mock user identity contract",
       "description": "Define the single source of truth for temporary mock identity used by FE and BE.\n\n## Acceptance Criteria\n\n* A deterministic UUID is defined and documented.\n* Contract specifies where identity is passed (preferred: `X-Mock-User-Id` header).\n* Contract specifies precedence and validation rules.\n* Contract includes environment rules (allowed in dev/staging, forbidden in prod).\n* FE/BE config key names and defaults are documented.\n\n## Implementation… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -665,10 +611,7 @@
       "title": "Add backend mock-auth gate in security config",
       "description": "Implement backend security behavior for mock mode as a controlled temporary pathway.\n\n## Acceptance Criteria\n\n* `MOCK_AUTH_ENABLED=true` allows mock pathway for targeted endpoints only.\n* `MOCK_AUTH_ENABLED=false` disables mock pathway completely.\n* Security config does not accidentally open unrelated endpoints.\n* Behavior is deterministic across local/dev/staging configs.\n\n## Implementation Notes\n\n* Apply rules in `SecurityWebFilterChain` with … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -687,10 +630,7 @@
       "title": "Inject mock userId in backend slice flow",
       "description": "When mock mode is enabled, inject mock `userId` into slice request processing before persistence.\n\n## Acceptance Criteria\n\n* Backend resolves mock `userId` from the agreed contract.\n* `userId` is applied consistently for create/read/update/delete slice operations in mock mode.\n* When mock mode is disabled, injection path is bypassed.\n* No null/empty userId reaches persistence layer in mock mode.\n\n## Implementation Notes\n\n* Implement via controll… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -709,10 +649,7 @@
       "title": "Configure frontend API client for mock identity header",
       "description": "Update frontend API client to send mock identity signal only when mock mode is enabled.\n\n## Acceptance Criteria\n\n* Client sends `X-Mock-User-Id` (or agreed field) on slice API calls in mock mode.\n* Client does not send mock identity when mock mode is disabled.\n* Configuration is environment-driven (not hardcoded in request methods).\n* API calls remain compatible with backend once real auth replaces mock mode.\n\n## Implementation Notes\n\n* Centrali… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -838,10 +775,7 @@
       "title": "User Story - MVP Cloud Deployment on Google Cloud",
       "description": "As a developer, I want to deploy SliceFocus to Google Cloud with a minimal, production-ready setup so that real users can access and test the MVP reliably.\n\n## Scope\n\n* Keep infrastructure minimal and low-cost for solo development.\n* Prioritize deployment, reliability, and observability basics.\n* Defer non-essential scaling/compliance hardening to later milestones.\n\n## Done when\n\n* Backend is reachable via HTTPS on a public domain.\n* Data persis… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -861,10 +795,7 @@
       "title": "Decide MVP hosting architecture on GCP",
       "description": "Choose the minimal production architecture for MVP.\n\n* Runtime: Cloud Run\n* Database: Managed PostgreSQL\n* Storage/secrets/networking assumptions documented\n\nDone when:\n\n* Architecture decision is documented with monthly cost estimate and tradeoffs.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -883,10 +814,7 @@
       "title": "Set up GCP project, billing, and budget alerts",
       "description": "Create production GCP project and enforce cost guardrails.\n\nDone when:\n\n* Billing is linked.\n* Budget + alert thresholds are configured.\n* Required APIs are enabled.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -905,10 +833,7 @@
       "title": "Deploy backend service to Cloud Run",
       "description": "Containerize and deploy the backend to Cloud Run with environment configuration.\n\nDone when:\n\n* Service is publicly reachable.\n* Health endpoint returns 200.\n* Runtime secrets/env vars are configured securely.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -927,10 +852,7 @@
       "title": "Provision managed PostgreSQL and automated backups",
       "description": "Provision production database and connect backend.\n\nDone when:\n\n* DB instance is live and accessible from backend.\n* Automated backups are configured.\n* Restore path is documented at a basic level.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -949,10 +871,7 @@
       "title": "Configure custom domain and HTTPS",
       "description": "Map production domain to backend and enforce TLS.\n\nDone when:\n\n* Domain points to deployed service.\n* HTTPS certificate is active.\n* Base API URL is updated in clients/config.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -971,10 +890,7 @@
       "title": "Set up CI/CD for main branch deployment",
       "description": "Automate deployment for main branch with safe defaults.\n\nDone when:\n\n* Main branch triggers build + deploy.\n* Failed deploys are visible.\n* Deployment steps are documented for rollback/redeploy.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -993,10 +909,7 @@
       "title": "Configure monitoring, logging, and error alerts",
       "description": "Add minimum production observability.\n\nDone when:\n\n* Request/error logs are queryable.\n* Uptime and error alerts notify on failure.\n* Alert channel and threshold are documented.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -1015,10 +928,7 @@
       "title": "(Optional) Create staging environment and deployment path",
       "description": "Set up a lightweight staging environment if needed before public release.\n\nDone when:\n\n* Staging deploy target exists.\n* Environment isolation from production is verified.\n* Decision to keep or defer staging is documented.",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "4977aa7b-23bb-4d71-97d3-3ef4735b9332",
         "name": "The \"Visual Core\" (MVP - Minimum Viable Product)"
@@ -1037,10 +947,7 @@
       "title": "M2-01 Align FE/BE identity contract for protected APIs",
       "description": "Establish one identity contract for Milestone 2 across frontend and backend (mock mode now, real auth later) so slice/timer APIs can be safely consumed.\n\n## Acceptance Criteria\n\n* FE and BE use the same header names and environment keys for identity context.\n* Contract specifies behavior per environment (`dev`, `test`, `prod`) and default values.\n* BE rejects missing/invalid identity context on protected endpoints with consistent error payload.\n… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1060,10 +967,7 @@
       "title": "M2-02 Implement Slice CRUD API in BE (OpenAPI + controller/service)",
       "description": "Implement the slice API surface needed by FE and Focus Engine flows.\n\n## Acceptance Criteria\n\n* OpenAPI includes slice endpoints for create/read/update/delete under `/api/slices`.\n* Generated interfaces are implemented by BE controllers/services.\n* Operations are user-scoped (users can only access their own slices).\n* Validation covers invalid time ranges and malformed payloads.\n* Error responses follow existing global error contract.\n\n## Dependencies\n\n* Depends on `M2-01` contract alignment.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1082,10 +986,7 @@
       "title": "M2-03 Implement FE day plan repository backed by BE slices API",
       "description": "Replace in-memory sample slices with backend-backed day plan data so a user can persist their own chart.\n\n## Acceptance Criteria\n\n* FE loads the current user’s slices from backend on app start/page open.\n* FE create/update/delete actions persist via API and refresh UI state.\n* Existing radial editor behavior remains functional with persisted data.\n* Empty-state UX is handled when no slices exist.\n* API failures surface user-friendly errors and d… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1104,10 +1005,7 @@
       "title": "M2-04 Add BE focus_sessions schema and persistence model",
       "description": "Create persistence layer for focus sessions used by Pomodoro lifecycle.\n\n## Acceptance Criteria\n\n* Flyway migration adds `focus_sessions` table with user linkage, slice linkage, phase/state, start/pause/resume/stop timestamps.\n* Entity/repository model is added and mapped cleanly.\n* Indexes support active-session lookup per user.\n* Migration is backward compatible with existing environments.\n\n## Dependencies\n\n* Depends on `M2-03` so user chart persistence path exists before timer sessions.",
       "status": "Done",
-      "priority": {
-        "value": 1,
-        "name": "Urgent"
-      },
+      "priority": "Urgent",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1126,10 +1024,7 @@
       "title": "M2-05 Implement BE Pomodoro state machine module",
       "description": "Implement deterministic Pomodoro phase transitions for `WORK`, `SHORT_BREAK`, `LONG_BREAK`.\n\n## Acceptance Criteria\n\n* Transition rules are implemented in a dedicated module/service.\n* Invalid transitions are rejected with explicit domain errors.\n* Duration configuration is centralized and testable.\n* Unit tests cover normal and edge transition paths.\n\n## Dependencies\n\n* Depends on `M2-04`.",
       "status": "Done",
-      "priority": {
-        "value": 1,
-        "name": "Urgent"
-      },
+      "priority": "Urgent",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1148,10 +1043,7 @@
       "title": "M2-06 Implement BE Focus Session API linked to sliceId",
       "description": "Expose session lifecycle endpoints to start, pause, resume, stop, and fetch active session for the current user.\n\n## Acceptance Criteria\n\n* API endpoints exist for start/pause/resume/stop/get-active.\n* Start operation requires `sliceId` and binds session to that slice.\n* Responses include enough timing/state data for FE countdown rendering.\n* API contract is documented in OpenAPI and generated interfaces are implemented.\n\n## Dependencies\n\n* Depends on `M2-05`.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1170,10 +1062,7 @@
       "title": "M2-07 Enforce BE slice-linked session guardrails",
       "description": "Add business rules and authorization checks for slice-linked focus sessions.\n\n## Acceptance Criteria\n\n* User can only manipulate sessions for slices they own.\n* Session behavior at/after slice boundary is enforced by backend.\n* Concurrent active sessions per user are prevented.\n* Invalid operations return consistent domain errors.\n\n## Dependencies\n\n* Depends on `M2-06`.",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1192,10 +1081,7 @@
       "title": "M2-08 Build FE timer panel UI for focus session control",
       "description": "Build timer UI surface for active focus sessions.\n\n## Acceptance Criteria\n\n* UI shows current phase, countdown, and session status.\n* Controls for start/pause/resume/stop are available and state-aware.\n* Control actions call backend APIs and reflect loading/error states.\n* Layout works on mobile and desktop breakpoints.\n\n## Dependencies\n\n* Depends on `M2-07`.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1214,10 +1100,7 @@
       "title": "M2-09 Implement FE session sync model using server time",
       "description": "Keep FE timer state synchronized with backend session timestamps to avoid drift and recover after app restarts.\n\n## Acceptance Criteria\n\n* FE computes remaining time from server timestamps, not local optimistic counters only.\n* App reload/reopen restores active session correctly.\n* Drift correction behavior is defined and tested.\n* Offline/error fallback is handled without corrupting active session state.\n\n## Dependencies\n\n* Depends on `M2-08`.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1236,10 +1119,7 @@
       "title": "M2-10 Add FE action to start focus from selected slice",
       "description": "Integrate radial canvas selection with Focus Session start flow.\\\\n\\\\n## Acceptance Criteria\\\\n\\\\n| \\\\# | Criterion | Status | Delivered By |\\\\n| -- | -- | -- | -- |\\\\n| 1 | User can start a focus session from a selected slice | **Done** | MER-102 (context menu) + MER-61 (session sync) |\\\\n| 2 | Selected `sliceId` is sent to BE start-session API | **Done** | MER-60 (HTTP repository + `startSession()`) |\\\\n| 3 | UI clearly indicates which slice i… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1258,10 +1138,7 @@
       "title": "M2-11 Implement slice-end behavior and in-app transition notice",
       "description": "Handle timer behavior when current slice ends and inform user.\n\n## Acceptance Criteria\n\n* When slice boundary is reached, FE reflects BE transition/stop outcome.\n* User receives an in-app notice for slice transition.\n* No duplicate transitions are triggered by repeated polling/refresh.\n* Edge case around midnight crossover is covered.\n\n## Dependencies\n\n* Depends on `M2-10`.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1280,10 +1157,7 @@
       "title": "M2-12 Milestone quality gate: tests, reliability checks, and docs update",
       "description": "Finalize Milestone 2 with explicit quality gates before milestone completion.\n\n## Acceptance Criteria\n\n* BE unit + component tests cover new slice/session/state-machine behavior.\n* FE widget/integration tests cover timer controls, session sync, and slice-linked start flow.\n* API contracts and key flows are documented (OpenAPI + design/runbook updates).\n* Exit checklist confirms no critical regressions and milestone acceptance criteria are met.\n\n… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -1372,10 +1246,7 @@
       "title": "M2-02a Define slice OpenAPI contract (models, validation, errors, security)",
       "description": "Define and finalize the contract-first OpenAPI surface for slices.\n\n## Scope\n\n* Add `SliceRequest` and `SliceResponse` schemas to `slicefocus-api.yaml`.\n* Ensure schema fields map to existing slice entity fields (`taskName`, `startTime`, `endTime`) and include id/metadata as required by current API style.\n* Mark required fields explicitly.\n* Add format constraints (e.g., `date-time`) and payload constraints needed for request validation.\n* Defin… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1391,10 +1262,7 @@
       "title": "M2-02b Define `/api/slices` endpoints and explicit update semantics",
       "description": "Add and document REST endpoints for slice CRUD with explicit update behavior.\n\n## Scope\n\n* Define endpoints:\n  * `POST /api/slices`\n  * `GET /api/slices`\n  * `GET /api/slices/{id}`\n  * `PUT /api/slices/{id}`\n  * `DELETE /api/slices/{id}`\n* Document `PUT` as full replacement semantics (all mutable fields required).\n* Ensure request/response shapes and operation descriptions are unambiguous for FE and BE implementation.\n\n## Acceptance Criteria\n\n* … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1410,10 +1278,7 @@
       "title": "M2-02c Generate API interfaces/models from updated OpenAPI spec",
       "description": "Regenerate API interfaces/models after OpenAPI updates and wire them into the backend build flow.\n\n## Scope\n\n* Run `./mvnw clean generate-sources` after contract updates.\n* Ensure generated `SliceApi` interface and related model classes are available and compile.\n* Verify generated output is aligned with chosen endpoint semantics and validation schema definitions.\n\n## Acceptance Criteria\n\n* Generation succeeds with no spec validation errors.\n* G… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1429,10 +1294,7 @@
       "title": "M2-02d Implement SliceService with strict user-scoped repository access",
       "description": "Implement service-layer business logic and mapping for slice CRUD with user scoping enforced at query level.\n\n## Scope\n\n* Create `SliceService` in `com.anunnakicosmo.slicefocus.application`.\n* Inject current user identity (from security context / resolved identity contract) for every operation.\n* Use `SliceRepository` with user-scoped access patterns (`findByIdAndUserId`, `findAllByUserId`, delete/update checks by user).\n* Implement mapping betw… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1448,10 +1310,7 @@
       "title": "M2-02e Implement SliceController and global exception mapping",
       "description": "Implement controller layer for generated API and ensure domain exceptions map to contract-compliant HTTP responses.\n\n## Scope\n\n* Create `SliceController` in `com.anunnakicosmo.slicefocus.api` implementing generated `SliceApi`.\n* Delegate business logic to `SliceService` only.\n* Ensure `SliceNotFoundException` maps to `404 Not Found` via `GlobalExceptionHandler`.\n* Ensure ownership/authorization and validation errors map to expected global error … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1467,10 +1326,7 @@
       "title": "M2-02f Verify slice API with unit + component tests (including negative/auth cases)",
       "description": "Add comprehensive verification for business logic and API behavior, including failure paths.\n\n## Scope\n\n* Create `SliceServiceTest` for business logic and mapping.\n* Add component tests (`slices.feature`) for end-to-end endpoint behavior.\n* Cover negative cases:\n  * invalid payload/malformed body\n  * `startTime >= endTime`\n  * user A accessing/modifying user B slice\n  * not found by id\n* Assert both status codes and error payload shape match glo… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1486,10 +1342,7 @@
       "title": "M2-03a Define domain SliceRepository contract",
       "description": "Create the repository interface in the domain layer to decouple presentation from data source.\n\n## Scope\n\n* Path: `lib/src/features/home/domain/repositories/slice_repository.dart`\n* Define methods:\n  * `Future<List<DaySlice>> fetchSlices()`\n  * `Future<void> saveSlice(DaySlice slice)`\n  * `Future<void> updateSlice(DaySlice slice)`\n  * `Future<void> deleteSlice(String id)`\n\n## Acceptance Criteria\n\n* Interface exists in domain layer.\n* Home featur… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1505,10 +1358,7 @@
       "title": "M2-03b Add DaySlice API mapping (DTO/serialization)",
       "description": "Enable DaySlice data exchange with backend payloads while keeping mapping explicit.\n\n## Scope\n\n* Update/add mapping around `lib/src/features/home/domain/day_slice.dart`.\n* Add `fromJson()` and `toJson()` support (directly in model or via DTO + mapper according to current architecture).\n* Align fields with backend slices schema.\n* Define color representation mapping (hex string or integer) consistently.\n\n## Acceptance Criteria\n\n* Incoming API JSO… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1524,10 +1374,7 @@
       "title": "M2-03c Implement HTTP SliceRepository using ApiClient",
       "description": "Create concrete repository implementation that integrates with backend `/api/slices` endpoints.\n\n## Scope\n\n* Path: `lib/src/features/home/data/repositories/http_slice_repository.dart`\n* Use existing `ApiClient` for requests.\n* Map JSON from `ApiResponse` into `DaySlice` via mapping layer.\n* Implement CRUD operations for fetch/save/update/delete.\n* Handle non-2xx responses and network failures with consistent error propagation.\n\n## Acceptance Cri… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1543,10 +1390,7 @@
       "title": "M2-03d Wire SliceRepository via dependency injection",
       "description": "Add composition/wiring so Home feature can receive repository abstraction and switch implementations by environment.\n\n## Scope\n\n* Register `SliceRepository` implementation in app composition root.\n* Wire `HttpSliceRepository` for backend-enabled environments.\n* Keep compatibility for mock/stub setup where needed.\n\n## Acceptance Criteria\n\n* Home feature resolves `SliceRepository` through DI (no direct concrete construction in UI).\n* Environment/c… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1562,10 +1406,7 @@
       "title": "M2-03e Integrate repository-backed state into Home page",
       "description": "Replace hardcoded sample slices in Home UI with repository-driven state and proper loading/error handling.\n\n## Scope\n\n* Path: `lib/src/features/home/presentation/home_page.dart`\n* Replace `_sampleSlices` with dynamic data from `SliceRepository`.\n* Trigger initial fetch in `initState`.\n* Implement loading, empty, success, and error states (FutureBuilder/ValueNotifier/state management already used by project).\n\n## Acceptance Criteria\n\n* Home page … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1581,10 +1422,7 @@
       "title": "M2-03f Add verification tests for HTTP SliceRepository",
       "description": "Add unit tests to validate repository behavior and edge-case handling with mocked HTTP.\n\n## Scope\n\n* Path: `test/http_slice_repository_test.dart`\n* Mock `http.Client`/API layer interactions.\n* Verify CRUD success mapping paths.\n* Verify non-2xx handling and backend error propagation.\n* Verify malformed/invalid JSON handling.\n* Verify empty list behavior and not-found update/delete behavior.\n* Verify `X-Mock-User-Id` header attachment when `MOCK_… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1600,10 +1438,7 @@
       "title": "M2-13 Add slice add/remove UX via right-click (desktop) and long-press (mobile)",
       "description": "Enable explicit slice CRUD actions directly on the day pie, beyond edge-resize interactions.\n\n## Problem\n\nCurrent behavior relies mostly on drag/edge adjustments. Users need a direct way to add and remove slices from a contextual action menu.\n\n## Scope\n\n* Desktop: right-click on pie opens context menu.\n* Mobile: long-press on pie opens context menu.\n* Context menu actions are context-aware by clicked slice type (`Unplanned` vs planned).\n\n## Inte… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1619,10 +1454,7 @@
       "title": "M2-14 Replace canvas title with selected date and add day-to-day navigation",
       "description": "Replace static header text with date-aware UI and allow navigating slices by day.\n\n## Problem\n\nCurrent screen title (`24-Hour Visual Canvas`) does not communicate which day is being viewed. Users need to navigate previous/next dates and load that day’s slices from persistence.\n\n## Scope\n\n* Remove static title text `24-Hour Visual Canvas` from the page body.\n* Show selected date in header area (default: today in user locale).\n* Add date navigatio… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1638,10 +1470,7 @@
       "title": "M2-14a Add BE/API support for date-scoped slice retrieval",
       "description": "Parent: MER-83\n\nEnable backend and API contract support to fetch slices by a specific calendar day.\n\n## Scope\n\n* Define date-scoped slice query contract in OpenAPI (e.g., query param `date=YYYY-MM-DD` or equivalent endpoint design).\n* Implement backend controller/service/repository flow to return slices for selected date and current user.\n* Ensure timezone/date-boundary behavior is explicit and deterministic.\n* Keep existing non-date behavior ba… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -1657,10 +1486,7 @@
       "title": "M2-14b FE selected-date header and previous/next day navigation",
       "description": "Parent: MER-83\n\nImplement FE date-aware header and day navigation for the radial canvas.\n\n## Scope\n\n* Remove static body title `24-Hour Visual Canvas`.\n* Show selected date in header area (default: today, locale-formatted).\n* Add previous/next day controls and optional `Today` action.\n* Fetch/render slices for selected date via repository API.\n* Keep add/edit/remove slice flows scoped to selected date.\n\n## Acceptance Criteria\n\n* Selected date is… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1676,10 +1502,7 @@
       "title": "Fix slice-create persistence: avoid unintended saving of unplanned remainder",
       "description": "Parent: MER-82\n\n## Bug\n\nWhen creating a new planned slice, the app currently persists both:\n\n1. the newly planned slice, and\n2. the remaining unplanned segment.\n\nThis causes unexpected data behavior and user confusion.\n\n## Expected\n\nCreating a planned slice should not unintentionally persist extra unplanned records unless explicitly required by final domain design.\n\n## Scope\n\n* Reproduce and document current persistence behavior for create flow.… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1975,10 +1798,7 @@
       "title": "MER-85.1 FE UI/header/nav for selected date",
       "description": "Parent: MER-85\n\nImplement the UI pieces for date-aware day navigation in the radial canvas screen.\n\n## Scope\n\n* Remove static body title `24-Hour Visual Canvas`.\n* Show selected date in header, locale-formatted (example: `Wed, Mar 4, 2026`).\n* Add `Previous Day` and `Next Day` controls.\n* Add optional `Today` quick action.\n\n## Acceptance Criteria\n\n* Static body title is removed.\n* Header displays selected date with clear locale formatting.\n* Pre… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -1994,10 +1814,7 @@
       "title": "MER-85.2 FE selectedDate state and date-scoped fetch wiring",
       "description": "Parent: MER-85\n\nImplement selected date state management and data refresh behavior.\n\n## Scope\n\n* Maintain `selectedDate` state defaulting to current local date.\n* Update state by ±1 day from nav controls.\n* Trigger repository fetch when date changes.\n* Render fetched slices for the selected date.\n\n## Acceptance Criteria\n\n* Initial screen uses current local date.\n* Prev/next changes date by exactly one calendar day.\n* Date change triggers a refre… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2013,10 +1830,7 @@
       "title": "MER-85.3 FE keep create/edit/remove interactions date-scoped",
       "description": "Parent: MER-85\n\nEnsure existing canvas interactions remain correct when the selected day changes.\n\n## Scope\n\n* Keep create/edit/remove flows operating on the active `selectedDate`.\n* Preserve existing context-menu and modal behavior from MER-82.\n* Ensure persistence/reload reflects operations on the correct date only.\n\n## Acceptance Criteria\n\n* Create/edit/remove actions target selected date.\n* Navigating to another day does not leak or mutate w… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2032,10 +1846,7 @@
       "title": "MER-85.4 FE empty-day normalization to single Unplanned fallback",
       "description": "Parent: MER-85\n\nHandle selected dates with no planned slices by rendering a normalized full-day unplanned state.\n\n## Scope\n\n* If API returns no slices for selected date, render single normalized `Unplanned` segment.\n* Represent fallback as full-day interval (`00:00-00:00`) in chart logic.\n* Keep fallback visual-only unless domain rules explicitly require persistence.\n\n## Acceptance Criteria\n\n* Empty day shows full-day `Unplanned` fallback.\n* Fal… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2051,10 +1862,7 @@
       "title": "MER-85.5 FE tests for date rendering, navigation, and empty-day behavior",
       "description": "Parent: MER-85\n\nAdd regression coverage for date-aware navigation behavior in the radial canvas feature.\n\n## Scope\n\n* Add widget tests for selected date rendering/formatting.\n* Add widget tests for previous/next (and Today if implemented) navigation actions.\n* Add tests for empty-day fallback behavior.\n* Add regression checks that interactions continue to work after day switch.\n\n## Acceptance Criteria\n\n* Tests pass in CI and cover key navigation… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2070,10 +1878,7 @@
       "title": "MER-60.1 Timer Panel UI (Countdown + Phase + Status)",
       "description": "Build the timer panel UI showing remaining time, current phase (`Focus`, `Short Break`, `Long Break`), and session status (`Active`, `Paused`, `Stopped`). Ensure clean layout behavior on mobile and desktop.\n\n## Acceptance Criteria\n\n* Timer displays remaining time in `MM:SS`.\n* Phase label is always visible and updates correctly.\n* Session status is always visible and updates correctly.\n* Layout works at mobile and desktop breakpoints without ove… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2089,10 +1894,7 @@
       "title": "MER-60.2 Session Controls (Start/Pause/Resume/Stop)",
       "description": "Implement action controls and state-aware behavior for session lifecycle actions. Controls must reflect the current session state and prevent invalid actions.\n\n## Acceptance Criteria\n\n* Buttons for `Start`, `Pause`, `Resume`, `Stop` are implemented.\n* Only valid actions are enabled/visible per current state.\n* During API requests, relevant controls are disabled and show loading feedback.\n* Failed actions surface user-visible error feedback.\n* Double-submit/race behavior is prevented.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2108,10 +1910,7 @@
       "title": "MER-60.3 Backend Integration & Server-Time Sync",
       "description": "Connect timer UI and controls to backend session APIs and ensure UI state is derived from backend truth. Timer must stay aligned with server-side time/state.\n\n## Acceptance Criteria\n\n* All control actions call the correct backend endpoints.\n* UI reads and renders backend session state on load/refresh.\n* Countdown uses server-derived timing (or offset sync) to avoid drift.\n* Polling/re-fetch or equivalent keeps UI consistent with backend changes.… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2127,10 +1926,7 @@
       "title": "MER-60.4 Test Coverage & Acceptance Validation",
       "description": "Add tests and QA checks validating control actions, state transitions, and responsive behavior for the timer feature.\n\n## Acceptance Criteria\n\n* Automated tests verify each control triggers the correct backend action.\n* Tests verify UI state transitions for active/paused/stopped flows.\n* Tests verify phase/timer rendering updates correctly from backend data.\n* Responsive checks cover at least one mobile and one desktop viewport.\n* Regression che… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2146,10 +1942,7 @@
       "title": "M2-09 Add BE pause/resume endpoints for focus session lifecycle",
       "description": "Backend currently supports `Start`, `Stop`, and `Advance` but does not expose `Pause`/`Resume` for focus sessions. Implement pause/resume APIs and session state handling so FE controls in `MER-113` can be completed.\n\n## Acceptance Criteria\n\n* Add endpoint to pause an active focus session.\n* Add endpoint to resume a paused focus session.\n* Enforce valid state transitions (`Active -> Paused`, `Paused -> Active`) and reject invalid transitions.\n* A… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -2165,10 +1958,7 @@
       "title": "Compute remaining time from server timestamps",
       "description": "Instead of relying on local optimistic counters, compute remaining session time using server-provided timestamps (e.g., `serverEndTime - DateTime.now()`).\n\n## Tasks\n\n* Parse server session response timestamps (startedAt, endsAt, etc.)\n* Build a time-remaining calculator that derives countdown from server timestamps\n* Replace any purely local countdown logic with server-timestamp-based computation\n\n## Acceptance Criteria\n\n* Timer display is drive… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2184,10 +1974,7 @@
       "title": "Restore active session on app reload/reopen",
       "description": "On app start or resume, fetch the active session from the backend and reconstruct the timer state so the user sees the correct remaining time.\n\n## Tasks\n\n* On app init/resume, call backend to check for an active session\n* If active session exists, reconstruct timer state from server timestamps\n* Handle case where session has already expired while app was closed\n\n## Acceptance Criteria\n\n* Closing and reopening the app correctly restores an in-pro… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2203,10 +1990,7 @@
       "title": "Define and implement drift correction strategy",
       "description": "Periodically re-sync the local timer with the server to correct any clock drift that accumulates over time.\n\n## Tasks\n\n* Define drift correction strategy (e.g., poll interval, adjustment threshold)\n* Implement periodic server re-sync during active sessions\n* Smoothly adjust displayed time when drift is detected (avoid jarring jumps for small corrections)\n\n## Acceptance Criteria\n\n* Drift correction strategy is documented\n* Timer stays accurate ov… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2222,10 +2006,7 @@
       "title": "Handle offline/error fallback without corrupting session state",
       "description": "Gracefully handle network errors during sync operations so the active session is not lost or corrupted.\n\n## Tasks\n\n* Continue with last-known server state when sync fails\n* Implement retry logic for transient network errors\n* Ensure no state corruption if multiple sync attempts fail\n* Show appropriate UI feedback for offline/error conditions\n\n## Acceptance Criteria\n\n* Network errors during sync do not crash or corrupt the active session\n* Timer … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2241,10 +2022,7 @@
       "title": "Write tests for session sync, drift correction, and error handling",
       "description": "Comprehensive test coverage for the session sync model.\n\n## Tasks\n\n* Unit tests for server-timestamp-based time computation\n* Unit tests for drift correction logic (thresholds, smooth adjustment)\n* Tests for session restore on app reload (active session, expired session, no session)\n* Tests for offline/error fallback (network failure during sync, retry behavior)\n* Integration-style tests verifying end-to-end sync flow with mocked backend\n\n## Acc… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2260,10 +2038,7 @@
       "title": "Add phaseStartedAt timestamp to focus session API response",
       "description": "The FE session sync model (MER-61) needs a server-authoritative timestamp for when the current phase (work/short break/long break) started, so it can compute remaining time accurately.\n\n## Context\n\nCurrently the focus session API response includes `startTime` (overall session start) but no indicator of when the **current phase** began. After an advance (e.g., WORK → SHORT_BREAK), the FE has no way to know when the new phase started. It currently… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [],
       "assignee": "Mert Ertuğrul",
@@ -2277,10 +2052,7 @@
       "title": "Offline resilience: queue focus session actions when network is unavailable",
       "description": "## Context\n\nDuring manual testing of MER-61, the timer correctly continues ticking when the network is disconnected. However, actions like **pause**, **resume**, **stop**, and **advance** fail with an error snackbar because the API calls cannot reach the backend.\n\n## Current Behavior\n\n* Timer keeps counting down offline (correct)\n* Pause/Resume/Stop/Advance show error snackbar on network failure\n* No optimistic UI update — the UI stays in the pr… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2300,10 +2072,7 @@
       "title": "Highlight active focus slice on radial canvas",
       "description": "## Context\n\nMER-62 requires the UI to clearly indicate which slice is currently active. The TimerPanel shows session info, but the radial canvas has no visual distinction for the active slice.\n\n## Requirements\n\n* Pass `activeSliceId` (from `FocusSession.sliceId`) through to `DayCanvas` and `_DayCanvasPainter`\n* Match `activeSliceId` against slice IDs in the painter\n* Draw a visual highlight (e.g., thicker stroke, glow, or pulsing border) on the … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2322,10 +2091,7 @@
       "title": "Add active slice indicator to legend",
       "description": "## Context\n\nMER-62 requires the UI to clearly indicate which slice is currently active. The slice legend (`_SliceLegendItem`) has no styling to distinguish the active slice.\n\n## Requirements\n\n* Pass `activeSliceId` to the legend widget\n* Show a badge, icon, or distinct background on the legend item matching the active slice\n* Handle null/no active session gracefully\n\n## Files to modify\n\n* `lib/src/features/home/presentation/home_page.dart` — legend section, `_SliceLegendItem`",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2344,10 +2110,7 @@
       "title": "Add widget tests for Start Focus flow and active slice indicator",
       "description": "## Context\n\nMER-62's \"Start Focus\" flow and active slice visual indicator have no dedicated widget test coverage.\n\n## Requirements\n\n* Test that \"Start Focus\" context menu option calls repository with correct sliceId\n* Test error SnackBars for conflict (409) and validation (422) failures\n* Test that canvas highlights the active slice when a session is running\n* Test that legend shows active indicator for the correct slice\n\n## Files to create/modi… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2366,10 +2129,7 @@
       "title": "Refactor focus timer to run locally, persist only completed sessions",
       "description": "## Context\n\nThe current focus timer makes server round-trips for every pause/resume/advance/stop, creating:\n\n* Complex state sync bugs (e.g. `phaseStartedAt` resetting on resume — MER-113 fix)\n* Unnecessary network dependency during focus sessions\n* Loading spinners on button presses\n* A server-side state machine that duplicates what should be local UI logic\n\n## Proposed Architecture\n\n**Local (Flutter):**\n\n* Pomodoro timer runs entirely in-memor… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2386,10 +2146,7 @@
       "title": "MER-127.1 Add POST /complete endpoint for finished focus sessions",
       "description": "## Scope (BE)\n\nAdd a new endpoint to receive completed focus session data from the FE.\n\n### Endpoint\n\n`POST /api/focus-sessions/complete`\n\n```json\n{\n  \"sliceId\": \"focus-work\",\n  \"taskName\": \"Deep Work\",\n  \"completedCycles\": 4,\n  \"totalFocusMinutes\": 100,\n  \"startedAt\": \"2026-03-05T08:00:00Z\",\n  \"finishedAt\": \"2026-03-05T10:15:00Z\"\n}\n```\n\n### Acceptance Criteria\n\n- [ ] Endpoint accepts completed session summary and persists it\n- [ ] Validates req… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2408,10 +2165,7 @@
       "title": "MER-127.2 Build local FocusTimerController with pomodoro state machine",
       "description": "## Scope (FE)\n\nCreate a pure Dart `FocusTimerController` that manages the full pomodoro lifecycle locally.\n\n### Requirements\n\n* 25min work → 5min short break → repeat, long break (15-30min) after 4 cycles\n* Pause/resume/advance/stop — all in-memory, instant\n* Expose stream or ChangeNotifier for UI binding (countdown, phase, cycle count)\n* Track: completed cycles, total focus minutes, start/end times\n* Decision: persist to SharedPreferences for a… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2430,10 +2184,7 @@
       "title": "MER-127.3 Wire TimerPanel to local controller and POST /complete on finish",
       "description": "## Scope (FE)\n\nReplace the server-driven TimerPanel with the local `FocusTimerController` and send completed session data to `POST /complete`.\n\n### What Changes\n\n* `TimerPanel` listens to `FocusTimerController` instead of server session state\n* Remove `_resumedFromPause` workaround, `phaseStartedAt`/`remainingSeconds` sync, 30s poll timer\n* Remove `HttpFocusSessionRepository` methods for pause/resume/advance/stop\n* Keep `startSession` API call (… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2452,10 +2203,7 @@
       "title": "MER-127.4 Remove deprecated BE real-time session endpoints",
       "description": "## Scope (BE)\n\nClean up server-side code that is no longer needed after the FE runs the timer locally.\n\n### Remove\n\n* `PUT /{id}/pause`, `PUT /{id}/resume`, `PUT /{id}/advance`, `PUT /{id}/stop` endpoints\n* Server-side state machine (RUNNING/PAUSED transitions)\n* `phaseStartedAt` and `remainingSeconds` fields from active session responses\n\n### Keep\n\n* `POST /api/focus-sessions` (start — for validation/conflict prevention)\n* `GET /api/focus-sessi… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "ee052d8d-64f2-43d6-922c-540078bf971a",
         "name": "The \"Focus Engine\""
@@ -2474,10 +2222,7 @@
       "title": "Extract `containsMinute` to DaySlice model",
       "description": "Move the `_sliceContainsMinute` logic currently private in `ExpandedCanvasRegion` into `DaySlice` as a public `containsMinute(int minute)` method.\n\nThis avoids duplicating midnight-wrap logic and makes it reusable for the slice-end watcher.\n\n## Details\n\n* Handle normal slices: `minute >= startMinute && minute < endMinute`\n* Handle midnight-wrapping slices: `minute >= startMinute || minute < endMinute`\n* Update `ExpandedCanvasRegion` to call `sli… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2493,10 +2238,7 @@
       "title": "Add slice-end wall-clock watcher in HomePage",
       "description": "Add a `Timer.periodic` in `_HomePageState` that checks whether the current wall-clock time has crossed the active slice's `endMinute`.\n\n## Details\n\n* Tick every \\~30 seconds (or aligned to the minute)\n* Look up the active slice by `_activeSliceId` from the loaded slices list\n* Compute `nowMinute = DateTime.now().hour * 60 + DateTime.now().minute`\n* Use `activeSlice.containsMinute(nowMinute)` — when it returns `false`, the boundary has been cross… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2512,10 +2254,7 @@
       "title": "Add deduplication guard for slice-end transition",
       "description": "Prevent duplicate slice-end transitions from repeated timer ticks or widget rebuilds.\n\n## Details\n\n* Add a `bool _sliceEndHandled` flag in `_HomePageState`\n* Set to `true` when the slice-end auto-stop fires\n* Reset to `false` when a new focus session starts (`_handleStartFocus`)\n* The watcher should check this flag before triggering auto-stop\n* Ensures the acceptance criterion \"No duplicate transitions are triggered by repeated polling/refresh\" is met",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2531,10 +2270,7 @@
       "title": "Auto-stop focus session on slice-end",
       "description": "When the wall-clock watcher detects the slice boundary has been crossed, automatically stop the focus session.\n\n## Details\n\n* Call `_timerController.stop()` to produce `FocusSessionSummary`\n* Fire-and-forget `completeSession(summary)` to persist on the server (existing path)\n* Clear `_activeSliceId` / `_hasActiveTimer` state\n* Reuse the existing `_handleSessionStopped` flow but distinguish it from user-initiated stop (for the notice)\n\n## Depends… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2550,10 +2286,7 @@
       "title": "Show in-app transition notice on slice-end auto-stop",
       "description": "Display a distinct in-app notice when a focus session is auto-stopped due to slice boundary crossing.\n\n## Details\n\n* Show a `SnackBar` or `MaterialBanner` with a message like \"Your scheduled slice has ended. Focus session stopped.\"\n* Visually distinct from the user-initiated stop snackbar so the user understands what happened\n* Consider using a different color/icon (e.g., info blue vs neutral) to differentiate\n\n## Depends on\n\n* Auto-stop focus session on slice-end",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2569,10 +2302,7 @@
       "title": "Add tests for slice-end behavior",
       "description": "Comprehensive test coverage for the slice-end detection and auto-stop flow.\n\n## Tests needed\n\n| Test | Verifies |\n| -- | -- |\n| Unit: `DaySlice.containsMinute` for normal slice | Basic boundary detection |\n| Unit: `DaySlice.containsMinute` for midnight-wrapping slice (23:00→01:00) | Midnight edge case from AC |\n| Unit: watcher fires when `nowMinute` crosses `endMinute` | Core watcher logic |\n| Unit: deduplication — watcher only fires once per se… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "featureFE"
@@ -2588,10 +2318,7 @@
       "title": "Add cancel/force-stop endpoint for active focus sessions",
       "description": "## Problem\n\nWhen a focus session is started but never properly completed (app closed, network failure, crash), the server retains a stale active session. All subsequent `POST /api/focus-sessions` calls return **409 Conflict**, permanently blocking the user from starting new sessions.\n\nThe FE currently has no way to cancel a server-side session without a valid `FocusSessionSummary` from a local timer that was running.\n\n## Solution\n\nAdd a cancel/f… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -2671,10 +2398,7 @@
       "title": "M2-12e BE test coverage: slice/session/state-machine behavior",
       "description": "Ensure BE unit and component (BDD) tests fully cover new slice, session, and state-machine behavior introduced in Milestone 2.\n\n## Scope\n\n* **Unit tests**: Focus session state-machine transitions (`WORK → SHORT_BREAK → LONG_BREAK`), `FocusSession.advance()` logic, completed cycles counter, and edge cases.\n* **Unit tests**: Service-layer guardrails — single active session per user, slice-linked session start validation, pause/resume lifecycle.\n* … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Task"
@@ -2690,10 +2414,7 @@
       "title": "M3-01 Add Spring WebSocket support with STOMP broker",
       "description": "## Goal\n\nSet up the foundational WebSocket infrastructure for real-time session sync across devices.\n\n## Scope\n\n* Add `spring-boot-starter-websocket` dependency\n* Create `WebSocketConfig` class enabling STOMP messaging\n* Configure WebSocket endpoint at `/ws` with SockJS fallback\n* Configure simple in-memory broker for `/topic` destinations\n* Verify WebSocket handshake works in component test\n\n## Acceptance Criteria\n\n* WebSocket endpoint `/ws` ac… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2712,10 +2433,7 @@
       "title": "M3-02 Define WebSocket topic schema and session event messages",
       "description": "## Goal\n\nDefine the message contract for real-time session events broadcast over WebSocket.\n\n## Scope\n\n* Design topic structure: `/topic/user/{userId}/session`\n* Define event payload schema (JSON) covering all session lifecycle events:\n  * `SESSION_STARTED`, `SESSION_ADVANCED`, `SESSION_PAUSED`, `SESSION_RESUMED`, `SESSION_COMPLETED`, `SESSION_CANCELLED`\n* Create event DTO classes (Java records)\n* Add event schema to OpenAPI or a dedicated async… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2734,10 +2452,7 @@
       "title": "M3-03 Broadcast session lifecycle events over WebSocket",
       "description": "## Goal\n\nWire FocusSessionService to broadcast real-time events to connected clients whenever a session lifecycle change occurs.\n\n## Scope\n\n* Inject `SimpMessagingTemplate` into `FocusSessionService`\n* Broadcast events on: start, advance, pause, resume, complete, cancel\n* Send to user-specific topic `/topic/user/{userId}/session`\n* Ensure broadcast happens after successful persistence (not before)\n\n## Acceptance Criteria\n\n* All session lifecycle… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2756,10 +2471,7 @@
       "title": "M3-04 Authenticate WebSocket connections",
       "description": "## Goal\n\nSecure WebSocket connections so only authenticated users can subscribe to their own session topics.\n\n## Scope\n\n* Implement a STOMP `ChannelInterceptor` that validates the bearer token on CONNECT frames\n* Ensure users can only subscribe to their own `/topic/user/{userId}/session` channel\n* Reject unauthenticated or unauthorized connections with appropriate error frames\n* Integrate with the existing auth mechanism (bearer token → identity… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2778,10 +2490,7 @@
       "title": "M3-05 Add device token registration endpoint + schema",
       "description": "## Goal\n\nAllow clients to register their FCM device tokens so the backend can send push notifications.\n\n## Scope\n\n* New Flyway migration: create `devices` table (`id`, `user_id`, `fcm_token`, `platform`, `created_at`, `updated_at`)\n* Unique constraint on `(user_id, fcm_token)` to prevent duplicates\n* New OpenAPI endpoint: `POST /api/devices` (register/update device token)\n* New OpenAPI endpoint: `DELETE /api/devices/{id}` (unregister device)\n* N… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2800,10 +2509,7 @@
       "title": "M3-06 Integrate Firebase Admin SDK for push notifications",
       "description": "## Goal\n\nAdd Firebase Admin SDK to the backend so it can send push notifications to registered devices.\n\n## Scope\n\n* Add `firebase-admin` dependency\n* Create `FirebaseConfig` bean that initializes Firebase App from service account credentials (Secret Manager)\n* Create `PushNotificationService` that sends messages via `FirebaseMessaging`\n* Handle invalid/expired tokens gracefully (remove stale tokens from `devices` table)\n* Configure for dev/test… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2822,10 +2528,7 @@
       "title": "M3-07 Trigger push notifications on session phase transitions",
       "description": "## Goal\n\nSend push notifications to all of a user's registered devices when key session events occur.\n\n## Scope\n\n* Trigger notifications on:\n  * Phase transition (work → break, break → work)\n  * Session completed\n  * Slice-end warning (2 minutes before slice ends, if session is active)\n* Notification payload: title, body, session metadata for deep-linking\n* Send to all user's registered devices (fan-out)\n* Rate-limit to avoid spamming (no duplic… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2844,10 +2547,7 @@
       "title": "M3-08 Add session history endpoint (GET /api/focus-sessions)",
       "description": "## Goal\n\nAllow users to query their past focus sessions for review and analytics.\n\n## Scope\n\n* New OpenAPI endpoint: `GET /api/focus-sessions` with query parameters:\n  * `date` (filter by date, YYYY-MM-DD)\n  * `from` / `to` (date range filter)\n  * `sliceId` (filter by linked slice)\n  * `status` (filter by COMPLETED, CANCELLED, etc.)\n* Pagination support (offset/limit or cursor-based)\n* Response: array of `FocusSessionResponse` (reuse existing sc… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2866,10 +2566,7 @@
       "title": "M3-09 Add session stats/analytics endpoint",
       "description": "## Goal\n\nProvide aggregated productivity statistics so users can track their focus habits over time.\n\n## Scope\n\n* New OpenAPI endpoint: `GET /api/focus-sessions/stats` with query parameters:\n  * `from` / `to` (date range, defaults to current week)\n* Response schema `FocusSessionStatsResponse` (new record):\n  * `totalSessions` (int)\n  * `totalFocusMinutes` (int)\n  * `totalCompletedCycles` (int)\n  * `averageFocusMinutesPerSession` (double)\n  * `da… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2888,10 +2585,7 @@
       "title": "M3-10 Authentication hardening — Google + Apple OIDC validation",
       "description": "## Goal\n\nReplace the placeholder bearer-token-as-email authentication with real JWT/OIDC validation supporting both Google and Apple sign-in.\n\n## Scope\n\n* Add `spring-boot-starter-oauth2-resource-server` dependency\n* Configure two trusted OIDC issuers (Google, Apple) with JWKS validation\n* Replace `BearerTokenAuthenticationFilter` with Spring Security's JWT resource server filter\n* Validate token signature, expiry, issuer, and audience\n* Extract… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2910,10 +2604,7 @@
       "title": "M3-11 Schema audit + analytics indexes",
       "description": "## Goal\n\nEnsure the database schema is optimized for the new session history and analytics queries introduced in M3.\n\n## Scope\n\n* Add index on `focus_sessions(user_id, start_time)` for efficient date-range history queries\n* Add index on `focus_sessions(user_id, status)` for status-filtered queries\n* Add index on `devices(user_id)` for device token lookups\n* Audit existing indexes and foreign key constraints for completeness\n* Review cascade rule… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2932,10 +2623,7 @@
       "title": "M3-12 Milestone quality gate: tests, docs update",
       "description": "## Goal\n\nFinalize Milestone 3 with quality checks, coverage verification, and documentation updates.\n\n## Scope\n\n* Verify `./mvnw verify` passes with JaCoCo thresholds (unit 80%, component 70%)\n* Ensure all new endpoints have BDD/Cucumber scenario coverage\n* Update `docs/system-design.md`:\n  * Add WebSocket architecture section\n  * Add push notification flow\n  * Add session history/analytics endpoints\n  * Update security model for OIDC auth\n  * U… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -2954,10 +2642,7 @@
       "title": "M4-01 Add user preferences schema + entity",
       "description": "## Goal\n\nCreate the persistence foundation for user preferences (theme, soundscape, notification settings).\n\n## Scope\n\n* Flyway migration V16: create `user_preferences` table with columns:\n  * `id` (UUID, PK)\n  * `user_id` (UUID, FK → users, UNIQUE)\n  * `theme` (VARCHAR, default `'LIGHT'`)\n  * `soundscape_id` (VARCHAR, nullable)\n  * `notification_enabled` (BOOLEAN, default true)\n  * `created_at` (TIMESTAMP WITH TIME ZONE, NOT NULL)\n  * `version`… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -2976,10 +2661,7 @@
       "title": "M4-02 Add user preferences API (GET/PUT)",
       "description": "## Goal\n\nExpose user preferences via REST API so clients can read and update theme, soundscape, and notification settings.\n\n## Scope\n\n* Add OpenAPI contract for:\n  * `GET /api/users/preferences` → `UserPreferencesResponse` (200 | 401)\n  * `PUT /api/users/preferences` → `UserPreferencesResponse` (200 | 400 | 401)\n* New schemas:\n  * `UserPreferencesResponse` (record: theme, soundscapeId, notificationEnabled)\n  * `UpdateUserPreferencesRequest` (rec… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -2998,10 +2680,7 @@
       "title": "M4-03 Add \"actual vs planned\" report endpoint",
       "description": "## Goal\n\nProvide users with a comparison report between their scheduled slices (planned) and actual focus sessions (actual) to identify productivity gaps.\n\n## Scope\n\n* New OpenAPI endpoint: `GET /api/reports/actual-vs-planned` with query parameters:\n  * `date` (single day, YYYY-MM-DD)\n  * `from` / `to` (date range filter)\n* New response schema `ActualVsPlannedResponse` (record):\n  * `entries` — array of per-slice comparisons:\n    * `sliceId`, `t… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3020,10 +2699,7 @@
       "title": "M4-04 Add productivity trends endpoint",
       "description": "## Goal\n\nProvide time-series productivity data so users can visualize focus habits over days/weeks.\n\n## Scope\n\n* New OpenAPI endpoint: `GET /api/reports/trends` with query parameters:\n  * `period` — `week` | `month` (defaults to `week`)\n  * `from` (start date, defaults to start of current period)\n* New response schema `ProductivityTrendsResponse` (record):\n  * `period` (week/month)\n  * `from`, `to` (date range covered)\n  * `dailyBreakdown` — arr… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3042,10 +2718,7 @@
       "title": "M4-05 Add OAuth2 account linking flow",
       "description": "## Goal\n\nAllow existing users to link their Google or Apple identity to their account for future OAuth2 login.\n\n## Scope\n\n* Flyway migration: add columns to `users` table:\n  * `oauth_provider` (VARCHAR, nullable — e.g. `GOOGLE`, `APPLE`)\n  * `oauth_subject` (VARCHAR, nullable — provider's unique subject ID)\n  * Unique constraint on `(oauth_provider, oauth_subject)`\n* Extend `User` entity with new fields\n* New OpenAPI endpoint: `POST /api/auth/li… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3064,10 +2737,7 @@
       "title": "M4-06 Add soundscape catalog endpoint",
       "description": "## Goal\n\nProvide a discoverable list of available soundscapes so clients can present options and persist the user's choice.\n\n## Scope\n\n* New OpenAPI endpoint: `GET /api/soundscapes` → `SoundscapeCatalogResponse` (200)\n* Response schema `SoundscapeCatalogResponse` (record):\n  * `soundscapes` — array of:\n    * `id` (string — stable identifier, e.g. `rain`, `forest`, `cafe`)\n    * `name` (string — display name)\n    * `category` (string — e.g. `Natu… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3086,10 +2756,7 @@
       "title": "M4-07 Add analytics indexes",
       "description": "## Goal\n\nEnsure reporting queries perform well as data grows by adding targeted composite indexes.\n\n## Scope\n\n* Flyway migration V17 (or appropriate next version):\n  * `CREATE INDEX idx_focus_sessions_user_start ON focus_sessions(user_id, start_time)`\n  * `CREATE INDEX idx_focus_sessions_user_status_created ON focus_sessions(user_id, status, created_at)`\n  * `CREATE INDEX idx_focus_sessions_slice_status ON focus_sessions(slice_id, status)`\n* All… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3108,10 +2775,7 @@
       "title": "M4-08 Add CI pipeline quality gates",
       "description": "## Goal\n\nEnhance the existing CI/CD pipeline with static analysis and code quality checks.\n\n## Scope\n\n* Add SpotBugs or Checkstyle Maven plugin to `pom.xml`\n* Configure quality rules (start with sensible defaults, not overly strict)\n* Add quality check step to `deploy-dev.yml` workflow (run after `./mvnw verify`)\n* Optional: add Flyway migration validation step for test/prod deployments (dry-run)\n* Optional: add dependency vulnerability scanning… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3130,10 +2794,7 @@
       "title": "M4-09 Milestone quality gate: tests, docs update",
       "description": "## Goal\n\nFinalize Milestone 4 with quality checks, coverage verification, and documentation updates.\n\n## Scope\n\n* Verify `./mvnw verify` passes with JaCoCo thresholds (unit 80%, component 70%)\n* Ensure all new M4 endpoints have BDD/Cucumber scenario coverage\n* Update `docs/system-design.md`:\n  * Add analytics/reporting architecture section\n  * Add user preferences API documentation\n  * Add OAuth2 account linking flow\n  * Add soundscape catalog\n*… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3152,10 +2813,7 @@
       "title": "Add `provider_subject` column to User entity + Flyway migration",
       "description": "## Goal\n\nAdd a stable identity column to the `users` table that stores the OIDC provider's `sub` claim, decoupling identity resolution from email (which can change).\n\n## Scope\n\n* New Flyway migration `V16__add_provider_subject_to_users.sql`:\n  * Add `provider_subject VARCHAR(255)` column (nullable initially for backward compat with existing rows)\n  * Add unique index `idx_users_provider_subject` on `provider_subject`\n* Update `User` entity with … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3171,10 +2829,7 @@
       "title": "Add OAuth2 Resource Server dependency and configure multi-issuer JWT decoder",
       "description": "## Goal\n\nAdd JWT parsing/validation infrastructure supporting both Google and Apple as OIDC issuers.\n\n## Scope\n\n* Add Maven dependencies:\n  * `spring-boot-starter-oauth2-resource-server` (brings in `spring-security-oauth2-jose` + `nimbus-jose-jwt`)\n  * `spring-security-test` (test scope — for `SecurityMockMvcRequestPostProcessors.jwt()`)\n* Create a custom `JwtDecoder` bean that supports multiple issuers:\n  * Route to the correct JWKS endpoint ba… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3190,10 +2845,7 @@
       "title": "Replace BearerTokenAuthenticationFilter with Spring Security JWT resource server",
       "description": "## Goal\n\nWire the multi-issuer JWT decoder into Spring Security's filter chain, replacing the placeholder `BearerTokenAuthenticationFilter`.\n\n## Scope\n\n* Update `SecurityConfig`:\n  * Remove `BearerTokenAuthenticationFilter` bean and its `addFilterBefore` registration\n  * Enable `.oauth2ResourceServer(oauth2 -> oauth2.jwt(...))` with the custom `JwtDecoder`\n  * Configure `JwtAuthenticationConverter` to extract principal from JWT claims\n  * Ensure… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3209,10 +2861,7 @@
       "title": "Implement JWT-based user resolution and auto-provisioning",
       "description": "## Goal\n\nUpdate user identity resolution to use verified JWT claims (`sub`, `email`) and auto-provision users on first valid token.\n\n## Scope\n\n* Update `UserService.resolveCurrentUser()`:\n  * Extract `sub` (provider subject) and `email` from the JWT `Authentication` object (which is now a `JwtAuthenticationToken`)\n  * Look up user by `provider_subject` first (stable identity), then fall back to `email` for migration of existing users\n  * If user… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3228,10 +2877,7 @@
       "title": "Handle Apple first-login profile data capture",
       "description": "## Goal\n\nApple only includes the user's name and email in the ID token on the **first authorization**. Subsequent tokens only contain the `sub` claim. Ensure this one-time profile data is captured and persisted.\n\n## Scope\n\n* During auto-provisioning (get-or-create flow), when the issuer is Apple:\n  * Extract `email` from the JWT `email` claim (present on first login)\n  * Extract name from the JWT — Apple may include it as `name` claim or it may … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3247,10 +2893,7 @@
       "title": "Migrate all tests to JWT-based authentication",
       "description": "## Goal\n\nUpdate all unit and component/BDD tests to work with the new JWT-based auth mechanism instead of raw email bearer tokens.\n\n## Scope\n\n### Component / BDD Tests\n\n* Update `ApiStepDefinitions` and Cucumber step definitions:\n  * Replace `Authorization: Bearer <email>` with mock JWT tokens\n  * Use Spring Security Test's `SecurityMockMvcRequestPostProcessors.jwt()` to inject mock JWT authentication in MockMvc requests\n  * Update Gherkin steps… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3266,10 +2909,7 @@
       "title": "Update security model documentation for OIDC auth",
       "description": "## Goal\n\nUpdate `docs/system-design.md` Security Model section to reflect the JWT/OIDC authentication implemented in MER-153/MER-167/MER-168/MER-169.\n\n## Scope\n\n* Replace references to `BearerTokenAuthenticationFilter` and bearer-token-as-email pattern\n* Document multi-issuer JWT validation (Google + Apple OIDC)\n* Document `JwtDecoderConfig` with JWKS validation\n* Document JWT-based user resolution and auto-provisioning flow\n* Document `provider… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Task",
@@ -3286,10 +2926,7 @@
       "title": "Update system-design.md with WebSocket & push notification sections",
       "description": "## Goal\n\nAdd WebSocket architecture and push notification flow documentation to `docs/system-design.md`.\n\n## Scope\n\n* Add WebSocket architecture section: STOMP broker config, topic schema, session event message format\n* Add push notification flow: Firebase integration, device token registration, notification triggers on session phase transitions\n* Document authenticated WebSocket connection flow\n\n## Blocked By\n\n* MER-147 (Authenticate WebSocket … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3305,10 +2942,7 @@
       "title": "Update system-design.md with session history/analytics & data design",
       "description": "## Goal\n\nAdd session history/analytics endpoint documentation and update data design in `docs/system-design.md`.\n\n## Scope\n\n* Document session history endpoint (GET /api/focus-sessions) — request/response, filtering, pagination\n* Document session stats/analytics endpoint — aggregation logic, response shape\n* Update Data Design section with `devices` table schema\n* Document new indexes added during schema audit (MER-154)\n* Update Data Invariants … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3324,10 +2958,7 @@
       "title": "Update architecture.md for Firebase infrastructure",
       "description": "## Goal\n\nUpdate `docs/architecture.md` to reflect Firebase Admin SDK integration and any related infrastructure changes.\n\n## Scope\n\n* Add Firebase as a runtime dependency in the high-level design diagram\n* Document Firebase service account / credential management (Secret Manager integration)\n* Update Environment Matrix if Firebase config differs per environment\n* Update Security Posture section for Firebase credentials\n* Update Key Config Inputs… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3343,10 +2974,7 @@
       "title": "Verify OpenAPI contract completeness for M3",
       "description": "## Goal\n\nEnsure the OpenAPI spec (`slicefocus-api.yaml`) is complete and accurately matches all implemented endpoints after M3.\n\n## Scope\n\n* Verify all new M3 endpoints are defined in the spec (session history, analytics, device registration)\n* Verify request/response schemas match implementation\n* Verify error responses are documented for each endpoint\n* Verify security requirements are correct (Bearer JWT)\n* Run `./mvnw clean generate-sources`… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3362,10 +2990,7 @@
       "title": "Ensure BDD/Cucumber coverage for all M3 endpoints",
       "description": "## Goal\n\nVerify and fill any gaps in BDD/Cucumber scenario coverage for all new M3 endpoints.\n\n## Scope\n\n* Audit feature files for coverage of: session history, analytics, device registration endpoints\n* Add missing Cucumber scenarios for happy paths and key error cases\n* Ensure WebSocket-related behavior has appropriate test coverage (may require integration test approach)\n* Verify component test coverage meets 70% threshold for new code\n\n## Bl… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3381,10 +3006,7 @@
       "title": "Final M3 regression run and coverage verification",
       "description": "## Goal\n\nRun the final quality gate checks to close out Milestone 3.\n\n## Scope\n\n* Run `./mvnw verify` and confirm all tests pass\n* Verify JaCoCo coverage thresholds: unit >= 80%, component >= 70%\n* Smoke-test the deployed dev environment\n* Confirm no known regressions from M3 changes\n* Final review of all M3 PRs merged to main\n\n## Blocked By\n\n* All other MER-155 sub-issues\n\n## Acceptance Criteria\n\n* `./mvnw verify` passes green\n* Coverage thresh… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -3400,10 +3022,7 @@
       "title": "M3-FE-01 Connect to WebSocket for real-time session updates",
       "description": "## Context\n\nBackend now broadcasts session lifecycle events over WebSocket/STOMP (MER-144, MER-145, MER-146). The Flutter app currently relies on periodic HTTP polling to sync timer state. This issue adds a WebSocket client so the UI reacts to session events in real time.\n\n## Scope\n\n* Add a STOMP-over-WebSocket client (e.g., `stomp_dart_client` or `web_socket_channel` + manual STOMP framing)\n* Subscribe to `/topic/sessions/{userId}` on app launc… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3423,10 +3042,7 @@
       "title": "M3-FE-02 Register FCM device token with backend",
       "description": "## Context\n\nBackend exposes a device token registration endpoint (MER-148) and sends push notifications on phase transitions (MER-149, MER-150). The Flutter app needs to obtain an FCM token and POST it to the backend.\n\n## Scope\n\n* Add `firebase_messaging` and `firebase_core` dependencies\n* Configure Firebase for Android and iOS (google-services.json / GoogleService-Info.plist)\n* On app launch (after auth), request notification permission and ret… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3446,10 +3062,7 @@
       "title": "M3-FE-03 Handle incoming push notifications for session phase transitions",
       "description": "## Context\n\nBackend sends FCM push notifications when focus session phases transition (MER-150). The Flutter app needs to receive and display these notifications in both foreground and background states.\n\n## Scope\n\n* Configure `firebase_messaging` foreground message handler — show an in-app banner/snackbar (e.g., \"Break time! 5 min\")\n* Configure background/terminated message handler\n* Parse the notification payload (`sessionId`, `lifecycleState`… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3469,10 +3082,7 @@
       "title": "M3-FE-04 Session history screen — list past focus sessions",
       "description": "## Context\n\nBackend exposes `GET /api/focus-sessions` with pagination and date-range filtering (MER-151). The app currently has no way for users to review past sessions.\n\n## Scope\n\n* New `SessionHistoryPage` screen accessible from the home/nav\n* Fetch sessions from `GET /api/focus-sessions?from=...&to=...&page=0&size=20`\n* Add `fetchSessions()` to `FocusSessionRepository` + `HttpFocusSessionRepository`\n* Display each session as a card/tile: task… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3492,10 +3102,7 @@
       "title": "M3-FE-05 Analytics dashboard — display focus session statistics",
       "description": "## Context\n\nBackend will expose `GET /api/focus-sessions/stats` with aggregated productivity data (MER-152). The app needs a visual dashboard so users can track their focus habits.\n\n## Scope\n\n* New `AnalyticsDashboardPage` screen accessible from home/nav\n* Fetch stats from `GET /api/focus-sessions/stats?from=...&to=...`\n* Add `fetchStats()` to `FocusSessionRepository` + `HttpFocusSessionRepository`\n* Display key metrics: total sessions, total fo… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3515,10 +3122,7 @@
       "title": "M3-FE-06 Replace mock auth with Google & Apple sign-in",
       "description": "## Context\n\nBackend now validates Google and Apple OIDC tokens (MER-153). The Flutter app currently uses mock auth headers (`X-Mock-User-Id`). This issue replaces that with real OAuth sign-in flows.\n\n## Scope\n\n* Add `google_sign_in` and `sign_in_with_apple` dependencies\n* New `AuthService` in `lib/src/core/auth/` managing sign-in state and token storage\n* Login screen with \"Sign in with Google\" and \"Sign in with Apple\" buttons\n* On successful si… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3538,10 +3142,7 @@
       "title": "Set up Firebase project and configure FCM for Flutter app",
       "description": "## Context\n\nMER-179 added the backend integration layer (domain model, repository interface, HTTP implementation, tests) for FCM device token registration. The `DeviceTokenRepository` is ready to use, but Firebase is not yet configured in the project.\n\nThis ticket covers the infrastructure prerequisites needed before FCM token retrieval can be wired in.\n\n## Tasks\n\n- [ ] Create Firebase project and register iOS + Android apps\n- [ ] Add `google-se… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3560,10 +3161,7 @@
       "title": "Bug: WebSocketAuthInterceptor does not strip \"Bearer \" prefix before parsing JWT",
       "description": "## Summary\n\nWhen the Flutter FE connects with real Firebase authentication (not mock auth), both REST and WebSocket requests fail:\n\n1. **REST** `GET /api/slices` → 401 — \"Authentication is required\"\n2. **WebSocket STOMP CONNECT → JwtException** — \"Failed to parse JWT\" / \"Invalid JSON object\"\n\nThe FE sends a standard `Authorization: Bearer <firebase-id-token>` header. The Firebase ID token is a valid JWT.\n\n## Root Cause\n\n**WebSocket:** `WebSocket… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3583,10 +3181,7 @@
       "title": "Fix macOS Google Sign-In auth state not propagating to UI",
       "description": "## Problem\n\nAfter completing Google Sign-In OAuth flow on macOS desktop, the app remains on the login page. The browser opens, user authenticates successfully, callback returns to the app, but the UI does not navigate to the home page. No error is printed in the console.\n\nA hot restart after sign-in correctly shows the home page (Firebase persists the session in Keychain), confirming the sign-in itself succeeds.\n\nSimilarly, clicking the sign-out… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3605,10 +3200,7 @@
       "title": "Configure Apple Sign-In for macOS/iOS",
       "description": "## Bug\n\nApple Sign-In fails with \"Apple sign-in failed. Please try again.\" on macOS. The Apple Sign-In capability needs to be configured properly before it can work.\n\n## Expected Behavior\n\nTapping \"Sign in with Apple\" should complete the OAuth flow and navigate to the home page.\n\n## Steps to Reproduce\n\n1. Run the app on macOS\n2. Tap \"Sign in with Apple\"\n3. Error message appears: \"Apple sign-in failed. Please try again.\"\n\n## Investigation Needed\n… (truncated, use `get_issue` for full description)",
       "status": "Blocked",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -3627,10 +3219,7 @@
       "title": "Manual & E2E test sweep for unchecked PR test plans",
       "description": "## Context\n\nAudit of all merged PRs in both `SliceFocusFE` and `SliceFocus` repos revealed **34 unchecked test plan items** — mostly manual/E2E verification tasks that were deferred at merge time.\n\n## Frontend (SliceFocusFE) — 28 items\n\n### PR #40 — [MER-186](https://linear.app/mertyertugrul/issue/MER-186/fix-macos-google-sign-in-auth-state-not-propagating-to-ui) fix: auth state not propagating\n\n- [ ] Sign in with Apple on macOS/iOS — same behav… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -3649,10 +3238,7 @@
       "title": "Analytics & Session History navigation broken during active focus session",
       "description": "## Bug\n\nTapping the **Analytics** or **Session History** AppBar buttons does nothing while a focus session is active. The user should be able to navigate to either page while the Pomodoro timer continues running in the background.\n\n### Root Cause\n\nThe default AppBar back button was not functioning correctly during active focus sessions. Fixed by providing explicit back button handlers using `Navigator.maybePop`.\n\n### Fix\n\n* Added explicit `leadi… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3671,10 +3257,7 @@
       "title": "Add user info display in AppBar (name/email)",
       "description": "## Goal\n\nShow the authenticated user's identity in the top-right corner of the AppBar.\n\n## Current State\n\nThe AppBar only shows the app title + action buttons (Analytics, History, Sign out). No user identity is visible.\n\n`AuthState` has `displayName` and `email` from Firebase Auth, but no custom username field exists in the backend.\n\n## Scope\n\n* Pass `AuthState` from `SliceFocusApp` down to `HomePage`\n* Display user's display name or email in th… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3693,10 +3276,7 @@
       "title": "Add account settings page",
       "description": "## Goal\n\nCreate a dedicated account/settings page for user preferences and profile management.\n\n## Current State\n\nNo account or settings page exists. Sign-out is just an icon button in the AppBar.\n\n## Scope\n\n* Create a new `settings` feature module (`lib/src/features/settings/`)\n* Account settings page includes:\n  * Profile info (name, email, photo — read from auth state)\n  * Sign-out action (move from AppBar icon to here)\n  * Future extensibili… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3715,10 +3295,7 @@
       "title": "Show slice title on hover (desktop) / tap (mobile) when too narrow",
       "description": "## Goal\n\nWhen a slice's arc is too narrow to display its title text, provide an alternative way to see it.\n\n## Current State\n\nWhen a slice is very short in duration, its title text gets clipped or doesn't render — no way to see what it is.\n\n## Scope\n\n* Calculate whether the slice arc is too narrow to fit the title text (based on sweep angle / arc length)\n* **Desktop:** Show a `Tooltip` on hover displaying the slice's task name\n* **Mobile:** On s… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3737,10 +3314,7 @@
       "title": "Distinct default colors per slice + user color customization",
       "description": "## Goal\n\nAssign visually distinct default colors to new slices and let users customize slice colors.\n\n## Current State\n\n`DaySlice` model and API already support a `color` field. Need to verify whether the app currently assigns meaningful default colors or lets users pick them.\n\n## Scope\n\n* Assign distinct default colors from a curated palette when creating new slices (so adjacent slices are visually distinguishable)\n* Add a color picker in the s… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3759,10 +3333,7 @@
       "title": "Theme selection (light/dark + accent variants)",
       "description": "## Goal\n\nLet users choose from predefined themes.\n\n## Current State\n\nOnly `AppTheme.light()` is used. No dark mode or theme switching.\n\n## Scope\n\n* **System Default option:** Include a \"System Default\" theme that follows the OS light/dark setting. This should be the default selection.\n* Provide additional predefined themes (light, dark, accent color variants)\n* Store preference locally (SharedPreferences) and/or sync to backend (MER-207)\n* Apply… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3781,10 +3352,7 @@
       "title": "Custom theme builder (user-defined colors)",
       "description": "## Goal\n\nLet users customize individual theme elements beyond predefined presets.\n\n## Current State\n\nNo theme customization exists. Depends on theme selection feature (MER-194) being implemented first.\n\n## Scope\n\n* **System Default option:** Include a \"System Default\" theme that follows the OS light/dark setting. This should be the default selection.\n* Theme editor UI where users can customize primary color, accent, background, canvas colors, et… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3803,10 +3371,7 @@
       "title": "Slice detail screen with pomodoro division animation",
       "description": "## Goal\n\nOn slice tap, open a detail screen with an animated transition showing the slice expanded with pomodoro subdivisions.\n\n## Current State\n\nClicking a slice doesn't open a dedicated detail view. Pomodoro sessions exist but aren't visually mapped onto the slice's time range.\n\n## Scope\n\n* On slice tap, animate the selected slice arc expanding into a larger pie on a new screen (hero-like transition)\n* Detail screen shows:\n  * The slice as a l… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3825,10 +3390,7 @@
       "title": "Improve create-slice modal layout & duration styling",
       "description": "## Goal\n\nImprove the create/edit slice modal for better readability and layout.\n\n## Current State\n\nStart time and end time are stacked vertically. Duration display doesn't emphasize the time value.\n\n## Scope\n\n* **Layout:** Place start time and end time side by side (row layout) when screen width allows; fall back to vertical on narrow screens\n* **Duration styling:** In \"Duration: 2h 30m\", style only the time value (\"2h 30m\") with:\n  * Bold font … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3847,10 +3409,7 @@
       "title": "Play sound/notification when focus session phase ends",
       "description": "## Goal\n\nAlert the user when a pomodoro work or break phase completes so they can advance to the next phase.\n\n## Current State\n\nNo audio or push notification when a phase finishes — user must be watching the timer.\n\n## Scope\n\n* Play a short notification sound when a work or break phase completes\n* Send a local notification (useful when app is in background or screen is off)\n* Let user advance to next phase from the notification or timer panel\n* … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3869,10 +3428,7 @@
       "title": "Auto-advance option for pomodoro phases",
       "description": "## Goal\n\nAllow users to opt into automatic transitions between pomodoro work and break phases.\n\n## Current State\n\nUser must manually advance between work and break phases.\n\n## Scope\n\n* Add a toggle in settings for \"Auto-advance pomodoro phases\"\n* When enabled, automatically transition work → break → work without user intervention\n* Still play sound/notification so user knows the phase changed\n* Store preference locally (SharedPreferences) and/or… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3891,10 +3447,7 @@
       "title": "Cap max size of analytics & session history widgets",
       "description": "## Goal\n\nPrevent analytics, session history, and home page widgets from growing too large on wide screens.\n\n## Current State\n\nAll three pages scale with window size without an upper bound — on large screens they become oversized and look bad.\n\n## Scope\n\n* Add max width constraints via `LayoutBuilder` with computed horizontal padding\n* Analytics & session history pages: 400px max content width\n* Home page (pie canvas + timer panel): 500px max con… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3913,10 +3466,7 @@
       "title": "Restructure session history with grouped table view",
       "description": "## Goal\n\nGroup session history by slice name with a sortable table layout for individual sessions.\n\n## Current State\n\nSession history likely shows a flat list of sessions without grouping by slice.\n\n## Scope\n\n* Group sessions under parent slice name as expandable tiles (e.g., `ExpansionTile`)\n* Parent tile: slice name (+ total sessions count, total focus time)\n* Under each slice, show sessions in a **table/data-table format** with sortable colum… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3935,10 +3485,7 @@
       "title": "Reduce main pie canvas size so timer panel is visible",
       "description": "## Goal\n\nEnsure both the pie canvas and the timer panel fit in the viewport without scrolling.\n\n## Current State\n\nThe pie canvas takes up too much vertical space, pushing the timer panel below the fold — user has to scroll to see an active session.\n\n## Scope\n\n* Reduce the max size of the `DayCanvas` so both pie and timer panel fit in viewport\n* Use a proportion-based approach (e.g., pie takes at most 60-65% of available height) rather than a fix… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3957,10 +3504,7 @@
       "title": "Analytics stats API returns null fields causing type cast crash",
       "description": "## Bug\n\nWhen opening the Analytics screen, the app crashes with:\n\n```\nFailed to load statistics: type 'Null' is not a subtype of type 'int' in type cast\n```\n\n### Root Cause\n\nTwo issues:\n\n1. **Date format mismatch** — The frontend was sending full ISO datetime strings (`2026-03-08T21:00:00.000Z`) for the `from`/`to` query params, but the backend expects `LocalDate` format (`yyyy-MM-dd`), causing a 500 error.\n2. **Null-unsafe JSON parsing** — `Foc… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -3979,10 +3523,7 @@
       "title": "Notify user when focus session is stopped by the app + increase notification duration",
       "description": "## Goal\n\nWhen the app stops a focus session (e.g., slice time ended, session timeout), notify the user clearly and keep the notification visible longer.\n\n## Current State\n\nIf the app stops a focus session automatically, the user may not notice — especially if they're not actively watching the timer.\n\n## Scope\n\n* Detect when a focus session is stopped by the app (not by user action)\n* Show a prominent notification (local notification + in-app ban… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4001,10 +3542,7 @@
       "title": "Show focus session timer on lock screen (mobile)",
       "description": "## Goal\n\nWhen the user locks their phone during an active focus session, display the running timer on the lock screen.\n\n## Current State\n\nWhen the screen is locked during a focus session, the timer is not visible — user must unlock and open the app to check remaining time.\n\n## Scope\n\n* **iOS:** Use Live Activities / Dynamic Island to show the countdown timer on the lock screen\n* **Android:** Use an ongoing notification with a countdown timer (fo… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4023,10 +3561,7 @@
       "title": "Support dev/test/prod environment configurations for FE",
       "description": "## Goal\n\nAllow the frontend to target different backend environments (dev, test, prod) instead of only localhost.\n\n## Current State\n\nThe FE only points to `localhost:8080` (or `10.0.2.2:8080` on Android emulator) via `API_BASE_URL`. The backend already runs in a cloud dev environment, but the FE has no easy way to switch between environments.\n\n## Scope\n\n* Define environment profiles: **dev** (cloud dev backend), **test**, **prod**\n* Each profile… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4045,10 +3580,7 @@
       "title": "Add user profile/preferences table on backend",
       "description": "## Goal\n\nCreate a backend user profile/preferences table to support user-editable fields like username and app preferences.\n\n## Current State\n\nNo user profile table exists on the backend. User identity comes solely from Firebase Auth (displayName, email). There's no way for users to set a custom username or persist app preferences server-side.\n\n## Scope\n\n* Create a `user_profiles` or `user_preferences` table (linked to Firebase UID)\n* Support fi… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4067,10 +3599,7 @@
       "title": "Configure Cloud Run min-instances=1 to eliminate cold starts",
       "description": "## Goal\n\nEliminate Cloud Run cold start timeouts by keeping at least one instance warm.\n\n## Context\n\nSpring Boot JVM cold starts on Cloud Run can exceed 10 seconds, causing FE request timeouts. The FE now has retry with exponential backoff (MER-206), but preventing cold starts on the BE side is the most effective fix.\n\n## Scope\n\n* Set `--min-instances=1` on `slicefocus-backend-dev` Cloud Run service\n* Evaluate cost impact and apply to prod when … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Improvement"
@@ -4086,10 +3615,7 @@
       "title": "Slice overlap 409 error closes create dialog instead of showing inline feedback",
       "description": "## Bug\n\nWhen creating a slice that overlaps with an existing one, the backend returns `409 SLICE_OVERLAP`. The FE currently closes the create-slice dialog on any error response, losing the user's input. Instead, the dialog should stay open and display an inline error message indicating the time interval overlaps with an existing slice.\n\n## Expected Behavior\n\n* Create-slice dialog stays open on 409 overlap error\n* User sees an inline notification… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Bug"
@@ -4105,10 +3631,7 @@
       "title": "Redesign slice list as Cal Newport-style time blocking timeline",
       "description": "## Goal\n\nReplace the current `Wrap` of pill-shaped legend chips below the pie canvas with a vertical time blocking timeline inspired by Cal Newport's Deep Work system.\n\n## Current State\n\nSlice list is a horizontal `Wrap` of rounded chips showing \"Label (HH:MM - HH:MM)\" with a small color dot. Functional but doesn't convey schedule structure clearly.\n\n## Proposed Design\n\nVertical timeline list where each entry shows:\n\n* **Time range on the left**… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Improvement"
@@ -4124,10 +3647,7 @@
       "title": "Add pinch-to-zoom and scroll-wheel zoom on pie canvas",
       "description": "## Goal\n\nAllow users to zoom into a section of the pie canvas to inspect and interact with narrow slices more easily.\n\n## Current State\n\nThe pie is always shown at full 24-hour scale. Narrow slices (< \\~80 min) have their labels hidden and shown via tooltip (MER-192), but they're still hard to tap/drag precisely.\n\n## Proposed Behavior\n\n* **Mobile:** Pinch-to-zoom on the pie canvas, pan to navigate the zoomed area\n* **Desktop:** Scroll-wheel zoom… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4143,10 +3663,7 @@
       "title": "Start focus session by tapping time block entry in timeline",
       "description": "## Goal\n\nAllow users to start a focus session by tapping a time block entry in the timeline below the pie, in addition to the existing context menu on the pie canvas.\n\n## Current State\n\nThe only way to start a focus session is right-click/long-press on a slice in the pie → context menu → \"Start Focus\". This interaction is not discoverable for many users.\n\n## Scope\n\n* Add `onTap` to `_TimeBlockEntry` for planned (non-unplanned) slices\n* Wire it t… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Improvement"
@@ -4162,10 +3679,7 @@
       "title": "Show current time indicator on pie canvas and time block timeline",
       "description": "## Goal\n\nDisplay a \"now\" marker on both the pie canvas and the time block timeline so users can instantly see where they are in their schedule.\n\n## Current State\n\nNo visual indication of the current time on either the pie canvas or the timeline. Users must mentally map the current time to the schedule.\n\n## Scope\n\n**Pie canvas:**\n\n* Draw a thin radial line (or dot on the ring edge) at the current time's angle\n* Use a contrasting color (e.g. `colo… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4181,10 +3695,7 @@
       "title": "Use light theme as default",
       "description": "## Goal\n\nSet light theme as the default theme for new users / fresh installs instead of the current default.\n\n## Scope\n\n* Change the default theme selection to light theme\n* Existing users who have explicitly chosen a theme should not be affected\n\n## Acceptance Criteria\n\n* App launches with light theme on first install\n* Users can still switch to dark theme via settings\n* Existing theme preference is preserved for returning users",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4200,10 +3711,7 @@
       "title": "Style unplanned slice as empty grid notebook page",
       "description": "## Goal\n\nReplace the solid color fill of unplanned slices with a squared/grid pattern resembling an empty math notebook page. This visually communicates \"blank time waiting to be filled\" and distinguishes unplanned time from planned slices.\n\n## Scope\n\n* Replace the solid fill for unplanned slices in the pie canvas with a grid pattern (light lines on a subtle background)\n* The pattern should look like squared notebook paper\n* Must work well in bo… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4219,10 +3727,7 @@
       "title": "Auto-scroll to timer panel when focus session starts",
       "description": "## Goal\n\nWhen a user starts a focus session, the app should automatically scroll down to the timer panel so the user can immediately focus on the active timer.\n\n## Current State\n\nStarting a focus session does not change the scroll position — the user must manually scroll down to see the timer panel.\n\n## Scope\n\n* Detect when a focus session is started (from pie canvas tap, time block timeline, or slice detail screen)\n* Smoothly animate scroll to … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -4241,10 +3746,7 @@
       "title": "Domain interface + orchestrator + tests for lock screen timer",
       "description": "## Sub-task A: Domain Interface + Orchestrator + Tests\n\n* **A1:** Create `LockScreenTimerService` abstract class (pure Dart, no Flutter imports) with `startTimer`, `updateTimer`, `stopTimer`, `dispose`\n* **A2:** Create `NoopLockScreenTimerService` for unsupported platforms (macOS, web)\n* **A3:** Create `LockScreenTimerOrchestrator` that bridges `FocusTimerController` state changes to the platform-specific service\n* **A4:** Wire orchestrator into… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [],
       "assignee": "Mert Ertuğrul",
@@ -4258,10 +3760,7 @@
       "title": "Android lock screen timer notification",
       "description": "## Sub-task B: Android Notification\n\n* **B1:** Create `AndroidLockScreenTimerService` using existing `flutter_local_notifications`\n  * `ongoing: true`, `usesChronometer: true`, `chronometerCountDown: true`\n  * `when` = `endTime.millisecondsSinceEpoch` (native countdown)\n  * Silent `focus_timer` channel (low importance)\n  * Paused state: static notification with \"PAUSED — MM:SS remaining\"\n  * Notification ID = 2 (avoids phase=0, session-end=1)\n* … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [],
       "assignee": "Mert Ertuğrul",
@@ -4275,10 +3774,7 @@
       "title": "iOS Live Activities lock screen timer",
       "description": "## Sub-task C: iOS Live Activities\n\n* **C1:** Add `live_activities` dependency to `pubspec.yaml`\n* **C2:** Add `NSSupportsLiveActivities = YES` to `Info.plist`\n* **C3:** Create Widget Extension (`ios/SliceFocusTimerWidget/`) with:\n  * `FocusTimerAttributes.swift` — ActivityAttributes struct\n  * `SliceFocusTimerWidgetLiveActivity.swift` — Lock Screen + Dynamic Island views with `Text(date, style: .timer)`\n  * `SliceFocusTimerWidgetBundle.swift` —… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": null,
       "labels": [],
       "assignee": "Mert Ertuğrul",
@@ -4292,10 +3788,7 @@
       "title": "Set up macOS NSStatusItem with Platform Channel (Swift side)",
       "description": "## Goal\n\nSet up the native Swift infrastructure for displaying timer text in the macOS menu bar (top-right status area).\n\n## Scope\n\n* Create `NSStatusItem` with `variableLength` in `AppDelegate.swift`\n* Set up `FlutterMethodChannel` (`com.slicefocus.menubar`) with handlers:\n  * `updateTimer(String text)` — set the status item title (e.g. \"C1 23:45\")\n  * `hideTimer` — remove/hide the status item when no session is active\n* Ensure all UI updates d… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4311,10 +3804,7 @@
       "title": "Create MenuBarTimerService (Dart side)",
       "description": "## Goal\n\nCreate a Dart service that wraps the macOS platform channel and provides a clean API for updating the menu bar timer display.\n\n## Scope\n\n* Create `MenuBarTimerService` class in `lib/src/features/focus/domain/` or `lib/src/core/`\n* Wrap `MethodChannel('com.slicefocus.menubar')` with typed methods\n* Format display text from timer state:\n  * Work phase: `C{n} MM:SS` (e.g. `C1 23:45`, `C3 01:02`)\n  * Short break: `SB MM:SS` (e.g. `SB 04:30`… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4330,10 +3820,7 @@
       "title": "Integrate menu bar timer with focus session lifecycle",
       "description": "## Goal\n\nWire the `MenuBarTimerService` into the existing focus session flow so the menu bar updates in real-time during active sessions.\n\n## Scope\n\n* In `HomePage` (or wherever the timer tick is consumed), call `MenuBarTimerService.updateFromTimerState()` on every tick\n* On session **start**: show initial timer state in menu bar\n* On session **stop/cancel/complete**: call `hide()` to remove menu bar text\n* On session **pause**: keep showing cur… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": null,
       "labels": [
         "Feature"
@@ -4349,10 +3836,7 @@
       "title": "End-to-end WebSocket testing (FE ↔ BE)",
       "description": "## Goal\n\nValidate WebSocket/STOMP connectivity end-to-end between the Flutter frontend and Spring Boot backend in dev environment.\n\n## Scope\n\n* Verify authenticated STOMP CONNECT flow (JWT token passed from FE, validated by `WebSocketAuthInterceptor`)\n* Verify topic subscription authorization (`/topic/user/{userId}/session`) — user can only subscribe to own topic\n* Verify real-time `SessionEvent` delivery on all session transitions:\n  * `SESSION… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "b9c2d0eb-6f0a-433c-a1c1-bf57a70d5aec",
         "name": "The \"Sync & Alert\" Layer"
@@ -4371,10 +3855,7 @@
       "title": "Add quick-start focus button on timeline time blocks",
       "description": "## Summary\n\nAdd a play/start button on the left side of each timeline time block entry (`_TimeBlockEntry`) so users can start a focus session directly without navigating to the slice detail screen.\n\n## Motivation\n\nCurrently, starting a focus session requires 2 steps: tap a slice → navigate to detail screen → press \"Start Focus Session\". For users who already know their schedule, this is unnecessary friction. A quick-start button on the timeline … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4393,10 +3874,7 @@
       "title": "M4-FE-01 Actual vs planned report UI",
       "description": "## Goal\n\nDisplay the \"actual vs planned\" comparison report so users can see how their real focus time compares to their scheduled slices.\n\n## Context\n\nBackend endpoint `GET /api/reports/actual-vs-planned` is being built in MER-158. This ticket covers the frontend UI to consume and visualize that data.\n\n## Scope\n\n* Add `fetchActualVsPlanned({DateTime? date, DateTime? from, DateTime? to})` to `FocusSessionRepository` + `HttpFocusSessionRepository`… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4415,10 +3893,7 @@
       "title": "M4-FE-02 Productivity trends visualization",
       "description": "## Goal\n\nVisualize productivity trends over time so users can track their focus habits across days and weeks.\n\n## Context\n\nBackend endpoint `GET /api/reports/trends` will be built in MER-159. This ticket covers the frontend visualization.\n\n## Scope\n\n* Add `fetchTrends({String period, DateTime? from})` to `FocusSessionRepository` + `HttpFocusSessionRepository`\n* New trends section in `AnalyticsDashboardPage` or a dedicated sub-page\n* Display dail… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4437,10 +3912,7 @@
       "title": "M4-FE-03 Sync user preferences with backend",
       "description": "## Goal\n\nSync theme and notification preferences with the backend so settings persist across devices.\n\n## Context\n\nBackend preferences API (MER-156/MER-157) is complete (`GET/PUT /api/users/preferences`). Currently the FE stores theme preference only in local SharedPreferences. This ticket adds cross-device sync.\n\n## Scope\n\n* Add `UserPreferencesRepository` (or extend existing repository) with:\n  * `fetchPreferences()` → calls `GET /api/users/pr… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4459,10 +3931,7 @@
       "title": "M4-FE-04 OAuth2 account linking UI in settings",
       "description": "## Goal\n\nAllow users to link additional Google or Apple identities to their account from the settings page.\n\n## Context\n\nBackend account linking endpoint `POST /api/auth/link` will be built in MER-160. This ticket covers the frontend UI.\n\n## Scope\n\n* Add \"Linked Accounts\" section to `AccountSettingsPage`\n* Show currently linked providers (Google, Apple) with status\n* \"Link Google Account\" / \"Link Apple Account\" buttons for unlinked providers\n* O… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4481,10 +3950,7 @@
       "title": "M4-FE-05 Soundscape picker UI",
       "description": "## Goal\n\nLet users browse and select a background soundscape for their focus sessions.\n\n## Context\n\nBackend soundscape catalog endpoint `GET /api/soundscapes` will be built in MER-161. User's selected soundscape is persisted via the preferences API (MER-157, `soundscapeId` field).\n\n## Scope\n\n* Add `fetchSoundscapes()` to a new or existing repository → calls `GET /api/soundscapes`\n* Soundscape picker in account settings or as a modal/bottom sheet… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4503,10 +3969,7 @@
       "title": "Add customizable Pomodoro timer durations (BE)",
       "description": "## Goal\n\nAllow users to customize their Pomodoro timer durations instead of using hardcoded defaults (25/5/10 min).\n\n## Context\n\nCurrently all timer durations are hardcoded:\n\n* Work: 25 min (`FocusSession.@PrePersist` + V7 migration default)\n* Short break: 5 min (same)\n* Long break: 10 min (computed as `breakDurationMinutes * 2` in `computeRemainingSeconds()`)\n* Cycles before long break: 4 (hardcoded in `FocusSession.advance()`)\n\nUsers cannot cu… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4525,10 +3988,7 @@
       "title": "Add customizable Pomodoro timer durations UI (FE)",
       "description": "## Goal\n\nLet users configure their Pomodoro timer durations from the settings screen.\n\n## Context\n\nThe backend will expose timer duration fields via the existing `GET/PUT /api/users/preferences` endpoint (see MER-230). The FE needs a settings UI to read and update these values.\n\n## Scope\n\n### 1\\. Timer Settings Section in Settings Screen\n\nAdd a \"Timer\" or \"Pomodoro\" section to the settings/preferences screen with controls for:\n\n* **Work duration… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4547,10 +4007,7 @@
       "title": "Slice detail calculates cycles using default 25 min instead of user's timer preferences",
       "description": "## Bug\n\nWhen the user customizes Pomodoro timer durations (e.g. 15 min work via \"Short\" preset), the slice detail screen still calculates the number of cycles and other details based on the default 25-minute work duration instead of the user's configured value.\n\n## Steps to Reproduce\n\n1. Go to Settings → Pomodoro Timer → select \"Short\" preset (15 min work)\n2. Tap on a slice to view its details\n3. Observe that the cycle count and details are calc… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "16d13f22-f3c2-4159-bb11-899487d4ec7f",
         "name": "The \"Refinement & Analytics\""
@@ -4569,10 +4026,7 @@
       "title": "Add \"+\" button for creating new slices (AppBar + timeline)",
       "description": "## Feature\n\nAdd discoverable entry points for creating new slices beyond the current drag-to-create gesture on the radial canvas.\n\n## Changes\n\n1. **AppBar action button** — Add a \"+\" icon button in the top-right of the home page AppBar. Tapping it opens the edit-slice modal with a default 1-hour duration starting from the current time (snapped to 15-min intervals).\n2. **Timeline \"Add\" row** — Add a subtle \"Add time block\" row at the bottom of th… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4706,10 +4160,7 @@
       "title": "Slice disappears from pie chart when focus session completes",
       "description": "## Bug\n\nWhen a focus session finishes (all Pomodoro cycles complete), the associated slice disappears from the pie chart. The slice should remain visible regardless of whether a focus session is active, finished, or was never started — slices represent scheduled time blocks, not session state.\n\n## Steps to Reproduce\n\n1. Create a slice on the pie chart\n2. Start a focus session on that slice\n3. Let the session complete (all cycles finish) or stop … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4728,10 +4179,7 @@
       "title": "Add integration tests for critical user flows",
       "description": "## Goal\n\nSet up Flutter `integration_test` package and write end-to-end tests that run on a device/emulator, covering the critical happy-path user flows.\n\n## Test Scenarios\n\n1. **Slice lifecycle** — Create a slice via \"+\" button → verify it appears on canvas and timeline → edit it → delete it → verify it's gone\n2. **Focus session flow** — Create slice → start focus session → let timer tick → stop session → verify slice remains on canvas\n3. **Tim… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4750,10 +4198,7 @@
       "title": "Expand widget test coverage for user journey edge cases",
       "description": "## Goal\n\nAdd comprehensive widget tests covering edge cases and multi-step user journeys that have caused bugs. These complement the integration tests by being faster to run and easier to isolate failures.\n\n## Test Scenarios\n\n1. **Session completion doesn't remove slice** — Start focus session on a slice → complete all cycles → verify slice is still rendered on canvas (MER-240 regression guard)\n2. **Timer preferences persist to slice detail** — … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4772,10 +4217,7 @@
       "title": "Fix 13 flaky/failing tests in CI",
       "description": "## Problem\n\n13 tests fail on every CI run (golden tests, time-dependent tests like `mer137_slice_end_watcher_test`). The CI pipeline uses `|| true` to work around this, which erodes trust in the test suite — new regressions can hide behind pre-existing failures.\n\n## Fix\n\n* Golden tests: update golden images or skip with `skip: 'Golden update needed'` and a tracking comment\n* Time-dependent tests: use `fakeAsync` or `clock` injection to make them… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4794,10 +4236,7 @@
       "title": "Add crash reporting (Sentry or Firebase Crashlytics)",
       "description": "## Problem\n\nErrors in async callbacks are silently caught or only print to debug console. No visibility into production crashes or unhandled exceptions.\n\n## Fix\n\n* Add `firebase_crashlytics` (already using Firebase) or Sentry SDK\n* Wire `FlutterError.onError` and `PlatformDispatcher.instance.onError` to report crashes\n* Add breadcrumbs for key user actions (start session, save slice, sync prefs)\n* Configure release vs debug reporting\n\n## Why\n\nWi… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4816,10 +4255,7 @@
       "title": "Migrate state management to Riverpod",
       "description": "## Problem\n\nCurrent state management uses `StatefulWidget` + `FutureBuilder` + `ValueNotifier`. This leads to:\n\n* `home_page.dart` at 967 lines — UI, state, and business logic interleaved\n* Manual `setState` + `mounted` checks prone to bugs\n* Deep prop drilling (19 constructor params on `SliceFocusApp`)\n* Difficult to test individual state transitions in isolation\n\n## Fix\n\nMigrate to Riverpod incrementally:\n\n1. Extract state logic into Riverpod … (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4839,10 +4275,7 @@
       "title": "Add freezed + json_serializable for domain models",
       "description": "## Problem\n\nDomain models (`DaySlice`, `FocusSession`, `TimerPreferences`, `UserPreferences`, etc.) have manually written `fromJson`, `toJson`, `==`, `hashCode`, and `copyWith`. This is error-prone, verbose, and easy to forget updating when fields are added.\n\n## Fix\n\n* Add `freezed`, `json_serializable`, and `build_runner` as dependencies\n* Convert domain models to `@freezed` classes\n* Auto-generate `fromJson`/`toJson`, `==`/`hashCode`, `copyWit… (truncated, use `get_issue` for full description)",
       "status": "Canceled",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4861,10 +4294,7 @@
       "title": "Add go_router for declarative routing and deep links",
       "description": "## Problem\n\nNavigation uses imperative `Navigator.push` with manual `MaterialPageRoute` construction. No named routes, no deep link handling, no route guards for auth.\n\n## Fix\n\n* Add `go_router` package\n* Define route tree: `/` (home), `/settings`, `/analytics`, `/history`, `/slice/:id` (detail)\n* Add auth redirect guard (unauthenticated → login)\n* Support deep links for slice detail and session history\n* Replace all `Navigator.push` calls with … (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4883,10 +4313,7 @@
       "title": "Add accessibility (a11y) support",
       "description": "## Problem\n\nNo `Semantics` labels on interactive elements, no keyboard navigation support, and the radial `CustomPainter` canvas is invisible to screen readers. App store review may flag this.\n\n## Fix\n\n* Add `Semantics` widgets to all interactive elements (buttons, slices, timeline entries)\n* Add `SemanticsProperties` to `DayCanvas` `CustomPainter` for slice arcs (label, tap action)\n* Add keyboard navigation support for the canvas (arrow keys to… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4905,10 +4332,7 @@
       "title": "Add localization (l10n) infrastructure",
       "description": "## Problem\n\nAll user-facing strings are hardcoded in English throughout the codebase. Retrofitting localization later is significantly more expensive than setting it up early.\n\n## Fix\n\n* Enable `flutter_localizations` in `pubspec.yaml`\n* Configure `l10n.yaml` with ARB file settings\n* Create `lib/l10n/app_en.arb` with all current strings\n* Replace hardcoded strings with `AppLocalizations.of(context)!.stringName`\n* Start with English only — the in… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4946,10 +4370,7 @@
       "title": "Add rate limiting to API endpoints",
       "description": "## Problem\n\nNo rate limiting exists on any endpoint. This is critical for production to prevent brute force attacks, DDoS, and abuse.\n\n## Implementation\n\n1. Add a rate limiting filter (e.g., Bucket4j + Spring Boot starter, or a custom `OncePerRequestFilter`)\n2. Configure per-user limits for authenticated endpoints (e.g., 100 req/min)\n3. Configure per-IP limits for public endpoints (e.g., 20 req/min)\n4. Return `429 Too Many Requests` with `Retry-… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4968,10 +4389,7 @@
       "title": "Add request logging and correlation IDs",
       "description": "## Problem\n\nNo request/response logging middleware and no correlation IDs for tracing requests across logs. Debugging production issues is difficult without these.\n\n## Implementation\n\n1. Add a `OncePerRequestFilter` that generates a UUID correlation ID per request\n2. Set it in MDC (`Mapped Diagnostic Context`) so all log lines include it\n3. Return correlation ID in response header (`X-Request-Id`)\n4. Log request method, path, status code, and du… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -4990,10 +4408,7 @@
       "title": "Add observability: Micrometer metrics and Prometheus endpoint",
       "description": "## Problem\n\nOnly basic `/actuator/health` is exposed. No application metrics, no Prometheus integration, no custom business metrics. Impossible to monitor performance or set alerts when traffic spikes.\n\n## Implementation\n\n1. Add `micrometer-registry-prometheus` dependency\n2. Expose `/actuator/prometheus` endpoint (secured, not public)\n3. Add custom metrics:\n   * `focus_sessions_started_total` (counter)\n   * `focus_sessions_completed_total` (coun… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5012,10 +4427,7 @@
       "title": "Add audit logging for sensitive operations",
       "description": "## Problem\n\nNo tracking of sensitive operations like OAuth account linking, user preference changes, or session lifecycle events. Needed for security compliance and debugging.\n\n## Implementation\n\n1. Create `audit_log` table via Flyway migration:\n   * `id`, `user_id`, `action` (enum: OAUTH_LINK, PREFERENCES_UPDATE, SESSION_START, etc.), `details` (JSONB), `ip_address`, `created_at`\n2. Create `AuditService` that logs events asynchronously (`@Async… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5034,10 +4446,7 @@
       "title": "Add explicit CORS configuration",
       "description": "## Problem\n\nNo explicit CORS configuration in `SecurityConfig`. Relying on Spring's restrictive defaults, but client origins should be explicitly allowed per environment.\n\n## Implementation\n\n1. Add `CorsConfigurationSource` bean in `SecurityConfig`\n2. Configure allowed origins per profile:\n   * dev: `http://localhost:*`\n   * test/prod: specific frontend domains\n3. Allow standard headers + `X-Request-Id` (correlation ID)\n4. Allow credentials for … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5056,10 +4465,7 @@
       "title": "Add API versioning strategy",
       "description": "## Problem\n\nNo API versioning mechanism in place. Breaking changes will be difficult to manage as the API evolves and clients depend on specific response shapes.\n\n## Implementation\n\n1. Choose versioning strategy: URL path (`/api/v1/`) or `Accept` header (`application/vnd.slicefocus.v1+json`)\n2. URL path versioning is recommended for simplicity (easier to test, document, and route)\n3. Add version prefix to all endpoints in OpenAPI spec\n4. Configu… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5078,10 +4484,7 @@
       "title": "Add security scanning to CI pipeline",
       "description": "## Problem\n\nNo SAST (Static Application Security Testing) or dependency vulnerability scanning in CI. Known CVEs in dependencies could go unnoticed.\n\n## Implementation\n\n1. Add OWASP Dependency-Check Maven plugin to `pom.xml`\n   * Fail build on HIGH/CRITICAL CVEs\n   * Generate HTML report as CI artifact\n2. Add SpotBugs with FindSecBugs plugin for SAST\n   * Focus on security-relevant bug patterns (SQL injection, XSS, path traversal)\n3. Consider ad… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5100,10 +4503,7 @@
       "title": "Add caching for frequently accessed data",
       "description": "## Problem\n\nUser preferences are loaded from the DB on every focus session start. No caching layer exists for any frequently accessed data.\n\n## Implementation\n\n1. Add `spring-boot-starter-cache` dependency\n2. Enable caching with `@EnableCaching`\n3. Add `@Cacheable` to:\n   * `UserPreferencesRepository.findByUserId()` — cached per user, evicted on update\n   * `SoundscapeService.getCatalog()` — static data, long TTL\n4. Use simple in-memory cache (C… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5122,10 +4522,7 @@
       "title": "Add missing database indexes for query performance",
       "description": "## Problem\n\nMissing indexes on columns used in scheduled job queries and FK joins, which will degrade performance as data grows.\n\n## Implementation\n\n1. Create Flyway migration `V25__add_performance_indexes.sql`:\n   * `CREATE INDEX idx_focus_sessions_slice_end_warning ON focus_sessions(slice_end_warning_sent_at)` — for `findActiveSessionsNeedingSliceEndWarning()` scheduled job\n   * Consider partial index: `WHERE status = 'RUNNING'` for active ses… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5144,10 +4541,7 @@
       "title": "Add graceful shutdown with cleanup hooks",
       "description": "## Problem\n\nNo shutdown hooks for cleaning up active sessions or completing in-flight requests when the Cloud Run instance is terminated.\n\n## Implementation\n\n1. Enable graceful shutdown in Spring Boot: `server.shutdown=graceful`\n2. Configure shutdown timeout: `spring.lifecycle.timeout-per-shutdown-phase=30s`\n3. Add `@PreDestroy` hook in `FocusSessionService` to log active sessions on shutdown\n4. Ensure WebSocket connections are cleanly closed on… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 4,
-        "name": "Low"
-      },
+      "priority": "Low",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5166,10 +4560,7 @@
       "title": "Riverpod migration 1/5: Add Riverpod + migrate TimerPreferences",
       "description": "Add `flutter_riverpod`, wrap app in `ProviderScope`, convert `timerPreferencesNotifier` from prop-drilled `ValueNotifier` to a Riverpod provider. Smallest possible migration — proves the pattern works.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5189,10 +4580,7 @@
       "title": "Riverpod migration 2/5: Migrate theme + soundscape to Riverpod",
       "description": "Convert `themeNotifier` and `soundscapeNotifier` from prop-drilled `ValueNotifier`s to Riverpod providers. Removes 4 constructor params from `SliceFocusApp` and `HomePage`.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5212,10 +4600,7 @@
       "title": "Riverpod migration 3/5: Migrate slice fetching to Riverpod",
       "description": "## Updated scope\\\\n\\\\nOriginal estimate of 3 pts was too low. The slice fetching is deeply coupled with auth-gated repository injection, nested ProviderScope timing, and 100+ test dependencies on FutureBuilder timing.\\\\n\\\\n## Sub-tasks\\\\n\\\\nSplit into 3 sub-issues:\\\\n1. MER-266: Migrate SliceRepository to Riverpod provider (auth-gated)\\\\n2. MER-267: Create slicesProvider + selectedDateProvider\\\\n3. MER-268: Replace FutureBuilder with ref.watch(slicesProvider) + update tests\"",
       "status": "Todo",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5235,10 +4620,7 @@
       "title": "Riverpod migration 4/5: Migrate focus session state to Riverpod",
       "description": "Extract `FocusTimerController`, `_activeSliceId`, `_hasActiveTimer` into Riverpod providers. Biggest win — breaks up `home_page.dart` significantly by moving session state management out of the widget.",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5258,10 +4640,7 @@
       "title": "Riverpod migration 5/5: Migrate connectivity + sync services to Riverpod",
       "description": "Convert `_isOnline`, `PreferencesSyncService`, `ActionQueue` to Riverpod providers. Removes remaining prop drilling from `SliceFocusApp` constructor (currently 19+ optional params).",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5281,10 +4660,7 @@
       "title": "Riverpod 3a: Migrate SliceRepository to auth-gated provider",
       "description": "## Problem\n\n`SliceRepository` is currently created inside `_SliceFocusAppState.initState()` after auth, then passed via constructor to `HomePage`. This makes it impossible for Riverpod providers to depend on it — they can't access a constructor-injected repository.\n\n## Fix\n\n* Create `sliceRepositoryProvider` that depends on an auth/API client provider\n* The provider should handle the auth-gated lifecycle (null when unauthenticated, valid when au… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5304,10 +4680,7 @@
       "title": "Riverpod 3b: Create slicesProvider + selectedDateProvider",
       "description": "## Depends on\n\nMER-266 (SliceRepository provider)\n\n## Fix\n\n* Create `selectedDateProvider` (Notifier with `setDate()` method)\n* Create `slicesProvider` (AsyncNotifier) that watches both `sliceRepositoryProvider` and `selectedDateProvider`, fetches slices, and applies `DaySlice.withUnplannedGaps()`\n* `ref.invalidate(slicesProvider)` replaces `_refresh()`\n* Date navigation updates `selectedDateProvider` which auto-triggers refetch\n\n## Scope\n\nProvi… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5327,10 +4700,7 @@
       "title": "Riverpod 3c: Replace FutureBuilder with ref.watch(slicesProvider)",
       "description": "## Depends on\n\nMER-267 (slicesProvider + selectedDateProvider)\n\n## Fix\n\n* Convert `HomePage` from `StatefulWidget` to `ConsumerStatefulWidget`\n* Remove `_slicesFuture`, `_loadedSlices`, `_setSlicesFuture()`\n* Replace `FutureBuilder` with `ref.watch(slicesProvider).when(...)`\n* Replace `_refresh()` with `ref.invalidate(slicesProvider)`\n* Replace date navigation `setState` with `ref.read(selectedDateProvider.notifier).setDate()`\n* Replace `_loaded… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5350,10 +4720,7 @@
       "title": "FE: Update API base path from /api/ to /api/v1/",
       "description": "## Context\n\nBackend PR #98 (MER-256) migrated all API endpoints from `/api/` to `/api/v1/` for URL path versioning. The FE needs to match.\n\n## Implementation\n\nThis should be a one-line change in `AppConfig` or wherever `API_BASE_URL` / `SLICE_API_PATH_PREFIX` is configured. Update the path prefix from `/api` to `/api/v1`.\n\n## Files to Check\n\n* `lib/src/core/config/app_config.dart` (or equivalent config file)\n* Any hardcoded `/api/` references in… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5372,10 +4739,7 @@
       "title": "FE: Handle 429 rate limit responses gracefully",
       "description": "## Context\n\nBackend (MER-251) now returns `429 Too Many Requests` with a `Retry-After` header when a user exceeds rate limits (100 reads/min, 30 writes/min).\n\n## Current Behavior\n\nThe FE likely shows a generic network error when a 429 is received.\n\n## Expected Behavior\n\n1. Detect 429 status code in `ApiClient` / HTTP interceptor\n2. Read `Retry-After` header (seconds until limit resets)\n3. Show a user-friendly message: \"Too many requests. Please … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5394,10 +4758,7 @@
       "title": "FE: Send X-Request-Id header for end-to-end request tracing",
       "description": "## Context\n\nBackend (MER-252) now supports correlation IDs via `X-Request-Id` header. If the client sends one, the backend preserves it across all log lines. If not, the backend generates one.\n\n## Implementation\n\n1. Generate a UUID in the `ApiClient` / HTTP interceptor for every outgoing request\n2. Attach it as `X-Request-Id` header\n3. Store it alongside the request context so it can be included in bug reports or error logs\n4. Read the `X-Reques… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 3,
-        "name": "Medium"
-      },
+      "priority": "Medium",
       "milestone": {
         "id": "12fe9767-911f-48a7-8898-105273cca255",
         "name": "User Testing & Cosmetics"
@@ -5416,10 +4777,7 @@
       "title": "Set up Flutter project with Flame and Phase 1 dependencies",
       "description": "Initialize Flutter project (`flutter create --org com.clearahead clear_ahead`) and add Phase 1 dependencies to `pubspec.yaml`:\n\n* `flame: ^1.21.0`\n* `flame_audio: ^2.10.0`\n* `shared_preferences: ^2.3.0`\n* `json_annotation: ^4.9.0`\n* `equatable: ^2.0.7`\n* `collection: ^1.18.0`\n\nDev dependencies: `flutter_test`, `build_runner`, `json_serializable`, `mocktail`.\n\nSet up project structure: `lib/game/`, `lib/logic/`, `lib/models/`, `lib/screens/`, `li… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 1,
-        "name": "Urgent"
-      },
+      "priority": "Urgent",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5438,10 +4796,7 @@
       "title": "Implement models: RoadNode, RoadSegment, Vehicle, Ambulance, IntendedDirection",
       "description": "Implement all core data models in `lib/models/`. All models extend `Equatable` for value equality.\n\n**RoadNode** (`models/road_node.dart`): `id`, `x`, `y` coordinates. Props by `id`.\n\n**RoadSegment** (`models/road_segment.dart`): `id`, `fromNodeId`, `toNodeId`, `capacity` (int, vehicle units that fit), optional `waypoints` for curved rendering. Includes `freeSpace()` method.\n\n**Vehicle** (`models/vehicle.dart`): `id`, `type` (car/truck), `sprite… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5460,10 +4815,7 @@
       "title": "Implement RoadGraph with node/segment queries",
       "description": "Implement `RoadGraph` in `lib/logic/road_graph.dart`. Pure Dart, zero Flame imports.\n\n**Fields**: `Map<String, RoadNode> nodes`, `Map<String, RoadSegment> segments`, `List<Vehicle> vehicles`, `Ambulance ambulance`.\n\n**Query methods**:\n\n* `segmentsAt(nodeId)` — all segments connected to a node\n* `vehiclesOn(segmentId)` — vehicles on a specific segment\n* `isRangeFree(segmentId, start, end)` — check if range is free (also checks ambulance)\n* `neigh… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5482,10 +4834,7 @@
       "title": "Implement MoveValidator (segment movement + node crossing)",
       "description": "Implement `MoveValidator` in `lib/logic/move_validator.dart`. Pure Dart, zero Flame imports.\n\n`validateMove(vehicle, delta, graph)`: Validates movement along current segment. Checks bounds (can't exceed segment capacity) and collisions with other vehicles + ambulance. Returns clamped delta (0 if impossible).\n\n`validateCrossing(vehicle, targetNodeId, targetSegmentId, graph)`: Validates crossing through a node to an adjacent segment. Determines en… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5504,10 +4853,7 @@
       "title": "Implement AmbulanceAI (BFS pathfinding + segment checks)",
       "description": "Implement `AmbulanceAI` in `lib/logic/ambulance_ai.dart`. Pure Dart, zero Flame imports. Custom BFS — no external pathfinding package (they only support grids).\n\n`findPath(graph)` — EXPENSIVE: Full BFS from ambulance position to exit node. Returns ordered list of node IDs, or null. Only called when `_pathDirty` flag is set or at intersections.\n\n`canAdvanceNextSegment(graph)` — CHEAP: O(n) check where n = vehicles on next segment (0-3 typically).… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5526,10 +4872,7 @@
       "title": "Implement HealthBar (constant countdown + star calculation)",
       "description": "Implement `HealthBar` in `lib/logic/health_bar.dart`. Pure Dart.\n\n* `maxHealth` (seconds, from level JSON)\n* `remaining` getter, `fraction` getter (remaining/max)\n* `isDepleted` — uses `<= 0`, NOT `== 0`\n* `tick(deltaTime)` — called every game frame, clamps to \\[0, maxHealth\\]\n* `stars(thresholds)` — calculates star rating from remaining health fraction\n\nHealth bar depletes at a **constant rate** regardless of ambulance state. Starts when level … (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5548,10 +4891,7 @@
       "title": "Implement LevelLoader (JSON parsing into full game state)",
       "description": "Implement `LevelLoader` in `lib/logic/level_loader.dart`. Pure Dart.\n\n`load(Map<String, dynamic> json)` — Parses level JSON into a complete game state record:\n\n* `RoadGraph graph` (nodes, segments, vehicles, ambulance)\n* `HealthBar healthBar` (from `healthBar` field in seconds)\n* `Map<int, double> starThresholds` (3/2/1 star → health fraction)\n* `String levelName`, `String difficulty`\n\nParsing:\n\n1. Parse `nodes` list → `Map<String, RoadNode>`\n2.… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5570,10 +4910,7 @@
       "title": "Write unit tests for all logic classes",
       "description": "Write comprehensive unit tests for all pure Dart logic classes. These have zero Flame dependency and are fast to test.\n\n`test/logic/road_graph_test.dart`: Graph construction, `segmentsAt`, `vehiclesOn`, `isRangeFree`, immutable updates (moveVehicle, removeVehicle, moveAmbulance).\n\n`test/logic/move_validator_test.dart`: Valid moves, boundary checks, collision detection, node crossing validation, blocked crossing.\n\n`test/logic/ambulance_ai_test.da… (truncated, use `get_issue` for full description)",
       "status": "Done",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5592,10 +4929,7 @@
       "title": "Create ClearAheadGame rendering roads and vehicles as rectangles",
       "description": "Create `ClearAheadGame` (FlameGame subclass) in `lib/game/clear_ahead_game.dart`. This is the central game class that ties logic and rendering together.\n\n**Components to create**:\n\n* `RoadComponent` — renders road segments as filled rectangles between node positions. Straight segments = rectangle. Width = `worldScale * 0.8`. Color: dark gray.\n* `NodeComponent` — renders intersections as circles at node positions. Radius = `worldScale * 0.5`.\n* `… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5614,10 +4948,7 @@
       "title": "Implement drag-to-move for non-ambulance vehicles",
       "description": "Implement drag-to-move UX in `lib/game/components/drag_handler.dart` using Flame's `DragCallbacks` mixin.\n\n**Interaction flow**:\n\n1. Touch vehicle → highlight (subtle glow/scale-up)\n2. Drag → vehicle follows finger along current segment axis only. Constrained to segment direction. Snaps to unit boundaries.\n3. Release → snap to nearest whole-unit offset. If position changed, `moveCount++`.\n\n**MoveValidator integration**: Check continuously during… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5636,10 +4967,7 @@
       "title": "Implement phase transitions: planning → active",
       "description": "Implement `PhaseManager` in `lib/game/managers/phase_manager.dart` and integrate phase logic into `ClearAheadGame`.\n\n**Planning phase**: Ambulance is stationary (siren on). Player clears initial path. After every valid player move, call `AmbulanceAI.findPath()` (guarded by `_pathDirty` flag). If a valid path exists → transition to active phase.\n\n**Active phase**: Ambulance starts driving. Player keeps moving vehicles in real-time (no pause, no c… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5658,10 +4986,7 @@
       "title": "Implement autonomous ambulance movement with acceleration",
       "description": "Implement ambulance driving logic in `ClearAheadGame._tickAmbulance(dt)`.\n\n**Every frame during active phase**:\n\n1. Call `AmbulanceAI.canAdvanceNextSegment(graph)` (cheap O(n) check)\n2. If blocked → reset speed to base, wait\n3. If clear → advance ambulance by `speed * dt` units\n4. When ambulance crosses into a new segment → accelerate (speed += 0.3, capped at 8.0)\n5. When ambulance reaches exit node → `phase = GamePhase.won`\n\n**Movement mechanic… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5680,10 +5005,7 @@
       "title": "Implement auto-clear for passed vehicles",
       "description": "Implement `AutoClearManager` in `lib/game/managers/auto_clear_manager.dart` and `ClearAheadGame._tickAutoClear()`.\n\n**Logic**: Every frame during active phase, check each vehicle. When the ambulance has passed a vehicle by 2+ segments (measured along the ambulance's traveled path, not straight-line distance):\n\n1. **Immediately remove from RoadGraph** — `graph = graph.removeVehicle(vehicleId)`. The graph is the source of truth and must stay clean… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
@@ -5702,10 +5024,7 @@
       "title": "Load hardcoded level and get end-to-end playable",
       "description": "Integration task: wire everything together so `level_001.json` is fully playable end-to-end.\n\n**Verify the complete loop works**:\n\n* Level loads from JSON via `LevelLoader`\n* Road network + vehicles render on screen (colored rectangles)\n* Player can drag non-ambulance vehicles along segments and through intersections\n* MoveValidator correctly blocks illegal moves\n* After clearing a path, ambulance starts driving autonomously\n* Ambulance accelera… (truncated, use `get_issue` for full description)",
       "status": "Todo",
-      "priority": {
-        "value": 2,
-        "name": "High"
-      },
+      "priority": "High",
       "milestone": {
         "id": "c423b206-b757-4f76-8c29-cd7e5bac0588",
         "name": "Phase 1: Core Logic + Playable Prototype"
