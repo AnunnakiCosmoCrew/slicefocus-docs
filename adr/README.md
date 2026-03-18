@@ -52,6 +52,11 @@ This directory captures significant technical decisions for SliceFocus.
 | [009](009-bdd-cucumber-testing.md) | BDD/Cucumber for component testing with coverage thresholds | Accepted | 2026-03-05 |
 | [023](023-pr-validation-squash-merge.md) | PR validation workflow with squash-merge-only policy | Accepted | 2026-03-14 |
 
+### Process & Governance
+| ADR | Decision | Status | Date |
+|-----|----------|--------|------|
+| [025](025-architecture-decision-records.md) | Use Architecture Decision Records for technical decisions | Accepted | 2026-03-18 |
+
 ## How to add a new ADR
 
 1. Copy [template.md](template.md) to `NNN-short-title.md`
