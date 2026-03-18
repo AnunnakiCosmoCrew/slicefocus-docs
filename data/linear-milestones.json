@@ -1,0 +1,56 @@
+{
+  "exportDate": "2026-03-18",
+  "project": "Time Management App (SliceFocus)",
+  "milestones": [
+    {
+      "name": "The \"Visual Core\" (MVP)",
+      "description": "Prove that the pie chart is functional and user-friendly. Basic UI + Spring Boot CRUD.",
+      "progress": 100,
+      "targetDate": null
+    },
+    {
+      "name": "The \"Focus Engine\"",
+      "description": "Integrate the Pomodoro logic. Timer linked to active slice with state machine.",
+      "progress": 100,
+      "targetDate": "2026-03-05"
+    },
+    {
+      "name": "The \"Sync & Alert\" Layer",
+      "description": "Real-time sync via WebSockets + FCM push notifications.",
+      "progress": 100,
+      "targetDate": "2026-03-12"
+    },
+    {
+      "name": "The \"Refinement & Analytics\"",
+      "description": "Reports, social login, dark mode, soundscapes, CI/CD pipeline.",
+      "progress": 99.9,
+      "targetDate": "2026-03-13"
+    },
+    {
+      "name": "User Testing & Cosmetics",
+      "description": "QA pass, refactoring, UI polish, bug fixes.",
+      "progress": 71.23,
+      "targetDate": "2026-03-20"
+    }
+  ],
+  "cycles": [
+    {
+      "number": 1,
+      "startDate": "2026-03-08",
+      "endDate": "2026-03-15",
+      "completedIssues": [8, 12, 26, 32, 50, 69, 77],
+      "totalIssues": [9, 14, 28, 35, 51, 70, 79],
+      "completedScope": [25, 29, 56, 67, 106, 162, 176],
+      "totalScope": [25, 32, 64, 80, 106, 162, 179]
+    },
+    {
+      "number": 2,
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-22",
+      "completedIssues": [24, 30],
+      "totalIssues": [30, 33],
+      "completedScope": [40, 46],
+      "totalScope": [54, 57]
+    }
+  ]
+}
