@@ -1,5 +1,13 @@
-title: SliceFocus Documentation
-description: Architecture decisions, legal documents, and project documentation for SliceFocus
+title: SliceFocus
+description: SliceFocus legal and public documents
 theme: minima
 baseurl: "/slicefocus-docs"
 url: "https://anunnakicosmocrew.github.io"
+exclude:
+  - adr/
+  - audits/
+  - data/
+  - plans/
+  - roadmap/
+  - README.md
+header_pages: []
