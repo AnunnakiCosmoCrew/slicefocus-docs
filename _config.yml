@@ -9,5 +9,4 @@ exclude:
   - data/
   - plans/
   - roadmap/
-  - README.md
 header_pages: []
