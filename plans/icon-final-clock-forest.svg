@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Clock Markers V2: Forest/nature palette — deep green, sage, earth brown, moss -->
+  <rect x="0" y="0" width="1024" height="1024" rx="224" ry="224" fill="#FFFFFF"/>
+
+  <!-- Outer tick marks — dark green -->
+  <rect x="507" y="132" width="10" height="36" rx="5" fill="#2D4A3E" opacity="0.35"/>
+  <rect x="856" y="507" width="36" height="10" rx="5" fill="#2D4A3E" opacity="0.35"/>
+  <rect x="507" y="856" width="10" height="36" rx="5" fill="#2D4A3E" opacity="0.35"/>
+  <rect x="132" y="507" width="36" height="10" rx="5" fill="#2D4A3E" opacity="0.35"/>
+  <rect x="630" y="155" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(30 633 167)"/>
+  <rect x="730" y="280" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(60 733 292)"/>
+  <rect x="730" y="720" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(120 733 732)"/>
+  <rect x="630" y="845" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(150 633 857)"/>
+  <rect x="388" y="845" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(210 391 857)"/>
+  <rect x="288" y="720" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(240 291 732)"/>
+  <rect x="288" y="280" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(300 291 292)"/>
+  <rect x="388" y="155" width="6" height="24" rx="3" fill="#2D4A3E" opacity="0.15" transform="rotate(330 391 167)"/>
+
+  <!-- Donut segments -->
+  <path d="M 518.1 172.1 A 340 340 0 0 1 851.4 505.9 L 716.7 503.5 A 210 210 0 0 0 513.7 302.1 Z" fill="#2D4A3E"/>
+  <path d="M 851.1 518.1 A 340 340 0 0 1 720.6 770.0 L 637.4 660.8 A 210 210 0 0 0 716.5 517.7 Z" fill="#7BAE7F"/>
+  <path d="M 704.7 786.7 A 340 340 0 0 1 319.3 783.5 L 395.6 663.1 A 210 210 0 0 0 625.8 668.0 Z" fill="#4A8C6F"/>
+  <path d="M 302.5 769.0 A 340 340 0 0 1 165.3 456.4 L 305.2 475.8 A 210 210 0 0 0 385.5 660.4 Z" fill="#A67C52"/>
+  <path d="M 168.3 438.1 A 340 340 0 0 1 505.9 172.1 L 508.5 302.1 A 210 210 0 0 0 311.0 459.9 Z" fill="#B8C9A3"/>
+
+  <circle cx="512" cy="512" r="208" fill="#FFFFFF"/>
+  <polygon points="490,450 490,574 594,512" fill="#2D4A3E"/>
+</svg>
