@@ -208,21 +208,21 @@ These 6 screens cover the core value proposition in priority order:
 
 ## Checklist
 
-- [ ] iOS subtitle finalized
-- [ ] iOS description finalized
-- [ ] iOS keywords finalized
-- [ ] Play Store title finalized
-- [ ] Play Store short description finalized
-- [ ] Play Store full description finalized
-- [ ] App icon exported for all platforms (see MER-161)
+- [x] iOS subtitle finalized
+- [x] iOS description finalized
+- [x] iOS keywords finalized
+- [x] Play Store title finalized
+- [x] Play Store short description finalized
+- [x] Play Store full description finalized
+- [x] App icon exported for all platforms (see MER-161)
 - [ ] Feature graphic (1024×500) created
 - [ ] Screenshots captured — iPhone 6.7"
 - [ ] Screenshots captured — iPhone 5.5"
 - [ ] Screenshots captured — Android
 - [ ] Age rating questionnaire completed (iOS)
 - [ ] Content rating questionnaire completed (Android)
-- [ ] Support URL set
-- [ ] Contact email set
+- [x] Support URL set
+- [x] Contact email set
 
 ---
 
