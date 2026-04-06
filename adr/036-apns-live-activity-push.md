@@ -1,4 +1,4 @@
-# ADR-036: Direct APNS for Live Activity Updates
+# ADR-036: Direct APNs for Live Activity Updates
 
 **Status:** Accepted
 **Date:** 2026-04-06
@@ -10,35 +10,35 @@ SliceFocus displays an iOS Live Activity on the lock screen during focus session
 
 We investigated three approaches to update the Live Activity while the app is suspended:
 1. **TimelineView-based conditional rendering** — Write next-phase data to UserDefaults and check `now >= phaseEndTime` every second via `TimelineView`. This doesn't work because Live Activities don't re-evaluate their view body on timeline schedules — they use ActivityKit content state updates.
-2. **Local notification as a trigger** — Schedule a `zonedSchedule` notification at phase end time. The notification fires but can't update the Live Activity (only the main app or APNS can modify it).
-3. **APNS push notification** — The server sends an APNS push with updated content state when a phase advances. iOS processes it at the OS level and updates the Live Activity immediately.
+2. **Local notification as a trigger** — Schedule a `zonedSchedule` notification at phase end time. The notification fires but can't update the Live Activity (only the main app or APNs can modify it).
+3. **APNs push notification** — The server sends an APNs push with updated content state when a phase advances. iOS processes it at the OS level and updates the Live Activity immediately.
 
-The existing push notification system uses Firebase Cloud Messaging (FCM) for regular notifications (phase completion alerts, session end). FCM delivers to iOS via APNS passthrough, but **FCM does not support the Live Activity content-state payload format** (`apns-push-type: liveactivity` + `content-state` body). A direct APNS HTTP/2 client is required.
+The existing push notification system uses Firebase Cloud Messaging (FCM) for regular notifications (phase completion alerts, session end). FCM delivers to iOS via APNs passthrough, but **FCM does not support the Live Activity content-state payload format** (`apns-push-type: liveactivity` + `content-state` body). A direct APNs HTTP/2 client is required.
 
 ## Decision
 
-Add a direct APNS HTTP/2 client alongside the existing FCM integration. The two push channels serve different purposes:
+Add a direct APNs HTTP/2 client alongside the existing FCM integration. The two push channels serve different purposes:
 
 | Channel | Purpose | Token Lifetime | Token Storage | Payload |
 |---------|---------|----------------|---------------|---------|
 | **FCM** | Regular push notifications (phase alerts, session end, slice warnings) | Per-device, long-lived | `devices` table | Standard notification + data |
-| **APNS (direct)** | Live Activity content-state updates | Per-activity, ephemeral | `focus_sessions.live_activity_push_token` | ActivityKit content-state |
+| **APNs (direct)** | Live Activity content-state updates | Per-activity, ephemeral | `focus_sessions.live_activity_push_token` | ActivityKit content-state |
 
 ### Architecture
 
 1. **FE creates Live Activity** → receives an ActivityKit push token (per-activity, not per-device)
 2. **FE sends token to BE** → `POST /api/v1/focus-sessions/active/live-activity-token`
 3. **BE stores token** on the `FocusSession` entity (ephemeral — cleared on session complete/cancel)
-4. **BE auto-advances phase** (ADR pending, #247) → sends APNS push with updated content state
+4. **BE auto-advances phase** (ADR pending, #247) → sends APNs push with updated content state
 5. **iOS receives push** → updates Live Activity on lock screen instantly
 
 ### Implementation Pattern
 
-The APNS client follows the same patterns established by Firebase:
+The APNs client follows the same patterns established by Firebase:
 
 - **Feature toggle:** `slicefocus.apns.enabled` (default `false`), mirroring `slicefocus.firebase.enabled`
-- **Credentials:** Apple Developer key stored in GCP Secret Manager (per environment), mirroring Firebase credentials
-- **Conditional bean:** `ApnsConfig` conditionally creates the APNS client bean, mirroring `FirebaseConfig`
+- **Credentials:** Apple Developer key stored in Secret Manager (per environment), mirroring Firebase credentials
+- **Conditional bean:** `ApnsConfig` conditionally creates the APNs client bean, mirroring `FirebaseConfig`
 - **Async dispatch:** Push sent via `@Async` annotation in `SessionNotificationService`, same as FCM
 - **Error handling:** Token-level errors (invalid/expired) clear the stored token; delivery failures are logged but don't block the advance
 
@@ -52,7 +52,7 @@ Both are well within Apple's budget.
 
 ## Alternatives Considered
 
-1. **FCM passthrough for Live Activities:** FCM can send APNS payloads via its `apns` field, but it does not support the `liveactivity` push type or the `content-state` payload structure required by ActivityKit. Rejected — technically impossible.
+1. **FCM passthrough for Live Activities:** FCM can send APNs payloads via its `apns` field, but it does not support the `liveactivity` push type or the `content-state` payload structure required by ActivityKit. Rejected — technically impossible.
 
 2. **Background App Refresh (`BGAppRefreshTask`):** Request a brief wake-up near phase end time. The system determines when to actually execute it — not guaranteed to fire at the exact time. Rejected — unreliable timing.
 
@@ -68,10 +68,10 @@ Both are well within Apple's budget.
 - Server becomes the authoritative source for phase state (reduces client-side drift issues)
 
 ### Harder
-- New infrastructure dependency (APNS key management per environment)
-- Two push systems to maintain (FCM + APNS)
-- APNS key rotation requires Secret Manager updates across environments
+- New infrastructure dependency (APNs key management per environment)
+- Two push systems to maintain (FCM + APNs)
+- APNs key rotation requires Secret Manager updates across environments
 - Token lifecycle is more complex (per-activity vs per-device)
-- Direct APNS HTTP/2 client adds a dependency (vs FCM which is part of Firebase Admin SDK)
+- Direct APNs HTTP/2 client adds a dependency (vs FCM which is part of Firebase Admin SDK)
 
 *Related: #250 (parent), #251 (BE implementation), #252 (FE implementation)*
