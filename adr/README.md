@@ -40,6 +40,7 @@ This directory captures significant technical decisions for SliceFocus.
 |-----|----------|--------|------|
 | [007](007-websocket-stomp-realtime.md) | WebSocket with STOMP for real-time sync | Accepted | 2026-03-01 |
 | [010](010-fcm-push-notifications.md) | FCM push notifications via Firebase Admin SDK | Accepted | 2026-03-08 |
+| [036](036-apns-live-activity-push.md) | Direct APNs for Live Activity updates | Accepted | 2026-04-06 |
 | [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Accepted | 2026-03-18 |
 
 ### Frontend Architecture
