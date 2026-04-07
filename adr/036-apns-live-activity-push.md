@@ -1,6 +1,6 @@
 # ADR-036: Direct APNs for Live Activity Updates
 
-**Status:** Accepted
+**Status:** Amended by [ADR-037](037-client-computed-live-activity-timeline.md) — APNS infrastructure retained but phase-advance pushes replaced by client-computed timeline
 **Date:** 2026-04-06
 **Deciders:** Mert Ertugrul
 
