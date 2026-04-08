@@ -20,6 +20,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [026](026-multi-provider-oidc.md) | Multi-Provider OIDC (Google + Apple) with auto-provisioning | Accepted | 2026-03-18 |
 | [024](024-db-unique-constraint-active-session.md) | DB-level unique constraint for single active session | Accepted | 2026-03-03 |
 | [011](011-client-side-pomodoro-timer.md) | Client-side Pomodoro timer with server bookkeeping | Accepted | 2026-03-05 |
+| [034](034-flexible-session-start-stop-tolerance.md) | Flexible session start/stop with ±5 minute tolerance | Accepted | 2026-03-25 |
 | [017](017-spring-cache.md) | Spring Cache with ConcurrentMapCache for hot data | Accepted | 2026-03-16 |
 | [021](021-audit-logging.md) | Audit logging for sensitive operations | Accepted | 2026-03-16 |
 | [020](020-graceful-shutdown.md) | Graceful shutdown with active session awareness | Accepted | 2026-03-16 |
@@ -40,7 +41,8 @@ This directory captures significant technical decisions for SliceFocus.
 |-----|----------|--------|------|
 | [007](007-websocket-stomp-realtime.md) | WebSocket with STOMP for real-time sync | Accepted | 2026-03-01 |
 | [010](010-fcm-push-notifications.md) | FCM push notifications via Firebase Admin SDK | Accepted | 2026-03-08 |
-| [036](036-apns-live-activity-push.md) | Direct APNs for Live Activity updates | Accepted | 2026-04-06 |
+| [036](036-apns-live-activity-push.md) | Direct APNs for Live Activity updates | Amended by ADR-037 | 2026-04-06 |
+| [037](037-client-computed-live-activity-timeline.md) | Client-computed Pomodoro timeline for Live Activity | Accepted | 2026-04-07 |
 | [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Accepted | 2026-03-18 |
 
 ### Frontend Architecture
@@ -60,6 +62,7 @@ This directory captures significant technical decisions for SliceFocus.
 |-----|----------|--------|------|
 | [009](009-bdd-cucumber-testing.md) | BDD/Cucumber for component testing with coverage thresholds | Accepted | 2026-03-05 |
 | [023](023-pr-validation-squash-merge.md) | PR validation workflow with squash-merge-only policy | Accepted | 2026-03-14 |
+| [035](035-versioning-strategy.md) | Versioning strategy (FE, BE, API) | Accepted | 2026-03-26 |
 
 ### Process & Governance
 | ADR | Decision | Status | Date |
