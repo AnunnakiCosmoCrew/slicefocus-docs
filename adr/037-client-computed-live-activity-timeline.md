@@ -1,6 +1,6 @@
 # ADR-037: Client-Computed Pomodoro Timeline for Live Activity
 
-**Status:** Accepted
+**Status:** Accepted — amended: phase transition re-rendering requires Cloud Tasks APNS push trigger (ADR-038) since iOS Live Activities cannot re-evaluate the view body without an external content-state update
 **Date:** 2026-04-07
 **Deciders:** Mert Ertugrul
 
