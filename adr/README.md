@@ -42,7 +42,8 @@ This directory captures significant technical decisions for SliceFocus.
 | [007](007-websocket-stomp-realtime.md) | WebSocket with STOMP for real-time sync | Accepted | 2026-03-01 |
 | [010](010-fcm-push-notifications.md) | FCM push notifications via Firebase Admin SDK | Accepted | 2026-03-08 |
 | [036](036-apns-live-activity-push.md) | Direct APNs for Live Activity updates | Amended by ADR-037 | 2026-04-06 |
-| [037](037-client-computed-live-activity-timeline.md) | Client-computed Pomodoro timeline for Live Activity | Accepted | 2026-04-07 |
+| [037](037-client-computed-live-activity-timeline.md) | Client-computed Pomodoro timeline for Live Activity | Amended by ADR-038 | 2026-04-07 |
+| [038](038-cloud-tasks-phase-scheduling.md) | Cloud Tasks for Live Activity phase transition scheduling | Accepted | 2026-04-09 |
 | [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Accepted | 2026-03-18 |
 
 ### Frontend Architecture
