@@ -35,6 +35,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [014](014-request-correlation-ids.md) | Request correlation IDs via X-Request-Id and MDC | Accepted | 2026-03-16 |
 | [018](018-micrometer-prometheus.md) | Micrometer + Prometheus for application observability | Accepted | 2026-03-16 |
 | [016](016-checkstyle-ci-quality-gates.md) | Checkstyle for static analysis with CI quality gates | Accepted | 2026-03-14 |
+| [039](039-semgrep-over-codeql-for-sast.md) | Semgrep over CodeQL for SAST | Accepted | 2026-04-16 |
 
 ### Networking & Resilience
 | ADR | Decision | Status | Date |

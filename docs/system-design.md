@@ -724,6 +724,7 @@ Credentials (APNS private key) are stored in Secret Manager per environment. Clo
 | 2026-03 | OAuth2 account linking via ID token validation | **Accepted** | `POST /api/auth/link` validates provider ID tokens against JWKS endpoints, enforces email match, and stores `(oauth_provider, oauth_subject)` on the user. Supports Google and Apple. |
 | 2026-03 | Static soundscape catalog (no database) | **Accepted** | Soundscapes are built-in, not user-created. Hardcoded list avoids schema complexity and allows `Cache-Control` caching. |
 | 2026-03 | Checkstyle for code quality gates | **Accepted** | `maven-checkstyle-plugin` enforces coding standards (imports, braces, line length, etc.) during `verify` phase. Config in `checkstyle.xml`. |
+| 2026-04 | Semgrep over CodeQL for SAST (ADR-039) | **Accepted** | Replaced GHAS Code Security with Semgrep free tier (~$360/year saved, ~30s vs 3-5min CI). Initial rollout uses `--severity=ERROR` so only high-severity findings block PRs. Required check renamed from `analyze` to `scan`. |
 
 ## 12. Change Checklist (Template)
 Use this for every significant backend change:
