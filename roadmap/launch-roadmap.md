@@ -2,6 +2,8 @@
 
 *Created: 2026-03-14 | Last updated: 2026-03-14 | Migrated from Linear: 2026-03-17*
 
+> **⚠️ Superseded (historical).** This pre-launch roadmap is kept for historical reference. SliceFocus launched on the macOS and iOS App Stores during v1.0/v1.1, and has since shipped through **v1.2.0** (June 2026). The milestones and work queue below reflect the **March 2026 pre-launch state** and are no longer maintained. For current status see the release audits: [v1.1](../audits/v1.1-release-audit.md), [v1.2](../audits/v1.2-release-audit.md), and the live [project board #8](https://github.com/orgs/AnunnakiCosmoCrew/projects/8).
+
 ---
 
 ## Current State

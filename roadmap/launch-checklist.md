@@ -2,6 +2,8 @@
 
 *Created: 2026-03-23 | Target: App Store + Play Store submission*
 
+> **⚠️ Superseded (historical).** This pre-launch checklist is kept for historical reference. The macOS and iOS App Store launches are complete (v1.0/v1.1) and the app has shipped through **v1.2.0** (June 2026), including an automated TestFlight pipeline ([ADR-041](../adr/041-automated-testflight-fastlane.md)). The unchecked boxes below reflect the **March 2026 pre-launch state** and are no longer maintained. See the [v1.2 release audit](../audits/v1.2-release-audit.md) for current status.
+
 ---
 
 ## Phase 1: Critical Bug Fix

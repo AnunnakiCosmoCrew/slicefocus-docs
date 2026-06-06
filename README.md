@@ -1,6 +1,6 @@
 # SliceFocus Documentation
 
-Project documentation, architecture decisions, and historical data for [SliceFocus](https://github.com/AnunnakiCosmoCrew/SliceFocus) — a time management app with Pomodoro timer support.
+Project documentation, architecture decisions, and historical data for [SliceFocus](https://github.com/AnunnakiCosmoCrew/SliceFocus) — a cross-platform (macOS, iOS, Android) time management app built around a 24-hour radial schedule canvas and a Pomodoro focus timer.
 
 ## Repositories
 

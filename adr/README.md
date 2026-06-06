@@ -34,6 +34,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [013](013-cors-per-environment.md) | Explicit CORS configuration per environment profile | Accepted | 2026-03-16 |
 | [014](014-request-correlation-ids.md) | Request correlation IDs via X-Request-Id and MDC | Accepted | 2026-03-16 |
 | [018](018-micrometer-prometheus.md) | Micrometer + Prometheus for application observability | Accepted | 2026-03-16 |
+| [040](040-firebase-analytics-telemetry.md) | Firebase Analytics for product telemetry | Accepted | 2026-06-05 |
 | [016](016-checkstyle-ci-quality-gates.md) | Checkstyle for static analysis with CI quality gates | Accepted | 2026-03-14 |
 | [039](039-semgrep-over-codeql-for-sast.md) | Semgrep over CodeQL for SAST | Accepted | 2026-04-16 |
 
@@ -65,6 +66,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [009](009-bdd-cucumber-testing.md) | BDD/Cucumber for component testing with coverage thresholds | Accepted | 2026-03-05 |
 | [023](023-pr-validation-squash-merge.md) | PR validation workflow with squash-merge-only policy | Accepted | 2026-03-14 |
 | [035](035-versioning-strategy.md) | Versioning strategy (FE, BE, API) | Accepted | 2026-03-26 |
+| [041](041-automated-testflight-fastlane.md) | Automated TestFlight delivery via Fastlane | Accepted | 2026-06-05 |
 
 ### Process & Governance
 | ADR | Decision | Status | Date |

@@ -6,7 +6,7 @@ title: Privacy Policy — SliceFocus
 # Privacy Policy
 
 **SliceFocus**
-*Last updated: March 23, 2026*
+*Last updated: June 6, 2026*
 
 AnunnakiCosmoCrew ("we", "us", or "our") operates the SliceFocus mobile and desktop application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -57,7 +57,16 @@ We collect anonymous, aggregated metrics for service health monitoring:
 - Total focus sessions started, completed, and cancelled (counts only, no user identifiers)
 - API request performance (response times, error rates)
 
-These metrics contain **no personally identifiable information**.
+These backend metrics contain **no personally identifiable information**.
+
+### 1.6 Product Analytics
+
+We use **Firebase Analytics** to understand how the App is used so we can improve it. We log a small set of usage events:
+
+- **App opens** — when the App is launched
+- **Focus session completions** — including the number of completed cycles and total focus minutes for the session
+
+These analytics events contain **no name, email, or schedule content**. Firebase Analytics assigns a pseudonymous, app-generated instance identifier to associate events from the same installation; this identifier is not linked to your account profile by us. Analytics collection is **disabled in debug/development builds** and only active in production releases.
 
 ---
 
@@ -69,6 +78,7 @@ We use the collected information to:
 - **Send push notifications** — notify you of focus session phase transitions, session completions, and scheduled time block reminders
 - **Maintain security** — audit sensitive operations (account linking, preference changes), enforce rate limits, and correlate requests for debugging
 - **Improve reliability** — identify and fix crashes via Firebase Crashlytics
+- **Improve the product** — understand aggregate usage (app opens, session completions) via Firebase Analytics
 - **Monitor service health** — track aggregated usage metrics to ensure the backend is performing well
 
 We do **not** use your data for advertising, profiling, or selling to third parties.
@@ -83,6 +93,7 @@ We do **not** use your data for advertising, profiling, or selling to third part
 - **Authentication** is managed by [Firebase Authentication](https://firebase.google.com/products/auth) (Google Cloud infrastructure)
 - **Push notification tokens** are stored in our database and transmitted to Firebase Cloud Messaging for delivery
 - **Crash reports** are stored in Firebase Crashlytics (Google Cloud infrastructure)
+- **Analytics events** are processed and stored by Firebase Analytics (Google Cloud infrastructure)
 - **Local preferences** (theme, timer settings, offline queue) are stored on your device using platform-native storage and are not transmitted unless explicitly synced
 
 ### 3.2 Security Measures
@@ -104,6 +115,7 @@ SliceFocus uses the following third-party services that may process your data:
 | Firebase Authentication | Google | Sign-in and identity management | Email, OAuth tokens |
 | Firebase Cloud Messaging | Google | Push notification delivery | Device tokens, notification payloads |
 | Firebase Crashlytics | Google | Crash reporting | Crash logs, device info, app version |
+| Firebase Analytics | Google | Product usage analytics | Usage events (app opens, session completions), pseudonymous app-instance ID |
 | Google Sign-In | Google | OAuth authentication | Email, name, Google account ID |
 | Sign in with Apple | Apple | OAuth authentication | Email, name, Apple ID |
 | Neon | Neon Inc. | Database hosting | All backend-stored data (encrypted at rest) |
@@ -123,6 +135,7 @@ Each third-party service is governed by its own privacy policy:
 - **Device tokens** are retained until the device is unregistered or the token is refreshed
 - **Audit logs** are retained for security compliance purposes
 - **Crash reports** are retained according to Firebase Crashlytics' default retention policy (90 days)
+- **Analytics events** are retained according to Firebase Analytics' configured retention policy
 - **Local device data** is retained until you uninstall the App
 
 ---

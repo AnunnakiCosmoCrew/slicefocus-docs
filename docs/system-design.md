@@ -31,14 +31,12 @@
 
 ## Document Metadata
 - Status: Living document
-- Last updated: 2026-03-14
+- Last updated: 2026-06-06
 - Owners: Backend maintainers
 - Scope: Application architecture (API, domain, persistence, security, runtime behavior)
 - Related docs:
   - `docs/architecture.md` (infrastructure and release architecture)
-  - `OPERATIONS.md` (deployment and operational procedures)
-  - `docs/runbook.md` (incident/ops steps)
-  - `src/main/resources/static/openapi/slicefocus-api.yaml` (API contract)
+  - `src/main/resources/static/openapi/slicefocus-api.yaml` (API contract, in the SliceFocus repo)
 
 ## 1. Goals and Scope
 ### Goals
@@ -100,7 +98,7 @@ flowchart TB
 | `application/` | Use-case orchestration | `HealthService`, `UserService`, `SliceService`, `FocusSessionService`, `ReportService`, `UserPreferencesService`, `AccountLinkingService`, `SoundscapeService`. |
 | `application/PushNotificationService` | Firebase push delivery | Sends push notifications via Firebase Admin SDK to user-registered devices. |
 | `application/SessionNotificationService` | Session event → push dispatch | Triggers push notifications on session phase transitions (advance, complete) and slice-ending warnings. |
-| `domain/` | Core persisted entities | `User`, `Slice`, `FocusSession`, `Device`, `UserPreferences` JPA entities. |
+| `domain/` | Core persisted entities | `User`, `Slice`, `FocusSession`, `Device`, `UserPreferences`, `AuditLog` JPA entities. |
 | `domain/event/` | WebSocket event contracts | `SessionEvent`, `SessionEventType`, `WebSocketTopics`. |
 | `repository/` | Data access abstraction | Spring Data `JpaRepository` interfaces. |
 | `repository/FocusSessionSpecifications` | Dynamic query filters | JPA `Specification` builders for session history filtering (date, range, status, slice). |

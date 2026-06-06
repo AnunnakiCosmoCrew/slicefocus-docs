@@ -110,5 +110,5 @@ Cloud Scheduler pings `/actuator/health` every 4 minutes on dev and test environ
   - `APNS_KEY_ID`, `APNS_TEAM_ID` — Apple Developer identifiers for APNS JWT auth
 
 ## Related Documents
-- Operational procedures: `OPERATIONS.md`
-- Step-by-step actions and incident handling: `docs/runbook.md`
+- Application architecture (API, domain, persistence, security): [`docs/system-design.md`](system-design.md)
+- Architecture Decision Records: [`adr/`](../adr/)
