@@ -73,6 +73,11 @@ This directory captures significant technical decisions for SliceFocus.
 |-----|----------|--------|------|
 | [025](025-architecture-decision-records.md) | Use Architecture Decision Records for technical decisions | Accepted | 2026-03-18 |
 
+### Product & Marketing
+| ADR | Decision | Status | Date |
+|-----|----------|--------|------|
+| [042](042-minimal-sincere-marketing-design-language.md) | Minimal & sincere marketing design language | Accepted | 2026-06-06 |
+
 ## How to add a new ADR
 
 1. Copy [template.md](template.md) to `NNN-short-title.md`
