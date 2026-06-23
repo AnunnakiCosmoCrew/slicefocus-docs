@@ -67,5 +67,5 @@ When submitting to the App Store, set these accessibility features in App Store 
 
 If you encounter any accessibility issues, please report them at:
 
-**Email:** merty.ertugrul@gmail.com
+**Email:** contact@cosmocrew.dev
 **GitHub:** [github.com/AnunnakiCosmoCrew/SliceFocus/issues](https://github.com/AnunnakiCosmoCrew/SliceFocus/issues) (label: `accessibility`)
