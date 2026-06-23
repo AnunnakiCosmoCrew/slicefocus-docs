@@ -169,7 +169,7 @@ We may update this Privacy Policy from time to time. We will notify you of signi
 
 If you have any questions about this Privacy Policy or wish to exercise your data rights, please contact us at:
 
-**Email:** merty.ertugrul@gmail.com
+**Email:** contact@cosmocrew.dev
 
 ---
 

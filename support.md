@@ -15,7 +15,7 @@ If you need help with SliceFocus or have any questions, we're here to assist.
 
 For support inquiries, bug reports, or feedback, please reach out via email:
 
-**Email:** [merty.ertugrul@gmail.com](mailto:merty.ertugrul@gmail.com)
+**Email:** [contact@cosmocrew.dev](mailto:contact@cosmocrew.dev)
 
 We aim to respond within 48 hours.
 
@@ -37,7 +37,7 @@ Ensure you are signed in with the same account on all devices and that you have 
 
 ### How do I contact support?
 
-Send an email to [merty.ertugrul@gmail.com](mailto:merty.ertugrul@gmail.com) with a description of your issue, and we'll get back to you.
+Send an email to [contact@cosmocrew.dev](mailto:contact@cosmocrew.dev) with a description of your issue, and we'll get back to you.
 
 ---
 
