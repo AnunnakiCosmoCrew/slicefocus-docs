@@ -86,7 +86,7 @@ When fixing a bug, the failing test that reproduces it must be written and commi
 
 ## ADR Conventions
 
-Architecture Decision Records live in [`adr/`](adr/). The next ADR number is **045**.
+Architecture Decision Records live in [`adr/`](adr/). The next ADR number is **043**.
 
 - **Filename**: `NNN-kebab-slug.md` (zero-padded to 3 digits, e.g., `042-new-decision.md`)
 - **Template**: [`adr/template.md`](adr/template.md)

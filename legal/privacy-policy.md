@@ -6,7 +6,7 @@ title: Privacy Policy — SliceFocus
 # Privacy Policy
 
 **SliceFocus**
-*Last updated: June 25, 2026*
+*Last updated: June 6, 2026*
 
 AnunnakiCosmoCrew ("we", "us", or "our") operates the SliceFocus mobile and desktop application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -68,17 +68,6 @@ We use **Firebase Analytics** to understand how the App is used so we can improv
 
 These analytics events contain **no name, email, or schedule content**. Firebase Analytics assigns a pseudonymous, app-generated instance identifier to associate events from the same installation; this identifier is not linked to your account profile by us. Analytics collection is **disabled in debug/development builds** and only active in production releases.
 
-### 1.7 Website Analytics (slicefocus.app)
-
-Our marketing website ([slicefocus.app](https://slicefocus.app)) uses **Google Analytics 4** to measure visits and how visitors reach the App Store. We record page views and clicks on the "Download on the App Store" buttons, along with a campaign label derived from the link you arrived through (for example, a Reddit or Hacker News post). This website analytics:
-
-- uses cookies to count visits and recognise a returning browser within a session;
-- collects **no name, email, or account information**;
-- does **not** track you across other websites and is **not** used for advertising or profiling;
-- does not store your IP address (Google Analytics 4 does not log IP addresses).
-
-We cannot link an individual website visitor to an individual App Store download. This analytics applies only to the website, not to the App.
-
 ---
 
 ## 2. How We Use Your Information
@@ -127,7 +116,6 @@ SliceFocus uses the following third-party services that may process your data:
 | Firebase Cloud Messaging | Google | Push notification delivery | Device tokens, notification payloads |
 | Firebase Crashlytics | Google | Crash reporting | Crash logs, device info, app version |
 | Firebase Analytics | Google | Product usage analytics | Usage events (app opens, session completions), pseudonymous app-instance ID |
-| Google Analytics 4 | Google | Website (slicefocus.app) visit + App Store click analytics | Page views, App Store button clicks, campaign label; pseudonymous cookie ID. No IP stored. |
 | Google Sign-In | Google | OAuth authentication | Email, name, Google account ID |
 | Sign in with Apple | Apple | OAuth authentication | Email, name, Apple ID |
 | Neon | Neon Inc. | Database hosting | All backend-stored data (encrypted at rest) |
