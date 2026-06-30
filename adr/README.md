@@ -78,6 +78,7 @@ This directory captures significant technical decisions for SliceFocus.
 |-----|----------|--------|------|
 | [042](042-minimal-sincere-marketing-design-language.md) | Minimal & sincere marketing design language | Accepted | 2026-06-06 |
 | [044](044-web-analytics-ga4-apple-campaign-tokens.md) | Web analytics on slicefocus.app (GA4 + Apple campaign tokens) | Accepted | 2026-06-25 |
+| [045](045-gap-fill-activity-suggestions.md) | Gap-fill activity suggestions between events | Accepted | 2026-06-30 |
 
 ## How to add a new ADR
 
