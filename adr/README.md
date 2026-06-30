@@ -59,6 +59,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [029](029-shared-preferences-persistence.md) | SharedPreferences over SQLite for local persistence | Accepted | 2026-03-18 |
 | [030](030-dart-define-env-configuration.md) | Flutter environment configuration via --dart-define | Accepted | 2026-03-18 |
 | [031](031-rejecting-freezed-codegen.md) | Rejecting freezed/code-generation for domain models | Accepted | 2026-03-18 |
+| [043](043-add-slice-next-free-gap-default.md) | Add-slice defaults into the next free gap | Accepted | 2026-06-09 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
