@@ -1,8 +1,14 @@
 # ADR-027: Offline Action Queue with Automatic Retry
 
-**Status:** Accepted
+**Status:** Accepted (extended by [ADR-049](049-typed-envelope-action-queue.md))
 **Date:** 2026-03-18
 **Deciders:** Mert Ertugrul
+
+> **Update (2026-07-01):** The queue was generalized from a session-completion-only store to a typed
+> `QueuedAction` envelope so it can also carry category and calendar-export writes. Legacy
+> session-completion entries (no `entity` key) replay unchanged. See
+> [ADR-049](049-typed-envelope-action-queue.md) for the envelope shape, per-entity dispatch, and
+> idempotency rules.
 
 ## Context
 
