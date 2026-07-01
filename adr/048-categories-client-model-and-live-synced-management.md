@@ -1,8 +1,13 @@
 # ADR-048: Categories — client model, slice tagging, cache & live-synced management
 
-**Status:** Accepted
+**Status:** Accepted (amended by [ADR-052](052-seed-default-categories-on-account-creation.md))
 **Date:** 2026-07-01
 **Deciders:** Mert Ertugrul
+
+> **Amended by [ADR-052](052-seed-default-categories-on-account-creation.md) (BE #335):** categories no
+> longer start empty — a fixed default set is seeded server-side on account creation (and backfilled for
+> existing empty accounts). They remain ordinary, fully-editable, deletable categories, so a user can
+> still curate down to none.
 
 ## Context
 
