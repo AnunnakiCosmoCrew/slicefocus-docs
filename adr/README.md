@@ -59,6 +59,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [029](029-shared-preferences-persistence.md) | SharedPreferences over SQLite for local persistence | Accepted | 2026-03-18 |
 | [030](030-dart-define-env-configuration.md) | Flutter environment configuration via --dart-define | Accepted | 2026-03-18 |
 | [031](031-rejecting-freezed-codegen.md) | Rejecting freezed/code-generation for domain models | Accepted | 2026-03-18 |
+| [046](046-calendar-export-device-local-id-map.md) | Device-local slice↔calendar-event id map for one-way export | Accepted | 2026-07-01 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
