@@ -46,7 +46,8 @@ This directory captures significant technical decisions for SliceFocus.
 | [036](036-apns-live-activity-push.md) | Direct APNs for Live Activity updates | Amended by ADR-037 | 2026-04-06 |
 | [037](037-client-computed-live-activity-timeline.md) | Client-computed Pomodoro timeline for Live Activity | Amended by ADR-038 | 2026-04-07 |
 | [038](038-cloud-tasks-phase-scheduling.md) | Cloud Tasks for Live Activity phase transition scheduling | Accepted | 2026-04-09 |
-| [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Accepted | 2026-03-18 |
+| [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Extended by ADR-049 | 2026-03-18 |
+| [049](049-typed-envelope-action-queue.md) | Typed-envelope generalization of the offline action queue | Accepted | 2026-07-01 |
 
 ### Frontend Architecture
 | ADR | Decision | Status | Date |
@@ -61,6 +62,9 @@ This directory captures significant technical decisions for SliceFocus.
 | [031](031-rejecting-freezed-codegen.md) | Rejecting freezed/code-generation for domain models | Accepted | 2026-03-18 |
 | [046](046-calendar-export-device-local-id-map.md) | Device-local slice→calendar-event id map for one-way export | Accepted | 2026-07-01 |
 | [047](047-two-way-calendar-reconciliation-snapshot-echo-guard.md) | Two-way calendar reconciliation via snapshot echo-guard | Accepted | 2026-07-01 |
+| [048](048-categories-client-model-and-live-synced-management.md) | Categories: client model, slice tagging, cache & live-synced management | Accepted | 2026-07-01 |
+| [050](050-ekreminders-for-slices.md) | EKReminders for slice reminders | Accepted | 2026-07-01 |
+| [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Accepted | 2026-07-01 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
