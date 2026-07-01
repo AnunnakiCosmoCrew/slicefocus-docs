@@ -28,7 +28,7 @@ for session events, so a decision is needed on why reminders use EKReminders ins
 Create an `EKReminder` on slice save through a dedicated EventKit channel, with deliberately minimal
 lifecycle machinery. Key design choices:
 
-- **Its own platform channel, shared event store.** `EventkitRemindersRepository` talks over
+- **Its own platform channel, shared event store.** `EventKitRemindersRepository` talks over
   `com.slicefocus.reminders` (`createReminder`, `completeReminder`, `listReminders`,
   `requestAccess`, `authorizationStatus`), separate from `com.slicefocus.calendar` but backed by the
   same long-lived `EKEventStore` in the iOS/macOS `AppDelegate`. iOS 17+/macOS 14+ use
