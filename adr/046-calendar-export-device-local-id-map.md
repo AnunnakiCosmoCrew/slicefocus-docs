@@ -1,4 +1,4 @@
-# ADR-046: Device-local slice↔calendar-event id map for one-way export
+# ADR-046: Device-local slice→calendar-event id map for one-way export
 
 **Status:** Accepted
 **Date:** 2026-07-01
