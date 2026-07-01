@@ -65,6 +65,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [048](048-categories-client-model-and-live-synced-management.md) | Categories: client model, slice tagging, cache & live-synced management | Accepted | 2026-07-01 |
 | [050](050-ekreminders-for-slices.md) | EKReminders for slice reminders | Accepted | 2026-07-01 |
 | [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Accepted | 2026-07-01 |
+| [052](052-default-seeded-categories.md) | Default seeded categories (gap-fill catalog) + category emoji | Proposed | 2026-07-01 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
