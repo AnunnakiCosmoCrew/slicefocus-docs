@@ -25,7 +25,7 @@ slice repository. Key design choices:
   `DaySlice`s with hardcoded palette colours chosen for a cohesive per-template look. No API, no fetch,
   no cache — the library ships in the binary.
 - **Apply = loop `saveSlice`, with rollback.** Using a template persists each of its slices through the
-  existing `SliceRepository.saveSlice` ([the repository pattern], not a new bulk endpoint). If a save
+  existing `SliceRepository.saveSlice` (the repository pattern, not a new bulk endpoint). If a save
   fails partway, the flow attempts to restore the day's original slices before surfacing the error, so a
   half-applied template doesn't leave the day in a mangled state.
 - **Single source of activity labels.** The suggestion catalog (ADR-045) is derived from
