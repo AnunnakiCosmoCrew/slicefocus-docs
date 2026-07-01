@@ -37,7 +37,7 @@ Maintain a **device-local slice→event id map** in `SharedPreferences` ([ADR-02
 - Export is exact and duplicate-free across toggles, edits, and replays, and self-heals when events are deleted outside the app.
 - The id map is device-scoped and cleared on account switch (per-user key), so accounts never cross wires; it is rebuilt lazily as slices are re-exported after a reinstall.
 - The map's JSON shape becomes a soft local contract; corrupt data self-heals to empty (ADR-029), at the cost of silently re-exporting on the next write.
-- One-way only: events the user edits in their calendar are not read back into slices. Divergence is expected until the two-way phase; re-exporting a slice overwrites its event.
+- One-way only: events the user edits in their calendar are not read back into slices. This is resolved by the two-way phase ([ADR-047](047-two-way-calendar-reconciliation-snapshot-echo-guard.md)), which reuses this id map — widened with a per-slice event snapshot — as its change detector and echo guard.
 - The `CalendarExportReflector` is the single source of truth for id-mapping and self-heal, shared by the live decorator and queue replay — new export triggers should call it rather than reimplement the rules.
 
-*Related: FE #358, [ADR-027](027-offline-action-queue.md), [ADR-029](029-shared-preferences-persistence.md), [ADR-022](022-macos-menu-bar-platform-channels.md)*
+*Related: FE #358, [ADR-047](047-two-way-calendar-reconciliation-snapshot-echo-guard.md), [ADR-027](027-offline-action-queue.md), [ADR-029](029-shared-preferences-persistence.md), [ADR-022](022-macos-menu-bar-platform-channels.md)*
