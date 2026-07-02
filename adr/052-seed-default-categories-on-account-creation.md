@@ -89,6 +89,24 @@ Seed a fixed default catalog **server-side, on account creation**, and backfill 
 - Emoji is intentionally not seeded: the `Category` model has no emoji field, so defaults carry name +
   colour only (revisit if the model gains one).
 
-*Related: BE #335, [ADR-048](048-categories-client-model-and-live-synced-management.md) (amended),
+## Amendment (2026-07-02): user-triggered restore as a non-destructive merge
+
+The backfill's "already has categories → mark seeded without inserting" rule (correct as a default)
+left one gap: accounts that predate seeding, and anyone who later deletes defaults, had no way to get
+the default set back. BE #337 adds `POST /api/v1/categories/restore-defaults`, a user-triggered
+**merge, not a reset**:
+
+- Reuses `DefaultCategorySeedingService.seedFor(userId)` — the same single-catalog, idempotent,
+  case-insensitive-by-name insert used at provisioning — so only missing catalog entries are created.
+  Existing categories are never modified or deleted, and the `default_categories_seeded_at` marker is
+  irrelevant to (and untouched by) the endpoint.
+- `seedFor` now returns the created `Category` rows (previously a count) so the endpoint can report
+  exactly what was added; the response is the list of created categories, empty when all defaults are
+  already present (re-invoking is a no-op). Created rows emit the usual `CATEGORY_CREATED` STOMP events.
+- A destructive **reset** (delete-all + reseed) was considered and rejected: it would orphan slice→category
+  tags, recreate renamed defaults as duplicates, and require a heavyweight confirmation. The merge variant
+  needs only mild FE copy ("adds any missing default categories; your existing ones are kept" — FE #377).
+
+*Related: BE #335, BE #337, FE #377, [ADR-048](048-categories-client-model-and-live-synced-management.md) (amended),
 [ADR-045](045-gap-fill-activity-suggestions.md), [ADR-051](051-app-curated-in-code-day-templates.md),
 [ADR-007](007-websocket-stomp-realtime.md)*
