@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ba81ca1e-c679-4027-852c-fa74f6bbebe7__list_teams",
+      "mcp__ba81ca1e-c679-4027-852c-fa74f6bbebe7__list_projects",
+      "mcp__ba81ca1e-c679-4027-852c-fa74f6bbebe7__list_issue_statuses",
+      "WebSearch"
+    ]
+  }
+}

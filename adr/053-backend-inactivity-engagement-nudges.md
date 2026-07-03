@@ -84,7 +84,10 @@ over FCM, not device-local), and only differs in cadence and payload:
   channel but not the other.
 - **Weekly cadence, previous full calendar week.** `WeeklyRecapScheduler` (`@Scheduled` Monday 09:00
   UTC, configurable via `slicefocus.weekly-recap.*`) recaps the prior Mon–Sun. Frequency capped by
-  `lastWeeklyRecapSentAt` (6-day window) so a re-run within the week can't double-send.
+  `lastWeeklyRecapSentAt` against the **current week boundary** (this Monday 00:00 UTC) rather than a
+  rolling window — a user already recapped this Mon–Sun week is ineligible, so any in-week re-run is a
+  no-op, while the boundary sits ~9h from the actual send time and so avoids the millisecond race a
+  7-day window would hit at the legitimate next-week run.
 - **No hollow recaps.** Users with zero completed sessions in the week are skipped *after* the recap
   is computed (and no timestamp is stamped, so they remain eligible next week) — a recap is only sent
   when there's something to celebrate.
