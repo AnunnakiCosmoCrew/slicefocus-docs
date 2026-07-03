@@ -70,5 +70,35 @@ runs hourly and sends inactivity nudges over the existing FCM pipeline (`PushNot
 - macOS FCM delivery (the first release target) is a delivery risk flagged in the FE sub-issue, not the
   backend.
 
-*Related: BE #346, epic #345. Builds on [ADR-010](010-fcm-push-notifications.md); contrasts with
-[ADR-050](050-ekreminders-for-slices.md); voice per [ADR-042](042-minimal-sincere-marketing-design-language.md).*
+## Extension: weekly recap value-push (BE #350)
+
+The same delivery mechanism is reused for a second, complementary use case — a **weekly recap**
+(*"6h 20m focused · 12 sessions · 78% adherence · best day Tuesday"*) that deep-links to the
+Analytics dashboard. Where the inactivity nudge is a *nag* (come back), the recap is a *value push*
+(here's what you accomplished) — a stronger retention lever for the 20-WAU goal. It shares this ADR
+rather than getting its own because it makes the same core decision (server-knowledge-dependent push
+over FCM, not device-local), and only differs in cadence and payload:
+
+- **Separate opt-out toggle.** New `UserPreferences.weeklyRecapEnabled` (default `true`), independent
+  of both `notificationEnabled` and `engagementRemindersEnabled` — a user may want one motivational
+  channel but not the other.
+- **Weekly cadence, previous full calendar week.** `WeeklyRecapScheduler` (`@Scheduled` Monday 09:00
+  UTC, configurable via `slicefocus.weekly-recap.*`) recaps the prior Mon–Sun. Frequency capped by
+  `lastWeeklyRecapSentAt` (6-day window) so a re-run within the week can't double-send.
+- **No hollow recaps.** Users with zero completed sessions in the week are skipped *after* the recap
+  is computed (and no timestamp is stamped, so they remain eligible next week) — a recap is only sent
+  when there's something to celebrate.
+- **Reuses the report compute path, not a copy.** `ReportService` was refactored to expose
+  `userId`-scoped compute methods so the scheduler (which runs with no security context) reuses the
+  exact trends/adherence logic behind the Analytics API rather than duplicating it.
+- **Deep-link payload.** Data carries `type=weekly_recap` (FE routes it to the Analytics dashboard)
+  alongside the existing `eventType` convention.
+- **Category line deferred.** The recap will gain a top-category + emoji line once per-category
+  aggregates (#349) land; until then it degrades gracefully to the metrics above — no hard dependency.
+
+No quiet-hours gate is needed here: a single weekly send at a fixed morning hour, unlike the hourly
+inactivity job, has no risk of firing repeatedly at an odd local time.
+
+*Related: BE #346 (nudge), BE #350 (recap), epics #345 / #348. Builds on
+[ADR-010](010-fcm-push-notifications.md); contrasts with [ADR-050](050-ekreminders-for-slices.md);
+voice per [ADR-042](042-minimal-sincere-marketing-design-language.md).*
