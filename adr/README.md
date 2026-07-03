@@ -26,6 +26,9 @@ This directory captures significant technical decisions for SliceFocus.
 | [020](020-graceful-shutdown.md) | Graceful shutdown with active session awareness | Accepted | 2026-03-16 |
 | [032](032-server-synced-preferences.md) | Server-synced user preferences with local fallback | Accepted | 2026-03-18 |
 | [033](033-api-client-retry-rate-limit.md) | API client with retry logic and rate-limit awareness | Accepted | 2026-03-18 |
+| [052](052-seed-default-categories-on-account-creation.md) | Seed default categories on account creation | Accepted | 2026-07-01 |
+| [053](053-backend-inactivity-engagement-nudges.md) | Backend inactivity engagement nudges | Accepted | 2026-07-03 |
+| [054](054-per-category-focus-aggregates-per-lens-attribution.md) | Per-category focus aggregates use per-lens (non-partition) attribution | Accepted | 2026-07-03 |
 
 ### Security & Observability
 | ADR | Decision | Status | Date |
