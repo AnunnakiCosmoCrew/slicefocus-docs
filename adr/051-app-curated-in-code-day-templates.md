@@ -1,6 +1,6 @@
 # ADR-051: App-curated, in-code day templates
 
-**Status:** Accepted
+**Status:** Accepted, amended by [ADR-055](055-user-editable-backend-synced-day-templates.md)
 **Date:** 2026-07-01
 **Deciders:** Mert Ertugrul
 

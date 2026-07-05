@@ -67,7 +67,8 @@ This directory captures significant technical decisions for SliceFocus.
 | [047](047-two-way-calendar-reconciliation-snapshot-echo-guard.md) | Two-way calendar reconciliation via snapshot echo-guard | Accepted | 2026-07-01 |
 | [048](048-categories-client-model-and-live-synced-management.md) | Categories: client model, slice tagging, cache & live-synced management | Accepted | 2026-07-01 |
 | [050](050-ekreminders-for-slices.md) | EKReminders for slice reminders | Accepted | 2026-07-01 |
-| [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Accepted | 2026-07-01 |
+| [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Amended by ADR-055 | 2026-07-01 |
+| [055](055-user-editable-backend-synced-day-templates.md) | User-editable, backend-synced day templates | Accepted | 2026-07-05 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
