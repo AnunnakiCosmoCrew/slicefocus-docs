@@ -106,7 +106,7 @@ Carry the backend's own self-consistent model. The widget renders the **current 
 }
 ```
 
-`remaining = phaseDuration(lifecycleState) − (now − phaseStartedAt − phasePausedSeconds)`, clamped at 0 in the current phase (matching the app's dwell). `sessionStartTime` is retained only for the 8-hour cap.
+`remaining = phaseDuration(lifecycleState) − ((isPaused ? pausedAt : now) − phaseStartedAt − phasePausedSeconds)`, clamped at 0 in the current phase (matching the app's dwell). `sessionStartTime` is retained only for the 8-hour cap.
 
 | Field | Semantics | Anchor |
 |---|---|---|
