@@ -113,7 +113,7 @@ ordinary category — fully renameable, recolourable, and deletable.
 
 ## Consequences
 
-- New accounts start with 15 usable, colour- and emoji-distinct categories; the
+- New accounts start with 15 usable, colour-coded categories with emoji; the
   slice dialog's category section is populated from first launch, and gap-fill
   suggestions line up with the user's actual categories out of the box.
 - ADR-048's "categories start empty" invariant is **superseded**: the FE must no
