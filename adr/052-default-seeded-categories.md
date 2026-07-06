@@ -36,7 +36,7 @@ Two decisions follow from "ship users a starting set of categories":
 Seed a fixed set of default categories **on the backend at account creation**,
 backfill existing empty accounts once, and **add an optional `emoji` field to the
 `Category` model** so the seed carries its catalog emoji. Every default is an
-ordinary category — fully renameable, recolourable, and deletable.
+ordinary category — fully renamable, recolourable, and deletable.
 
 - **Seed set = the full gap-fill catalog.** The 15 entries below (13 distinct
   `TemplateLibrary` labels, first-occurrence-wins, plus the `Focus`/`Recharge`
