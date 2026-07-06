@@ -129,7 +129,7 @@ Land order: docs → backend (new + legacy fields) → app (new widget prefers n
 
 ### Boundary dwell and the 8-hour cap
 
-The widget clamps at `0:00` in the current phase rather than auto-walking into the next one, matching the app's auto-advance-off dwell; the next mutation push or app-foreground nudge re-anchors it. The 8-hour cap is honoured client-side; the backend should also schedule a single end-push at the cap so the activity actually dismisses (ADR-037 previously claimed the widget "autonomously ends" — it only clamps). The per-advance push question is unchanged from ADR-038: we deliberately do **not** push on every phase transition (that reintroduces the push storm this ADR removed).
+The widget clamps at `0:00` in the current phase rather than auto-walking into the next one, matching the app's auto-advance-off dwell; the next phase-boundary APNS trigger push (ADR-038), mutation push, or app-foreground nudge re-anchors it. The 8-hour cap is honoured client-side; the backend should also schedule a single end-push at the cap so the activity actually dismisses (ADR-037 previously claimed the widget "autonomously ends" — it only clamps).
 
 ## Alternatives Considered
 
