@@ -1,6 +1,6 @@
 # ADR-037: Client-Computed Pomodoro Timeline for Live Activity
 
-**Status:** Accepted — amended: phase transition re-rendering requires Cloud Tasks APNS push trigger (ADR-038) since iOS Live Activities cannot re-evaluate the view body without an external content-state update
+**Status:** Accepted — amended twice: (1) phase transition re-rendering requires a Cloud Tasks APNS push trigger (ADR-038) since iOS Live Activities cannot re-evaluate the view body without an external content-state update; (2) **MER-358 (2026-07-06)** — the content-state contract is re-anchored at the **phase** (`phaseStartedAt` + `lifecycleState` + `completedCycles`, minus per-phase `phasePausedSeconds`) rather than replayed from `sessionStartTime`. See the *MER-358 amendment* section below.
 **Date:** 2026-04-07
 **Deciders:** Mert Ertugrul
 
@@ -44,6 +44,8 @@ The widget uses this config to compute the full Pomodoro timeline autonomously:
 - 30:00–55:00 → WORK
 - ... and so on for up to 8 hours
 
+> **Superseded by the MER-358 amendment (see below).** This session-anchored schema is preserved for historical context. The `completedCyclesAtStart` and `totalPausedSeconds` fields above proved ambiguous across the three implementations (widget / backend push / FE orchestrator) and are replaced by the phase anchor. They remain tolerated on decode for one release.
+
 ### When APNS pushes are sent
 
 APNS is only needed for **mutations** — events that change the inputs to the formula:
@@ -71,6 +73,63 @@ When a user unlocks their phone and opens the app, `GET /active` returns the ses
 ### 8-hour session cap
 
 The widget autonomously ends after `maxSessionSeconds`. The server can optionally schedule a single cleanup task at the 8-hour mark to send an end notification, or handle it reactively when the client next contacts the server.
+
+## MER-358 amendment — re-anchor the contract at the phase (2026-07-06)
+
+### Problem
+
+The original session-anchored schema replayed the whole timeline from `sessionStartTime`, and its two mutable fields carried **different semantics in each of the three implementations**, so the lock-screen widget and the in-app timer diverged by whole cycles and phases:
+
+- **`completedCyclesAtStart` double-count.** The widget seeds its walk with `cycles = completedCyclesAtStart` and *then* re-walks from `sessionStartTime`. For that to be correct the field must mean *cycles completed before `sessionStartTime`* (always 0), but both producers sent the **current** count with the **original** start → the walk over-advances (e.g. "Work 3/4" where truth is "Work 2/4"). Fresh sessions (count 0) are unaffected, which is why it survived casual testing.
+- **`totalPausedSeconds` means three things.** Widget: cumulative since `sessionStartTime`. Backend: **per-phase** — `FocusSession.advance()` resets it to 0 each transition. FE orchestrator: session-cumulative, never reset. Because the `live_activities` plugin serves local updates from UserDefaults (FE convention) but APNS pushes carry the full backend content state (per-phase convention), the widget alternated between the two and jumped whenever a Cloud Tasks push landed.
+- **No phase anchor.** With only `sessionStartTime`, the schema can only express the ideal back-to-back grid. The real timeline leaves that grid routinely: auto-advance defaults **off** (the app dwells at each boundary until the user taps), plus a ~2 s advance delay and manual advance. The server tracks this via `phaseStartedAt`; the widget could never learn it.
+
+### Corrected content-state contract
+
+Carry the backend's own self-consistent model. The widget renders the **current phase only**, walking forward from the phase anchor:
+
+```json
+{
+  "phaseStartedAt": 1712481500,
+  "lifecycleState": "WORK",
+  "completedCycles": 2,
+  "phasePausedSeconds": 0,
+  "pausedAt": 0,
+  "isPaused": false,
+  "sessionStartTime": 1712480000,
+  "workDurationSeconds": 1500,
+  "breakDurationSeconds": 300,
+  "longBreakDurationSeconds": 900,
+  "cyclesBeforeLongBreak": 4,
+  "maxSessionSeconds": 28800,
+  "taskName": "Deep Work"
+}
+```
+
+`remaining = phaseDuration(lifecycleState) − (now − phaseStartedAt − phasePausedSeconds)`, clamped at 0 in the current phase (matching the app's dwell). `sessionStartTime` is retained only for the 8-hour cap.
+
+| Field | Semantics | Anchor |
+|---|---|---|
+| `phaseStartedAt` | epoch secs when the **current phase** began | phase |
+| `lifecycleState` | `WORK` \| `SHORT_BREAK` \| `LONG_BREAK` — the phase to render (not re-derived from cycle count) | phase |
+| `completedCycles` | current completed-cycle count; drives the cycle label (backend increments on entering a break) | phase |
+| `phasePausedSeconds` | pause seconds accumulated **within the current phase** (reset on advance) | phase |
+| `pausedAt` | epoch secs when paused, else 0 — freezes elapsed on re-render | phase |
+| `sessionStartTime` | epoch secs of session start — **8-hour cap only** | session |
+| *(config)* | durations, `cyclesBeforeLongBreak`, `maxSessionSeconds`, `taskName` | — |
+
+### Rollout — graceful fallback both directions
+
+The widget ships in the app binary; the backend deploys independently. Both sides degrade gracefully:
+
+- **Widget** prefers the phase anchor when `phaseStartedAt > 0` and `lifecycleState` is present; otherwise it falls back to the legacy session walk. So an old-backend push or an activity cached by a previous build still renders.
+- **Backend** emits the new fields **and** keeps legacy `completedCyclesAtStart` / `totalPausedSeconds` for one release, so widgets built before this change keep working.
+
+Land order: docs → backend (new + legacy fields) → app (new widget prefers new fields). No migration — every field already exists on `FocusSession`.
+
+### Boundary dwell and the 8-hour cap
+
+The widget clamps at `0:00` in the current phase rather than auto-walking into the next one, matching the app's auto-advance-off dwell; the next mutation push or app-foreground nudge re-anchors it. The 8-hour cap is honoured client-side; the backend should also schedule a single end-push at the cap so the activity actually dismisses (ADR-037 previously claimed the widget "autonomously ends" — it only clamps). The per-advance push question is unchanged from ADR-038: we deliberately do **not** push on every phase transition (that reintroduces the push storm this ADR removed).
 
 ## Alternatives Considered
 
@@ -104,4 +163,4 @@ The widget autonomously ends after `maxSessionSeconds`. The server can optionall
 - Keep APNS infrastructure (#258, #260) — still needed for mutation pushes
 - FE: Update `ContentState` struct to accept config instead of derived phase state (#262)
 
-*Related: ADR-011 (client-side timer), ADR-036 (APNS for Live Activity), #250 (parent), #263 (server-side scheduling — superseded)*
+*Related: ADR-011 (client-side timer), ADR-036 (APNS for Live Activity), ADR-038 (Cloud Tasks phase-transition push trigger), #250 (parent), #263 (server-side scheduling — superseded), [#358](https://github.com/AnunnakiCosmoCrew/SliceFocus/issues/358) (MER-358 phase-anchor re-anchoring)*
