@@ -72,7 +72,7 @@ When a user unlocks their phone and opens the app, `GET /active` returns the ses
 
 ### 8-hour session cap
 
-The widget autonomously ends after `maxSessionSeconds`. The server can optionally schedule a single cleanup task at the 8-hour mark to send an end notification, or handle it reactively when the client next contacts the server.
+The widget clamps at `0:00` after `maxSessionSeconds` unless it receives an explicit end-event push. The server should schedule a single cleanup task at the 8-hour mark to send an end notification so the activity dismisses, or handle it reactively when the client next contacts the server.
 
 ## MER-358 amendment — re-anchor the contract at the phase (2026-07-06)
 
