@@ -6,9 +6,9 @@ title: Privacy Policy — SliceFocus
 # Privacy Policy
 
 **SliceFocus**
-*Last updated: June 25, 2026*
+*Last updated: September 15, 2026*
 
-AnunnakiCosmoCrew ("we", "us", or "our") operates the SliceFocus mobile and desktop application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
+SliceFocus is a CosmoCrew app. CosmoCrew is the consumer-apps brand of Luvita Teknoloji Ltd. Şti. ("Luvita", "we", "us", or "our"), which operates the SliceFocus mobile and desktop application (the "App") and is responsible for the personal data described in this policy (the data controller). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
 By using SliceFocus, you agree to the collection and use of information in accordance with this policy.
 
@@ -183,6 +183,10 @@ If you have any questions about this Privacy Policy or wish to exercise your dat
 
 **Email:** contact@cosmocrew.dev
 
+**Who we are:** Luvita Teknoloji Ltd. Şti. · MERSİS 0609147476900001 · Bodrum, Muğla, Türkiye
+
 ---
 
 *This privacy policy is hosted at [https://anunnakicosmocrew.github.io/slicefocus-docs/legal/privacy-policy](https://anunnakicosmocrew.github.io/slicefocus-docs/legal/privacy-policy)*
+
+© 2026 CosmoCrew — a brand of [Luvita Teknoloji Ltd. Şti.](https://luvita.tr/)
