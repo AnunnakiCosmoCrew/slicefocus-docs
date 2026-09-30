@@ -61,6 +61,7 @@ on the home screen.
 
 ## Consequences
 
+- **Update (2026-07-06, [#435](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/435)):** surface (a), the proactive home card, was retired in favour of the inline gap-fill (surface b) — it consumed most of the bounded home layout's timeline height ([MER-427](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/427)); `SuggestionEngine` and `GapSuggestionCard` remain in the codebase but are no longer wired into the home page.
 - New always-on home UI: the proactive card renders whenever a planned day has a
   ≥30-min gap. Existing home widget tests that asserted exact icon/label counts
   needed scoping (the separator no longer adds an `Icons.add`; suggestions dedupe

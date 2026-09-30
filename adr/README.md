@@ -26,6 +26,9 @@ This directory captures significant technical decisions for SliceFocus.
 | [020](020-graceful-shutdown.md) | Graceful shutdown with active session awareness | Accepted | 2026-03-16 |
 | [032](032-server-synced-preferences.md) | Server-synced user preferences with local fallback | Accepted | 2026-03-18 |
 | [033](033-api-client-retry-rate-limit.md) | API client with retry logic and rate-limit awareness | Accepted | 2026-03-18 |
+| [052](052-seed-default-categories-on-account-creation.md) | Seed default categories on account creation | Accepted | 2026-07-01 |
+| [053](053-backend-inactivity-engagement-nudges.md) | Backend inactivity engagement nudges | Accepted | 2026-07-03 |
+| [054](054-per-category-focus-aggregates-per-lens-attribution.md) | Per-category focus aggregates use per-lens (non-partition) attribution | Accepted | 2026-07-03 |
 
 ### Security & Observability
 | ADR | Decision | Status | Date |
@@ -60,12 +63,16 @@ This directory captures significant technical decisions for SliceFocus.
 | [029](029-shared-preferences-persistence.md) | SharedPreferences over SQLite for local persistence | Accepted | 2026-03-18 |
 | [030](030-dart-define-env-configuration.md) | Flutter environment configuration via --dart-define | Accepted | 2026-03-18 |
 | [031](031-rejecting-freezed-codegen.md) | Rejecting freezed/code-generation for domain models | Accepted | 2026-03-18 |
+| [043](043-add-slice-next-free-gap-default.md) | Add-slice defaults into the next free gap | Accepted | 2026-06-09 |
 | [046](046-calendar-export-device-local-id-map.md) | Device-local slice→calendar-event id map for one-way export | Accepted | 2026-07-01 |
 | [047](047-two-way-calendar-reconciliation-snapshot-echo-guard.md) | Two-way calendar reconciliation via snapshot echo-guard | Accepted | 2026-07-01 |
 | [048](048-categories-client-model-and-live-synced-management.md) | Categories: client model, slice tagging, cache & live-synced management | Accepted | 2026-07-01 |
 | [050](050-ekreminders-for-slices.md) | EKReminders for slice reminders | Accepted | 2026-07-01 |
 | [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Accepted | 2026-07-01 |
 | [052](052-default-seeded-categories.md) | Default seeded categories (gap-fill catalog) + category emoji | Proposed | 2026-07-01 |
+| [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Amended by ADR-055 | 2026-07-01 |
+| [055](055-user-editable-backend-synced-day-templates.md) | User-editable, backend-synced day templates | Accepted | 2026-07-05 |
+| [056](056-calendar-export-scope-and-write-back-configuration.md) | Calendar-export scope filter, write-back toggle, and event options | Accepted | 2026-07-06 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
