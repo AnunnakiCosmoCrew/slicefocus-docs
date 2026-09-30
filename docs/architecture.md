@@ -69,8 +69,8 @@ APNS follows the same opt-in pattern as Firebase. Used for Live Activity content
 
 Cloud Tasks uses the REST API directly (no gRPC client library) with Application Default Credentials. Queue `phase-transitions` is created in `europe-west3`. Cloud Run SA has `roles/cloudtasks.enqueuer`; Cloud Tasks SA has `roles/run.invoker`.
 
-### Keep-Alive (Dev/Test)
-Cloud Scheduler pings `/actuator/health` every 4 minutes on dev and test environments to prevent Cloud Run and Neon cold starts. Prod uses `MIN_INSTANCES=1`.
+### Scale-to-Zero (Dev/Test)
+Dev and test scale to zero (Cloud Run `MIN_INSTANCES=0`, Neon autosuspend); the app retries on cold start. The Cloud Scheduler keep-alive jobs were removed on 2026-09-30 (MER-399) to stop idle compute cost. Prod uses `MIN_INSTANCES=1`.
 
 ## Core Infrastructure Decisions
 - Runtime is Cloud Run for low-ops deployment and managed scaling.

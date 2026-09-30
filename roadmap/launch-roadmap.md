@@ -35,7 +35,7 @@
 
 | # | Title | Side | Pts | Status | Depends On |
 | -- | -- | -- | -- | -- | -- |
-| 5 | Cloud Run min-instances=1 | Infra | 1 | Todo | — |
+| 5 | ~~Cloud Run min-instances=1~~ | Infra | 1 | **Done** | `deploy-prod.yml` sets `MIN_INSTANCES: "1"` |
 | 6 | ~~Add productivity trends endpoint~~ | BE | 3 | **Done** | — |
 | 7 | Productivity trends visualization | FE | 5 | Backlog | #6 |
 | 8 | ~~Add OAuth2 account linking flow~~ | BE | 5 | **Done** | — |

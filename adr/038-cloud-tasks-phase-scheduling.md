@@ -68,7 +68,7 @@ At phase boundary:
 - **IAM:** Cloud Run SA has `roles/cloudtasks.enqueuer`; Cloud Tasks SA has `roles/run.invoker`
 - **Webhook:** `POST /internal/cloud-tasks/phase-transition` — not in OpenAPI, secured via OIDC token verification
 - **Feature toggle:** `slicefocus.cloud-tasks.enabled` (same pattern as Firebase/APNS)
-- **Keep-alive:** Cloud Scheduler pings `/actuator/health` every 4 minutes on dev/test to prevent cold starts
+- **Keep-alive:** ~~Cloud Scheduler pings `/actuator/health` every 4 minutes on dev/test to prevent cold starts~~ *Amended 2026-09-30 (MER-399): the keep-alive jobs were removed. Dev/test scale to zero (Cloud Run min-instances 0, Neon autosuspend) and the app retries on cold start; prod uses `MIN_INSTANCES=1`. This reinforces the decision above: in-process `@Scheduled` polling does not survive scale-to-zero, Cloud Tasks does.*
 
 ## Alternatives Considered
 
