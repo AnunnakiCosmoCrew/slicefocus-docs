@@ -76,13 +76,9 @@ When fixing a bug, the failing test that reproduces it must be written and commi
 
 #### Branch Protection
 
-- Squash merge only (merge commits and rebase merges disabled)
-- Required CI checks must pass before merge:
-  - Backend: `verify` (PR Quality & Security) + `scan` (Semgrep SAST)
-  - Frontend: `analyze-and-test`
-- All review conversations must be resolved before merge — reply **and** explicitly resolve each thread
-- No approving review required (solo developer — Copilot provides automated review)
-- Force push and branch deletion blocked on `main`; head branches auto-deleted after merge
+- Both app repos: `main` is protected by the `main-protection` ruleset (org on GitHub Team since 2026-10-06) — PR required, every review thread resolved (reply **and** explicitly resolve), linear history, no force-push or deletion; squash merge only and auto-delete head branches are repo settings. No approving review required (solo developer — Copilot provides automated review).
+- Required checks (the ruleset, listed in `emirers/registry.yaml`): backend `verify` (PR Quality & Security) + `scan` (Semgrep SAST); frontend `analyze-and-test`.
+- Locally, `git-guard.py` (Claude Code managed settings, from the private `emirers` repo) refuses `gh pr merge --admin`, a push to an app repo's `main`, and a merge with red, pending or skipped checks or open threads. This docs repo takes direct pushes (docs ruleset: no force-push or deletion only). Details: `emirers/README.md`.
 
 ## ADR Conventions
 
