@@ -12,9 +12,7 @@ flowchart LR
   GitHub --> CRDev["Cloud Run: slicefocus-backend-dev"]
   GitHub --> CRTest["Cloud Run: slicefocus-backend-test"]
   GitHub --> CRProd["Cloud Run: slicefocus-backend"]
-  User["Client"] --> DNS["DNS: api.slicefocus.com"]
-  DNS --> LB["External HTTPS Load Balancer"]
-  LB --> CRProd
+  User["Client"] --> CRProd
   CRDev --> Neon["Neon PostgreSQL"]
   CRTest --> Neon
   CRProd --> Neon
@@ -37,7 +35,7 @@ flowchart LR
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `dev` | `dev` | `slicefocus-backend-dev` | Public (current default) | Push to `main` or manual run | `.github/workflows/deploy-dev.yml` | Yes (`SKIP_BUILD=false`) | `slicefocus-dev-db-url`, `slicefocus-dev-db-user`, `slicefocus-dev-db-pass` | Cloud Run URL |
 | `test` | `test` | `slicefocus-backend-test` | Public (current default) | Manual promotion | `.github/workflows/deploy-test.yml` | No (`SKIP_BUILD=true`) | `slicefocus-test-db-url`, `slicefocus-test-db-user`, `slicefocus-test-db-pass` | Cloud Run URL |
-| `prod` | `prod` | `slicefocus-backend` | Private by default (`ALLOW_UNAUTHENTICATED=false`) | Manual promotion | `.github/workflows/deploy-prod.yml` | No (`SKIP_BUILD=true`) | `slicefocus-prod-db-url`, `slicefocus-prod-db-user`, `slicefocus-prod-db-pass` | `https://api.slicefocus.com` |
+| `prod` | `prod` | `slicefocus-backend` | Public (`allUsers` invoker; the app depends on it) | Manual promotion | `.github/workflows/deploy-prod.yml` | No (`SKIP_BUILD=true`) | `slicefocus-prod-db-url`, `slicefocus-prod-db-user`, `slicefocus-prod-db-pass` | Cloud Run URL (baked into the app). The `api.slicefocus.com` load balancer was retired on 2026-10-12 (SliceFocus#429): nothing ever called it |
 
 ### Firebase Secrets per Environment
 | Environment | Firebase Credentials Secret | Enabled Flag |
