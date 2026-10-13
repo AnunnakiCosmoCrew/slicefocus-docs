@@ -82,6 +82,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [023](023-pr-validation-squash-merge.md) | PR validation workflow with squash-merge-only policy | Accepted | 2026-03-14 |
 | [035](035-versioning-strategy.md) | Versioning strategy (FE, BE, API) | Accepted | 2026-03-26 |
 | [041](041-automated-testflight-fastlane.md) | Automated TestFlight delivery via Fastlane | Accepted | 2026-06-05 |
+| [058](058-cocoapods-to-swift-package-manager.md) | Apple builds on Swift Package Manager only, `flutter_pcm_sound` vendored | Accepted | 2026-10-13 |
 
 ### Process & Governance
 | ADR | Decision | Status | Date |
