@@ -73,6 +73,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [051](051-app-curated-in-code-day-templates.md) | App-curated, in-code day templates | Amended by ADR-055 | 2026-07-01 |
 | [055](055-user-editable-backend-synced-day-templates.md) | User-editable, backend-synced day templates | Accepted | 2026-07-05 |
 | [056](056-calendar-export-scope-and-write-back-configuration.md) | Calendar-export scope filter, write-back toggle, and event options | Accepted | 2026-07-06 |
+| [057](057-focus-shield-screen-time-app-and-website-blocking.md) | Focus Shield: block selected apps and websites during a focus session (Screen Time API, iOS) | Proposed | 2026-10-13 |
 
 ### Testing & CI/CD
 | ADR | Decision | Status | Date |
