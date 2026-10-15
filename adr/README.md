@@ -83,6 +83,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [035](035-versioning-strategy.md) | Versioning strategy (FE, BE, API) | Accepted | 2026-03-26 |
 | [041](041-automated-testflight-fastlane.md) | Automated TestFlight delivery via Fastlane | Accepted | 2026-06-05 |
 | [058](058-cocoapods-to-swift-package-manager.md) | Apple builds on Swift Package Manager only, `flutter_pcm_sound` vendored | Accepted | 2026-10-13 |
+| [059](059-focus-shield-on-macos-safari-extension-and-app-interruption.md) | Focus Shield on macOS: Safari extension for websites, interruption for apps | Proposed | 2026-10-15 |
 
 ### Process & Governance
 | ADR | Decision | Status | Date |
