@@ -44,3 +44,18 @@ Ship **Focus Shield** as an iOS-only, device-local feature built on the Screen T
 - SliceFocus takes on a Screen Time authorization prompt and a Family Controls entitlement, which App Review scrutinises; the use case (self-imposed focus blocking by the device owner) is the individual-authorization case, not parental control.
 - A force-quit mid-session leaves the shield up until the next launch (or until the user disables it in iOS Screen Time settings). Accepted for the first release, tracked in FE #525.
 - A new Swift source file and an entitlement key land in the Runner target; the Xcode project file gains the file reference, and the App ID gains the Family Controls capability on the next automatic-signing build.
+
+## Addendum 2026-10-15: macOS spike (FE #526)
+
+**Recommendation: keep Focus Shield iOS-only and declare macOS out of scope.** No Apple mechanism blocks other *apps* on macOS for a third-party app. If macOS demand appears, the only proportionate follow-up is a Safari web extension for website blocking.
+
+**1. Native macOS support: no.** Checked in the SDK, not the forums (Xcode 27.0, build 27A266a, `MacOSX27.0.sdk`, swiftinterface availability annotations). `FamilyControls.framework` ships a macOS slice, but the only API available on macOS is the `FamilyControlsError` enum. `AuthorizationCenter`, `AuthorizationStatus`, `FamilyActivityPicker` and `FamilyControlsMember` are `@available(macOS, unavailable)`. `ManagedSettings`: `ManagedSettingsStore` and `ShieldSettings` are `@available(macOS, unavailable)`. The docs landing pages carry no availability data, and WWDC26 coverage found no developer-API change to Screen Time.
+
+**2. Mac Catalyst: not viable.** The same SDK marks `AuthorizationCenter` `@available(macCatalyst, unavailable)`, although Apple's framework page still lists Mac Catalyst 15.0+. Developer-forum threads report authorization failing under the sandbox (mach-lookup of `com.apple.FamilyControlsAgent` denied), and Catalyst apps are always sandboxed. I did not run a Catalyst build; the SDK annotation plus these reports are enough to rule it out, and it would also replace the native macOS Flutter target for no gain.
+
+**3. Fallbacks.**
+- **Safari web extension (`declarativeNetRequest`).** Blocks websites only, only in Safari, and only while the user keeps the extension enabled (other browsers are unaffected, and the user can switch it off). Needs no restricted entitlement as far as I can tell (not verified against Apple docs). Cost: a new extension target plus Flutter-to-extension plumbing. The only fallback worth considering, and only on user demand.
+- **`NEFilterDataProvider` system extension.** Not recommended. It needs the restricted `com.apple.developer.networking.networkextension` entitlement, a system-extension approval flow, and macOS 26 reports of `sysextd` rejecting signed extensions. It blocks hosts, not apps, so it is heavy for the same website-only result as the Safari extension.
+- **Out of scope.** Recommended default. The Mac app is a desktop timer; the user is already at a computer they control, and iOS is where the distraction problem is.
+
+**Follow-up:** none needed now. Re-check the SDK availability lines in each new Xcode major release; if `AuthorizationCenter` loses `@available(macOS, unavailable)`, reopen this spike.
