@@ -19,7 +19,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [003](003-stateless-jwt-auth.md) | Stateless JWT authentication with Firebase | Accepted | 2026-02-20 |
 | [026](026-multi-provider-oidc.md) | Multi-Provider OIDC (Google + Apple) with auto-provisioning | Accepted | 2026-03-18 |
 | [024](024-db-unique-constraint-active-session.md) | DB-level unique constraint for single active session | Accepted | 2026-03-03 |
-| [011](011-client-side-pomodoro-timer.md) | Client-side Pomodoro timer with server bookkeeping | Accepted | 2026-03-05 |
+| [011](011-client-side-pomodoro-timer.md) | Client-side Pomodoro timer with server bookkeeping | Superseded by ADR-062 | 2026-03-05 |
 | [034](034-flexible-session-start-stop-tolerance.md) | Flexible session start/stop with ±5 minute tolerance | Accepted | 2026-03-25 |
 | [017](017-spring-cache.md) | Spring Cache with ConcurrentMapCache for hot data | Accepted | 2026-03-16 |
 | [021](021-audit-logging.md) | Audit logging for sensitive operations | Accepted | 2026-03-16 |
@@ -47,12 +47,13 @@ This directory captures significant technical decisions for SliceFocus.
 | [007](007-websocket-stomp-realtime.md) | WebSocket with STOMP for real-time sync | Accepted | 2026-03-01 |
 | [010](010-fcm-push-notifications.md) | FCM push notifications via Firebase Admin SDK | Accepted | 2026-03-08 |
 | [036](036-apns-live-activity-push.md) | Direct APNs for Live Activity updates | Amended by ADR-037 | 2026-04-06 |
-| [037](037-client-computed-live-activity-timeline.md) | Client-computed Pomodoro timeline for Live Activity | Amended by ADR-038 | 2026-04-07 |
-| [038](038-cloud-tasks-phase-scheduling.md) | Cloud Tasks for Live Activity phase transition scheduling | Accepted | 2026-04-09 |
+| [037](037-client-computed-live-activity-timeline.md) | Client-computed Pomodoro timeline for Live Activity | Amended by ADR-038, ADR-062 | 2026-04-07 |
+| [038](038-cloud-tasks-phase-scheduling.md) | Cloud Tasks for Live Activity phase transition scheduling | Amended by ADR-062 | 2026-04-09 |
 | [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Extended by ADR-049 | 2026-03-18 |
 | [049](049-typed-envelope-action-queue.md) | Typed-envelope generalization of the offline action queue | Accepted | 2026-07-01 |
 | [060](060-websocket-lifecycle-policy.md) | Hold the realtime WebSocket only while the app is in use (refines ADR-007) | Accepted | 2026-10-16 |
 | [061](061-pull-plus-push-sync-replaces-persistent-websocket.md) | Pull-plus-push sync replaces the persistent WebSocket (supersedes ADR-007; ADR-060 is the stopgap) | Accepted | 2026-10-16 |
+| [062](062-server-owned-focus-timeline-clients-render.md) | The server owns the focus timeline; every client renders it (supersedes ADR-011; amends ADR-037, 038, 061) | Accepted | 2026-10-16 |
 
 ### Frontend Architecture
 | ADR | Decision | Status | Date |
