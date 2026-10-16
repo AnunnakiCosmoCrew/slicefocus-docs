@@ -1,6 +1,6 @@
 # ADR-061: Pull-plus-push sync replaces the persistent WebSocket
 
-**Status:** Proposed (product decision; accepted when the founder moves the epic to Todo)
+**Status:** Accepted (2026-10-16: the founder moved the epic, [SliceFocus#438](https://github.com/AnunnakiCosmoCrew/SliceFocus/issues/438), to Todo)
 **Date:** 2026-10-16
 **Deciders:** Mert Ertugrul
 **Supersedes:** [ADR-007](007-websocket-stomp-realtime.md) (WebSocket with STOMP for real-time sync), once the last sub-issue of the epic lands

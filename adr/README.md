@@ -52,7 +52,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Extended by ADR-049 | 2026-03-18 |
 | [049](049-typed-envelope-action-queue.md) | Typed-envelope generalization of the offline action queue | Accepted | 2026-07-01 |
 | [060](060-websocket-lifecycle-policy.md) | Hold the realtime WebSocket only while the app is in use (refines ADR-007) | Accepted | 2026-10-16 |
-| [061](061-pull-plus-push-sync-replaces-persistent-websocket.md) | Pull-plus-push sync replaces the persistent WebSocket (supersedes ADR-007; ADR-060 is the stopgap) | Proposed | 2026-10-16 |
+| [061](061-pull-plus-push-sync-replaces-persistent-websocket.md) | Pull-plus-push sync replaces the persistent WebSocket (supersedes ADR-007; ADR-060 is the stopgap) | Accepted | 2026-10-16 |
 
 ### Frontend Architecture
 | ADR | Decision | Status | Date |
