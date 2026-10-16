@@ -4,6 +4,7 @@
 **Date:** 2026-10-16
 **Deciders:** Mert Ertugrul
 **Supersedes:** [ADR-007](007-websocket-stomp-realtime.md) (WebSocket with STOMP for real-time sync), once the last sub-issue of the epic lands
+**Amended by:** [ADR-062](062-server-owned-focus-timeline-clients-render.md) (2026-10-16): the premise "the Pomodoro timer stays local (ADR-037)" becomes "every client renders the server's timeline"; the `session` sync push also fires for server-originated changes (a webhook advance, a `GET /active` catch-up), and a hidden menu-bar-resident Mac with an active session keeps the 60 s poll as its fallback while hidden
 **Relates to:** [ADR-060](060-websocket-lifecycle-policy.md) (the stopgap this replaces), [ADR-010](010-fcm-push-notifications.md), [ADR-036](036-apns-live-activity-push.md), [ADR-038](038-cloud-tasks-phase-scheduling.md), [ADR-027](027-offline-action-queue.md)
 
 ## Context

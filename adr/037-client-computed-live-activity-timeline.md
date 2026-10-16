@@ -1,6 +1,6 @@
 # ADR-037: Client-Computed Pomodoro Timeline for Live Activity
 
-**Status:** Accepted — amended twice: (1) phase transition re-rendering requires a Cloud Tasks APNS push trigger (ADR-038) since iOS Live Activities cannot re-evaluate the view body without an external content-state update; (2) **MER-358 (2026-07-06)** — the content-state contract is re-anchored at the **phase** (`phaseStartedAt` + `lifecycleState` + `completedCycles`, minus per-phase `phasePausedSeconds`) rather than replayed from `sessionStartTime`. See the *MER-358 amendment* section below.
+**Status:** Accepted — amended twice: (1) phase transition re-rendering requires a Cloud Tasks APNS push trigger (ADR-038) since iOS Live Activities cannot re-evaluate the view body without an external content-state update; (2) **MER-358 (2026-07-06)** — the content-state contract is re-anchored at the **phase** (`phaseStartedAt` + `lifecycleState` + `completedCycles`, minus per-phase `phasePausedSeconds`) rather than replayed from `sessionStartTime`. See the *MER-358 amendment* section below; (3) **[ADR-062](062-server-owned-focus-timeline-clients-render.md) (2026-10-16)**: the client-computed formula stays, but every client renders the *server's* anchor (no local re-anchoring), the Live Activity has a single writer (the server's APNs push), and the end push at the 8-hour cap is scheduled by the backend (SliceFocus#445).
 **Date:** 2026-04-07
 **Deciders:** Mert Ertugrul
 

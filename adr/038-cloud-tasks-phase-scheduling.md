@@ -1,6 +1,6 @@
 # ADR-038: Google Cloud Tasks for Live Activity Phase Transition Scheduling
 
-**Status:** Accepted
+**Status:** Accepted — amended by [ADR-062](062-server-owned-focus-timeline-clients-render.md) (2026-10-16): the phase-transition webhook also sends the FCM phase alert (SliceFocus#443) and, after a catch-up, the advance is broadcast like the webhook's (SliceFocus#444); the push stays the Live Activity's only writer
 **Date:** 2026-04-09
 **Deciders:** Mert Ertugrul
 

@@ -1,6 +1,6 @@
 # ADR-011: Client-side Pomodoro timer with server-side session bookkeeping
 
-**Status:** Accepted
+**Status:** Superseded by [ADR-062](062-server-owned-focus-timeline-clients-render.md) (2026-10-16): the client no longer runs the Pomodoro state machine; it renders the server's timeline from the phase anchor
 **Date:** 2026-03-05
 **Deciders:** Mert Ertugrul
 
