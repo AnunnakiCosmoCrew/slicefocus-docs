@@ -51,6 +51,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [038](038-cloud-tasks-phase-scheduling.md) | Cloud Tasks for Live Activity phase transition scheduling | Accepted | 2026-04-09 |
 | [027](027-offline-action-queue.md) | Offline action queue with automatic retry | Extended by ADR-049 | 2026-03-18 |
 | [049](049-typed-envelope-action-queue.md) | Typed-envelope generalization of the offline action queue | Accepted | 2026-07-01 |
+| [060](060-websocket-lifecycle-policy.md) | Hold the realtime WebSocket only while the app is in use (refines ADR-007) | Accepted | 2026-10-16 |
 
 ### Frontend Architecture
 | ADR | Decision | Status | Date |
