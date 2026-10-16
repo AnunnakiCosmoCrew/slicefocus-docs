@@ -28,12 +28,16 @@ What the socket carries is thin: user-scoped broadcasts on `/topic/user/{id}/ses
 
 2. **The server sends and expects STOMP heartbeats every 10 s** (`slicefocus.websocket.heartbeat-millis`, `WebSocketConfig`). Spring's simple broker closes a session that has sent nothing for three intervals, so a connection that died without a close frame (suspended iOS app, closed lid, dropped Wi-Fi, any pre-policy build that vanishes) stops counting as an in-flight request after about 30 s instead of the 300 s request timeout. `0` disables heartbeats and restores the previous behaviour without a code change.
 
-3. **Not changed:** request-based billing, minScale 1, the 300 s request timeout, SockJS, the topics and payloads, the REST reconcile on resume.
+3. **Explicit, cheap scaling limits in `deploy.sh`:** `--max-instances 3` (a hard cost ceiling: an active instance is about ₺3,400/month on request-based billing, so about ₺10,000/month at worst) and `--concurrency 500` (idle WebSockets hold no Tomcat thread, so one instance keeps many of them instead of scaling out; Tomcat's 200 worker threads remain the REST ceiling). Before this a deploy kept whatever the console last had (maxScale 20, concurrency 80).
+
+4. **Not changed:** request-based billing, minScale 1, the 300 s request timeout, SockJS, the topics and payloads, the REST reconcile on resume.
+
+This is the short-term layer. A separate ADR (in preparation) looks at replacing the always-open socket with foreground refresh plus silent pushes (APNs is already wired into the backend); the policy here is kept simple and configurable (two grace constants, one heartbeat property) so it can be narrowed or removed when that lands.
 
 ## Alternatives Considered
 
 - **Server-side idle close after N minutes.** Saves nothing on its own: the shipped client reconnects within 1 s (its own backoff) or 5 s (the STOMP library), and the server cannot tell an idle foreground client from a hidden one. Kept only in the narrow heartbeat form above.
-- **Instance-based billing for the service.** Billed 100% of the time at roughly 75% of the active request rate: about ₺100/day, barely below the measured ₺112 and two to three times what the client policy reaches. Worth revisiting only if the policy does not land.
+- **Instance-based billing for the service.** Billed 100% of the time at roughly 75% of the active request rate: about ₺100/day, barely below the measured ₺112 and two to three times what the client policy reaches. It only pays off when the instance is active more than roughly 65% of the time, which it will not be once idle clients disconnect. Kept as a later option, not part of this change.
 - **Disconnect on `inactive` immediately.** Would cut most of the remaining cost on desktop but makes a side-by-side window go dark the moment focus leaves it. The 5 min grace is the product trade-off; it is one constant.
 - **Replace the socket with polling or push only.** Loses sub-second cross-device updates while two devices are in active use, which is the one case the socket is for.
 
