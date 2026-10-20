@@ -1,6 +1,6 @@
 # ADR-062: The server owns the focus timeline; every client renders it
 
-**Status:** Accepted (founder, 2026-10-16). Implementation is tracked in the issues under *Rollout*; none of them is in Todo yet.
+**Status:** Accepted (founder, 2026-10-16); amended 2026-10-20 (auto-advance on by default, SliceFocus#450). Implementation is tracked in the issues under *Rollout*.
 **Date:** 2026-10-16
 **Deciders:** Mert Ertugrul
 **Supersedes:** [ADR-011](011-client-side-pomodoro-timer.md) (client-side Pomodoro timer with server-side session bookkeeping)
@@ -70,7 +70,7 @@ render(anchor, now):
   if ref - sessionStartTime >= maxSessionSeconds: remaining = 0
 ```
 
-`next` is the backend's `FocusSession.advance()`: WORK increments `completedCycles` and goes to LONG_BREAK when the count reaches `cyclesBeforeLongBreak`, else SHORT_BREAK; SHORT_BREAK goes to WORK; LONG_BREAK goes to WORK and resets the count to 0. With auto-advance off the render dwells at 0 and the user advances by hand. This is one function in four places: `FocusSession.autoAdvance()` on the backend, the renderer controller in Dart, `computePomodoroState` in the widget (which keeps its clamp and relies on the push for the walk, ADR-038), and the Swift menu bar.
+`next` is the backend's `FocusSession.advance()`: WORK increments `completedCycles` and goes to LONG_BREAK when the count reaches `cyclesBeforeLongBreak`, else SHORT_BREAK; SHORT_BREAK goes to WORK; LONG_BREAK goes to WORK and resets the count to 0. With auto-advance off the render dwells at 0 and the user advances by hand. **Amendment (founder, 2026-10-20, [SliceFocus#450](https://github.com/AnunnakiCosmoCrew/SliceFocus/issues/450)):** auto-advance is **on by default** for both boundaries, on the server (`user_preferences.auto_advance` default true, existing rows flipped by V48) and in the app before its first preferences sync ([SliceFocusFE#600](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/600)); the dwell is the opt-in behaviour behind the Settings toggle. A parked boundary counted the wait nowhere and let two devices drift around the manual tap ([SliceFocusFE#598](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/598)). This is one function in four places: `FocusSession.autoAdvance()` on the backend, the renderer controller in Dart, `computePomodoroState` in the widget (which keeps its clamp and relies on the push for the walk, ADR-038), and the Swift menu bar.
 
 ### The six points
 
