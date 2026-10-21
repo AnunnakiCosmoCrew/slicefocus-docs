@@ -240,3 +240,84 @@ These 6 screens cover the core value proposition in priority order:
 - Related: [#161 — Design and set production app icon](https://github.com/AnunnakiCosmoCrew/SliceFocus/issues/161)
 - Related: [#162 — Release signing for iOS and Android](https://github.com/AnunnakiCosmoCrew/SliceFocus/issues/162)
 - Features: [FEATURES.md](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/blob/main/docs/FEATURES.md)
+
+---
+
+## 1.7.1 update (2026-10-21): Focus Shield, auto-advance, one timer across devices
+
+Replaces the iOS and macOS **Description** above from 1.7.1 on. The Chrome line assumes the SliceFocus Focus Shield extension is live on the Chrome Web Store; drop it if the listing is still in review when the text is pasted.
+
+### Description (iOS and macOS, 2,9xx chars)
+
+```
+SliceFocus shows your entire day as a circular clock face — one glance tells you where your time goes. A built-in Pomodoro timer carries you from one block to the next, and Focus Shield keeps the apps and websites that pull you away out of reach while you work.
+
+PLAN YOUR DAY VISUALLY
+Your 24-hour schedule appears as an interactive radial chart. Each task is a colored arc on the circle. Unplanned time shows as empty gaps, making wasted hours immediately obvious.
+
+Create tasks by drawing directly on the clock face — press and sweep to define a time block, then name it. Group blocks into categories you create, start from a curated starter pack, and see your calendar events right on the clock.
+
+FOCUS WITH POMODORO
+Tap any task to start a focus session. The classic cycle is built in: 25 minutes of focused work, a 5-minute break, and a longer break after every four cycles — all adjustable. Phases advance on their own, on every device and on the lock screen; turn auto-advance off in Settings to confirm each phase by hand. When the scheduled time for a task ends, the session stops — SliceFocus respects your plan boundaries.
+
+FOCUS SHIELD
+Choose the apps and websites that distract you. During every work phase they stay out of reach; every break lets them back in.
+- iPhone and iPad: pick apps, categories and websites with Screen Time. They are blocked system-wide while you work.
+- Mac: listed websites are blocked in Safari, and switching to a listed app brings up a shield window instead of the app.
+- Chrome on the Mac: the SliceFocus Focus Shield extension blocks your listed websites in Chrome, too.
+- Cross-device: a session started on your iPhone shields your Mac, and the other way round.
+
+ONE TIMER, ALL YOUR DEVICES
+Start a session on your phone, glance at the countdown in your Mac's menu bar, finish it from the lock screen. The timer agrees everywhere within seconds, and a phase advanced on one device shows on the others.
+- One calm notification when a focus phase ends
+- Menu bar timer on macOS — your countdown stays in sight while you work in other apps
+- Lock screen timer on iOS — keeps going without unlocking
+- Soundscapes: white, brown and pink noise, built into every session
+
+TRACK YOUR PRODUCTIVITY
+Review your session history to see how you spent your time. The analytics dashboard shows completed sessions, total focus minutes and daily trends. The actual-vs-planned report compares what you planned against what you actually did — so you can improve over time.
+
+FEATURES
+- 24-hour radial schedule with drag-to-create
+- Built-in Pomodoro timer with auto-advance (on by default)
+- Focus Shield: block chosen apps and websites during work phases (Screen Time on iPhone and iPad; Safari, app shield and Chrome extension on Mac)
+- One session across iPhone, iPad and Mac
+- Push notifications for phase transitions
+- macOS menu bar timer; iOS lock screen timer
+- Categories with colors and emoji; starter packs
+- Calendar events on the clock, two-way export, optional reminders
+- Session history, analytics, trends, actual vs planned
+- Soundscapes for ambient focus audio
+- Light and dark themes
+- Google, Apple and email sign-in
+
+SliceFocus is for anyone who wants to see their time clearly and protect their focus — students, remote workers, freelancers, or anyone building better daily habits.
+```
+
+### What's New
+
+iOS 1.7.1:
+
+```
+• Auto-advance is now on by default: the timer moves from work to break and back on its own, on every device and on the lock screen. Turn it off in Settings to confirm each phase by hand.
+• The timer agrees across your devices: a phase advanced on one shows on the others within seconds.
+• One notification per phase end, not two.
+• Faster refresh when you return to the app.
+```
+
+macOS 1.7.1:
+
+```
+• Focus Shield on the Mac: a focus session started on any device now shields your Mac. A Safari extension blocks the websites on your list during work phases, and switching to a listed app brings up a shield window. Enable it in Settings → Focus Shield.
+• SliceFocus stays in the menu bar while Focus Shield is on, so a session started on your iPhone still shields when the window is closed.
+• Auto-advance is on by default, and the timer agrees across your devices.
+• An open but unfocused window now follows a session advanced on another device.
+• One notification per phase end, not two.
+```
+
+### Keywords (100 chars max)
+
+```
+pomodoro,focus timer,app blocker,website blocker,screen time,time blocking,daily planner,deep work
+```
+(98 chars; adds app/website blocker and screen time, drops schedule/productivity/pie)
