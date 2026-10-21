@@ -6,7 +6,7 @@ title: Privacy Policy — SliceFocus
 # Privacy Policy
 
 **SliceFocus**
-*Last updated: September 15, 2026*
+*Last updated: October 21, 2026*
 
 SliceFocus is a CosmoCrew app. CosmoCrew is the consumer-apps brand of Luvita Teknoloji Ltd. Şti. ("Luvita", "we", "us", or "our"), which operates the SliceFocus mobile and desktop application (the "App") and is responsible for the personal data described in this policy (the data controller). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -78,6 +78,10 @@ Our marketing website ([slicefocus.app](https://slicefocus.app)) uses **Google A
 - does not store your IP address (Google Analytics 4 does not log IP addresses).
 
 We cannot link an individual website visitor to an individual App Store download. This analytics applies only to the website, not to the App.
+
+### 1.8 Chrome Extension (SliceFocus Focus Shield)
+
+If you install the **SliceFocus Focus Shield** Chrome extension, it signs you into your SliceFocus account (Google or email) and reads your active focus session from our servers to know when a work phase runs. It stores your sign-in session and your block list on your device (the block list syncs through your Chrome profile). It registers your browser for push messages with Firebase Cloud Messaging so it can react when a phase starts or ends. It blocks the sites on your list by browser rules and does **not** read, record or send your browsing history or page content. It uses no analytics or advertising, and we do not sell your data. Uninstalling the extension removes its local data; sign out in the popup first to also remove the push registration from our servers.
 
 ---
 
