@@ -11,9 +11,9 @@ the dev backend with a seeded demo account.
 | 2 | `02-timer.png` | Focus with a Pomodoro timer | Running session on the current block, expanded timer (WORK, cycle 1/4) |
 | 3 | `03-settings-focus-shield.png` | Focus Shield: block the sites you choose | Settings, Focus Shield on: Safari extension on, 14 websites chosen |
 | 4 | `04-block-list.png` | Your list, your rules | Block list sheet: website field, Quick add presets, social and video sites |
-| 5 | `05-actual-vs-planned.png` | Your plan vs. what happened | Actual vs Planned over the last 7 full days, 86% adherence |
+| 5 | `05-actual-vs-planned.png` | Your plan vs. what happened | Actual vs Planned over the last 7 full days, opened on the first focus-tracked blocks (96–97% of plan) |
 | 6 | `06-analytics.png` | See where your focus goes | Analytics, this week: sessions, focus minutes, daily chart, by category |
-| 7 | `07-history.png` | Every session, on record | Session history by date, one day expanded |
+| 7 | `07-history.png` | Every session, on record | Session history (custom range), a full day of completed sessions expanded |
 | 8 | `08-templates.png` | Start from a template | Template picker with the starter templates |
 | 9 | `09-fill-gap.png` | Fill the gaps with a tap | Gap-fill sheet on a free slot of the day |
 
