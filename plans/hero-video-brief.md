@@ -53,3 +53,31 @@ Rules kept from ADR-042: the real UI only, silent, no captions or burned-in text
 - **Compose.** `tool/videos/hero/compose.sh <raw.mov> <markers> <out-dir>`: cuts the segments at the marker times, applies the speed ramps (stepped 1x, 4x, 16x, 64x, 256x and back, each step a few frames, which reads as an eased ramp at 30 fps), runs the camera as one `zoompan` with eased keyframes, and closes the loop with a short `xfade`. Output: `hero.mp4` (H.264, 1440x900, 30 fps, `yuv420p`, `+faststart`, no audio, at most 2 MB), `hero.webm` (VP9, at most 1.5 MB), `hero-poster.jpg` and `.webp` from the frame where the plan is visible and the timer has just started.
 - **Site.** The video carries only app pixels; the page frames it: at the desktop breakpoint `.hero-media` keeps rounded corners and the soft `--shadow` round the video (as it already does round the phone screenshot), on `--bg`. That way the cream, and the dark theme's near-black, come from the page's own tokens instead of being baked into the file. The autoplay, pause button, reduced-motion and Save-Data behaviour from slicefocus-web#23 stay as they are.
 - **Review.** Frames extracted at 1 s intervals and checked for window chrome, seed seams (overlapping blocks, "Fill it?" lines, the clock hand off the live block), the cycle-jump artefact (SliceFocus#455: a fresh slice and session per take), unreadable text, an abrupt loop.
+
+## 4. What shipped (2026-10-23)
+
+The founder approved the cut on 2026-10-23 after two notes (hold on SHORT BREAK before the loop; no flash of unrelated rows while the list scrolls). Files: [`videos/v1.7.1/`](../videos/v1.7.1/) `hero.mp4`, `hero.webm`, `hero-poster.jpg`, `hero-poster.webp`.
+
+| | |
+| --- | --- |
+| Length | 15.7 s, silent, seamless loop (0.6 s dissolve) |
+| hero.mp4 | H.264, 1440x900, 30 fps, BT.709, no audio, 0.97 MB |
+| hero.webm | VP9, same frame, 0.79 MB |
+| Source | one real take on the demo account, Classic Pomodoro, 2026-10-23 12:12 to 12:38 UTC |
+
+Where it differs from the storyboard above, and why:
+
+- **One handoff, not two.** The take ended before the break did, so the loop closes on SHORT BREAK counting (05:00 to 04:57, held for about 2 s), not on the next WORK.
+- **No 00:00 on screen.** When the work phase runs out, the timer card holds 00:00 for about 2 s while the server hands the session over, and shows an Advance button (the manual fallback) and the next cycle's number early. Those frames are cut: 00:01 goes straight to SHORT BREAK 05:00, which is the app's own phase change. Shown, the button would suggest a click is needed, which is the opposite of the point.
+- **Push-in 1.08x, not up to 1.15x.** At 1.12x the timer card's Stop and Pause buttons left the frame.
+- **No iPhone scene.** As planned in section 2.
+- **A mouse pointer stood still in the take** (parking it failed; screen video always films it). It was painted over with the flat strip beside it (`compose.sh --hide-pointer`); `run.sh` now refuses to record while the pointer is inside the recorded rectangle.
+- **The new block is Deep Work blue** next to two other blue blocks, so it reads by its sweep and its row more than by its colour. A retake without the category tap would keep the dialog's default yellow, which stands out on the canvas.
+
+Rebuild from the raw take (kept on the founder's Mac, `~/Desktop/site-videos/hero-v2/raw/`):
+
+```bash
+tool/videos/hero/compose.sh ~/Desktop/site-videos/hero-v2/raw/mac.mov \
+  ~/Desktop/site-videos/hero-v2/raw/markers.txt ~/Desktop/site-videos/hero-v2/clips \
+  --hide-pointer 1436:846:54:70
+```
