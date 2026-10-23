@@ -1,6 +1,6 @@
 # Focus Shield on slicefocus.app: what to explain, how, and where
 
-**Status:** Proposal, 2026-10-23. Not yet an issue.
+**Status:** Sections 3.1 and 3.2 shipped 2026-10-23 ([slicefocus-web#29](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/29), live at https://slicefocus.app/focus-shield/). Open: screenshots [slicefocus-web#27](https://github.com/AnunnakiCosmoCrew/slicefocus-web/issues/27), support FAQ and Chrome listing URL [slicefocus-web#28](https://github.com/AnunnakiCosmoCrew/slicefocus-web/issues/28), deep link [SliceFocusFE#624](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/624).
 **Relates to:** ADR-057 (iOS Screen Time), ADR-059 (macOS Safari extension + app interruption), ADR-063 (Chrome extension), ADR-042 (marketing design language), SliceFocusFE#587 (in-app permission panel).
 
 ## 1. The problem
