@@ -1,6 +1,6 @@
 # ADR-042: Minimal & sincere marketing design language
 
-**Status:** Accepted
+**Status:** Accepted (amended 2026-10-23)
 **Date:** 2026-06-06
 **Deciders:** Mert Ertugrul
 
@@ -39,6 +39,15 @@ surfaces. Concretely:
 
 This governs #311 (video), #312 (landing page), the ASO assets, and the #313/#314
 post copy and media.
+
+## Amendment 2026-10-23: time compression and framing moves for the hero
+
+The first hero take under this ADR (a fixed 1440x900 capture of the Mac window in which only the timer panel changed) did no more than a still image would. For the hero loop on slicefocus.app, and only there, two things the decision above forbids are now allowed, by the founder's call ([plans/hero-video-brief.md](../plans/hero-video-brief.md), SliceFocusFE#622):
+
+- **Time compression of real footage.** A real countdown may be sped up so a 25-minute phase passes in a few seconds, with the digits visibly racing and the clip settling back to real time before the handoff. The footage stays real: the phase change is the app's own, never staged or cut in.
+- **Restrained, eased framing moves.** Gentle push-ins of at most 1.15x and pans between the canvas and the timer panel, with ease-in-out and no hard zooms, cuts to detail, or parallax.
+
+Everything else holds: the real UI only, a silent file, no captions or burned-in text, no device bezels, no particles or motion graphics, no cursor theatre, no hype. The "no zoom/parallax/kinetic effects" line in the decision still governs the feature clips and the store assets.
 
 ## Alternatives Considered
 
