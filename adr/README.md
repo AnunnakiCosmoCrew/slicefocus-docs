@@ -55,6 +55,7 @@ This directory captures significant technical decisions for SliceFocus.
 | [061](061-pull-plus-push-sync-replaces-persistent-websocket.md) | Pull-plus-push sync replaces the persistent WebSocket (supersedes ADR-007; ADR-060 is the stopgap) | Accepted | 2026-10-16 |
 | [062](062-server-owned-focus-timeline-clients-render.md) | The server owns the focus timeline; every client renders it (supersedes ADR-011; amends ADR-037, 038, 061) | Accepted | 2026-10-16 |
 | [063](063-chrome-focus-shield-state.md) | The Chrome Focus Shield extension reads the shield state from the backend with its own sign-in (relates to ADR-059, 060, 061, 062) | Accepted | 2026-10-19 |
+| [064](064-guest-start-with-silent-anonymous-account.md) | New users start as guests on a silent anonymous account (amends ADR-003, 026) | Accepted | 2026-10-26 |
 
 ### Frontend Architecture
 | ADR | Decision | Status | Date |
