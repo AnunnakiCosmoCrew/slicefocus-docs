@@ -6,7 +6,7 @@ title: Privacy Policy — SliceFocus
 # Privacy Policy
 
 **SliceFocus**
-*Last updated: October 21, 2026*
+*Last updated: October 27, 2026*
 
 SliceFocus is a CosmoCrew app. CosmoCrew is the consumer-apps brand of Luvita Teknoloji Ltd. Şti. ("Luvita", "we", "us", or "our"), which operates the SliceFocus mobile and desktop application (the "App") and is responsible for the personal data described in this policy (the data controller). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -18,13 +18,17 @@ By using SliceFocus, you agree to the collection and use of information in accor
 
 ### 1.1 Account Information
 
-When you sign in, we collect:
+**Guest accounts.** You can use SliceFocus without signing in. The first time you open the App, Firebase Authentication creates an anonymous account for you. A guest account holds no email address and no name: it is identified only by a random account identifier that Firebase generates. The schedule and focus data you create (section 1.2) are stored under that identifier on our servers, so that the timer, notifications and lock-screen timer work as they do for any account. We also record when the account was last used, so that we can delete guest accounts nobody uses any more (section 5).
 
-- **Email address** — provided by your Google or Apple account during sign-in
-- **Full name** — provided by your authentication provider
-- **Authentication provider identifier** — a unique ID from Google or Apple used to link your account
+**Signed-in accounts.** When you sign in, with Google, with Apple or with an email address, we collect:
 
-We do not collect or store your password. Authentication is handled entirely by Google Sign-In or Sign in with Apple via Firebase Authentication.
+- **Email address** — provided by Google or Apple, or the address you sign up with
+- **Full name** — provided by your sign-in provider, if it supplies one
+- **Authentication provider identifier** — a unique ID from Google, Apple or Firebase used to link your account
+
+**From guest to signed in.** When a guest signs in, the guest account becomes the signed-in account and keeps all its data. If that sign-in already belongs to an existing SliceFocus account, the guest's data is added to the existing account (items that overlap existing ones are left out, and the App tells you which) and the guest account is then deleted.
+
+We do not store your password. Sign-in, including email-and-password sign-in, is handled by Firebase Authentication.
 
 ### 1.2 Schedule and Productivity Data
 
@@ -61,12 +65,16 @@ These backend metrics contain **no personally identifiable information**.
 
 ### 1.6 Product Analytics
 
-We use **Firebase Analytics** to understand how the App is used so we can improve it. We log a small set of usage events:
+We use **Firebase Analytics** to understand how the App is used so we can improve it, in particular how many new users reach their first completed focus session. We log a small set of usage events:
 
 - **App opens** — when the App is launched
-- **Focus session completions** — including the number of completed cycles and total focus minutes for the session
+- **Sign-in steps** — when the sign-in screen is shown, and when you sign in or create an account, with the method used (Apple, Google or email)
+- **Planning and focus** — when you create a time slice (with where you created it: on the dial, in the list, from a template or from a suggestion), when you start a focus session, and when you complete one (with the number of completed cycles and total focus minutes)
+- **Screens** — when you open your session history, analytics, planned vs actual, or trends
+- **Prompts** — when the App asks the system to show the App Store rating request, and when a suggestion to sign in is shown, accepted or dismissed
+- **Account state** — whether the installation is used as a guest, signed in, or signed out
 
-These analytics events contain **no name, email, or schedule content**. Firebase Analytics assigns a pseudonymous, app-generated instance identifier to associate events from the same installation; this identifier is not linked to your account profile by us. Analytics collection is **disabled in debug/development builds** and only active in production releases.
+These analytics events contain **no name, email, or schedule content** (no task names or times). Firebase Analytics assigns a pseudonymous, app-generated instance identifier to associate events from the same installation; this identifier is not linked to your account profile by us. Analytics collection is **disabled in debug/development builds** and only active in production releases.
 
 ### 1.7 Website Analytics (slicefocus.app)
 
@@ -93,7 +101,7 @@ We use the collected information to:
 - **Send push notifications** — notify you of focus session phase transitions, session completions, and scheduled time block reminders
 - **Maintain security** — audit sensitive operations (account linking, preference changes), enforce rate limits, and correlate requests for debugging
 - **Improve reliability** — identify and fix crashes via Firebase Crashlytics
-- **Improve the product** — understand aggregate usage (app opens, session completions) via Firebase Analytics
+- **Improve the product** — understand aggregate usage (for example, how many new users complete their first focus session) via Firebase Analytics
 - **Monitor service health** — track aggregated usage metrics to ensure the backend is performing well
 
 We do **not** use your data for advertising, profiling, or selling to third parties.
@@ -105,7 +113,7 @@ We do **not** use your data for advertising, profiling, or selling to third part
 ### 3.1 Where Your Data Is Stored
 
 - **Backend data** (account, slices, sessions, preferences) is stored in a PostgreSQL database hosted by [Neon](https://neon.tech) in the EU region
-- **Authentication** is managed by [Firebase Authentication](https://firebase.google.com/products/auth) (Google Cloud infrastructure)
+- **Authentication**, including guest accounts, is managed by [Firebase Authentication](https://firebase.google.com/products/auth) (Google Cloud infrastructure)
 - **Push notification tokens** are stored in our database and transmitted to Firebase Cloud Messaging for delivery
 - **Crash reports** are stored in Firebase Crashlytics (Google Cloud infrastructure)
 - **Analytics events** are processed and stored by Firebase Analytics (Google Cloud infrastructure)
@@ -127,10 +135,10 @@ SliceFocus uses the following third-party services that may process your data:
 
 | Service | Provider | Purpose | Data Shared |
 |---------|----------|---------|-------------|
-| Firebase Authentication | Google | Sign-in and identity management | Email, OAuth tokens |
+| Firebase Authentication | Google | Sign-in, guest accounts and identity management | Email and OAuth tokens; for a guest account, only an anonymous identifier |
 | Firebase Cloud Messaging | Google | Push notification delivery | Device tokens, notification payloads |
 | Firebase Crashlytics | Google | Crash reporting | Crash logs, device info, app version |
-| Firebase Analytics | Google | Product usage analytics | Usage events (app opens, session completions), pseudonymous app-instance ID |
+| Firebase Analytics | Google | Product usage analytics | Usage events (section 1.6), account state (guest or signed in), pseudonymous app-instance ID |
 | Google Analytics 4 | Google | Website (slicefocus.app) visit + App Store click analytics | Page views, App Store button clicks, campaign label; pseudonymous cookie ID. No IP stored. |
 | Google Sign-In | Google | OAuth authentication | Email, name, Google account ID |
 | Sign in with Apple | Apple | OAuth authentication | Email, name, Apple ID |
@@ -147,6 +155,8 @@ Each third-party service is governed by its own privacy policy:
 ## 5. Data Retention
 
 - **Account and productivity data** is retained as long as your account is active
+- **Guest accounts** and all their data are deleted automatically after **90 days without use**. A guest account cannot be opened on another device or after you delete the App: installing the App again starts a new guest account, and the old one is deleted after 90 days. Sign in to keep your data
+- **A guest account that signs in to an existing account** is deleted as soon as its data has been added to that account
 - **Focus session history** is retained indefinitely to support productivity analytics and reporting
 - **Device tokens** are retained until the device is unregistered or the token is refreshed
 - **Audit logs** are retained for security compliance purposes
@@ -163,7 +173,7 @@ You have the right to:
 - **Access** your data — all your schedule and session data is visible within the App
 - **Update** your data — you can edit your profile name, slices, and preferences at any time
 - **Delete** your data — you can delete individual slices and focus sessions within the App
-- **Request account deletion** — contact us at the email below to request full deletion of your account and all associated data
+- **Delete your account** — Settings › Account › Delete account deletes your account and all associated data, for guest and signed-in accounts alike. You can also contact us at the email below to request deletion
 
 If you are in the European Economic Area (EEA), you have additional rights under GDPR including the right to data portability, restriction of processing, and the right to lodge a complaint with a supervisory authority.
 
