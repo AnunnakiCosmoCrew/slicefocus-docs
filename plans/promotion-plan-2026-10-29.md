@@ -4,7 +4,8 @@
 
 ## Where this starts
 
-- 1.7.4 is live on iPhone, iPad and Mac (approved and released 2026-10-29, 05:19 UTC). A first launch opens on a guest account, so people can try the app without signing up.
+- 1.7.4 is live on iPhone and iPad (approved and released 2026-10-29, 05:19 UTC). **macOS 1.7.4 is still In Review** in App Store Connect (checked 2026-10-29 afternoon); the Mac App Store serves 1.7.3, which still asks for sign-in. A first launch of 1.7.4 opens on a guest account, so people can try the app without signing up.
+- Founder's rule: promotion goes live once the Mac version is out. The Friday and Tuesday dates assume Mac approval by then.
 - The Turkish and English (U.K.) listings and the new subtitle "Pomodoro Planner & App Blocker" are live.
 - The plan agreed on 2026-10-26 still holds: the first session was the problem, 1.7.4 is the fix, and promotion should bring in a cohort we can measure before anything bigger.
 - Not pursued: Setapp, Product Hunt, Turkish community posts (for now), LinkedIn (never).
@@ -37,7 +38,7 @@ All founder steps.
    - **r/ProductivityApps:** self-promotion once a month with at least 10 community karma in the sub; flair **Self Promotion** (a wrong flair is removed; "Feedback Wanted" posts judged low quality are removed); no asking for testers (that goes to r/betatesters), no surveys, no "vibe coded" apps. The June post was the last promotion, so Friday is allowed if the June post's karma still counts towards the 10.
    - **r/macapps:** 10 local karma before posting or promoting in comments; one app post per developer per 30 days; a main-feed post only for developers who qualify under the sub's "Trust vs. Transparency" rules and use its template, everyone else promotes in the monthly megathread ("The App Pile"); flair **Free** (fits: no paid tier); Mac App Store links only, no shortened or redirect links; disclose in every comment. So draft 2 becomes a megathread comment, after earning the karma.
    - **r/betatesters:** not needed now that the app is public. Keep it for testing a future beta.
-5. **File the featuring nomination** (notes below).
+5. **Featuring nomination**: draft saved in App Store Connect on 2026-10-29 (App Enhancements; iPhone, iPad, macOS), waiting for the founder's go to submit.
 
 ## First week
 
