@@ -25,7 +25,7 @@
 
 All founder steps.
 
-1. **Run the guest test on a real iPhone** against the live build (#641). If a fresh install cannot start as a guest, nothing below goes out.
+1. ~~**Run the guest test on a real iPhone**~~ Done by the founder on TestFlight build 45, the same build that went live.
 2. ~~**Register `account_state` in GA4**~~ Done 2026-10-29: user-scoped custom dimension "Account state" on the slicefocus-b9034 property. GA4 does not fill it backwards, so the guest vs signed-in split starts from that day.
 3. **Make App Store campaign links** in App Store Connect (App Analytics → Acquisition → Campaigns), one per channel: `ct=reddit-pa-1030`, `ct=macapps-1103`, `ct=pomodoro-1110`, `ct=site`. They look like `https://apps.apple.com/app/apple-store/id6761280632?pt=<provider token>&ct=<campaign>&mt=8`.
 4. **Read the sidebars** of r/ProductivityApps and r/macapps: karma minimum, how often a developer may post, required flair, promo megathread. Adjust the dates below if a rule says so.
