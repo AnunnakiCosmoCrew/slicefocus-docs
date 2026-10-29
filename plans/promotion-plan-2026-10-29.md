@@ -33,7 +33,10 @@ All founder steps.
    - r/pomodoro: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=pomodoro-1110&mt=8
    - slicefocus.app download buttons: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=site&mt=8 (goes in with the Wed 4 Nov site change)
    App Store Connect lists a campaign only once 5 different Apple Accounts have installed through it, and counts only people who share analytics with developers.
-4. **Read the sidebars** of r/ProductivityApps and r/macapps: karma minimum, how often a developer may post, required flair, promo megathread. Adjust the dates below if a rule says so.
+4. ~~**Read the sidebars**~~ Done 2026-10-29 (founder's screenshots). What they mean for us:
+   - **r/ProductivityApps:** self-promotion once a month with at least 10 community karma in the sub; flair **Self Promotion** (a wrong flair is removed; "Feedback Wanted" posts judged low quality are removed); no asking for testers (that goes to r/betatesters), no surveys, no "vibe coded" apps. The June post was the last promotion, so Friday is allowed if the June post's karma still counts towards the 10.
+   - **r/macapps:** 10 local karma before posting or promoting in comments; one app post per developer per 30 days; a main-feed post only for developers who qualify under the sub's "Trust vs. Transparency" rules and use its template, everyone else promotes in the monthly megathread ("The App Pile"); flair **Free** (fits: no paid tier); Mac App Store links only, no shortened or redirect links; disclose in every comment. So draft 2 becomes a megathread comment, after earning the karma.
+   - **r/betatesters:** not needed now that the app is public. Keep it for testing a future beta.
 5. **File the featuring nomination** (notes below).
 
 ## First week
@@ -44,9 +47,10 @@ Times are Türkiye time. US Eastern moves off summer time on Sun 1 Nov, so 8:00 
 | --- | --- | --- |
 | Thu 29 Oct | Day 0 list above | Founder |
 | Fri 30 Oct, 15:00 | **Reddit update post** (draft 1) with the 15 s hero clip; then the reply in the June thread. Stay for 2–3 h of comments | Founder |
+| Fri 30 Oct – Mon 2 Nov | **Earn 10 karma in r/MacApps**: answer 3–5 questions there with plain help, no mention of SliceFocus | Founder |
 | Sat 31 Oct – Sun 1 Nov | Answer every comment within a few hours. Note each reason someone gives for not trying or for dropping the app | Founder |
 | Mon 2 Nov | **First readout** (see "What to measure"). Start the 2–3 disclosed replies a week in study and ADHD threads, found by hand | Founder; Claude reads the dashboard and writes the readout |
-| Tue 3 Nov, 16:00 | **r/macapps post** (draft 2), gallery of Mac screenshots or the Mac hero clip | Founder |
+| Tue 3 Nov, 16:00 | **r/macapps November megathread comment** (draft 2), once the 10 karma is there; otherwise the day it is | Founder |
 | Wed 4 Nov | Site copy: "free, no account needed to start" on slicefocus.app, as a `slicefocus-web` issue for an agent; founder approves the wording | Founder opens / approves |
 | Thu 5 Nov | **Week-1 readout**; decide the week-2 post (r/pomodoro) and whether a guest-start clip re-take is worth it | Founder + Claude |
 
@@ -98,6 +102,8 @@ Type: App Enhancements. Points to make:
 
 Bracketed lines are for the founder to fill from the June comments. Claude cannot read Reddit, so it cannot quote them; tying changes to real comments is what makes this an update rather than a re-post. Delete any line that has no matching comment.
 
+**Flair:** Self Promotion. Before posting, check the 10 community karma (if the June post's karma doesn't count, comment helpfully there first). If someone asks whether it is "vibe coded", answer plainly how it is built and tested; the sub removes vibe-coded apps.
+
 **Title:** I posted my 24-hour planner here in June and got 29 comments. Here's what I changed.
 
 **Body:**
@@ -129,9 +135,23 @@ Bracketed lines are for the founder to fill from the June comments. Claude canno
 
 > Update for anyone who commented here: it now starts without an account, the timer moves between work and breaks on its own, and it can block apps and sites during work phases. I wrote up what changed and which of your comments drove it: <link to the new post>
 
-### Draft 2: r/macapps, Tue 3 Nov
+### Draft 2: r/macapps November megathread, Tue 3 Nov
 
-Use the flair the sidebar asks for (self-promotion / free). If r/macapps limits developer posts or sends them to a megathread, post there or in r/MacOSApps instead.
+A comment in "The App Pile – November, 2026", posted once the account has 10 r/MacApps karma. It carries what the sub's transparency rules look for: who made it, the price, how it is built, what data it collects.
+
+> **SliceFocus** – a 24-hour clock day planner with a Pomodoro timer that blocks distracting sites in Safari during work phases. Free. I'm the developer.
+>
+> - **Website blocking in Safari**, work phases only; breaks are free. A Safari web extension does it, with no proxy, VPN or profile.
+> - **App shield:** switch to an app on your list during a work phase and a shield window covers it.
+> - **Menu bar:** the timer stays in the menu bar while Focus Shield is on, so it keeps working with the window closed.
+> - **Same timer as your iPhone:** start on the phone and the Mac shields too (needs signing in on both).
+> - **Apple Calendar:** your events show next to your blocks; blocks can be exported to a calendar.
+>
+> Built in Flutter, with native Swift for the Safari extension, the shield and the menu bar; not Electron. Free, no ads, no subscription, no paid tier, and you can start without an account. Analytics are Firebase, with no tracking across apps; privacy policy: https://anunnakicosmocrew.github.io/slicefocus-docs/legal/privacy-policy
+>
+> Mac App Store: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=macapps-1103&mt=8
+
+**Main-feed version (only if the founder qualifies under the sub's transparency rules):** use the sub's own post template, flair **Free**, and fill it from the longer text below.
 
 **Title:** SliceFocus: a 24-hour clock planner for Mac with a Pomodoro timer that blocks distracting sites in Safari [free, I'm the developer]
 
