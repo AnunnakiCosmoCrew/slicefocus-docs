@@ -27,7 +27,12 @@ All founder steps.
 
 1. ~~**Run the guest test on a real iPhone**~~ Done by the founder on TestFlight build 45, the same build that went live.
 2. ~~**Register `account_state` in GA4**~~ Done 2026-10-29: user-scoped custom dimension "Account state" on the slicefocus-b9034 property. GA4 does not fill it backwards, so the guest vs signed-in split starts from that day.
-3. **Make App Store campaign links** in App Store Connect (App Analytics → Acquisition → Campaigns), one per channel: `ct=reddit-pa-1030`, `ct=macapps-1103`, `ct=pomodoro-1110`, `ct=site`. They look like `https://apps.apple.com/app/apple-store/id6761280632?pt=<provider token>&ct=<campaign>&mt=8`.
+3. ~~**Make App Store campaign links**~~ Done 2026-10-29. Provider token `128684421`; one link per channel, the same App Store page with a label:
+   - r/ProductivityApps: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=reddit-pa-1030&mt=8
+   - r/macapps: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=macapps-1103&mt=8
+   - r/pomodoro: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=pomodoro-1110&mt=8
+   - slicefocus.app download buttons: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=site&mt=8 (goes in with the Wed 4 Nov site change)
+   App Store Connect lists a campaign only once 5 different Apple Accounts have installed through it, and counts only people who share analytics with developers.
 4. **Read the sidebars** of r/ProductivityApps and r/macapps: karma minimum, how often a developer may post, required flair, promo megathread. Adjust the dates below if a rule says so.
 5. **File the featuring nomination** (notes below).
 
@@ -116,7 +121,7 @@ Bracketed lines are for the founder to fill from the June comments. Claude canno
 >
 > One question for anyone who tried it in June and stopped: what made you stop? And if you try it now, tell me where the first five minutes felt awkward. That's the part I'm working on.
 >
-> App Store: <campaign link, ct=reddit-pa-1030>
+> App Store: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=reddit-pa-1030&mt=8
 
 **Media:** `slicefocus-web/hero.mp4` (15 s, plan a block and watch it run itself), uploaded as Reddit video.
 
@@ -148,7 +153,7 @@ Use the flair the sidebar asks for (self-promotion / free). If r/macapps limits 
 >
 > I'd like to know what a Mac user expects from a focus blocker that this doesn't do.
 >
-> Mac App Store: <campaign link, ct=macapps-1103>
+> Mac App Store: https://apps.apple.com/app/apple-store/id6761280632?pt=128684421&ct=macapps-1103&mt=8
 
 **Media:** gallery of `slicefocus-web/screen-mac.png`, `screen-menubar.png`, `focus-shield/blocked-page.png` and `focus-shield/mac-shield-window.png`, or the Mac hero clip if the sub allows video.
 
