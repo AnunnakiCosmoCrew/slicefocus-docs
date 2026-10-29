@@ -38,7 +38,7 @@ All founder steps.
    - **r/ProductivityApps:** self-promotion once a month with at least 10 community karma in the sub; flair **Self Promotion** (a wrong flair is removed; "Feedback Wanted" posts judged low quality are removed); no asking for testers (that goes to r/betatesters), no surveys, no "vibe coded" apps. The June post was the last promotion, so Friday is allowed if the June post's karma still counts towards the 10.
    - **r/macapps:** 10 local karma before posting or promoting in comments; one app post per developer per 30 days; a main-feed post only for developers who qualify under the sub's "Trust vs. Transparency" rules and use its template, everyone else promotes in the monthly megathread ("The App Pile"); flair **Free** (fits: no paid tier); Mac App Store links only, no shortened or redirect links; disclose in every comment. So draft 2 becomes a megathread comment, after earning the karma.
    - **r/betatesters:** not needed now that the app is public. Keep it for testing a future beta.
-5. **Featuring nomination**: draft saved in App Store Connect on 2026-10-29 (App Enhancements; iPhone, iPad, macOS), waiting for the founder's go to submit.
+5. ~~**Featuring nomination**~~ Submitted 2026-10-29 13:43 Türkiye time, on the founder's go: "SliceFocus 1.7.4: start without an account", App Enhancements, iPhone, iPad and macOS. Apple writes back only if it is picked. Nominate the next release at least 3 weeks ahead (Apple's own advice in the form).
 
 ## First week
 
@@ -59,7 +59,7 @@ Times are Türkiye time. US Eastern moves off summer time on Sun 1 Nov, so 8:00 
 
 - **Week 2 (9–13 Nov):** r/pomodoro post, a disclosed maker's post focused on auto-advance and blocking only during work phases. Session comparison page live. Optional re-take of the hero clip showing guest start (`SliceFocusFE/tool/videos/run.sh`, needs the Mac unlocked).
 - **Every Monday:** readout row added to the log below.
-- **Next release:** nominate it for featuring at least 2 weeks before it ships.
+- **Next release:** nominate it for featuring at least 3 weeks before it ships (Apple's advice in the form).
 - **Show HN gate (earliest week of 16 Nov):** at least 100 installs in the 1.7.4 cohorts, the lower end of the 95 % interval for "installed → completed a session" above the pre-1.7.4 rate, and a weekday when the founder can reply for 3 h. If the gate is not met, find where guests drop off and fix that first.
 
 ## What to measure
