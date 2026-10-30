@@ -1,6 +1,6 @@
 # ADR-042: Minimal & sincere marketing design language
 
-**Status:** Accepted (amended 2026-10-23)
+**Status:** Accepted (amended 2026-10-23, 2026-10-30)
 **Date:** 2026-06-06
 **Deciders:** Mert Ertugrul
 
@@ -17,9 +17,9 @@ SliceFocus's USP is **calm, zero-touch auto-advance** on a 24-hour radial canvas
 Loud, motion-graphics-heavy, feature-bombarding marketing actively undercuts that
 pitch. Separately, the two highest-leverage launch moments — Reddit's productivity
 subs and especially Show HN — are audiences that *distrust* over-produced
-marketing and reward sincerity. The claude.ai homepage is a strong reference for
-the target tone: lots of whitespace, the real product shown doing one real thing
-in a short silent loop, honest and informative supporting sections, no hype.
+marketing and reward sincerity. The target tone: lots of whitespace, the real
+product shown doing one real thing in a short silent loop, honest and informative
+supporting sections, no hype.
 
 ## Decision
 
@@ -48,6 +48,17 @@ The first hero take under this ADR (a fixed 1440x900 capture of the Mac window i
 - **Restrained, eased framing moves.** Gentle push-ins of at most 1.15x and pans between the canvas and the timer panel, with ease-in-out and no hard zooms, cuts to detail, or parallax.
 
 Everything else holds: the real UI only, a silent file, no captions or burned-in text, no device bezels, no particles or motion graphics, no cursor theatre, no hype. The "no zoom/parallax/kinetic effects" line in the decision still governs the feature clips and the store assets.
+
+## Amendment 2026-10-30: the site palette comes from the app icon
+
+The first landing page borrowed another company's look: Anthropic's cream canvas (#f0eee6) and clay accent (#d97757), with code comments that said so. A product site should look like its own product, so the founder compared three palettes on the live page and chose the one taken from the SliceFocus icon (slicefocus-web#34):
+
+- **Light:** sage-white canvas `#f3f5f0`, green-black text `#16211c`, forest green accent `#3c7a5e`, deep forest pill button `#2d4a3e`.
+- **Dark:** `#111714` canvas, `#e5ece7` text, sage accent `#8dbf91`.
+- **Every text colour is at least 4.5:1** on its background (the old tertiary grey was 3.0:1).
+- The Open Graph card uses the same palette. Fraunces and Inter stay.
+
+The alternative closest to the app screens (its own `#F4F7FB` background and `#005A9C` blue) was also considered. The known trade-off of the forest palette is that green is also the colour of Forest, a competitor the site has a comparison page against.
 
 ## Alternatives Considered
 
