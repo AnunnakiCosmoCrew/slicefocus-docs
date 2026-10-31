@@ -35,6 +35,20 @@ SliceFocus uses Sign in with Apple and Google Sign-In — there is no separate p
 
 Ensure you are signed in with the same account on all devices and that you have an active internet connection. If the issue persists, try signing out and back in.
 
+### Focus Shield isn't blocking anything
+
+Focus Shield needs Screen Time access. Open **Settings › Screen Time** and make sure Screen Time and App & Website Activity are on. Come back to SliceFocus and turn **Block apps & websites** on again, or tap **Try again**. When iOS asks, tap **Allow**.
+
+Still not working? Screen Time may be restricted on this device, for example by a management profile. Screen Time also can't be shared with iPhone apps running on a Mac: on a Mac, install SliceFocus for Mac instead.
+
+Setup for every device: [Focus Shield guide](https://slicefocus.app/focus-shield/).
+
+### I don't see my apps in the picker
+
+Open **Settings › Screen Time** and turn on Screen Time, including App & Website Activity, then open the picker again. In the picker, open a category to pick the apps inside.
+
+More help: [Focus Shield guide](https://slicefocus.app/focus-shield/).
+
 ### How do I contact support?
 
 Send an email to [contact@cosmocrew.dev](mailto:contact@cosmocrew.dev) with a description of your issue, and we'll get back to you.
