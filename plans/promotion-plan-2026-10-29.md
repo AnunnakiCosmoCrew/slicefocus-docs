@@ -63,7 +63,7 @@ Times are Türkiye time. US Eastern is off summer time from Sun 1 Nov, so 8:00 E
 
 ## Early numbers, before any promotion (read 2026-10-31)
 
-- Week of 26 Oct (1.7.4 went live on the Thursday): 10 installs, 4 started a session, 3 completed one. Far too few to judge; it only shows the events arrive.
+- Week of 26 Oct (1.7.4 went live on the Thursday): the new funnel events arrive at every step, from install to completed session. The numbers are far too small to judge (they are on the metrics dashboard, not here, because this repo is public).
 - The guest vs signed-in split is still empty. GA4 takes a day or two to fill a newly registered dimension; check again on Mon 2 Nov before the post.
 
 ## What to measure
