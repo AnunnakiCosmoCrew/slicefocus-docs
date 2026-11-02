@@ -99,3 +99,14 @@ The founder's verdict on the shipped cut (2026-11-02): it does not show Focus Sh
 | 32.6–33.2 | loop | dissolve to the first frame | |
 
 Pipeline additions (SliceFocusFE#658): `filmedTap` in the test prints `CLIP:<scene>:tap x y`; `run.sh` keeps the coordinates with the time, starts the phone's session on the server (`seed.py --start-block`) on the `prepare` line, and locks the simulator on `phone:lock` (the Simulator app is absent from this Xcode, so the lock button is pressed through the iOS Simulator tool and a flag file tells `run.sh` to go on); `compose.sh` takes several takes and a still, draws the rings before the camera move, composes the phone beside the Mac on the site's cream, and closes the loop as before.
+
+### What shipped in v3 (2026-11-02)
+
+Files: [`videos/v1.7.1/`](../videos/v1.7.1/) `hero.mp4` (H.264, 1440x900, 30 fps, BT.709, no audio, 1.71 MB at crf 22), `hero.webm` (VP9, 1.47 MB at crf 35), `hero-poster.jpg` / `.webp`. 33.1 s, a 0.6 s loop dissolve. Eight shots: plan (6.2 s), start (2.6 s), the countdown and the handoff (6.1 s), the phone beside the Mac (3.2 s), the lock screen (2.4 s), Focus Shield (2.8 s), categories (6.0 s), calendar (4.5 s). Ten tap rings.
+
+Where it differs from the table above:
+
+- **The lock beat is the site's earlier lock-screen clip** (`beat3-lockscreen.mp4`, 2.35 s of it), the phone alone on the cream: on the simulator the Live Activity's countdown renders as dashes (`24:––`) and the first locks show the "Allow Live Activities" sheet. That clip's session is "Exercise", not the Mac's "Deep work", which is why the Mac is not beside it.
+- **The phone beside the Mac** comes from a take in which the server started the session (`seed.py --start-block`), so both devices show the same "Deep work 24:3x" in step; the phone's tap opens its timer.
+- **The 00:00 frame** is cut from the handoff as in v2.
+- **Two takes were junk** before the first good one: the app now signs in as a guest at launch (ADR-064), so the demo driver signs the demo account in before launch; and two macOS "find devices on local networks" prompts sat over the recorded area until the founder answered them.
