@@ -60,6 +60,16 @@ The first landing page borrowed another company's look: Anthropic's cream canvas
 
 The alternative closest to the app screens (its own `#F4F7FB` background and `#005A9C` blue) was also considered. The known trade-off of the forest palette is that green is also the colour of Forest, a competitor the site has a comparison page against.
 
+## Amendment 2026-11-02: a feature tour, and visible taps, for the hero
+
+The single-workflow hero of 2026-10-23 undersold the product: a visitor saw planning and the auto-advance handoff and nothing of Focus Shield, the lock screen, one session across devices, calendar export or categories, and could not tell where the taps were. By the founder's call ([plans/hero-video-brief.md](../plans/hero-video-brief.md) section 5, SliceFocusFE#658), the hero may now:
+
+- **Run as a tour of several features**, about 30 s, each beat still the real product doing one real thing, with hard cuts or short dissolves between beats. The 12 to 18 s guidance of the brief yields to coverage.
+- **Mark every tap and click** with a small expanding ring at the point of contact, drawn in post from the test's own tap positions. It is a pointer for the viewer, not cursor theatre: no mouse pointer, no hand, no caption, the ring lasts under half a second and uses the app's own blue.
+- **Use a real still** where the moment cannot be recorded honestly in the pipeline (the Focus Shield block page, which needs a listed site to be opened in a real browser), with the same gentle push-in as the recorded beats.
+
+Everything else holds: silent, no captions or burned-in text, no bezels (a phone screen gets rounded corners, no device body), no particles, no hype. The feature clips and the store assets stay under the original decision.
+
 ## Alternatives Considered
 
 - **Polished, high-production promo (motion graphics, music, kinetic text).**

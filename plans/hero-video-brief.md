@@ -81,3 +81,21 @@ tool/videos/hero/compose.sh ~/Desktop/site-videos/hero-v2/raw/mac.mov \
   ~/Desktop/site-videos/hero-v2/raw/markers.txt ~/Desktop/site-videos/hero-v2/clips \
   --hide-pointer 1436:846:54:70
 ```
+
+## 5. Version 3: a feature tour with visible taps (2026-11-02)
+
+The founder's verdict on the shipped cut (2026-11-02): it does not show Focus Shield, the lock screen, the session across devices, calendar export or categories, and the taps are not emphasised. Issue: [SliceFocusFE#658](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/658). ADR-042 amended again (2026-11-02): a tour is allowed, taps are marked with an expanding ring, a real still may stand in where a moment cannot be recorded.
+
+| Time | Beat | On screen | Source |
+| --- | --- | --- | --- |
+| 0–6.2 | plan | the open day, the sweep on the ring (ring at the press), Create Slice, "Deep work", the Deep Work chip (ring), Save (ring) | the 2026-10-23 Mac take |
+| 6.2–8.8 | start | the row's play control (ring), the timer opens on 25:00 | same |
+| 8.8–15.1 | auto-advance | the countdown racing, 00:01, SHORT BREAK by itself, held 2 s | same |
+| 15.1–18.3 | one session, every device | iPhone next to the Mac, both on the same running "Deep work" session; the phone's expand tap (ring) | a `both` take: the server starts the session, the phone and the Mac show it |
+| 18.3–21.3 | lock screen | the iPhone locked, the Live Activity counting, the Mac still counting beside it | same take, the simulator locked on the `phone:lock` marker |
+| 21.3–24.1 | Focus Shield | the real block page, "Shielded by SliceFocus until 19:45", slow push-in | `slicefocus-web/focus-shield/blocked-page.png` |
+| 24.1–29.6 | categories | Settings (ring), Manage Categories (ring), + (ring), "Writing", Save (ring), the new category in the list | a Mac take, scene `categories` |
+| 29.6–32.6 | calendar | Settings, "Add slices to calendar" (ring), the switch turns on and its options appear | same take, scene `calendar` |
+| 32.6–33.2 | loop | dissolve to the first frame | |
+
+Pipeline additions (SliceFocusFE#658): `filmedTap` in the test prints `CLIP:<scene>:tap x y`; `run.sh` keeps the coordinates with the time, starts the phone's session on the server (`seed.py --start-block`) on the `prepare` line, and locks the simulator on `phone:lock` (the Simulator app is absent from this Xcode, so the lock button is pressed through the iOS Simulator tool and a flag file tells `run.sh` to go on); `compose.sh` takes several takes and a still, draws the rings before the camera move, composes the phone beside the Mac on the site's cream, and closes the loop as before.
