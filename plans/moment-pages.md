@@ -10,21 +10,18 @@ Each page answers one question plainly and shows how to do it in the app. They c
 
 ## How they were written
 
-- **Every claim about the app was checked** against the app's code on 2026-11-06. One claim on the live website does not match the code and is left out; see "An open point".
+- **Every claim about the app was checked** against the app's code on 2026-11-06. One claim on the live website goes further than the app does and is left out; see "Settled" below.
 - **The words follow how people search.** The App Store's own search suggestions (read 2026-11-06, United States) include "study planner", "study timer pomodoro", "focus timer for studying", "time blocking planner", "time blocking free", "pomodoro timer free", "daily schedule planner", "app blocker for productivity" and "safari website blocker". "Free" keeps appearing, so each page says the app is free near the top. The suggestions come from a public Apple address that is not documented, so they are a guide to wording and nothing more.
 - **The pages are written for people.** Google's guidance on [helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) asks for pages that answer the reader's question from first-hand knowledge. There are no tricks aimed at search engines or AI assistants.
 - **No health claims.** The pages never say the app treats ADHD or anything else.
 
-## An open point: what happens when a block ends
+## Settled: what "runs itself" means
 
-The website says "When a block ends, the next one begins on its own", and the founder's understanding on 2026-11-06 is that it does. The app's code, read the same day, shows something else:
+Settled with the founder on 2026-11-06. What runs by itself is the Pomodoro inside a session: once a session is started, it goes focus, break, focus, break, a long break after the fourth round, and then the next set, with no taps. The code agrees.
 
-- **Inside a block,** the timer moves from work to break and back by itself. This is what the app's own video scripts call a "handoff".
-- **When a block's planned time is up and the timer is still running,** the app stretches that block by one more round so the session carries on (`_checkSliceEnd` and `_extendActiveSlice` in `home_page.dart`, from the change "session continues past slice boundary").
-- **A new session starts only when the user starts one.** Nothing in the app or the backend starts the next planned block.
-- The app's feature notes say a session stops at its block's end. That is out of date; the code stretches the block instead.
+What does not happen by itself is the move from one planned block on the clock to the next. Each block's session is started by the user, and if a session is still running when its block's planned time is up, the app stretches that block.
 
-So these drafts claim only what the code does. A two-minute test on a phone settles it: plan two blocks back to back, start the first, and watch what happens when its time is up. If the next block does not start, either the home page's sentence is corrected, or starting the next block by itself becomes a feature to build, which would make the line "It runs itself" fully true.
+These drafts say exactly that. The home page says more than that in four places ("advances block to block on its own", "no timers to start, no taps between tasks", "When a block ends, the next one begins on its own", "the next block takes over automatically"). Those sentences describe planned blocks, so they need the founder's decision: reword them to the rounds, or build the block-to-block start.
 
 ## Page 1: plan a study day
 
