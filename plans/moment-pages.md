@@ -1,6 +1,6 @@
 # Step B drafts: pages for five moments of need
 
-*Written: 2026-11-06 | Status: wording approved by the founder on 2026-11-06; the pages are built and ready to merge in [slicefocus-web#52](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/52) | Founder check: public (site copy) | Belongs to [name-strategy.md](name-strategy.md), step B*
+*Written: 2026-11-06 | Status: wording approved by the founder on 2026-11-06; the pages were merged the same day in [slicefocus-web#52](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/52) | Founder check: public (site copy) | Belongs to [name-strategy.md](name-strategy.md), step B*
 
 ## What these are
 
