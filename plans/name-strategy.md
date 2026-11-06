@@ -114,7 +114,7 @@ The maker and company names are in order: the site's footer reads "© 2026 Cosmo
 | Maker line | by CosmoCrew |
 | Line | Plan your day on a clock. It runs itself. |
 | Description, where a plain sentence is needed | A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac. |
-| Picture | Open: see "The picture" below |
+| Picture | The signature day: the weekday plan the app's demo account is seeded with (founder, 2026-11-06). See "The picture" below |
 | The word for the picture | Always "24-hour clock" |
 
 The line is the one the website already uses, so nothing new has to be learned. The sentence proposed earlier in this document would have been an eighth wording and is withdrawn.
@@ -138,7 +138,9 @@ The line is the one the website already uses, so nothing new has to be learned. 
 
 The App Store's first screenshot and the hero video draw the same day: a full 24-hour clock in the app's own colours, with Sleep at the top right. The website's share image does not. It shows the ring from the app icon in the site's green palette, with a play mark in the middle, and under it a ninth wording ("A visual day planner with zero-touch auto-advance.").
 
-So there are two pictures in use: the real day from the app, and the icon's ring. The proposal is to treat them as two different things. The ring is the logo. The real day is "the picture" of the signature, and the share image should show it, because it is what people see in the store, in the video and in the app.
+So there are two pictures in use: the real day from the app, and the icon's ring. Decided by the founder on 2026-11-06: the ring is the logo, and the real day is the picture of the signature.
+
+That day already exists and needs no new data. It is the weekday plan in `tool/screenshots/seed.py` of the app repository (16 blocks from Sleep at 00:00 to Sleep at 22:30, in five category colours), which the screenshot and video tools load into the demo account before every shoot. It lives in the code, not in the live database, so it is the same every time. The share image is to be redrawn from that same list; a draft was shown to the founder on 2026-11-06.
 
 ### B. Own five moments of need
 
