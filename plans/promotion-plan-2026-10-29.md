@@ -148,6 +148,8 @@ Links in directories are plain, with no campaign codes (the lesson from Reddit).
 
 The list wants the same line in its Chinese, Japanese and Korean files, one pull request per app, and alphabetical order. The pull request says plainly that the author is the developer.
 
+**Opened 2026-11-06** on the founder's word: [jaywcjlove/awesome-mac#4313](https://github.com/jaywcjlove/awesome-mac/pull/4313), from the fork `mertyertugrul/awesome-mac`, branch `add-slicefocus`. It adds the line to all four files; the Chinese, Japanese and Korean lines are translations of the English one. It waits for the list's maintainer, and the repository runs no checks on pull requests.
+
 #### Five watched first sessions: what to do
 
 1. Pick five people who already use a timer, a planner or a to-do app. Not people who have seen SliceFocus.
