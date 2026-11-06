@@ -1,6 +1,6 @@
 # Step B drafts: pages for five moments of need
 
-*Written: 2026-11-06 | Status: drafts for the founder's approval; nothing is on the website | Founder check: public (site copy) | Belongs to [name-strategy.md](name-strategy.md), step B*
+*Written: 2026-11-06 | Status: wording approved by the founder on 2026-11-06; the pages are being built as a pull request for slicefocus.app | Founder check: public (site copy) | Belongs to [name-strategy.md](name-strategy.md), step B*
 
 ## What these are
 
