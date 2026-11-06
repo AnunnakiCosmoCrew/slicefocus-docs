@@ -158,6 +158,8 @@ For each one: the words in the App Store listing, one plain page on slicefocus.a
 
 **Why second:** reasons 3 and 6. These pages are what search engines and assistants read, and they take months to be found, so they start early.
 
+**Drafted 2026-11-06, waiting for the founder's approval:** [moment-pages.md](moment-pages.md). Four new pages; the fifth moment already has the Focus Shield guide.
+
 ### C. Let the app carry its own name (changes to the app)
 
 - **A picture of my day to share:** one tap produces the day's clock as an image, with the name on it. Students and planners already post their schedules; today ours leaves no trace.
