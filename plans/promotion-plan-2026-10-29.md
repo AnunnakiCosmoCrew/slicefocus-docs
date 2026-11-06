@@ -113,7 +113,7 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 
 ### Drafts for the organic channels (6 Nov, for the founder's approval)
 
-Links in directories are plain, with no campaign codes (the lesson from Reddit). Visits from them show as referrers on slicefocus.app.
+Links in directories are plain, with no campaign codes (the lesson from Reddit). Visits from them show as referrers on slicefocus.app. The wording follows the signature approved on 6 Nov ([name-strategy.md](name-strategy.md), step A).
 
 #### In-App Event (App Store Connect → SliceFocus → In-App Events)
 
@@ -135,7 +135,7 @@ Links in directories are plain, with no campaign codes (the lesson from Reddit).
 - **Platforms:** Mac, iPhone, iPad
 - **Licence:** Free, proprietary
 - **Website:** https://slicefocus.app/
-- **Short description:** Plan your day on a 24-hour clock and let a Pomodoro timer run the blocks, with app and website blocking during work.
+- **Short description:** A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac.
 - **Description:** SliceFocus is a day planner and focus timer for iPhone, iPad and Mac. You draw the day's blocks on a 24-hour clock, and a Pomodoro timer runs them, moving from work to break and back by itself. The same timer shows on every device, on the iPhone lock screen and in the Mac menu bar. Focus Shield keeps the apps and websites you choose out of reach during work phases and lets them back in on breaks: Screen Time on iPhone, Safari and Chrome extensions plus an app shield on the Mac. Apple Calendar events appear next to your blocks, and blocks can be exported to a calendar. It is free, with no ads and no subscription, and it starts without an account. The interface is in English.
 - **Tags:** pomodoro timer, time blocking, day planner, focus timer, website blocker, app blocker, menu bar, calendar integration, no ads
 - **Alternative to:** Session, Forest, Structured
@@ -143,7 +143,7 @@ Links in directories are plain, with no campaign codes (the lesson from Reddit).
 #### awesome-mac entry (pull request to `jaywcjlove/awesome-mac`, section "To-Do Lists", between One Task and Super Productivity)
 
 ```
-* [SliceFocus](https://slicefocus.app/) - Day planner on a 24-hour clock with a Pomodoro timer that blocks distracting apps and websites during work. ![Freeware][Freeware Icon] [![App Store][app-store Icon]](https://apps.apple.com/app/slicefocus/id6761280632?platform=mac)
+* [SliceFocus](https://slicefocus.app/) - Day planner on a 24-hour clock, with a focus timer that runs your blocks by itself. ![Freeware][Freeware Icon] [![App Store][app-store Icon]](https://apps.apple.com/app/slicefocus/id6761280632?platform=mac)
 ```
 
 The list wants the same line in its Chinese, Japanese and Korean files, one pull request per app, and alphabetical order. The pull request says plainly that the author is the developer.

@@ -1,6 +1,6 @@
 # Getting the name known: SliceFocus, with CosmoCrew and Luvita behind it
 
-*Written: 2026-11-06 | Status: the order of the three names was agreed by the founder on 2026-11-06 (SliceFocus first); the signature and the app changes are still open | Founder check: public (it sets what every public surface says) and product (two of the steps are changes to the app)*
+*Written: 2026-11-06 | Status: the order of the three names was agreed by the founder on 2026-11-06 (SliceFocus first); the signature was approved the same day; the picture and the app changes are still open | Founder check: public (it sets what every public surface says) and product (two of the steps are changes to the app)*
 
 This is the companion to [growth-strategy.md](growth-strategy.md). That document says how we reach 20 weekly users. This one says how people come to know the name at all. It has no dates; the work is ordered by what depends on what.
 
@@ -106,7 +106,7 @@ So there are seven different one-line descriptions, and five words for the same 
 
 The maker and company names are in order: the site's footer reads "© 2026 CosmoCrew, a brand of Luvita Teknoloji Ltd. Şti.", and the App Store shows the company as the seller, which cannot show CosmoCrew.
 
-#### The signature proposed
+#### The signature (approved by the founder, 2026-11-06)
 
 | Part | Value |
 | --- | --- |
@@ -114,7 +114,7 @@ The maker and company names are in order: the site's footer reads "© 2026 Cosmo
 | Maker line | by CosmoCrew |
 | Line | Plan your day on a clock. It runs itself. |
 | Description, where a plain sentence is needed | A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac. |
-| Picture | The day on the website's share image |
+| Picture | Open: see "The picture" below |
 | The word for the picture | Always "24-hour clock" |
 
 The line is the one the website already uses, so nothing new has to be learned. The sentence proposed earlier in this document would have been an eighth wording and is withdrawn.
@@ -127,6 +127,18 @@ The line is the one the website already uses, so nothing new has to be learned. 
 4. **The three drafts** (AlternativeTo, awesome-mac, App Store event): the description.
 5. **"by CosmoCrew" under the name** at the top of slicefocus.app. Today it is only in the footer.
 6. **A check that the same day is drawn** in the App Store's first screenshot, the hero video and the share image.
+
+#### Done and under way (2026-11-06)
+
+- **Done:** the two GitHub repository descriptions; the wording of the AlternativeTo and awesome-mac drafts.
+- **Opened as pull requests for review:** the cosmocrew.dev product card, and "by CosmoCrew" under the name at the top of slicefocus.app.
+- **Waiting for the founder:** the App Store promotional text. Proposed (145 of 170 characters): "Plan your day on a clock. It runs itself. A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac." The Turkish promotional text already says the same thing and stays.
+
+#### The picture: one thing the check found
+
+The App Store's first screenshot and the hero video draw the same day: a full 24-hour clock in the app's own colours, with Sleep at the top right. The website's share image does not. It shows the ring from the app icon in the site's green palette, with a play mark in the middle, and under it a ninth wording ("A visual day planner with zero-touch auto-advance.").
+
+So there are two pictures in use: the real day from the app, and the icon's ring. The proposal is to treat them as two different things. The ring is the logo. The real day is "the picture" of the signature, and the share image should show it, because it is what people see in the store, in the video and in the app.
 
 ### B. Own five moments of need
 
