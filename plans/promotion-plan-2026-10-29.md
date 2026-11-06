@@ -126,7 +126,8 @@ Links in directories are plain, with no campaign codes (the lesson from Reddit).
 
 - **Link into the app (required by Apple):** `slicefocus://`, which opens the app on today's clock. Check on a real iPhone before submitting.
 - **Run:** up to 31 days from approval (Apple's limit).
-- **Still needed:** two images, an event card (landscape, at least 1920×1080) and a details image (portrait). To be made from the existing app visuals once the wording is approved.
+- **Wording and images approved by the founder on 2026-11-06.** The images are in [in-app-event-guest-start/](in-app-event-guest-start/): [event-card.png](in-app-event-guest-start/event-card.png) (1920×1080) and [event-details.png](in-app-event-guest-start/event-details.png) (1080×1920), each with its SVG source. They show the signature day on dark green with one block being drawn into the free evening; no words and no logo, as [Apple asks](https://developer.apple.com/app-store/in-app-events/), and the lower part is left empty for the title Apple lays over it. PNG made with `rsvg-convert`, then flattened so the file has no transparency.
+- **Not yet done:** creating and submitting the event in App Store Connect (founder), and the check that `slicefocus://` opens the app on a real iPhone.
 - **Risk:** App Review may decide that guest start is not a big enough change for this badge and reject the event. It costs nothing to try.
 
 #### AlternativeTo listing (alternativeto.net → sign in → "Suggest new application")
