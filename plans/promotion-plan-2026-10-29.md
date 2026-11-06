@@ -143,6 +143,13 @@ Links in directories are plain, with no campaign codes (the lesson from Reddit).
 - **Tags:** pomodoro timer, time blocking, day planner, focus timer, website blocker, app blocker, menu bar, calendar integration, no ads
 - **Alternative to:** Session, Forest, Structured
 
+**Submitted 2026-11-06** from the Luvita account (profile name Cosmo-Crew), as https://alternativeto.net/software/slicefocus/ (visible only to us until reviewed). What went in beyond the draft above:
+- **One sentence corrected before submitting:** the draft said a Pomodoro timer "runs them" (the blocks), which is the claim retired on 6 Nov. It went in as "when you start one, a Pomodoro timer runs its work and break rounds by itself".
+- **Tags (the site's own):** pomodoro-timer, time-blocking, planner, stay-focused, block-websites, app-blocking, menu-bar-app, calendar-integration, ad-free. **Features ticked:** Calendar Integration, Pomodoro Timer, Reminders, Task Time Tracking, No registration required, Ad-free, Dark Mode, Works Offline, Cloud Sync.
+- **Maker:** a new company entry "CosmoCrew" (Turkey, cosmocrew.dev). **Release date:** 26 Mar 2026 (fe/v1.0.0). **Icon:** slicefocus.app/icon.svg. **Screenshots:** the four from slicefocus.app (Mac day, iPhone day, focus timer, Actual vs Planned), with captions.
+- **Alternatives:** Forest, Session - Pomodoro Timer, Structured.
+- **Queue:** the free one. The site says it holds several thousand apps and may not reach ours for a very long time. A paid priority review ($15, one-time, review in 1-2 business days) or a hand-finished one ($39) was offered and declined; it stays available under "My submissions" ("Get reviewed sooner"). That is the founder's call.
+
 #### awesome-mac entry (pull request to `jaywcjlove/awesome-mac`, section "To-Do Lists", between One Task and Super Productivity)
 
 ```
