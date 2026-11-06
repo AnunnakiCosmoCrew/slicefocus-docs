@@ -2,6 +2,8 @@
 
 *Created: 2026-10-29 | Release: [SliceFocusFE#641](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/641) | Founder check: public (every post below is a draft; the founder approves and posts it, Claude never does)*
 
+> **Revised on 6 Nov 2026.** Reddit is paused after the 3 Nov ban. The current strategy is in "Revised strategy, 6 Nov" below; the sections before it record the first plan and what happened.
+
 ## Where this starts
 
 - 1.7.4 is live on iPhone and iPad (released 2026-10-29, 05:19 UTC) and on the Mac (approved by 2026-10-31, founder's report). A first launch opens on a guest account, so people can try the app without signing up.
@@ -50,6 +52,60 @@ All founder steps.
 - **Cutoff:** if the appeal is not answered or is denied by about **Tue 17 Nov**, Reddit is closed for SliceFocus and its share of the plan moves to the other channels.
 - **Knock-on:** draft 2 (r/macapps megathread) and the r/pomodoro post are on hold with it. The Show HN gate (100 installs) assumed Reddit would supply most of them; the Mon 9 Nov week-1 readout decides whether to lower the gate or find installs elsewhere (app directories, Turkish communities).
 - **Lesson, if the account returns or for any future account:** warm up slowly over weeks, not days; keep launch-day comments few and spaced out; use one plain link per post, and keep tracking codes for the App Store link only.
+
+## Revised strategy, 6 Nov: without Reddit (proposed; the founder decides the three marked points)
+
+*Founder check: money (the Apple Ads test) and public (every listing, post and event text is a draft the founder approves).*
+
+### What changed in the thinking
+
+The first plan leaned on one borrowed audience, and one automatic filter ended it in a day. The revision moves the weight to places we own or that Apple runs, treats community posts as cheap tries that may bring nothing, and buys the measurable cohort Reddit was meant to bring for free.
+
+What the numbers say (the figures are on the metrics dashboard; this repo is public):
+
+- **Reach is the limit now.** Few people see the App Store listing in search and browse, and organic installs are far too few to reach the roughly 100-install cohort this plan needs to judge 1.7.4. At the current pace that cohort would take months.
+- **The listing change helped a little.** Daily App Store impressions rose after the new subtitle went live on 29 Oct. One week of noisy data, so it is a hint and nothing more.
+- **The first session looks better for guests, on a handful of users.** Too few to conclude anything; that is why the cohort matters.
+
+### The channels, re-ranked
+
+| Priority | Channel | What it takes | What backs it | Status |
+| --- | --- | --- | --- | --- |
+| 1 | **Apple Ads test on App Store search**, capped: the cohort Reddit was meant to bring | **Founder decision (money).** A small fixed cap for two weeks; founder sets up billing | Apple: about 65 % of App Store downloads follow a search, and over 70 % of visitors use search ([Apple Ads](https://ads.apple.com/app-store)). Pricing is cost per tap with no minimum spend; Türkiye is on Apple's list of markets. What an install will cost us is unknown until we run it (published figures are vendor-only) | Proposed |
+| 2 | **Five watched first sessions** (people the founder knows who use a timer or planner; they install, the founder watches the first five minutes and notes where they stall) | 5 × 20 min | Established usability practice: about five testers surface most problems ([Nielsen Norman Group](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), after Nielsen and Landauer, 1993). Replaces the "why did you stop?" answers the Reddit thread was meant to give | Proposed |
+| 3 | **In-App Event on the App Store**, badge "Major Update": start without an account | Event text, two images, App Review | [Apple's rules](https://developer.apple.com/app-store/in-app-events/): events show on the product page and in search results; a Major Update event must introduce significant new features. Apple does not allow events that only promote the app, so no "exam season" style event. The size of the effect is vendor-reported only | Proposed |
+| 4 | **Directories**: AlternativeTo (as an alternative to Session, Forest and Structured) and the awesome-mac list on GitHub | About 1 h, once | AlternativeTo listings are free and reviewed ([FAQ](https://alternativeto.net/faq)). awesome-mac takes pull requests, one sentence per app, in its four language files ([contributing guide](https://github.com/jaywcjlove/awesome-mac/blob/master/docs/CONTRIBUTING.md)). Slow, steady traffic; our judgement, no study | Proposed |
+| 5 | **slicefocus.app**: comparison pages and the "no sign-up" line | Done; keep the three pages current | In place since 5 Nov. Pays back slowly | Live |
+| 6 | **Show HN**, "how it is built" | **Founder decision.** A write-up and 3 h of replies | Our own count from Hacker News search (6 Nov): of 98 Show HN posts about Pomodoro apps since Jan 2025, the median got 2 points and about 5 % reached 10. So it is a cheap try that most likely brings nothing, not a pillar. [HN's FAQ](https://news.ycombinator.com/newsfaq.html) allows a small number of reposts when a post got no attention, so it is not a one-shot either. Proposal: drop the 100-install gate and post in the week of 16 Nov | Proposed |
+| 7 | **One Turkish forum post** | **Founder decision** (set aside in October). Read the forum's rules first, then one post | The Turkish listing is live and the app's ratings so far are Turkish. Our judgement; no data | Proposed |
+| 8 | **Apple featuring nomination** | Nominate the next release 3+ weeks ahead | Submitted for 1.7.4; Apple answers only if picked | Waiting |
+| – | **Reddit** (posts, replies, r/macapps, r/pomodoro) | – | Paused; see "Reddit ban". Reddit Ads only after the 10 Nov call, and after the Apple Ads test has shown what an install costs | On hold |
+
+**Not doing:**
+- **A screenshot A/B test** (Apple's product page optimization). The page gets too few visitors for a test to reach an answer.
+- **Emailing existing users.** They have not agreed to marketing email.
+- **A new Reddit account.** See "Reddit ban".
+- **Short-video channels, Setapp, Product Hunt, LinkedIn.** Unchanged from the first plan.
+
+### The Apple Ads test, if approved
+
+- **Why pay at all:** this buys a measurement, not growth. The plan needs about 100 installs on 1.7.4 to tell whether the first session is fixed.
+- **Shape:** search results only, exact keywords close to the listing (pomodoro timer, time blocking, day planner, app blocker, focus timer), English-speaking storefronts plus Türkiye, two weeks.
+- **Cap:** fixed in advance by the founder. Pause early if installs cost clearly more than expected after the first fifth of the budget.
+- **A second use:** the search-terms report shows which searches people actually tap from, which feeds the free keyword field for the next release.
+- **Reading it:** paid installs can behave differently from organic ones, so the readout keeps them as their own cohort (campaign-tagged) and does not mix them with organic installs.
+
+### The next two weeks
+
+| When | What | Who |
+| --- | --- | --- |
+| Mon 9 Nov | Week-1 readout. Decide the three marked points. One nudge to Reddit if still silent | Founder + Claude |
+| Tue 10 Nov, 13:00 | Reddit Ads call | Founder |
+| 9–13 Nov | Draft and submit the In-App Event; AlternativeTo listing; awesome-mac pull request; arrange the five watched sessions | Claude drafts, founder approves and submits |
+| From approval, 14 days | Apple Ads test | Founder sets up billing; Claude prepares keywords and reads results |
+| Week of 16 Nov | Show HN on a weekday with three free hours; one Turkish forum post | Founder posts |
+| Tue 17 Nov | Reddit cutoff | Founder + Claude |
+| Mon 23 Nov | **Review:** did the 1.7.4 cohort reach about 100 installs; activation and day-1/day-7 return against the earlier cohorts; what the five sessions showed. Then either put more into what worked, or fix the drop-off first | Founder + Claude |
 
 ## First week (re-dated 2026-10-31)
 
