@@ -131,7 +131,7 @@ The line is the one the website already uses, so nothing new has to be learned. 
 #### Done and under way (2026-11-06)
 
 - **Done:** the two GitHub repository descriptions; the wording of the AlternativeTo and awesome-mac drafts.
-- **Opened as pull requests for review:** the cosmocrew.dev product card, and "by CosmoCrew" under the name at the top of slicefocus.app.
+- **Being prepared as pull requests:** the cosmocrew.dev product card, and "by CosmoCrew" under the name at the top of slicefocus.app. Links are added here once they are open.
 - **Waiting for the founder:** the App Store promotional text. Proposed (145 of 170 characters): "Plan your day on a clock. It runs itself. A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac." The Turkish promotional text already says the same thing and stays.
 
 #### The picture: one thing the check found
