@@ -161,7 +161,7 @@ For each one: the words in the App Store listing, one plain page on slicefocus.a
 
 **Why second:** reasons 3 and 6. These pages are what search engines and assistants read, and they take months to be found, so they start early.
 
-**Wording approved by the founder on 2026-11-06; the pages are being built:** [moment-pages.md](moment-pages.md). Four new pages; the fifth moment already has the Focus Shield guide.
+**Wording approved by the founder on 2026-11-06; built and ready to merge in [slicefocus-web#52](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/52):** [moment-pages.md](moment-pages.md). Four new pages; the fifth moment already has the Focus Shield guide.
 
 ### C. Let the app carry its own name (changes to the app)
 
