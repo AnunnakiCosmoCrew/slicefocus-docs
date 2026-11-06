@@ -133,7 +133,7 @@ The line is the one the website already uses, so nothing new has to be learned. 
 - **Done:** the two GitHub repository descriptions; the wording of the AlternativeTo and awesome-mac drafts.
 - **Merged 2026-11-06:** the cosmocrew.dev product card ([anunnakicosmocrew.github.io#44](https://github.com/AnunnakiCosmoCrew/anunnakicosmocrew.github.io/pull/44)). Its review raised one point: the description says "on iPhone and Mac" and leaves out iPad, which the app also runs on. Decided by the founder on 2026-11-06: the description stays as approved, without iPad; platform lists name iPad where they exist.
 - **Merged 2026-11-06:** "by CosmoCrew" under the name at the top of slicefocus.app, on all five pages ([slicefocus-web#46](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/46)). Plain text inside the home link, in the site's existing muted colour.
-- **Found while doing it, not changed yet:** on slicefocus.app the opening paragraph says "24-hour circle" and the share image's alt text says "radial clock" (the signature's word is "24-hour clock"); the footer links CosmoCrew to its old github.io address instead of cosmocrew.dev; the repository's README still carries the old wording. Proposed to go with the share-image change.
+- **Open as a draft pull request:** the share image redrawn with the signature day (draft approved by the founder on 2026-11-06), "24-hour clock" in place of "circle", "radial canvas" and "radial clock" on all five pages, the footer link to cosmocrew.dev, and the README's opening line ([slicefocus-web#48](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/48)).
 - **Waiting for the founder:** the App Store promotional text. Proposed (145 of 170 characters): "Plan your day on a clock. It runs itself. A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac." The Turkish promotional text already says the same thing and stays.
 
 #### The picture: one thing the check found
@@ -142,7 +142,7 @@ The App Store's first screenshot and the hero video draw the same day: a full 24
 
 So there are two pictures in use: the real day from the app, and the icon's ring. Decided by the founder on 2026-11-06: the ring is the logo, and the real day is the picture of the signature.
 
-That day already exists and needs no new data. It is the weekday plan in `tool/screenshots/seed.py` of the app repository (16 blocks from Sleep at 00:00 to Sleep at 22:30, in five category colours), which the screenshot and video tools load into the demo account before every shoot. It lives in the code, not in the live database, so it is the same every time. The share image is to be redrawn from that same list; a draft was shown to the founder on 2026-11-06.
+That day already exists and needs no new data. It is the weekday plan in `tool/screenshots/seed.py` of the app repository (16 blocks from Sleep at 00:00 to Sleep at 22:30, in five category colours), which the screenshot and video tools load into the demo account before every shoot. It lives in the code, not in the live database, so it is the same every time. The share image is redrawn from that same list in slicefocus-web#48; the founder approved the draft on 2026-11-06.
 
 ### B. Own five moments of need
 
