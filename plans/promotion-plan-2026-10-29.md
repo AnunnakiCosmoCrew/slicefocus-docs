@@ -53,13 +53,15 @@ All founder steps.
 - **Knock-on:** draft 2 (r/macapps megathread) and the r/pomodoro post are on hold with it. The Show HN gate (100 installs) assumed Reddit would supply most of them; the Mon 9 Nov week-1 readout decides whether to lower the gate or find installs elsewhere (app directories, Turkish communities).
 - **Lesson, if the account returns or for any future account:** warm up slowly over weeks, not days; keep launch-day comments few and spaced out; use one plain link per post, and keep tracking codes for the App Store link only.
 
-## Revised strategy, 6 Nov: without Reddit (proposed; the founder decides the three marked points)
+## Revised strategy, 6 Nov: without Reddit (founder's decision the same day: organic first, paid later)
 
-*Founder check: money (the Apple Ads test) and public (every listing, post and event text is a draft the founder approves).*
+*Founder check: public (every listing, post and event text is a draft the founder approves). The Apple Ads test is a money decision and is deferred.*
+
+**Founder's decision, 6 Nov:** go with the organic channels first; spend money only after they have been tried. So the Apple Ads test is not started. It comes back as a question at the 23 Nov review. The cost of this order: the roughly 100-install cohort will not be there by 23 Nov, so that review reads a smaller group plus the five watched sessions.
 
 ### What changed in the thinking
 
-The first plan leaned on one borrowed audience, and one automatic filter ended it in a day. The revision moves the weight to places we own or that Apple runs, treats community posts as cheap tries that may bring nothing, and buys the measurable cohort Reddit was meant to bring for free.
+The first plan leaned on one borrowed audience, and one automatic filter ended it in a day. The revision moves the weight to places we own or that Apple runs, and treats community posts as cheap tries that may bring nothing. Buying the measurable cohort with a small ad test was proposed and deferred (see the decision above).
 
 What the numbers say (the figures are on the metrics dashboard; this repo is public):
 
@@ -71,15 +73,15 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 
 | Priority | Channel | What it takes | What backs it | Status |
 | --- | --- | --- | --- | --- |
-| 1 | **Apple Ads test on App Store search**, capped: the cohort Reddit was meant to bring | **Founder decision (money).** A small fixed cap for two weeks; founder sets up billing | Apple: about 65 % of App Store downloads follow a search, and over 70 % of visitors use search ([Apple Ads](https://ads.apple.com/app-store)). Pricing is cost per tap with no minimum spend; Türkiye is on Apple's list of markets. What an install will cost us is unknown until we run it (published figures are vendor-only) | Proposed |
-| 2 | **Five watched first sessions** (people the founder knows who use a timer or planner; they install, the founder watches the first five minutes and notes where they stall) | 5 × 20 min | Established usability practice: about five testers surface most problems ([Nielsen Norman Group](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), after Nielsen and Landauer, 1993). Replaces the "why did you stop?" answers the Reddit thread was meant to give | Proposed |
-| 3 | **In-App Event on the App Store**, badge "Major Update": start without an account | Event text, two images, App Review | [Apple's rules](https://developer.apple.com/app-store/in-app-events/): events show on the product page and in search results; a Major Update event must introduce significant new features. Apple does not allow events that only promote the app, so no "exam season" style event. The size of the effect is vendor-reported only | Proposed |
-| 4 | **Directories**: AlternativeTo (as an alternative to Session, Forest and Structured) and the awesome-mac list on GitHub | About 1 h, once | AlternativeTo listings are free and reviewed ([FAQ](https://alternativeto.net/faq)). awesome-mac takes pull requests, one sentence per app, in its four language files ([contributing guide](https://github.com/jaywcjlove/awesome-mac/blob/master/docs/CONTRIBUTING.md)). Slow, steady traffic; our judgement, no study | Proposed |
-| 5 | **slicefocus.app**: comparison pages and the "no sign-up" line | Done; keep the three pages current | In place since 5 Nov. Pays back slowly | Live |
-| 6 | **Show HN**, "how it is built" | **Founder decision.** A write-up and 3 h of replies | Our own count from Hacker News search (6 Nov): of 98 Show HN posts about Pomodoro apps since Jan 2025, the median got 2 points and about 5 % reached 10. So it is a cheap try that most likely brings nothing, not a pillar. [HN's FAQ](https://news.ycombinator.com/newsfaq.html) allows a small number of reposts when a post got no attention, so it is not a one-shot either. Proposal: drop the 100-install gate and post in the week of 16 Nov | Proposed |
-| 7 | **One Turkish forum post** | **Founder decision** (set aside in October). Read the forum's rules first, then one post | The Turkish listing is live and the app's ratings so far are Turkish. Our judgement; no data | Proposed |
-| 8 | **Apple featuring nomination** | Nominate the next release 3+ weeks ahead | Submitted for 1.7.4; Apple answers only if picked | Waiting |
+| 1 | **Five watched first sessions** (people the founder knows who use a timer or planner; they install, the founder watches the first five minutes and notes where they stall) | 5 × 20 min | Established usability practice: about five testers surface most problems ([Nielsen Norman Group](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), after Nielsen and Landauer, 1993). Replaces the "why did you stop?" answers the Reddit thread was meant to give | Script below; founder arranges |
+| 2 | **In-App Event on the App Store**, badge "Major Update": start without an account | Event text, two images, App Review | [Apple's rules](https://developer.apple.com/app-store/in-app-events/): events show on the product page and in search results; a Major Update event must introduce significant new features. Apple does not allow events that only promote the app, so no "exam season" style event. The size of the effect is vendor-reported only | Drafted, see below |
+| 3 | **Directories**: AlternativeTo (as an alternative to Session, Forest and Structured) and the awesome-mac list on GitHub | About 1 h, once | AlternativeTo listings are free and reviewed ([FAQ](https://alternativeto.net/faq)). awesome-mac takes pull requests, one sentence per app, in its four language files ([contributing guide](https://github.com/jaywcjlove/awesome-mac/blob/master/docs/CONTRIBUTING.md)). Slow, steady traffic; our judgement, no study | Drafted, see below |
+| 4 | **slicefocus.app**: comparison pages and the "no sign-up" line | Done; keep the three pages current | In place since 5 Nov. Pays back slowly | Live |
+| 5 | **Show HN**, "how it is built" | A write-up and 3 h of replies | Our own count from Hacker News search (6 Nov): of 98 Show HN posts about Pomodoro apps since Jan 2025, the median got 2 points and about 5 % reached 10. So it is a cheap try that most likely brings nothing, not a pillar. [HN's FAQ](https://news.ycombinator.com/newsfaq.html) allows a small number of reposts when a post got no attention, so it is not a one-shot either. The 100-install gate is dropped; post in the week of 16 Nov | Planned |
+| 6 | **One Turkish forum post** | Set aside in October, back in as an organic try. Read the forum's rules first, then one post | The Turkish listing is live and the app's ratings so far are Turkish. Our judgement; no data | Planned |
+| 7 | **Apple featuring nomination** | Nominate the next release 3+ weeks ahead | Submitted for 1.7.4; Apple answers only if picked | Waiting |
 | – | **Reddit** (posts, replies, r/macapps, r/pomodoro) | – | Paused; see "Reddit ban". Reddit Ads only after the 10 Nov call, and after the Apple Ads test has shown what an install costs | On hold |
+| Later | **Apple Ads test on App Store search**, capped: the cohort Reddit was meant to bring | **Deferred by the founder, 6 Nov.** A small fixed cap for two weeks; founder sets up billing | Apple: about 65 % of App Store downloads follow a search, and over 70 % of visitors use search ([Apple Ads](https://ads.apple.com/app-store)). Pricing is cost per tap with no minimum spend; Türkiye is on Apple's list of markets. What an install will cost us is unknown until we run it (published figures are vendor-only) | Deferred; revisit 23 Nov |
 
 **Not doing:**
 - **A screenshot A/B test** (Apple's product page optimization). The page gets too few visitors for a test to reach an answer.
@@ -87,7 +89,7 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 - **A new Reddit account.** See "Reddit ban".
 - **Short-video channels, Setapp, Product Hunt, LinkedIn.** Unchanged from the first plan.
 
-### The Apple Ads test, if approved
+### The Apple Ads test, for later (not started)
 
 - **Why pay at all:** this buys a measurement, not growth. The plan needs about 100 installs on 1.7.4 to tell whether the first session is fixed.
 - **Shape:** search results only, exact keywords close to the listing (pomodoro timer, time blocking, day planner, app blocker, focus timer), English-speaking storefronts plus Türkiye, two weeks.
@@ -99,13 +101,57 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 
 | When | What | Who |
 | --- | --- | --- |
-| Mon 9 Nov | Week-1 readout. Decide the three marked points. One nudge to Reddit if still silent | Founder + Claude |
+| Mon 9 Nov | Week-1 readout. One nudge to Reddit if still silent | Founder + Claude |
 | Tue 10 Nov, 13:00 | Reddit Ads call | Founder |
-| 9–13 Nov | Draft and submit the In-App Event; AlternativeTo listing; awesome-mac pull request; arrange the five watched sessions | Claude drafts, founder approves and submits |
-| From approval, 14 days | Apple Ads test | Founder sets up billing; Claude prepares keywords and reads results |
+| 9–13 Nov | Approve and submit the In-App Event; AlternativeTo listing; awesome-mac pull request; arrange the five watched sessions | Drafts below; founder approves and submits |
 | Week of 16 Nov | Show HN on a weekday with three free hours; one Turkish forum post | Founder posts |
 | Tue 17 Nov | Reddit cutoff | Founder + Claude |
-| Mon 23 Nov | **Review:** did the 1.7.4 cohort reach about 100 installs; activation and day-1/day-7 return against the earlier cohorts; what the five sessions showed. Then either put more into what worked, or fix the drop-off first | Founder + Claude |
+| Mon 23 Nov | **Review:** what each organic channel brought; activation and day-1/day-7 return of the 1.7.4 cohort against the earlier ones (a small group, so read with care); what the five sessions showed. Then decide whether to start the paid test, put more into what worked, or fix the drop-off first | Founder + Claude |
+
+### Drafts for the organic channels (6 Nov, for the founder's approval)
+
+Links in directories are plain, with no campaign codes (the lesson from Reddit). Visits from them show as referrers on slicefocus.app.
+
+#### In-App Event (App Store Connect → SliceFocus → In-App Events)
+
+| Field | English (U.K.) | Turkish |
+| --- | --- | --- |
+| Badge | Major Update | Major Update |
+| Name (30 max) | Start Without an Account | Hesap Açmadan Başla |
+| Short description (50 max) | Open the app and plan today. No sign-up needed. | Uygulamayı aç, gününü planla. Kayıt gerekmez. |
+| Long description (120 max) | SliceFocus now opens straight on today's 24-hour clock. Plan a block, start the timer, and sign in later to keep it all. | SliceFocus artık bugünün 24 saatlik kadranında açılıyor. Bir blok planla, zamanlayıcıyı başlat, sonra giriş yap. |
+
+- **Link into the app (required by Apple):** `slicefocus://`, which opens the app on today's clock. Check on a real iPhone before submitting.
+- **Run:** up to 31 days from approval (Apple's limit).
+- **Still needed:** two images, an event card (landscape, at least 1920×1080) and a details image (portrait). To be made from the existing app visuals once the wording is approved.
+- **Risk:** App Review may decide that guest start is not a big enough change for this badge and reject the event. It costs nothing to try.
+
+#### AlternativeTo listing (alternativeto.net → sign in → "Suggest new application")
+
+- **Name:** SliceFocus
+- **Platforms:** Mac, iPhone, iPad
+- **Licence:** Free, proprietary
+- **Website:** https://slicefocus.app/
+- **Short description:** Plan your day on a 24-hour clock and let a Pomodoro timer run the blocks, with app and website blocking during work.
+- **Description:** SliceFocus is a day planner and focus timer for iPhone, iPad and Mac. You draw the day's blocks on a 24-hour clock, and a Pomodoro timer runs them, moving from work to break and back by itself. The same timer shows on every device, on the iPhone lock screen and in the Mac menu bar. Focus Shield keeps the apps and websites you choose out of reach during work phases and lets them back in on breaks: Screen Time on iPhone, Safari and Chrome extensions plus an app shield on the Mac. Apple Calendar events appear next to your blocks, and blocks can be exported to a calendar. It is free, with no ads and no subscription, and it starts without an account. The interface is in English.
+- **Tags:** pomodoro timer, time blocking, day planner, focus timer, website blocker, app blocker, menu bar, calendar integration, no ads
+- **Alternative to:** Session, Forest, Structured
+
+#### awesome-mac entry (pull request to `jaywcjlove/awesome-mac`, section "To-Do Lists", between One Task and Super Productivity)
+
+```
+* [SliceFocus](https://slicefocus.app/) - Day planner on a 24-hour clock with a Pomodoro timer that blocks distracting apps and websites during work. ![Freeware][Freeware Icon] [![App Store][app-store Icon]](https://apps.apple.com/app/slicefocus/id6761280632?platform=mac)
+```
+
+The list wants the same line in its Chinese, Japanese and Korean files, one pull request per app, and alphabetical order. The pull request says plainly that the author is the developer.
+
+#### Five watched first sessions: what to do
+
+1. Pick five people who already use a timer, a planner or a to-do app. Not people who have seen SliceFocus.
+2. Sit next to them, or share screens. Say only: "Install this and plan the rest of your day with it. Think out loud."
+3. Do not help for the first five minutes. Write down where they stop, what they tap that does nothing, and what they say they expected.
+4. Afterwards ask two questions: "What is this app for?" and "Would you open it tomorrow? Why, or why not?"
+5. Send the notes; they go into the 23 Nov review. A problem that three of five people hit gets fixed before any paid test.
 
 ## First week (re-dated 2026-10-31)
 
