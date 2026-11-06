@@ -1,6 +1,6 @@
 # Getting the name known: SliceFocus, with CosmoCrew and Luvita behind it
 
-*Written: 2026-11-06 | Status: proposed, for the founder's decision | Founder check: public (it sets what every public surface says) and product (two of the steps are changes to the app)*
+*Written: 2026-11-06 | Status: the order of the three names was agreed by the founder on 2026-11-06 (SliceFocus first); the signature and the app changes are still open | Founder check: public (it sets what every public surface says) and product (two of the steps are changes to the app)*
 
 This is the companion to [growth-strategy.md](growth-strategy.md). That document says how we reach 20 weekly users. This one says how people come to know the name at all. It has no dates; the work is ordered by what depends on what.
 
@@ -82,10 +82,51 @@ What backs it: our own experience, and reason 1. Lasting places repeat the name 
 
 - **One spelling:** SliceFocus. Under it, small: by CosmoCrew.
 - **One picture:** the 24-hour clock with a day drawn on it. The same day, the same colours, wherever the app is shown.
-- **One sentence:** what the app is, in the words users themselves use. Until the watched sessions give us those words: "Plan your day on a 24-hour clock, and a focus timer runs it for you."
+- **One sentence:** what the app is, in the words users themselves use. Until the watched sessions give us those words, the line the website already opens with: "Plan your day on a clock. It runs itself." (See "Step A: where we stand" below.)
 - Put the three on every surface: the App Store listing, the website, directories, GitHub, every profile and every draft. Keep them on one page in this repository so that nothing drifts.
 
 **Why first:** reason 2. Everything after this repeats the signature, so it must be settled before it is repeated.
+
+#### Step A: where we stand (checked 2026-11-06)
+
+How each public place describes the app today:
+
+| Place | What it says | Same as the site's line? |
+| --- | --- | --- |
+| slicefocus.app, headline and page title | "Plan your day on a clock. It runs itself." | This is the reference |
+| slicefocus.app, text shown when the link is shared | "A calm visual day planner on a 24-hour clock…" | Close |
+| App Store, subtitle | "Pomodoro Planner & App Blocker" | Different on purpose: it is written for search |
+| App Store, first lines of the description | "MASTER YOUR TIME VISUALLY. Time management is deeply personal…" | No. Another voice, and the line is missing |
+| cosmocrew.dev, product card | "Visual day planning and focus sessions built around a 24-hour radial timeline." | No |
+| GitHub, the public website repository | "…a visual day planner on a 24-hour radial clock with zero-touch auto-advance." | No |
+| GitHub, one private repository | The name is misspelt | No |
+| The drafts for AlternativeTo, awesome-mac and the App Store event | Three more wordings | No |
+
+So there are seven different one-line descriptions, and five words for the same picture: clock, circle, radial clock, radial timeline, circular timeline.
+
+The maker and company names are in order: the site's footer reads "© 2026 CosmoCrew, a brand of Luvita Teknoloji Ltd. Şti.", and the App Store shows the company as the seller, which cannot show CosmoCrew.
+
+#### The signature proposed
+
+| Part | Value |
+| --- | --- |
+| Name | SliceFocus (one word, capital S and F) |
+| Maker line | by CosmoCrew |
+| Line | Plan your day on a clock. It runs itself. |
+| Description, where a plain sentence is needed | A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac. |
+| Picture | The day on the website's share image |
+| The word for the picture | Always "24-hour clock" |
+
+The line is the one the website already uses, so nothing new has to be learned. The sentence proposed earlier in this document would have been an eighth wording and is withdrawn.
+
+#### What changes once the signature is approved
+
+1. **App Store promotional text** (can be changed at any time, without a new version): the line and the description. The description's opening lines follow at the next release.
+2. **cosmocrew.dev product card:** the line and the description.
+3. **GitHub repository descriptions:** the description on the public website repository; the spelling on the private one.
+4. **The three drafts** (AlternativeTo, awesome-mac, App Store event): the description.
+5. **"by CosmoCrew" under the name** at the top of slicefocus.app. Today it is only in the footer.
+6. **A check that the same day is drawn** in the App Store's first screenshot, the hero video and the share image.
 
 ### B. Own five moments of need
 
