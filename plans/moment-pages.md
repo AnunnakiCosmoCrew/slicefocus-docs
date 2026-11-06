@@ -10,14 +10,21 @@ Each page answers one question plainly and shows how to do it in the app. They c
 
 ## How they were written
 
-- **Every claim about the app was checked** against the app's feature notes and code on 2026-11-06. One thing could not be confirmed and is left out; see "A question for the founder".
+- **Every claim about the app was checked** against the app's code on 2026-11-06. One claim on the live website does not match the code and is left out; see "An open point".
 - **The words follow how people search.** The App Store's own search suggestions (read 2026-11-06, United States) include "study planner", "study timer pomodoro", "focus timer for studying", "time blocking planner", "time blocking free", "pomodoro timer free", "daily schedule planner", "app blocker for productivity" and "safari website blocker". "Free" keeps appearing, so each page says the app is free near the top. The suggestions come from a public Apple address that is not documented, so they are a guide to wording and nothing more.
 - **The pages are written for people.** Google's guidance on [helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) asks for pages that answer the reader's question from first-hand knowledge. There are no tricks aimed at search engines or AI assistants.
 - **No health claims.** The pages never say the app treats ADHD or anything else.
 
-## A question for the founder
+## An open point: what happens when a block ends
 
-The website says "When a block ends, the next one begins on its own." In the app's code, the timer moves from work to break and back by itself, and a session stops when its block's planned time ends. Nothing found starts the next planned block by itself. These drafts therefore claim only the first two. If the next block does start on its own, say so and the drafts gain that line; if it does not, the home page's sentence needs correcting.
+The website says "When a block ends, the next one begins on its own", and the founder's understanding on 2026-11-06 is that it does. The app's code, read the same day, shows something else:
+
+- **Inside a block,** the timer moves from work to break and back by itself. This is what the app's own video scripts call a "handoff".
+- **When a block's planned time is up and the timer is still running,** the app stretches that block by one more round so the session carries on (`_checkSliceEnd` and `_extendActiveSlice` in `home_page.dart`, from the change "session continues past slice boundary").
+- **A new session starts only when the user starts one.** Nothing in the app or the backend starts the next planned block.
+- The app's feature notes say a session stops at its block's end. That is out of date; the code stretches the block instead.
+
+So these drafts claim only what the code does. A two-minute test on a phone settles it: plan two blocks back to back, start the first, and watch what happens when its time is up. If the next block does not start, either the home page's sentence is corrected, or starting the next block by itself becomes a feature to build, which would make the line "It runs itself" fully true.
 
 ## Page 1: plan a study day
 
@@ -89,7 +96,7 @@ A timer that waits for a tap at the end of every round breaks the rhythm it is m
 - **One timer on every device.** Signed in on your iPhone and your Mac, you start on one and see it on the other. Pause on one, and the other follows.
 - **Tells you once.** One notification when each round ends.
 - **Sound if you want it.** White, brown or pink noise that pauses with the timer.
-- **Works with or without a plan.** Start a timer on a block from your day, or tap Start Focus Session for one on its own. A timer started on a block stops when that block's planned time ends.
+- **Works with or without a plan.** Start a timer on a block from your day, or tap Start Focus Session for one on its own. If you are still working when a block's planned time is up, the timer keeps going and the block stretches to match.
 
 **Good to know**
 
