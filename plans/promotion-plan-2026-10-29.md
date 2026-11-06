@@ -40,6 +40,17 @@ All founder steps.
    - **r/betatesters:** not needed now that the app is public. Keep it for testing a future beta.
 5. ~~**Featuring nomination**~~ Submitted 2026-10-29 13:43 Türkiye time, on the founder's go: "SliceFocus 1.7.4: start without an account", App Enhancements, iPhone, iPad and macOS. Apple writes back only if it is picked. Nominate the next release at least 3 weeks ahead (Apple's own advice in the form).
 
+## Reddit ban, 3 Nov (recorded 2026-11-06)
+
+**Status: Reddit is paused for SliceFocus.** The founder's Reddit account was banned across all of Reddit on Mon 3 Nov, the day the r/ProductivityApps update post (draft 1) went up. The post was removed at once, so Reddit brought no measurable installs. There was no warning and no reason; the founder found out from a logged-out browser window. The appeal filed the same day has had no answer.
+
+- **Likely cause (a guess; Reddit does not say):** Reddit's automatic sitewide spam filter, not the subreddit's moderators. The pattern looked like spam: an account quiet for years, then very active for four days to earn karma, many comments within a few hours on launch day, and a post carrying tracked App Store links.
+- **What we will not do:** no second appeal (repeats do not help), and no new account, "company" account or friend posting for us. Reddit treats all of these as ban evasion; getting caught would make the ban permanent and could get slicefocus.app flagged as a spam domain.
+- **Open route:** a Reddit Ads discovery call is set for Tue 10 Nov, 13:00 Türkiye time. The founder's email before the call raised the ban and asked for it to reach the team that reviews these. If Reddit is still silent, one nudge on Mon 9 Nov.
+- **Cutoff:** if the appeal is not answered or is denied by about **Tue 17 Nov**, Reddit is closed for SliceFocus and its share of the plan moves to the other channels.
+- **Knock-on:** draft 2 (r/macapps megathread) and the r/pomodoro post are on hold with it. The Show HN gate (100 installs) assumed Reddit would supply most of them; the Mon 9 Nov week-1 readout decides whether to lower the gate or find installs elsewhere (app directories, Turkish communities).
+- **Lesson, if the account returns or for any future account:** warm up slowly over weeks, not days; keep launch-day comments few and spaced out; use one plain link per post, and keep tracking codes for the App Store link only.
+
 ## First week (re-dated 2026-10-31)
 
 Times are Türkiye time. US Eastern is off summer time from Sun 1 Nov, so 8:00 ET is 16:00.
@@ -92,6 +103,7 @@ Read cohorts as intervals, not single numbers: tens of users per week cannot sep
 | Week of | Installs (by channel) | Activation guest / signed in | Day-1 / day-7 | Ratings | Weekly users | Note |
 | --- | --- | --- | --- | --- | --- | --- |
 | 26 Oct | | | | | | 1.7.4 live 29 Oct |
+| 2 Nov | Reddit: none measurable | | | | | Account banned 3 Nov, update post removed; see "Reddit ban" above |
 
 ## Featuring nomination: notes for the form
 
