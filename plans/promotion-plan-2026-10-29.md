@@ -3,6 +3,8 @@
 *Created: 2026-10-29 | Release: [SliceFocusFE#641](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/641) | Founder check: public (every post below is a draft; the founder approves and posts it, Claude never does)*
 
 > **Revised on 6 Nov 2026.** Reddit is paused after the 3 Nov ban. The current strategy is in "Revised strategy, 6 Nov" below; the sections before it record the first plan and what happened.
+>
+> **High-level strategy:** [growth-strategy.md](growth-strategy.md), proposed on 6 Nov. If the founder agrees to it, it leads, and this file stays as the dated record. It would move Show HN and the Turkish forum post from "the week of 16 Nov" to "once hand-picked users are shown to stay".
 
 ## Where this starts
 
