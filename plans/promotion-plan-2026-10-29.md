@@ -42,7 +42,7 @@ All founder steps.
 
 ## Reddit ban, 3 Nov (recorded 2026-11-06)
 
-**Status: Reddit is paused for SliceFocus.** The founder's Reddit account was banned across all of Reddit on Mon 3 Nov, the day the r/ProductivityApps update post (draft 1) went up. The post was removed at once, so Reddit brought no measurable installs. There was no warning and no reason; the founder found out from a logged-out browser window. The appeal filed the same day has had no answer.
+**Status: Reddit is paused for SliceFocus.** The founder's Reddit account was banned across all of Reddit on Tue 3 Nov, the same day the r/ProductivityApps update post (draft 1, rewritten from the June comments) went up; the post had moved from Mon 2 Nov. The post was removed at once, so Reddit brought no measurable installs. There was no warning and no reason; the founder found out from a logged-out browser window. The appeal filed the same day has had no answer.
 
 - **Likely cause (a guess; Reddit does not say):** Reddit's automatic sitewide spam filter, not the subreddit's moderators. The pattern looked like spam: an account quiet for years, then very active for four days to earn karma, many comments within a few hours on launch day, and a post carrying tracked App Store links.
 - **What we will not do:** no second appeal (repeats do not help), and no new account, "company" account or friend posting for us. Reddit treats all of these as ban evasion; getting caught would make the ban permanent and could get slicefocus.app flagged as a spam domain.
