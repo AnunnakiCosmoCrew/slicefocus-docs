@@ -21,7 +21,7 @@ Settled with the founder on 2026-11-06. What runs by itself is the Pomodoro insi
 
 What does not happen by itself is the move from one planned block on the clock to the next. Each block's session is started by the user, and if a session is still running when its block's planned time is up, the app stretches that block.
 
-These drafts say exactly that. The home page says more than that in four places ("advances block to block on its own", "no timers to start, no taps between tasks", "When a block ends, the next one begins on its own", "the next block takes over automatically"). Those sentences describe planned blocks, so they need the founder's decision: reword them to the rounds, or build the block-to-block start.
+These drafts say exactly that. The home page and the three comparison pages said more than that in eight places; they were reworded to the rounds on 2026-11-06 ([slicefocus-web#50](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/50)), and the signature's description now reads "a Pomodoro timer that runs its rounds by itself".
 
 ## Page 1: plan a study day
 
