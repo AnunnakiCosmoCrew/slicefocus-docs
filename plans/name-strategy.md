@@ -108,12 +108,14 @@ The maker and company names are in order: the site's footer reads "© 2026 Cosmo
 
 #### The signature (approved by the founder, 2026-11-06)
 
+The description was corrected the same day, with the founder's approval, after a review pointed out that "runs your blocks by itself" could be read as blocks starting on their own. It now says "a Pomodoro timer that runs its rounds by itself". What runs by itself is the Pomodoro inside a started session; see [moment-pages.md](moment-pages.md), "Settled".
+
 | Part | Value |
 | --- | --- |
 | Name | SliceFocus (one word, capital S and F) |
 | Maker line | by CosmoCrew |
 | Line | Plan your day on a clock. It runs itself. |
-| Description, where a plain sentence is needed | A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac. |
+| Description, where a plain sentence is needed | A day planner on a 24-hour clock, with a Pomodoro timer that runs its rounds by itself on iPhone and Mac. |
 | Picture | The signature day: the weekday plan the app's demo account is seeded with (founder, 2026-11-06). See "The picture" below |
 | The word for the picture | Always "24-hour clock" |
 
@@ -133,8 +135,9 @@ The line is the one the website already uses, so nothing new has to be learned. 
 - **Done:** the two GitHub repository descriptions; the wording of the AlternativeTo and awesome-mac drafts.
 - **Merged 2026-11-06:** the cosmocrew.dev product card ([anunnakicosmocrew.github.io#44](https://github.com/AnunnakiCosmoCrew/anunnakicosmocrew.github.io/pull/44)). Its review raised one point: the description says "on iPhone and Mac" and leaves out iPad, which the app also runs on. Decided by the founder on 2026-11-06: the description stays as approved, without iPad; platform lists name iPad where they exist.
 - **Merged 2026-11-06:** "by CosmoCrew" under the name at the top of slicefocus.app, on all five pages ([slicefocus-web#46](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/46)). Plain text inside the home link, in the site's existing muted colour.
+- **Open, ready after review:** eight sentences on slicefocus.app that said the next block starts on its own now describe the rounds, and the corrected description goes into the link preview, the share image and the README ([slicefocus-web#50](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/50)). The cosmocrew.dev card is being corrected in its own pull request.
 - **Merged 2026-11-06:** the share image redrawn with the signature day (draft approved by the founder on 2026-11-06), "24-hour clock" in place of "circle", "radial canvas" and "radial clock" on all five pages, the footer link to cosmocrew.dev, and the README's opening line ([slicefocus-web#48](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/48)).
-- **The only step A item left, waiting for the founder:** the App Store promotional text. Proposed (145 of 170 characters): "Plan your day on a clock. It runs itself. A day planner on a 24-hour clock, with a focus timer that runs your blocks by itself on iPhone and Mac." The Turkish promotional text already says the same thing and stays.
+- **The only step A item left, waiting for the founder:** the App Store promotional text. Proposed (145 of 170 characters): "Plan your day on a clock. It runs itself. A day planner on a 24-hour clock, with a Pomodoro timer that runs its rounds by itself on iPhone and Mac." The Turkish promotional text already says the same thing and stays.
 
 #### The picture: one thing the check found
 
