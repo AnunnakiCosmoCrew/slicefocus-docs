@@ -2,7 +2,7 @@
 
 *Written: 2026-11-06 | Status: proposed, for the founder's decision | Founder check: product (it changes where the founder's time goes) and public (every public text stays a draft the founder approves and posts)*
 
-This document has no dates on purpose. Each stage starts when its condition is met. The dated record of what was done and when is [promotion-plan-2026-10-29.md](promotion-plan-2026-10-29.md).
+This document has no dates on purpose. Each stage starts when its condition is met. Its companion, [name-strategy.md](name-strategy.md), says how people come to know the name. The dated record of what was done and when is [promotion-plan-2026-10-29.md](promotion-plan-2026-10-29.md).
 
 ## The answer in short
 
