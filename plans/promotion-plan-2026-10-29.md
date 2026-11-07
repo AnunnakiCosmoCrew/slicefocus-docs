@@ -153,6 +153,7 @@ Links in directories are plain, with no campaign codes (the lesson from Reddit).
 - **Maker:** a new company entry "CosmoCrew" (Turkey, cosmocrew.dev). **Release date:** 26 Mar 2026 (fe/v1.0.0). **Icon:** slicefocus.app/icon.svg. **Screenshots:** the four from slicefocus.app (Mac day, iPhone day, focus timer, Actual vs Planned), with captions.
 - **Alternatives:** Forest, Session - Pomodoro Timer, Structured.
 - **Queue:** the free one. The site says it holds several thousand apps and may not reach ours for a very long time. A paid priority review ($15, one-time, review in 1-2 business days) or a hand-finished one ($39) was offered and declined; it stays available under "My submissions" ("Get reviewed sooner"). That is the founder's call.
+- **Priority review bought 2026-11-07** by the founder: $15 one-time, paid through AlternativeTo's Stripe checkout (seller 27 Kilobyte AB, AlternativeTo's company). "My submissions" now shows SliceFocus as "Priority queue", with review "usually within 1-2 business days", so expect an answer by Tue 10 or Wed 11 Nov. The fee pays for a review, not for approval; if they ask for changes, they say what to add. It is the plan's first spend, a one-off listing fee rather than the paid test, which is still decided at the 23 Nov review.
 
 #### awesome-mac entry (pull request to `jaywcjlove/awesome-mac`, section "To-Do Lists", between One Task and Super Productivity)
 
