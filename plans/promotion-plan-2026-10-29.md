@@ -111,6 +111,10 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 | Tue 17 Nov | Reddit cutoff | Founder + Claude |
 | Mon 23 Nov | **Review:** what each organic channel brought; activation and day-1/day-7 return of the 1.7.4 cohort against the earlier ones (a small group, so read with care); what the five sessions showed. Then decide whether to start the paid test, put more into what worked, or fix the drop-off first | Founder + Claude |
 
+### The hero video, fixed before any spend (6–7 Nov)
+
+The founder noticed on 6 Nov, before paying for anything, that the site's hero video blinked at every tap: each tap ring ended in a solid black square for one frame (a pipeline fault, not the takes). Fixed and merged on 7 Nov: [SliceFocusFE#662](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/pull/662) (pipeline) and [slicefocus-web#53](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/53) (the rendered hero, 38.6 s, with a smoother camera, a slower cut and a Focus Shield beat that starts from a tap on Instagram; the founder chose to show the Instagram, YouTube and TikTok icons). Record: [hero-video-brief.md](hero-video-brief.md), "What shipped in v3.1". Two follow-ups the founder asked for the same day are in [slicefocus-web#56](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/56) (draft, founder merges): the feature text links to the four moment pages, and the hero plays once and offers Replay instead of looping. The README's duration line is [slicefocus-web#55](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/55).
+
 ### Drafts for the organic channels (6 Nov, for the founder's approval)
 
 Links in directories are plain, with no campaign codes (the lesson from Reddit). Visits from them show as referrers on slicefocus.app. The wording follows the signature approved on 6 Nov ([name-strategy.md](name-strategy.md), step A).
