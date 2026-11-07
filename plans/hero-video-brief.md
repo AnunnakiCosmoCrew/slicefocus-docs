@@ -110,3 +110,14 @@ Where it differs from the table above:
 - **The phone beside the Mac** comes from a take in which the server started the session (`seed.py --start-block`), so both devices show the same "Deep work 24:3x" in step; the phone's tap opens its timer.
 - **The 00:00 frame** is cut from the handoff as in v2.
 - **Two takes were junk** before the first good one: the app now signs in as a guest at launch (ADR-064), so the demo driver signs the demo account in before launch; and two macOS "find devices on local networks" prompts sat over the recorded area until the founder answered them.
+
+### What shipped in v3.1 (2026-11-07)
+
+The v3 cut blinked: every tap ring ended with a solid black square for one frame. The founder noticed it on 2026-11-06, before spending on promotion ([SliceFocusFE#661](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/issues/661)). The cause was in the pipeline, not the takes: ImageMagick stored the ring's last, fully transparent frame as a 1-bit grey PNG without alpha, which ffmpeg overlaid as opaque black. Reviewing the recomposed hero with the founder led to three more changes, all in [SliceFocusFE#662](https://github.com/AnunnakiCosmoCrew/SliceFocusFE/pull/662); the files shipped in [slicefocus-web#53](https://github.com/AnunnakiCosmoCrew/slicefocus-web/pull/53), merged 2026-11-07.
+
+- **No flash.** Ring frames are written as 8-bit RGBA (`PNG32:`), and `compose.sh` checks that each decodes as `rgba` before any overlay.
+- **No shake.** The slow push-ins used `zoompan`, which crops on whole pixels, so a 3 % zoom over 7 s stepped the picture 1–2 px every few frames. A `camera()` helper now maps the eased source rectangle with `perspective` and scales with lanczos.
+- **Slower round the taps.** Rings last 0.67 s instead of 0.4 s (`SF_RING_FRAMES`), each tap sits in a moment at normal speed, and the categories and calendar beats run at 1.0–1.25x instead of 1.2–1.6x.
+- **Focus Shield has its cause.** At 22 s a browser's new tab with shortcut tiles (Instagram, YouTube, TikTok, News, Weather), a tap on the Instagram tile, the tab becomes Instagram with `instagram.com` in the address bar, and the real block page loads where the site would be (`hero/browser-frame.sh`). The three tiles carry the sites' own favicons, the founder's call: third-party marks on the public site, shown as sites a user blocks.
+
+Files: [`videos/v1.7.1/`](../videos/v1.7.1/) `hero.mp4` (1,768,865 bytes, crf 22), `hero.webm` (1,356,021 bytes, crf 38), `hero-poster.jpg` / `.webp`, replacing the v3 copies. 38.6 s, same takes (2026-10-23 and 2026-11-02), 1440x900, 30 fps, BT.709, no audio. Checked: a per-frame scan for a large black area appearing for one frame found 7 such frames in v3 and none here; slit scans over every camera move show smooth edges.
