@@ -56,11 +56,11 @@ All founder steps.
 - **Knock-on:** draft 2 (r/macapps megathread) and the r/pomodoro post are on hold with it. The Show HN gate (100 installs) assumed Reddit would supply most of them; the Mon 9 Nov week-1 readout decides whether to lower the gate or find installs elsewhere (app directories, Turkish communities).
 - **Lesson, if the account returns or for any future account:** warm up slowly over weeks, not days; keep launch-day comments few and spaced out; use one plain link per post, and keep tracking codes for the App Store link only.
 
-### Update, 14 Nov: a CosmoCrew business profile (founder's decision)
+### Update, 14 Nov: a Luvita business profile (founder's decision)
 
 This reverses "no new account" above. Recorded with the risk, so the next reader knows it was a choice.
 
-- **What changed:** after the 10 Nov call, Reddit's client partner recommended in writing a separate, business-facing Reddit Pro profile (Reddit's free tool set for business accounts) rather than a personal account. On 14 Nov the founder decided to create it now, under the CosmoCrew name, without first asking Reddit to confirm it is allowed after the ban.
+- **What changed:** after the 10 Nov call, Reddit's client partner recommended in writing a separate, business-facing Reddit Pro profile (Reddit's free tool set for business accounts) rather than a personal account. On 14 Nov the founder created it under the Luvita name (the company, as the client partner suggested; one profile can then speak for every product), without first asking Reddit to confirm it is allowed after the ban.
 - **The risk that stays:** the automatic filter that banned the first account does not know about that recommendation, and Reddit's rules treat a new account after a ban as ban evasion. A suspended Reddit account also loses its Reddit Ads access ([Reddit Ads help](https://business.reddithelp.com/s/article/Create-and-manage-your-Reddit-Ads-account)). Claude's advice was to wait for the 17 Nov call and name both accounts to the client partner; the founder chose not to wait. Naming them on that call is still worth doing.
 - **How the profile is used** (from Reddit's own organic guide for businesses, 2025, and the lesson below): listen and comment first, for weeks; no posts and no links at the start; never a tracked link; say plainly who is writing; ask a community's moderators before any post there.
 - **Unchanged:** Claude does not post, the founder does. Paid Reddit ads stay with the 23 Nov review.
@@ -92,13 +92,13 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 | 5 | **Show HN**, "how it is built" | A write-up and 3 h of replies | Our own count from Hacker News search (6 Nov): of 98 Show HN posts about Pomodoro apps since Jan 2025, the median got 2 points and about 5 % reached 10. So it is a cheap try that most likely brings nothing, not a pillar. [HN's FAQ](https://news.ycombinator.com/newsfaq.html) allows a small number of reposts when a post got no attention, so it is not a one-shot either. The 100-install gate is dropped; post in the week of 16 Nov | Planned |
 | 6 | **One Turkish forum post** | Set aside in October, back in as an organic try. Read the forum's rules first, then one post | The Turkish listing is live and the app's ratings so far are Turkish. Our judgement; no data | Planned |
 | 7 | **Apple featuring nomination** | Nominate the next release 3+ weeks ahead | Submitted for 1.7.4; Apple answers only if picked | Waiting |
-| – | **Reddit** (posts, replies, r/macapps, r/pomodoro) | – | Posts stay paused; see "Reddit ban". From 14 Nov a CosmoCrew business profile listens and comments only. Reddit Ads only after the Apple Ads test has shown what an install costs | Profile only |
+| – | **Reddit** (posts, replies, r/macapps, r/pomodoro) | – | Posts stay paused; see "Reddit ban". From 14 Nov a Luvita business profile listens and comments only. Reddit Ads only after the Apple Ads test has shown what an install costs | Profile only |
 | Later | **Apple Ads test on App Store search**, capped: the cohort Reddit was meant to bring | **Deferred by the founder, 6 Nov.** A small fixed cap for two weeks; founder sets up billing | Apple: about 65 % of App Store downloads follow a search, and over 70 % of visitors use search ([Apple Ads](https://ads.apple.com/app-store)). Pricing is cost per tap with no minimum spend; Türkiye is on Apple's list of markets. What an install will cost us is unknown until we run it (published figures are vendor-only) | Deferred; revisit 23 Nov |
 
 **Not doing:**
 - **A screenshot A/B test** (Apple's product page optimization). The page gets too few visitors for a test to reach an answer.
 - **Emailing existing users.** They have not agreed to marketing email.
-- ~~**A new Reddit account.**~~ Reversed by the founder on 14 Nov: a CosmoCrew business profile. See "Update, 14 Nov" under "Reddit ban".
+- ~~**A new Reddit account.**~~ Reversed by the founder on 14 Nov: a Luvita business profile. See "Update, 14 Nov" under "Reddit ban".
 - **Short-video channels, Setapp, Product Hunt, LinkedIn.** Unchanged from the first plan.
 
 ### The Apple Ads test, for later (not started)
