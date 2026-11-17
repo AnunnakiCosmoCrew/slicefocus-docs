@@ -6,7 +6,7 @@ title: Privacy Policy — SliceFocus
 # Privacy Policy
 
 **SliceFocus**
-*Last updated: October 27, 2026*
+*Last updated: November 17, 2026*
 
 SliceFocus is a CosmoCrew app. CosmoCrew is the consumer-apps brand of Luvita Teknoloji Ltd. Şti. ("Luvita", "we", "us", or "our"), which operates the SliceFocus mobile and desktop application (the "App") and is responsible for the personal data described in this policy (the data controller). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -56,10 +56,11 @@ Crash data collection is **disabled in debug/development builds** and only activ
 
 ### 1.5 Usage Metrics
 
-We collect anonymous, aggregated metrics for service health monitoring:
+We collect anonymous, aggregated metrics for service health monitoring and to understand how the App is used:
 
 - Total focus sessions started, completed, and cancelled (counts only, no user identifiers)
 - API request performance (response times, error rates)
+- How many people complete focus sessions each week, how many new users complete a first session within a week of joining, and how many come back in a later week. We count these on our own servers from the dates of your completed focus sessions. Only the totals are kept and looked at, never a list of people.
 
 These backend metrics contain **no personally identifiable information**.
 
@@ -101,7 +102,7 @@ We use the collected information to:
 - **Send push notifications** — notify you of focus session phase transitions, session completions, and scheduled time block reminders
 - **Maintain security** — audit sensitive operations (account linking, preference changes), enforce rate limits, and correlate requests for debugging
 - **Improve reliability** — identify and fix crashes via Firebase Crashlytics
-- **Improve the product** — understand aggregate usage (for example, how many new users complete their first focus session) via Firebase Analytics
+- **Improve the product** — understand aggregate usage (for example, how many new users complete their first focus session and how many keep coming back) via Firebase Analytics and totals counted on our servers from focus session history
 - **Monitor service health** — track aggregated usage metrics to ensure the backend is performing well
 
 We do **not** use your data for advertising, profiling, or selling to third parties.
