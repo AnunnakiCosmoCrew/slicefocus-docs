@@ -63,7 +63,14 @@ This reverses "no new account" above. Recorded with the risk, so the next reader
 - **What changed:** after the 10 Nov call, Reddit's client partner recommended in writing a separate, business-facing Reddit Pro profile (Reddit's free tool set for business accounts) rather than a personal account. On 14 Nov the founder opened a new account named for CosmoCrew and is moving the business profile to it (he had first turned Reddit Pro on for an older personal account, which now stays personal and idle for company matters). Reddit was not asked first whether a new account is allowed after the ban. The two accounts never act in the same thread and never vote on each other.
 - **The risk that stays:** the automatic filter that banned the first account does not know about that recommendation, and Reddit's rules treat a new account after a ban as ban evasion. A suspended Reddit account also loses its Reddit Ads access ([Reddit Ads help](https://business.reddithelp.com/s/article/Create-and-manage-your-Reddit-Ads-account)). Claude's advice was to wait for the 17 Nov call and name both accounts to the client partner; the founder chose not to wait. Naming them on that call is still worth doing.
 - **How the profile is used** (from Reddit's own organic guide for businesses, 2025, and the lesson below): listen and comment first, for weeks; no posts and no links at the start; never a tracked link; say plainly who is writing; ask a community's moderators before any post there.
-- **Unchanged:** Claude does not post, the founder does. Paid Reddit ads stay with the 23 Nov review.
+- **Unchanged:** Claude does not post, the founder does.
+
+### Update, 17 Nov: no paid spend until North Star users can be counted (founder's decision)
+
+- **Decision:** no paid advertising on any channel (Reddit Ads, Apple Ads) until North Star users are counted, which the Luvita constitution sets for the end of January 2027. The constitution, locked 16 Nov, chooses channels from the usage figures once measurement is live and keeps advertising small and measured.
+- **Why:** spend before then could not be read. Reddit's own help says its iPhone install campaigns report installs only, a day or two late, with nothing after the install, so it could not show whether paid installs become people who stay.
+- **What changes here:** the 23 Nov review no longer decides on paid. It reads the organic channels and the drop-off. Reddit's client partner is asked for her recommendation in writing, kept for February.
+- **Targets:** the constitution's SliceFocus objective (100 North Star users by the end of July 2027, a North Star user being someone who completes sessions on at least 3 different days in each of the last 4 weeks) outranks the earlier "20 weekly users" goal in this plan.
 
 ## Revised strategy, 6 Nov: without Reddit (founder's decision the same day: organic first, paid later)
 
@@ -93,7 +100,7 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 | 6 | **One Turkish forum post** | Set aside in October, back in as an organic try. Read the forum's rules first, then one post | The Turkish listing is live and the app's ratings so far are Turkish. Our judgement; no data | Planned |
 | 7 | **Apple featuring nomination** | Nominate the next release 3+ weeks ahead | Submitted for 1.7.4; Apple answers only if picked | Waiting |
 | – | **Reddit** (posts, replies, r/macapps, r/pomodoro) | – | Posts stay paused; see "Reddit ban". From 14 Nov a Luvita business profile listens and comments only. Reddit Ads only after the Apple Ads test has shown what an install costs | Profile only |
-| Later | **Apple Ads test on App Store search**, capped: the cohort Reddit was meant to bring | **Deferred by the founder, 6 Nov.** A small fixed cap for two weeks; founder sets up billing | Apple: about 65 % of App Store downloads follow a search, and over 70 % of visitors use search ([Apple Ads](https://ads.apple.com/app-store)). Pricing is cost per tap with no minimum spend; Türkiye is on Apple's list of markets. What an install will cost us is unknown until we run it (published figures are vendor-only) | Deferred; revisit 23 Nov |
+| Later | **Apple Ads test on App Store search**, capped: the cohort Reddit was meant to bring | **Deferred by the founder, 6 Nov.** A small fixed cap for two weeks; founder sets up billing | Apple: about 65 % of App Store downloads follow a search, and over 70 % of visitors use search ([Apple Ads](https://ads.apple.com/app-store)). Pricing is cost per tap with no minimum spend; Türkiye is on Apple's list of markets. What an install will cost us is unknown until we run it (published figures are vendor-only) | Deferred to February 2027 at the earliest (founder, 17 Nov: no paid spend until North Star users can be counted) |
 
 **Not doing:**
 - **A screenshot A/B test** (Apple's product page optimization). The page gets too few visitors for a test to reach an answer.
@@ -118,7 +125,7 @@ What the numbers say (the figures are on the metrics dashboard; this repo is pub
 | 9–13 Nov | Approve and submit the In-App Event; AlternativeTo listing; awesome-mac pull request; arrange the five watched sessions | Drafts below; founder approves and submits |
 | Week of 16 Nov | Show HN on a weekday with three free hours; one Turkish forum post | Founder posts |
 | Tue 17 Nov, 13:00 | Second Reddit call (media plan). Name the new profile and the banned account to the client partner. Reddit cutoff for the appeal | Founder |
-| Mon 23 Nov | **Review:** what each organic channel brought; activation and day-1/day-7 return of the 1.7.4 cohort against the earlier ones (a small group, so read with care); what the five sessions showed. Then decide whether to start the paid test, put more into what worked, or fix the drop-off first | Founder + Claude |
+| Mon 23 Nov | **Review:** what each organic channel brought; activation and day-1/day-7 return of the 1.7.4 cohort against the earlier ones (a small group, so read with care); what the five sessions showed. Then decide whether to put more into what worked or fix the drop-off first. (Paid is no longer on this review's agenda: founder, 17 Nov.) | Founder + Claude |
 
 ### The hero video, fixed before any spend (6–7 Nov)
 
