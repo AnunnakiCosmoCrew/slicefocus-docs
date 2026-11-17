@@ -69,6 +69,7 @@ This reverses "no new account" above. Recorded with the risk, so the next reader
 
 - **Decision:** no paid advertising on any channel (Reddit Ads, Apple Ads) until North Star users are counted, which the Luvita constitution sets for the end of January 2027. The constitution, locked 16 Nov, chooses channels from the usage figures once measurement is live and keeps advertising small and measured.
 - **Why:** spend before then could not be read. Reddit's own help says its iPhone install campaigns report installs only, a day or two late, with nothing after the install, so it could not show whether paid installs become people who stay.
+- **Same day, later:** the counting was built and merged on 17 Nov (SliceFocus#479), so North Star users can be counted within days, not in January. The founder kept the date anyway: no paid spend before February 2027; the weeks until then build a baseline.
 - **What changes here:** the 23 Nov review no longer decides on paid. It reads the organic channels and the drop-off. Reddit's client partner is asked for her recommendation in writing, kept for February.
 - **Targets:** the constitution's SliceFocus objective (100 North Star users by the end of July 2027, a North Star user being someone who completes sessions on at least 3 different days in each of the last 4 weeks) outranks the earlier "20 weekly users" goal in this plan.
 
